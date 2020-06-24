@@ -21,6 +21,8 @@
 author: naveenjujaray
 title: NJ Blog
 email: 
+disqus:
+    shortname: njblog
 description: >- # this means to ignore newlines until "baseurl:"
 
 baseurl: "" # the subpath of your site, e.g. /blog
@@ -31,10 +33,10 @@ instagram_username:  naveenjujaray
 facebook_username:  naveenjujaray
 linkedin_username:  naveenjujaray
 
-disqus:
-  shortname: <njblog>
+
 
 # Build settings
+env: production
 theme: minima
 plugins:
   - jekyll-feed
