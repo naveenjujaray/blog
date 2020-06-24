@@ -31,6 +31,9 @@ instagram_username:  naveenjujaray
 facebook_username:  naveenjujaray
 linkedin_username:  naveenjujaray
 
+disqus:
+  shortname: njblog.disqus.com
+
 # Build settings
 theme: minima
 plugins:
