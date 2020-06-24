@@ -32,7 +32,7 @@ facebook_username:  naveenjujaray
 linkedin_username:  naveenjujaray
 
 disqus:
-  shortname: njblog
+  shortname: <njblog>
 
 # Build settings
 theme: minima
