@@ -1,0 +1,38 @@
+.navbar-brand:hover, .navbar-brand:focus {
+    color: #0099ff  !important;
+}
+.navbar-brand {
+  color:  #fff!important; 
+  
+}
+.navbar-custom{
+    background-color: black;
+}
+.page-footer{
+    position: bottom;  
+    background-color: black;
+    color:grey;
+  }
+.footer {
+    position: relative;
+    width: 100%;
+    height: 50px;
+    background-color: black;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    margin-bottom: 0px;
+    padding-top: 10rem;
+  }
+#oye{
+    color: rgb(255, 255, 255);
+    font-weight: 900;
+    text-decoration: none;
+  }
+#oye:hover, #oye:focus{
+    color: #0099ff;
+  }
+.social-ic{
+    color: white;
+    
+}

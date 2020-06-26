@@ -23,7 +23,8 @@ title: NJ Blog
 email: 
 disqus:
     shortname: njblog
-description: I blog here about software development topics related to projects and tools I happen to be currently working on. # >- # this means to ignore newlines until "baseurl:"
+description: 
+  
 
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://njblog.onrender.com/ " # the base hostname & protocol for your site, e.g. http://example.com
