@@ -8,7 +8,7 @@ source "https://rubygems.org"
 # This will help ensure the proper Jekyll version is running.
 # Happy Jekylling!
 gem "jekyll", "~> 4.1.0"
-gem 'bootstrap', '~> 4.0.0'
+gem 'bootstrap', '~> 4.3.1'
 gem 'jquery-rails'
 gem 'font-awesome-less'
 gem 'font-awesome-sass'
