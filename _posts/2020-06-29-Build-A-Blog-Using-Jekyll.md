@@ -5,9 +5,6 @@ date:   2020-06-29 10:00:03 +0530
 categories: jekyll update
 comments: true
 ---
-<h1>Build A Blog Using Jekyll And Deploy To Github Pages And Set Custom Domain</h1>
-
-
 I recently decided to start a blog. I had used Wordpress in the past, so I knew I could get my blog up and running quickly using Wordpress. I was also slightly familiar with Jekyll. Doing a google search and reading a few blog posts educated me on benefits of Jekyll and static sites in general. I explored Jekyll a little more and loved it immediately.
 
 The first thing that appealed to me about Jekyll was how programmer-friendly it was. Creating a site using Jekyll felt very similar to a developer’s day-to-day tasks. Another thing that appealed to me was Jekyll’s integration with GitHub Pages. Finally, free hosting provided by GitHub Pages (along with the ability to set custom domains) tipped my decision towards using Jekyll.
