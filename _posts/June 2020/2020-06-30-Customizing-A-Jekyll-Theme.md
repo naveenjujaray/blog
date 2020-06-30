@@ -8,11 +8,11 @@ comments: true
 After I started a blog, as described in [this][this] post, I felt it would be cool to convert the author name shown on top of each post to a link to the `about` page. This was a minor change, but it required me to customize `minima` theme’s `post` layout.
 
 I describe the steps that I used to customize `minima’`s `post.html` layout in this post.
-#Customizing theme files
+<h2>Customizing theme files</h2>
 
 You can modify a jekyll theme’s functionality by copying a specific file from theme gem and then modifying it. Jekyll uses local files of the same name to override the theme behavior. In addition, the local folder name has to be identical to the folder name in gem where you copied the file from.
 
-#Create a folder in your site root directory
+<h2>Create a folder in your site root directory</h2>
 Since you are modifying the `post` layout, you need create a copy of the file in your local site. You need the following steps:
 
 In the root directory of the site, create a `_layouts` directory:
@@ -21,7 +21,7 @@ In the root directory of the site, create a `_layouts` directory:
 $ mkdir _layouts
 {% endhighlight %}
 
-#Locate minima gem’s post.html on your computer
+<h2>Locate minima gem’s post.html on your computer</h2>
 You need to determine where Ruby gems are stored on your computer.
 
 You can figure out Ruby gem folder location by running the command `gem environment` and looking for the value of `INSTALLATION DIRECTORY` field. The command output should look something like:
@@ -60,7 +60,7 @@ $ cd _layouts
 $ cp /path/to/your/ruby/installation/lib/ruby/gems/2.3.0/gems/minima-2.5.0/_layouts/post.html .
 {% endhighlight %}
 
-#Make author name a link
+<h2>Make author name a link</h2>
 Open `post.html` in an editor and locate the line that you want to modify. The html that you want to modify is shown below:
 
 {% highlight ruby %}

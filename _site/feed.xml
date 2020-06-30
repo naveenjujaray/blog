@@ -1,9 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.1.1">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2020-06-30T18:13:26+05:30</updated><id>http://localhost:4000/feed.xml</id><title type="html">NJ Blog</title><author><name>naveenjujaray</name></author><entry><title type="html">Jekyll Minima Theme - A Few Settings</title><link href="http://localhost:4000/jekyll/update/2020/06/30/jekyll-minima-theme-a-few-settings.html" rel="alternate" type="text/html" title="Jekyll Minima Theme - A Few Settings" /><published>2020-06-30T16:00:03+05:30</published><updated>2020-06-30T16:00:03+05:30</updated><id>http://localhost:4000/jekyll/update/2020/06/30/jekyll-minima-theme-a-few-settings</id><content type="html" xml:base="http://localhost:4000/jekyll/update/2020/06/30/jekyll-minima-theme-a-few-settings.html">&lt;p&gt;This post is a follow-up of my earlier post about building a jekyll site.&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.1.1">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2020-06-30T18:32:26+05:30</updated><id>http://localhost:4000/feed.xml</id><title type="html">NJ Blog</title><author><name>naveenjujaray</name></author><entry><title type="html">Jekyll Minima Theme - A Few Settings</title><link href="http://localhost:4000/jekyll/update/2020/06/30/jekyll-minima-theme-a-few-settings.html" rel="alternate" type="text/html" title="Jekyll Minima Theme - A Few Settings" /><published>2020-06-30T16:00:03+05:30</published><updated>2020-06-30T16:00:03+05:30</updated><id>http://localhost:4000/jekyll/update/2020/06/30/jekyll-minima-theme-a-few-settings</id><content type="html" xml:base="http://localhost:4000/jekyll/update/2020/06/30/jekyll-minima-theme-a-few-settings.html">&lt;p&gt;This post is a follow-up of my earlier post about building a jekyll site.&lt;/p&gt;
 
 &lt;p&gt;In this post, I will describe a few things that I modified on my site. For example, the footer show site title twice, I add a &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;_config.yml&lt;/code&gt; setting to show blog author name instead of one of the site titles.&lt;/p&gt;
 
-&lt;p&gt;#Add site description
-The blog site that you deployed earlier (as described in the post referenced above) should look pretty good, but we can make a few quick improvements to make it look even better.&lt;/p&gt;
+&lt;h2&gt;Add site description&lt;/h2&gt;
+&lt;p&gt;The blog site that you deployed earlier (as described in the post referenced above) should look pretty good, but we can make a few quick improvements to make it look even better.&lt;/p&gt;
 
 &lt;p&gt;Add a variable &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;description&lt;/code&gt; to your &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;_config.yml&lt;/code&gt; and set its value to a short description of your site.&lt;/p&gt;
 
@@ -13,8 +13,8 @@ The blog site that you deployed earlier (as described in the post referenced abo
 
 &lt;p&gt;Try in browser. The description now displays in footer.&lt;/p&gt;
 
-&lt;p&gt;#Modify title above list of posts
-On the Home/Index page, the list of posts are preceded by a title “Posts”. You can change it to a different title. Suppose, you want the title to be “Latest Posts”. This is easily achieved by adding a variable to &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;index.html&lt;/code&gt;’s front matter:&lt;/p&gt;
+&lt;h2&gt;Modify title above list of posts&lt;/h2&gt;
+&lt;p&gt;On the Home/Index page, the list of posts are preceded by a title “Posts”. You can change it to a different title. Suppose, you want the title to be “Latest Posts”. This is easily achieved by adding a variable to &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;index.html&lt;/code&gt;’s front matter:&lt;/p&gt;
 
 &lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;o&quot;&gt;---&lt;/span&gt;
 &lt;span class=&quot;ss&quot;&gt;layout: &lt;/span&gt;&lt;span class=&quot;n&quot;&gt;home&lt;/span&gt;
@@ -23,8 +23,8 @@ On the Home/Index page, the list of posts are preceded by a title “Posts”. Y
 
 &lt;p&gt;Try in browser. The Home page displays “Latest Posts” as the title above list of posts.&lt;/p&gt;
 
-&lt;p&gt;#Add github, twitter and rss links to footer
-Github, Twitter and RSS links can be added to footer by simply setting variables in &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;_config.yml&lt;/code&gt;.&lt;/p&gt;
+&lt;h2&gt;Add github, twitter and rss links to footer&lt;/h2&gt;
+&lt;p&gt;Github, Twitter and RSS links can be added to footer by simply setting variables in &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;_config.yml&lt;/code&gt;.&lt;/p&gt;
 
 &lt;p&gt;The link to RSS feed is already displayed at the end of list of posts on the Home page. But adding a variable in &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;_config.yml&lt;/code&gt; and setting it to just &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;rss&lt;/code&gt; also adds a link in the footer.&lt;/p&gt;
 
@@ -36,8 +36,8 @@ Github, Twitter and RSS links can be added to footer by simply setting variables
 
 &lt;p&gt;Try in browser. Github, Twitter and RSS links are displayed nicely stacked in the footer.&lt;/p&gt;
 
-&lt;p&gt;#Modify footer to display blog author name
-Now the setting that I mentioned at the beginning of this post - displaying blog author name in the footer, instead of displaying site title twice.&lt;/p&gt;
+&lt;h2&gt;Modify footer to display blog author name&lt;/h2&gt;
+&lt;p&gt;Now the setting that I mentioned at the beginning of this post - displaying blog author name in the footer, instead of displaying site title twice.&lt;/p&gt;
 
 &lt;p&gt;The Minima theme displays the site title a second time, because it looks for site &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;author&lt;/code&gt; variable and if the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;author&lt;/code&gt; variable is not present it uses &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;title&lt;/code&gt; variable as default value.&lt;/p&gt;
 
@@ -47,25 +47,25 @@ Now the setting that I mentioned at the beginning of this post - displaying blog
 
 &lt;p&gt;Try in browser. Footer should now display blog author name instead of site title be displayed a second time.&lt;/p&gt;
 
-&lt;p&gt;#Google Analytics
-You can add Google analytics to your site by adding the following setting to &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;_config.yml&lt;/code&gt;:&lt;/p&gt;
+&lt;h2&gt;Google Analytics&lt;/h2&gt;
+&lt;p&gt;You can add Google analytics to your site by adding the following setting to &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;_config.yml&lt;/code&gt;:&lt;/p&gt;
 
 &lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;ss&quot;&gt;google_analytics: &lt;/span&gt;&lt;span class=&quot;no&quot;&gt;UA&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;no&quot;&gt;XXXXXXXX&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;no&quot;&gt;X&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;</content><author><name>naveenjujaray</name></author><category term="jekyll" /><category term="update" /><summary type="html">This post is a follow-up of my earlier post about building a jekyll site.</summary></entry><entry><title type="html">Customizing A Jekyll Theme Layout</title><link href="http://localhost:4000/jekyll/update/2020/06/30/Customizing-A-Jekyll-Theme.html" rel="alternate" type="text/html" title="Customizing A Jekyll Theme Layout" /><published>2020-06-30T06:00:03+05:30</published><updated>2020-06-30T06:00:03+05:30</updated><id>http://localhost:4000/jekyll/update/2020/06/30/Customizing-A-Jekyll-Theme</id><content type="html" xml:base="http://localhost:4000/jekyll/update/2020/06/30/Customizing-A-Jekyll-Theme.html">&lt;p&gt;After I started a blog, as described in &lt;a href=&quot;https://njblog.onrender.com/jekyll/update/2020/06/29/Build-A-Blog-Using-Jekyll.html&quot;&gt;this&lt;/a&gt; post, I felt it would be cool to convert the author name shown on top of each post to a link to the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;about&lt;/code&gt; page. This was a minor change, but it required me to customize &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;minima&lt;/code&gt; theme’s &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;post&lt;/code&gt; layout.&lt;/p&gt;
 
-&lt;p&gt;I describe the steps that I used to customize &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;minima’&lt;/code&gt;s &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;post.html&lt;/code&gt; layout in this post.
-#Customizing theme files&lt;/p&gt;
+&lt;p&gt;I describe the steps that I used to customize &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;minima’&lt;/code&gt;s &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;post.html&lt;/code&gt; layout in this post.&lt;/p&gt;
+&lt;h2&gt;Customizing theme files&lt;/h2&gt;
 
 &lt;p&gt;You can modify a jekyll theme’s functionality by copying a specific file from theme gem and then modifying it. Jekyll uses local files of the same name to override the theme behavior. In addition, the local folder name has to be identical to the folder name in gem where you copied the file from.&lt;/p&gt;
 
-&lt;p&gt;#Create a folder in your site root directory
-Since you are modifying the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;post&lt;/code&gt; layout, you need create a copy of the file in your local site. You need the following steps:&lt;/p&gt;
+&lt;h2&gt;Create a folder in your site root directory&lt;/h2&gt;
+&lt;p&gt;Since you are modifying the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;post&lt;/code&gt; layout, you need create a copy of the file in your local site. You need the following steps:&lt;/p&gt;
 
 &lt;p&gt;In the root directory of the site, create a &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;_layouts&lt;/code&gt; directory:&lt;/p&gt;
 
 &lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;err&quot;&gt;$&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;mkdir&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;_layouts&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
 
-&lt;p&gt;#Locate minima gem’s post.html on your computer
-You need to determine where Ruby gems are stored on your computer.&lt;/p&gt;
+&lt;h2&gt;Locate minima gem’s post.html on your computer&lt;/h2&gt;
+&lt;p&gt;You need to determine where Ruby gems are stored on your computer.&lt;/p&gt;
 
 &lt;p&gt;You can figure out Ruby gem folder location by running the command &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;gem environment&lt;/code&gt; and looking for the value of &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;INSTALLATION DIRECTORY&lt;/code&gt; field. The command output should look something like:&lt;/p&gt;
 
@@ -98,8 +98,8 @@ Copy &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;_layouts
 &lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;err&quot;&gt;$&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;cd&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;_layouts&lt;/span&gt;
 &lt;span class=&quot;err&quot;&gt;$&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;cp&lt;/span&gt; &lt;span class=&quot;sr&quot;&gt;/path/&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;to&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;your&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;ruby&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;installation&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;lib&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;ruby&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;gems&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;mf&quot;&gt;2.3&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;gems&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;minima&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;mf&quot;&gt;2.5&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;_layouts&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;post&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;html&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
 
-&lt;p&gt;#Make author name a link
-Open &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;post.html&lt;/code&gt; in an editor and locate the line that you want to modify. The html that you want to modify is shown below:&lt;/p&gt;
+&lt;h2&gt;Make author name a link&lt;/h2&gt;
+&lt;p&gt;Open &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;post.html&lt;/code&gt; in an editor and locate the line that you want to modify. The html that you want to modify is shown below:&lt;/p&gt;
 
 &lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;o&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;span&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;itemprop&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;author&quot;&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;itemscope&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;itemtype&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;http://schema.org/Person&quot;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;span&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;class&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;p-author h-card&quot;&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;itemprop&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;name&quot;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;gt;&lt;/span&gt;&lt;span class=&quot;no&quot;&gt;Naveen&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;Jujaray&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;sr&quot;&gt;/span&amp;gt;&amp;lt;/s&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;pan&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
 
@@ -114,21 +114,21 @@ Open &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;post.htm
 &lt;p&gt;I have written this post to serve as a stand-alone tutorial, while also trying to keep it short. I briefly describe new terms and concepts as I introduce them, but do not go into much detail. Jekyll’s documentation is excellent and working through &lt;a href=&quot;&amp;quot;https://jekyllrb.com/docs/&amp;quot;&quot;&gt;Quickstart&lt;/a&gt; and &lt;a href=&quot;&amp;quot;https://jekyllrb.com/docs/step-by-step/01-setup/&amp;quot;&quot;&gt;Step-by-Step Tutorial&lt;/a&gt; should provide you good background on Jekyll.&lt;/p&gt;
 
 &lt;p&gt;Let’s get started&lt;/p&gt;
-&lt;h1&gt;Install Ruby Development Environment&lt;/h1&gt;
+&lt;h2&gt;Install Ruby Development Environment&lt;/h2&gt;
 
 &lt;p&gt;You need Ruby development environment setup on your computer. Jekyll documentation provides the requirements list here. In addition, you also need bundler. You can install bundler by using the command gem install bundler.&lt;/p&gt;
 
-&lt;h1&gt;Install Jekyll&lt;/h1&gt;
+&lt;h2&gt;Install Jekyll&lt;/h2&gt;
 
 &lt;p&gt;Jekyll is a ruby gem. Install it by running the following command in a terminal:&lt;/p&gt;
 
 &lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;err&quot;&gt;$&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;gem&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;install&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;jekyll&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
 
-&lt;h1&gt;Create a new directory for your site&lt;/h1&gt;
+&lt;h2&gt;Create a new directory for your site&lt;/h2&gt;
 
 &lt;p&gt;On your computer, create a directory to hold your site:&lt;/p&gt;
 
-&lt;h1&gt;Create index.html in the new directory&lt;/h1&gt;
+&lt;h2&gt;Create index.html in the new directory&lt;/h2&gt;
 
 &lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;err&quot;&gt;$&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;cd&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;my&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;site&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
 
@@ -136,7 +136,7 @@ Open &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;post.htm
 
 &lt;p&gt;&lt;b&gt;index.html&lt;/b&gt;&lt;/p&gt;
 
-&lt;h1&gt;Serve the jekyll blog&lt;/h1&gt;
+&lt;h2&gt;Serve the jekyll blog&lt;/h2&gt;
 
 &lt;p&gt;In a terminal, run the following command&lt;/p&gt;
 
@@ -144,13 +144,13 @@ Open &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;post.htm
 
 &lt;p&gt;This command generates the site files and runs a local web server at &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;http://localhost:4000.&lt;/code&gt;&lt;/p&gt;
 
-&lt;h1&gt;Install theme gem&lt;/h1&gt;
+&lt;h2&gt;Install theme gem&lt;/h2&gt;
 
 &lt;p&gt;You can use a theme to improve your site’s presentation. There is a wide selection of themes to choose from. You can get started with &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;minima&lt;/code&gt; theme which is provided by Jekyll. You can install &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;minima&lt;/code&gt; gem using the following command:&lt;/p&gt;
 
 &lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;err&quot;&gt;$&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;gem&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;install&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;minima&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
 
-&lt;h1&gt;Create Gemfile&lt;/h1&gt;
+&lt;h2&gt;Create Gemfile&lt;/h2&gt;
 
 &lt;p&gt;Create a file &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Gemfile&lt;/code&gt; in the root directory. &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Gemfile&lt;/code&gt; is used to specify which gems your Jekyll site uses.&lt;/p&gt;
 
@@ -159,7 +159,7 @@ Open &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;post.htm
 &lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;n&quot;&gt;source&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;'https://rubygems.org'&lt;/span&gt;
 &lt;span class=&quot;n&quot;&gt;gem&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;'minima'&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
 
-&lt;h1&gt;Create Jekyll config file and add theme&lt;/h1&gt;
+&lt;h2&gt;Create Jekyll config file and add theme&lt;/h2&gt;
 
 &lt;p&gt;You also need to set the theme in Jekyll’s configuration file. Jekyll reads configuration from a file named &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;_config.yml&lt;/code&gt; in your site’s root directory. Create &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;_config.yml&lt;/code&gt; with the following contents:&lt;/p&gt;
 
@@ -169,7 +169,7 @@ Open &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;post.htm
 
 &lt;p&gt;After making any changes to &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;_config.yml&lt;/code&gt;, you need to restart &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;jekyll serve&lt;/code&gt; for Jekyll to pickup configuration changes. Even after restarting &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;jekyll&lt;/code&gt; serve, you will notice no difference in your site’s rendering. You will fix this next.&lt;/p&gt;
 
-&lt;h1&gt;Update index.html to use a layout&lt;/h1&gt;
+&lt;h2&gt;Update index.html to use a layout&lt;/h2&gt;
 
 &lt;p&gt;In the previous section, you saw that the text of your &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;index page&lt;/code&gt; rendered without any styling from the theme. This is happening because Jekyll is treating your index.html as a regular html file. You can tell Jekyll to use the theme’s &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;home&lt;/code&gt; layout by adding the following to the top of your &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;index.html&lt;/code&gt;:&lt;/p&gt;
 
@@ -182,7 +182,7 @@ Open &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;post.htm
 &lt;p&gt;Minima theme provides a &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;home&lt;/code&gt; layout which is most suitable for a site’s index page. Among other things &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;home&lt;/code&gt; layout adds a list of recent posts to the home page.&lt;/p&gt;
 
 &lt;p&gt;Try in browser. The index page of the site now renders in theme.&lt;/p&gt;
-&lt;h1&gt;Add site title to config&lt;/h1&gt;
+&lt;h2&gt;Add site title to config&lt;/h2&gt;
 
 &lt;p&gt;With the site rendered in theme, it looks really good. Like most sites, you want your site to have a title too. The &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;minima&lt;/code&gt; theme uses &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;title&lt;/code&gt; variable’s value (if available) as title of your site. You can set &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;title&lt;/code&gt; variable by adding the line &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;title: MyAwesomeBlog&lt;/code&gt; to &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;_config.yml.&lt;/code&gt; Your &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;_config.yml&lt;/code&gt; should look like this now:&lt;/p&gt;
 
@@ -193,7 +193,7 @@ Open &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;post.htm
 
 &lt;p&gt;Restart &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;jekyll serve&lt;/code&gt; and refresh browser. You will notice that the value for title that you provided in &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;_config.yml&lt;/code&gt; now becomes the title of your site.&lt;/p&gt;
 
-&lt;h1&gt;Create about page&lt;/h1&gt;
+&lt;h2&gt;Create about page&lt;/h2&gt;
 
 &lt;p&gt;Create an About page by creating a &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;about.md&lt;/code&gt; file in the site’s root directory.&lt;/p&gt;
 
@@ -211,7 +211,7 @@ Open &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;post.htm
 
 &lt;p&gt;Try in browser. About link shows up in top bar. Jekyll automatically adds any html or markdown files that are in your root directory to navigation bar, using value of the variable &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;title&lt;/code&gt; from the page’s front matter as link text.&lt;/p&gt;
 
-&lt;h1&gt;Create projects page&lt;/h1&gt;
+&lt;h2&gt;Create projects page&lt;/h2&gt;
 
 &lt;p&gt;Add another page to your site. Create &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;projects.md&lt;/code&gt; in the site’s root directory.&lt;/p&gt;
 
@@ -227,7 +227,7 @@ Open &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;post.htm
 
 &lt;p&gt;Try in browser. The navigation bar now shows Projects link too. Clicking on projects takes you to projects page.&lt;/p&gt;
 
-&lt;h1&gt;Ordering navigation items&lt;/h1&gt;
+&lt;h2&gt;Ordering navigation items&lt;/h2&gt;
 
 &lt;p&gt;With &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;about&lt;/code&gt; and project pages added, the site is in good shape now. Suppose you want modify the order of items in the navigation bar with About appearing to the right of &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Projects&lt;/code&gt;.&lt;/p&gt;
 
@@ -243,7 +243,7 @@ Open &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;post.htm
 
 &lt;p&gt;Try in browser. The &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;About&lt;/code&gt; and &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Project&lt;/code&gt; items now appear in your preferred order.&lt;/p&gt;
 
-&lt;h1&gt;Add a blog post&lt;/h1&gt;
+&lt;h2&gt;Add a blog post&lt;/h2&gt;
 
 &lt;p&gt;Creating a &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;blog&lt;/code&gt; post is as simple as creating a directory and a file within that directory.&lt;/p&gt;
 
@@ -265,7 +265,7 @@ Notice that this file contains Jekyll front matter and sets the layout to post, 
 
 &lt;p&gt;Try in browser. The site lists the post you just added. Clicking on the post title takes you to the post. Notice that the hyphen separated text portion of the file name becomes the title of the post. Also notice that a link to RSS feed is added.&lt;/p&gt;
 
-&lt;h1&gt;Adding author name to post&lt;/h1&gt;
+&lt;h2&gt;Adding author name to post&lt;/h2&gt;
 
 &lt;p&gt;In the blog post, you will notice that there is no author name being displayed. Jekyll minima theme supports &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;author&lt;/code&gt; name setting. It just needs &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;author&lt;/code&gt; variable to have a value. You can set author variable in the front matter of your post. Since it is likely that all posts on your site are written just by you, it is simpler to set &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;author&lt;/code&gt; once in &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;_config.yml&lt;/code&gt;.&lt;/p&gt;
 
@@ -280,7 +280,7 @@ Notice that this file contains Jekyll front matter and sets the layout to post, 
 
 &lt;p&gt;Restart &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;jekyll serve&lt;/code&gt; and refresh browser page. The post now displays author name.&lt;/p&gt;
 
-&lt;h1&gt;Deploying to GitHub Pages&lt;/h1&gt;
+&lt;h2&gt;Deploying to GitHub Pages&lt;/h2&gt;
 
 &lt;p&gt;This section describes how to host your site on GitHub Pages. GitHub allows you to host one user-level site on github pages. The github pages site for your github account should be created in a repository with the name username.github.io, where username is your GitHub username.&lt;/p&gt;
 
@@ -300,7 +300,7 @@ Notice that this file contains Jekyll front matter and sets the layout to post, 
   &lt;li&gt;after a couple of minutes you can point your browser to http://username.github.io and your should see your site.&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h1&gt;Using a custom domain&lt;/h1&gt;
+&lt;h2&gt;Using a custom domain&lt;/h2&gt;
 
 &lt;p&gt;You can set a custom domain for your site you just deployed as follows:&lt;/p&gt;
 
@@ -322,7 +322,7 @@ Notice that this file contains Jekyll front matter and sets the layout to post, 
   &lt;li&gt;if GoDaddy is your domain register, no action needs to be taken. GoDaddy automatically sets the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;CNAME&lt;/code&gt; record.&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h1&gt;Add Disqus commenting&lt;/h1&gt;
+&lt;h2&gt;Add Disqus commenting&lt;/h2&gt;
 
 &lt;p&gt;Comments are essential component of any site. minima supports Disqus commenting system. Comments can be enabled for your posts by setting a configuration parameter. There are steps to add comments to your site:&lt;/p&gt;
 
@@ -341,7 +341,7 @@ _config.yml&lt;/b&gt;&lt;/li&gt;
 &lt;p&gt;commit and push changes to your github repository.
 After github pages regenerates the site in a few minutes, navigate to &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;myawesomedomain.com&lt;/code&gt; in your browser. You should see Disqus comments displayed at bottom on your post page. Note that Disqus comments are not displayed when running the site locally using &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;jekyll serve&lt;/code&gt;.&lt;/p&gt;
 
-&lt;h1&gt;Conclusion&lt;/h1&gt;
+&lt;h2&gt;Conclusion&lt;/h2&gt;
 
 &lt;p&gt;This post described how you can deploy your personal blog to GitHub Pages hosted site. We used Jekyll site generator since that is the technology that GitHub Pages uses internally. We saw how easy and quick it was to get a basic site up and running. Creating a post was equally straight-forward. Finally, we applied a custom domain to our site.&lt;/p&gt;</content><author><name>naveenjujaray</name></author><category term="jekyll" /><category term="update" /><summary type="html">I recently decided to start a blog. I had used Wordpress in the past, so I knew I could get my blog up and running quickly using Wordpress. I was also slightly familiar with Jekyll. Doing a google search and reading a few blog posts educated me on benefits of Jekyll and static sites in general. I explored Jekyll a little more and loved it immediately.</summary></entry><entry><title type="html">Welcome to Jekyll!</title><link href="http://localhost:4000/jekyll/update/2020/06/23/welcome-to-jekyll.html" rel="alternate" type="text/html" title="Welcome to Jekyll!" /><published>2020-06-23T12:59:03+05:30</published><updated>2020-06-23T12:59:03+05:30</updated><id>http://localhost:4000/jekyll/update/2020/06/23/welcome-to-jekyll</id><content type="html" xml:base="http://localhost:4000/jekyll/update/2020/06/23/welcome-to-jekyll.html">&lt;p&gt;You’ll find this post in your &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;_posts&lt;/code&gt; directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;jekyll serve&lt;/code&gt;, which launches a web server and auto-regenerates your site when a file is updated.&lt;/p&gt;
 
