@@ -4,6 +4,7 @@ title:  "Build A Blog Using Jekyll And Deploy To Github Pages And Set Custom Dom
 date:   2020-06-29 10:00:03 +0530
 categories: jekyll update
 comments: true
+permalink: "/buildblogusingjekyll"
 ---
 I recently decided to start a blog. I had used Wordpress in the past, so I knew I could get my blog up and running quickly using Wordpress. I was also slightly familiar with Jekyll. Doing a google search and reading a few blog posts educated me on benefits of Jekyll and static sites in general. I explored Jekyll a little more and loved it immediately.
 

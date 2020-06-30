@@ -4,6 +4,7 @@ title:  "Customizing A Jekyll Theme Layout"
 date:   2020-06-30 06:00:03 +0530
 categories: jekyll update
 comments: true
+permalink: "/customizejekyll"
 ---
 After I started a blog, as described in [this][this] post, I felt it would be cool to convert the author name shown on top of each post to a link to the `about` page. This was a minor change, but it required me to customize `minima` theme’s `post` layout.
 

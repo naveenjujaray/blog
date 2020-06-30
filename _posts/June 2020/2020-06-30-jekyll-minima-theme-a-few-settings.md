@@ -4,6 +4,7 @@ title:  "Jekyll Minima Theme - A Few Settings"
 date:   2020-06-30 16:00:03 +0530
 categories: jekyll update
 comments: true
+permalink: "/minimathemesettings"
 ---
 This post is a follow-up of my earlier post about building a jekyll site.
 
