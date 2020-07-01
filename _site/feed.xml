@@ -1,4 +1,269 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.1.1">Jekyll</generator><link href="https://njblog.onrender.com/%20/feed.xml" rel="self" type="application/atom+xml" /><link href="https://njblog.onrender.com/%20/" rel="alternate" type="text/html" /><updated>2020-06-30T19:16:07+05:30</updated><id>https://njblog.onrender.com/%20/feed.xml</id><title type="html">NJ Blog</title><author><name>naveenjujaray</name></author><entry><title type="html">Jekyll Minima Theme - A Few Settings</title><link href="https://njblog.onrender.com/%20/minimathemesettings" rel="alternate" type="text/html" title="Jekyll Minima Theme - A Few Settings" /><published>2020-06-30T16:00:03+05:30</published><updated>2020-06-30T16:00:03+05:30</updated><id>https://njblog.onrender.com/%20/jekyll-minima-theme-a-few-settings</id><content type="html" xml:base="https://njblog.onrender.com/%20/minimathemesettings">&lt;p&gt;This post is a follow-up of my earlier post about building a jekyll site.&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.1.1">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2020-07-01T19:43:01+05:30</updated><id>http://localhost:4000/feed.xml</id><title type="html">NJ Blog</title><author><name>naveenjujaray</name></author><entry><title type="html">How to install Flutter</title><link href="http://localhost:4000/flutterinstall" rel="alternate" type="text/html" title="How to install Flutter" /><published>2020-07-01T19:41:03+05:30</published><updated>2020-07-01T19:41:03+05:30</updated><id>http://localhost:4000/flutter-install</id><content type="html" xml:base="http://localhost:4000/flutterinstall">&lt;p&gt;Select the operating system on which you are installing Flutter:&lt;br /&gt;
+&lt;a href=&quot;https://flutter.dev/docs/get-started/install/windows&quot;&gt;windows&lt;/a&gt; &lt;i class=&quot;fab fa-windows&quot;&gt;&lt;/i&gt;    &lt;a href=&quot;https://flutter.dev/docs/get-started/install/macos&quot;&gt;MacOS&lt;/a&gt; &lt;i class=&quot;fab fa-apple&quot;&gt;&lt;/i&gt;    &lt;a href=&quot;https://flutter.dev/docs/get-started/install/linux&quot;&gt;Linux&lt;/a&gt; &lt;i class=&quot;fab fa-linux&quot;&gt;&lt;/i&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;for-windows&quot;&gt;For Windows&lt;/h2&gt;
+&lt;h3 id=&quot;system-requirements&quot;&gt;System requirements&lt;/h3&gt;
+&lt;p&gt;To install and run Flutter, your development environment must meet these minimum requirements:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;Operating Systems:&lt;/strong&gt; Windows 7 SP1 or later (64-bit)&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Disk Space:&lt;/strong&gt; 400 MB (does not include disk space for IDE/tools).&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Tools:&lt;/strong&gt; Flutter depends on these tools being available in your environment.
+    &lt;ul&gt;
+      &lt;li&gt;&lt;a href=&quot;https://docs.microsoft.com/en-us/powershell/scripting/install/installing-windows-powershell&quot;&gt;Windows PowerShell 5.0&lt;/a&gt; or newer (this is pre-installed with Windows 10)&lt;/li&gt;
+      &lt;li&gt;
+        &lt;p&gt;&lt;a href=&quot;https://git-scm.com/download/win&quot;&gt;Git for Windows&lt;/a&gt; 2.x, with the &lt;strong&gt;Use Git from the Windows Command Prompt&lt;/strong&gt; option.&lt;/p&gt;
+
+        &lt;p&gt;If Git for Windows is already installed, make sure you can run &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;git&lt;/code&gt; commands from the command prompt or PowerShell.&lt;/p&gt;
+      &lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;get-the-flutter-sdk&quot;&gt;Get the Flutter SDK&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;Download the following installation bundle to get the latest stable release of the Flutter SDK:
+ For &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;other release channels&lt;/code&gt;, and &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;older builds&lt;/code&gt;, see the &lt;a href=&quot;https://flutter.dev/docs/development/tools/sdk/archive&quot;&gt;SDK archive&lt;/a&gt; page.&lt;/li&gt;
+  &lt;li&gt;Extract the zip file and place the contained flutter in the desired installation location for the Flutter SDK (for example, &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;C:\src\flutter;&lt;/code&gt; do not install Flutter in a directory like &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;C:\Program Files\&lt;/code&gt; that requires elevated privileges).&lt;/li&gt;
+  &lt;li&gt;If you don’t want to install a fixed version of the installation bundle, you can &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;skip&lt;/code&gt; steps 1 and 2. Instead, get the source code from the &lt;a href=&quot;https://github.com/flutter/flutter&quot;&gt;Flutter repo&lt;/a&gt; on GitHub, and change branches or tags as needed. For example:&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;n&quot;&gt;git&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;clone&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;https&lt;/span&gt;&lt;span class=&quot;ss&quot;&gt;:/&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;github&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;com&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;flutter&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;flutter&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;git&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;b&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;stable&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;p&gt;You are now ready to run Flutter commands in the Flutter Console.&lt;/p&gt;
+&lt;h3 id=&quot;update-your-path&quot;&gt;Update your path&lt;/h3&gt;
+&lt;p&gt;If you wish to run Flutter commands in the regular Windows console, take these steps to add Flutter to the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;PATH&lt;/code&gt; environment variable:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;From the Start search bar, enter ‘env’ and select &lt;strong&gt;Edit environment variables for your account&lt;/strong&gt;.&lt;/li&gt;
+  &lt;li&gt;Under &lt;strong&gt;User variables&lt;/strong&gt; check if there is an entry called &lt;strong&gt;Path&lt;/strong&gt;:
+    &lt;ul&gt;
+      &lt;li&gt;If the entry exists, append the full path to &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;flutter\bin&lt;/code&gt; using ; as a separator from existing values.&lt;/li&gt;
+      &lt;li&gt;If the entry doesn’t exist, create a new user variable named &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Path&lt;/code&gt; with the full path to &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;flutter\bin&lt;/code&gt; as its value.
+&lt;br /&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;You have to close and reopen any existing console windows for these changes to take effect.&lt;/p&gt;
+
+&lt;h3 id=&quot;run-flutter-doctor&quot;&gt;Run flutter doctor&lt;/h3&gt;
+&lt;p&gt;From a console window that has the Flutter directory in the path (see above), run the following command to see if there are any platform dependencies you need to complete the setup:&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;no&quot;&gt;C&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:\&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;src&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;\&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;flutter&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;gt;&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;flutter&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;doctor&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;p&gt;This command checks your environment and displays a report of the status of your Flutter installation. Check the output carefully for other software you might need to install or further tasks to perform (shown in X mark).&lt;/p&gt;
+
+&lt;p&gt;For example:&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;Android&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;toolchain&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;-&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;develop&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;for&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;Android&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;devices&lt;/span&gt;
+    &lt;span class=&quot;err&quot;&gt;•&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;Android&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;SDK&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;at&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;D&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:\&lt;/span&gt;&lt;span class=&quot;no&quot;&gt;Android&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;\&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;sdk&lt;/span&gt;
+    &lt;span class=&quot;err&quot;&gt;✗&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;Android&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;SDK&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;is&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;missing&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;command&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;line&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;tools&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;download&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;from&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;https&lt;/span&gt;&lt;span class=&quot;ss&quot;&gt;:/&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;goo&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;gl&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;no&quot;&gt;XxQghQ&lt;/span&gt;
+    &lt;span class=&quot;err&quot;&gt;•&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;Try&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;re&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;installing&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;or&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;updating&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;your&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;Android&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;SDK&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
+      &lt;span class=&quot;n&quot;&gt;visit&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;https&lt;/span&gt;&lt;span class=&quot;ss&quot;&gt;:/&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;flutter&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;dev&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;setup&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;c1&quot;&gt;#android-setup for detailed instructions.&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;h2 id=&quot;for-macos&quot;&gt;For MacOS&lt;/h2&gt;
+&lt;p&gt;To install and run Flutter, your development environment must meet these minimum requirements:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;Operating Systems:&lt;/strong&gt; macOS (64-bit)&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Disk Space:&lt;/strong&gt; 2.8 GB (does not include disk space for IDE/tools).&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Tools:&lt;/strong&gt; Flutter depends on these command-line tools being available in your environment.
+    &lt;ul&gt;
+      &lt;li&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;bash&lt;/code&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;curl&lt;/code&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;git&lt;/code&gt; 2.x&lt;/li&gt;
+      &lt;li&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;mkdir&lt;/code&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;rm&lt;/code&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;unzip&lt;/code&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;which&lt;/code&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;zip&lt;/code&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;get-the-flutter-sdk-1&quot;&gt;Get the Flutter SDK&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;Download the following installation bundle to get the latest stable release of the Flutter SDK:
+For other release channels, and older builds, see the &lt;a href=&quot;https://flutter.dev/docs/development/tools/sdk/archive&quot;&gt;SDK archive&lt;/a&gt; page.&lt;/li&gt;
+  &lt;li&gt;Extract the file in the desired location, for example:&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt; &lt;span class=&quot;err&quot;&gt;$&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;cd&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;~&lt;/span&gt;&lt;span class=&quot;sr&quot;&gt;/development
+ $ unzip ~/&lt;/span&gt;&lt;span class=&quot;no&quot;&gt;Downloads&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;flutter_macos_1&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;mf&quot;&gt;17.4&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;stable&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;zip&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;If you don’t want to install a fixed version of the installation bundle, you can skip steps 1 and 2. Instead, get the source code from the &lt;a href=&quot;https://github.com/flutter/flutter&quot;&gt;Flutter repo&lt;/a&gt; on GitHub with the following command:&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;err&quot;&gt;$&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;git&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;clone&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;https&lt;/span&gt;&lt;span class=&quot;ss&quot;&gt;:/&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;github&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;com&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;flutter&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;flutter&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;git&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;p&gt;You can also change branches or tags as needed. For example, to get just the stable version:&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;err&quot;&gt;$&lt;/span&gt;  &lt;span class=&quot;n&quot;&gt;git&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;clone&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;https&lt;/span&gt;&lt;span class=&quot;ss&quot;&gt;:/&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;github&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;com&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;flutter&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;flutter&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;git&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;b&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;stable&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;--&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;depth&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;p&gt;Add the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;flutter tool&lt;/code&gt; to your path:&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;err&quot;&gt;$&lt;/span&gt;  &lt;span class=&quot;n&quot;&gt;export&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;PATH&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;$PATH:`pwd`/flutter/bin&quot;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;p&gt;This command sets your &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;PATH&lt;/code&gt; variable for the current terminal window only. To permanently add Flutter to your path, see &lt;a href=&quot;https://flutter.dev/docs/get-started/install/macos#update-your-path&quot;&gt;Update your path&lt;/a&gt;.&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Optionally, pre-download development binaries:&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;The flutter tool downloads platform-specific development binaries as needed. For scenarios where pre-downloading these artifacts is preferable (for example, in hermetic build environments, or with intermittent network availability), iOS and Android binaries can be downloaded ahead of time by running:&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;err&quot;&gt;$&lt;/span&gt;  &lt;span class=&quot;n&quot;&gt;flutter&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;precache&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;p&gt;For additional download options, see &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;flutter help precache&lt;/code&gt;.&lt;/p&gt;
+
+&lt;p&gt;You are now ready to run Flutter commands!&lt;/p&gt;
+
+&lt;h3 id=&quot;run-flutter-doctor-1&quot;&gt;Run flutter doctor&lt;/h3&gt;
+
+&lt;p&gt;Run the following command to see if there are any dependencies you need to install to complete the setup (for verbose output, add the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;-v&lt;/code&gt; flag):&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;err&quot;&gt;$&lt;/span&gt;  &lt;span class=&quot;n&quot;&gt;flutter&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;doctor&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;p&gt;This command checks your environment and displays a report to the terminal window. The Dart SDK is bundled with Flutter; it is not necessary to install Dart separately. Check the output carefully for other software you might need to install or further tasks to perform (shown in X mark).&lt;/p&gt;
+
+&lt;p&gt;For example:&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;Android&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;toolchain&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;-&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;develop&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;for&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;Android&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;devices&lt;/span&gt;
+    &lt;span class=&quot;err&quot;&gt;•&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;Android&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;SDK&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;at&lt;/span&gt; &lt;span class=&quot;sr&quot;&gt;/Users/o&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;biwan&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;no&quot;&gt;Library&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;no&quot;&gt;Android&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;sdk&lt;/span&gt;
+    &lt;span class=&quot;err&quot;&gt;✗&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;Android&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;SDK&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;is&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;missing&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;command&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;line&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;tools&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;download&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;from&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;https&lt;/span&gt;&lt;span class=&quot;ss&quot;&gt;:/&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;goo&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;gl&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;no&quot;&gt;XxQghQ&lt;/span&gt;
+    &lt;span class=&quot;err&quot;&gt;•&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;Try&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;re&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;installing&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;or&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;updating&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;your&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;Android&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;SDK&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
+      &lt;span class=&quot;n&quot;&gt;visit&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;https&lt;/span&gt;&lt;span class=&quot;ss&quot;&gt;:/&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;flutter&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;dev&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;setup&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;c1&quot;&gt;#android-setup for detailed instructions.&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;p&gt;The following sections describe how to perform these tasks and finish the setup process.&lt;/p&gt;
+
+&lt;p&gt;Once you have installed any missing dependencies, run the flutter doctor command again to verify that you’ve set everything up correctly.&lt;/p&gt;
+
+&lt;h3 id=&quot;update-your-path-1&quot;&gt;Update your path&lt;/h3&gt;
+&lt;p&gt;You can update your PATH variable for the current session at the command line, as shown in &lt;a href=&quot;https://flutter.dev/docs/get-started/install/macos#get-sdk&quot;&gt;Get the Flutter SDK&lt;/a&gt;. You’ll probably want to update this variable permanently, so you can run &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;flutter&lt;/code&gt; commands in any terminal session.&lt;/p&gt;
+
+&lt;p&gt;The steps for modifying this variable permanently for all terminal sessions are machine-specific. Typically you add a line to a file that is executed whenever you open a new window. For example:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Determine the directory where you placed the Flutter SDK. You need this in Step 3.&lt;/li&gt;
+  &lt;li&gt;Open (or create) the rc file for your shell. Typing &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;echo $SHELL&lt;/code&gt; in your Terminal tells you which shell you’re using. If you’re using  Bash, edit &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;$HOME/.bash_profile&lt;/code&gt; or &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;$HOME/.bashrc.&lt;/code&gt; If you’re using Z shell, edit &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;$HOME/.zshrc&lt;/code&gt;. If you’re using a different shell, the    file path and filename will be different on your machine.&lt;/li&gt;
+  &lt;li&gt;Add the following line and change &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;PATH_TO_FLUTTER_GIT_DIRECTORY&lt;/code&gt; to be the path where you cloned Flutter’s git repo:&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;err&quot;&gt;$&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;export&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;PATH&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;$PATH:[PATH_TO_FLUTTER_GIT_DIRECTORY]/flutter/bin&quot;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Run source $HOME/.&lt;rc file=&quot;&quot;&gt; to refresh the current window, or open a new terminal window to automatically source the file.&lt;/rc&gt;&lt;/li&gt;
+  &lt;li&gt;Verify that the flutter/bin directory is now in your PATH by running:&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;err&quot;&gt;$&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;echo&lt;/span&gt; &lt;span class=&quot;vg&quot;&gt;$PATH&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;p&gt;Verify that the flutter command is available by running:&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;err&quot;&gt;$&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;which&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;flutter&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;h1 id=&quot;for-linux&quot;&gt;For LINUX&lt;/h1&gt;
+&lt;p&gt;###System requirements
+To install and run Flutter, your development environment must meet these minimum requirements:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;Operating Systems:&lt;/strong&gt; Linux (64-bit)&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Disk Space:&lt;/strong&gt; 600 MB (does not include disk space for IDE/tools).&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Tools:&lt;/strong&gt; Flutter depends on these command-line tools being available in your environment.
+    &lt;ul&gt;
+      &lt;li&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;bash&lt;/code&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;curl&lt;/code&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;file&lt;/code&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;git&lt;/code&gt; 2.x&lt;/li&gt;
+      &lt;li&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;mkdir&lt;/code&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;rm&lt;/code&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;unzip&lt;/code&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;which&lt;/code&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;xz-utils&lt;/code&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;zip&lt;/code&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Shared libraries:&lt;/strong&gt; Flutter &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;test&lt;/code&gt; command depends on this library being available in your environment.
+    &lt;ul&gt;
+      &lt;li&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;libGLU.so.1&lt;/code&gt; - provided by mesa packages such as &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;libglu1-mesa&lt;/code&gt; on Ubuntu/Debian
+        &lt;h3 id=&quot;get-the-flutter-sdk-2&quot;&gt;Get the Flutter SDK&lt;/h3&gt;
+      &lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Download the following installation bundle to get the latest stable release of the Flutter SDK:
+For other release channels, and older builds, see the &lt;a href=&quot;https://flutter.dev/docs/development/tools/sdk/archive&quot;&gt;SDK archive&lt;/a&gt; page.&lt;/li&gt;
+  &lt;li&gt;Extract the file in the desired location, for example:&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;err&quot;&gt;$&lt;/span&gt;  &lt;span class=&quot;n&quot;&gt;cd&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;~&lt;/span&gt;&lt;span class=&quot;sr&quot;&gt;/development
+$  tar xf ~/&lt;/span&gt;&lt;span class=&quot;no&quot;&gt;Downloads&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;flutter_linux_1&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;mf&quot;&gt;17.4&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;stable&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;tar&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;xz&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;p&gt;If you don’t want to install a fixed version of the installation bundle, you can skip steps 1 and 2. Instead, get the source code from the &lt;a href=&quot;https://github.com/flutter/flutter&quot;&gt;Flutter repo&lt;/a&gt; on GitHub with the following command:&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;err&quot;&gt;$&lt;/span&gt;  &lt;span class=&quot;n&quot;&gt;git&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;clone&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;https&lt;/span&gt;&lt;span class=&quot;ss&quot;&gt;:/&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;github&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;com&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;flutter&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;flutter&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;git&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;p&gt;You can also change branches or tags as needed. For example, to get just the stable version:&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;err&quot;&gt;$&lt;/span&gt;  &lt;span class=&quot;n&quot;&gt;git&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;clone&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;https&lt;/span&gt;&lt;span class=&quot;ss&quot;&gt;:/&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;github&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;com&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;flutter&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;flutter&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;git&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;b&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;stable&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;--&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;depth&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Add the flutter tool to your path:&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;err&quot;&gt;$&lt;/span&gt;  &lt;span class=&quot;n&quot;&gt;export&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;PATH&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;$PATH:`pwd`/flutter/bin&quot;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;p&gt;This command sets your PATH variable for the current terminal window only. To permanently add Flutter to your path, see &lt;a href=&quot;https://flutter.dev/docs/get-started/install/macos#update-your-path&quot;&gt;Update your path&lt;/a&gt;.&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Optionally, pre-download development binaries:&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;The &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;flutter&lt;/code&gt; tool downloads platform-specific development binaries as needed. For scenarios where pre-downloading these artifacts is preferable (for example, in hermetic build environments, or with intermittent network availability), iOS and Android binaries can be downloaded ahead of time by running:&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;err&quot;&gt;$&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;flutter&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;precache&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;p&gt;For additional download options, see &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;flutter help precache.&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;You are now ready to run Flutter commands!&lt;/p&gt;
+&lt;h3 id=&quot;run-flutter-doctor-2&quot;&gt;Run flutter doctor&lt;/h3&gt;
+
+&lt;p&gt;Run the following command to see if there are any dependencies you need to install to complete the setup (for verbose output, add the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;-v&lt;/code&gt; flag):&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;err&quot;&gt;$&lt;/span&gt;  &lt;span class=&quot;n&quot;&gt;flutter&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;doctor&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;p&gt;This command checks your environment and displays a report to the terminal window. The Dart SDK is bundled with Flutter; it is not necessary to install Dart separately. Check the output carefully for other software you might need to install or further tasks to perform (shown in X mark).&lt;/p&gt;
+
+&lt;p&gt;For example:&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;Android&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;toolchain&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;-&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;develop&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;for&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;Android&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;devices&lt;/span&gt;
+    &lt;span class=&quot;err&quot;&gt;•&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;Android&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;SDK&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;at&lt;/span&gt; &lt;span class=&quot;sr&quot;&gt;/Users/o&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;biwan&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;no&quot;&gt;Library&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;no&quot;&gt;Android&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;sdk&lt;/span&gt;
+    &lt;span class=&quot;err&quot;&gt;✗&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;Android&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;SDK&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;is&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;missing&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;command&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;line&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;tools&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;download&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;from&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;https&lt;/span&gt;&lt;span class=&quot;ss&quot;&gt;:/&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;goo&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;gl&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;no&quot;&gt;XxQghQ&lt;/span&gt;
+    &lt;span class=&quot;err&quot;&gt;•&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;Try&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;re&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;installing&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;or&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;updating&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;your&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;Android&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;SDK&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
+      &lt;span class=&quot;n&quot;&gt;visit&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;https&lt;/span&gt;&lt;span class=&quot;ss&quot;&gt;:/&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;flutter&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;dev&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;setup&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;c1&quot;&gt;#android-setup for detailed instructions.&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;p&gt;The following sections describe how to perform these tasks and finish the setup process.&lt;/p&gt;
+
+&lt;p&gt;Once you have installed any missing dependencies, run the flutter doctor command again to verify that you’ve set everything up correctly.&lt;/p&gt;
+&lt;h3 id=&quot;update-your-path-2&quot;&gt;Update your path&lt;/h3&gt;
+&lt;p&gt;You can update your PATH variable for the current session at the command line, as shown in &lt;a href=&quot;https://flutter.dev/docs/get-started/install/macos#get-sdk&quot;&gt;Get the Flutter SDK&lt;/a&gt;. You’ll probably want to update this variable permanently, so you can run &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;flutter&lt;/code&gt; commands in any terminal session.&lt;/p&gt;
+
+&lt;p&gt;The steps for modifying this variable permanently for all terminal sessions are machine-specific. Typically you add a line to a file that is executed whenever you open a new window. For example:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Determine the directory where you placed the Flutter SDK. You need this in Step 3.&lt;/li&gt;
+  &lt;li&gt;Open (or create) the rc file for your shell. For example, Linux uses the Bash shell by default, so edit &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;$HOME/.bashrc&lt;/code&gt;. If you are using a different shell, the file path and filename will be different on your machine.&lt;/li&gt;
+  &lt;li&gt;Add the following line and change &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;PATH_TO_FLUTTER_GIT_DIRECTORY&lt;/code&gt; to be the path where you cloned Flutter’s git repo:&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;err&quot;&gt;$&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;export&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;PATH&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;$PATH:[PATH_TO_FLUTTER_GIT_DIRECTORY]/flutter/bin&quot;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Run source &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;$HOME/.&amp;lt;rc file&amp;gt;&lt;/code&gt; to refresh the current window, or open a new terminal window to automatically source the file.&lt;/li&gt;
+  &lt;li&gt;Verify that the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;flutter/bin&lt;/code&gt; directory is now in your PATH by running:&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;err&quot;&gt;$&lt;/span&gt;  &lt;span class=&quot;n&quot;&gt;echo&lt;/span&gt; &lt;span class=&quot;vg&quot;&gt;$PATH&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;p&gt;Verify that the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;flutter&lt;/code&gt; command is available by running:&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;err&quot;&gt;$&lt;/span&gt;  &lt;span class=&quot;n&quot;&gt;which&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;flutter&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;</content><author><name>naveenjujaray</name></author><category term="jekyll" /><category term="update" /><summary type="html">Select the operating system on which you are installing Flutter: windows MacOS Linux</summary></entry><entry><title type="html">Jekyll Minima Theme - A Few Settings</title><link href="http://localhost:4000/minimathemesettings" rel="alternate" type="text/html" title="Jekyll Minima Theme - A Few Settings" /><published>2020-06-30T16:00:03+05:30</published><updated>2020-06-30T16:00:03+05:30</updated><id>http://localhost:4000/jekyll-minima-theme-a-few-settings</id><content type="html" xml:base="http://localhost:4000/minimathemesettings">&lt;p&gt;This post is a follow-up of my earlier post about building a jekyll site.&lt;/p&gt;
 
 &lt;p&gt;In this post, I will describe a few things that I modified on my site. For example, the footer show site title twice, I add a &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;_config.yml&lt;/code&gt; setting to show blog author name instead of one of the site titles.&lt;/p&gt;
 
@@ -50,7 +315,7 @@
 &lt;h2&gt;Google Analytics&lt;/h2&gt;
 &lt;p&gt;You can add Google analytics to your site by adding the following setting to &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;_config.yml&lt;/code&gt;:&lt;/p&gt;
 
-&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;ss&quot;&gt;google_analytics: &lt;/span&gt;&lt;span class=&quot;no&quot;&gt;UA&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;no&quot;&gt;XXXXXXXX&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;no&quot;&gt;X&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;</content><author><name>naveenjujaray</name></author><category term="jekyll" /><category term="update" /><summary type="html">This post is a follow-up of my earlier post about building a jekyll site.</summary></entry><entry><title type="html">Customizing A Jekyll Theme Layout</title><link href="https://njblog.onrender.com/%20/customizejekyll" rel="alternate" type="text/html" title="Customizing A Jekyll Theme Layout" /><published>2020-06-30T06:00:03+05:30</published><updated>2020-06-30T06:00:03+05:30</updated><id>https://njblog.onrender.com/%20/Customizing-A-Jekyll-Theme</id><content type="html" xml:base="https://njblog.onrender.com/%20/customizejekyll">&lt;p&gt;After I started a blog, as described in &lt;a href=&quot;https://njblog.onrender.com/jekyll/update/2020/06/29/Build-A-Blog-Using-Jekyll.html&quot;&gt;this&lt;/a&gt; post, I felt it would be cool to convert the author name shown on top of each post to a link to the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;about&lt;/code&gt; page. This was a minor change, but it required me to customize &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;minima&lt;/code&gt; theme’s &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;post&lt;/code&gt; layout.&lt;/p&gt;
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;ss&quot;&gt;google_analytics: &lt;/span&gt;&lt;span class=&quot;no&quot;&gt;UA&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;no&quot;&gt;XXXXXXXX&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;no&quot;&gt;X&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;</content><author><name>naveenjujaray</name></author><category term="jekyll" /><category term="update" /><summary type="html">This post is a follow-up of my earlier post about building a jekyll site.</summary></entry><entry><title type="html">Customizing A Jekyll Theme Layout</title><link href="http://localhost:4000/customizejekyll" rel="alternate" type="text/html" title="Customizing A Jekyll Theme Layout" /><published>2020-06-30T06:00:03+05:30</published><updated>2020-06-30T06:00:03+05:30</updated><id>http://localhost:4000/Customizing-A-Jekyll-Theme</id><content type="html" xml:base="http://localhost:4000/customizejekyll">&lt;p&gt;After I started a blog, as described in &lt;a href=&quot;https://njblog.onrender.com/jekyll/update/2020/06/29/Build-A-Blog-Using-Jekyll.html&quot;&gt;this&lt;/a&gt; post, I felt it would be cool to convert the author name shown on top of each post to a link to the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;about&lt;/code&gt; page. This was a minor change, but it required me to customize &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;minima&lt;/code&gt; theme’s &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;post&lt;/code&gt; layout.&lt;/p&gt;
 
 &lt;p&gt;I describe the steps that I used to customize &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;minima’&lt;/code&gt;s &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;post.html&lt;/code&gt; layout in this post.&lt;/p&gt;
 &lt;h2&gt;Customizing theme files&lt;/h2&gt;
@@ -107,7 +372,7 @@ Copy &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;_layouts
 
 &lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;o&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;span&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;itemprop&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;author&quot;&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;itemscope&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;itemtype&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;http://schema.org/Person&quot;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;span&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;class&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;p-author h-card&quot;&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;itemprop&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;name&quot;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;a&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;href&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;/about.html&quot;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;gt;&lt;/span&gt;&lt;span class=&quot;no&quot;&gt;Naveen&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;Jujaray&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;sr&quot;&gt;/a&amp;gt;&amp;lt;/s&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;pan&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;sr&quot;&gt;/span&amp;gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
 
-&lt;p&gt;Try in browser. In the post, the author name should now be a link. Clicking on the author name should take you to the about page.&lt;/p&gt;</content><author><name>naveenjujaray</name></author><category term="jekyll" /><category term="update" /><summary type="html">After I started a blog, as described in this post, I felt it would be cool to convert the author name shown on top of each post to a link to the about page. This was a minor change, but it required me to customize minima theme’s post layout.</summary></entry><entry><title type="html">Build A Blog Using Jekyll And Deploy To Github Pages And Set Custom Domain</title><link href="https://njblog.onrender.com/%20/buildblogusingjekyll" rel="alternate" type="text/html" title="Build A Blog Using Jekyll And Deploy To Github Pages And Set Custom Domain" /><published>2020-06-29T10:00:03+05:30</published><updated>2020-06-29T10:00:03+05:30</updated><id>https://njblog.onrender.com/%20/Build-A-Blog-Using-Jekyll</id><content type="html" xml:base="https://njblog.onrender.com/%20/buildblogusingjekyll">&lt;p&gt;I recently decided to start a blog. I had used Wordpress in the past, so I knew I could get my blog up and running quickly using Wordpress. I was also slightly familiar with Jekyll. Doing a google search and reading a few blog posts educated me on benefits of Jekyll and static sites in general. I explored Jekyll a little more and loved it immediately.&lt;/p&gt;
+&lt;p&gt;Try in browser. In the post, the author name should now be a link. Clicking on the author name should take you to the about page.&lt;/p&gt;</content><author><name>naveenjujaray</name></author><category term="jekyll" /><category term="update" /><summary type="html">After I started a blog, as described in this post, I felt it would be cool to convert the author name shown on top of each post to a link to the about page. This was a minor change, but it required me to customize minima theme’s post layout.</summary></entry><entry><title type="html">Build A Blog Using Jekyll And Deploy To Github Pages And Set Custom Domain</title><link href="http://localhost:4000/buildblogusingjekyll" rel="alternate" type="text/html" title="Build A Blog Using Jekyll And Deploy To Github Pages And Set Custom Domain" /><published>2020-06-29T10:00:03+05:30</published><updated>2020-06-29T10:00:03+05:30</updated><id>http://localhost:4000/Build-A-Blog-Using-Jekyll</id><content type="html" xml:base="http://localhost:4000/buildblogusingjekyll">&lt;p&gt;I recently decided to start a blog. I had used Wordpress in the past, so I knew I could get my blog up and running quickly using Wordpress. I was also slightly familiar with Jekyll. Doing a google search and reading a few blog posts educated me on benefits of Jekyll and static sites in general. I explored Jekyll a little more and loved it immediately.&lt;/p&gt;
 
 &lt;p&gt;The first thing that appealed to me about Jekyll was how programmer-friendly it was. Creating a site using Jekyll felt very similar to a developer’s day-to-day tasks. Another thing that appealed to me was Jekyll’s integration with GitHub Pages. Finally, free hosting provided by GitHub Pages (along with the ability to set custom domains) tipped my decision towards using Jekyll.&lt;/p&gt;
 
@@ -343,7 +608,7 @@ After github pages regenerates the site in a few minutes, navigate to &lt;code c
 
 &lt;h2&gt;Conclusion&lt;/h2&gt;
 
-&lt;p&gt;This post described how you can deploy your personal blog to GitHub Pages hosted site. We used Jekyll site generator since that is the technology that GitHub Pages uses internally. We saw how easy and quick it was to get a basic site up and running. Creating a post was equally straight-forward. Finally, we applied a custom domain to our site.&lt;/p&gt;</content><author><name>naveenjujaray</name></author><category term="jekyll" /><category term="update" /><summary type="html">I recently decided to start a blog. I had used Wordpress in the past, so I knew I could get my blog up and running quickly using Wordpress. I was also slightly familiar with Jekyll. Doing a google search and reading a few blog posts educated me on benefits of Jekyll and static sites in general. I explored Jekyll a little more and loved it immediately.</summary></entry><entry><title type="html">Welcome to Jekyll!</title><link href="https://njblog.onrender.com/%20/welocmetojekyll" rel="alternate" type="text/html" title="Welcome to Jekyll!" /><published>2020-06-23T12:59:03+05:30</published><updated>2020-06-23T12:59:03+05:30</updated><id>https://njblog.onrender.com/%20/welcome-to-jekyll</id><content type="html" xml:base="https://njblog.onrender.com/%20/welocmetojekyll">&lt;p&gt;You’ll find this post in your &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;_posts&lt;/code&gt; directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;jekyll serve&lt;/code&gt;, which launches a web server and auto-regenerates your site when a file is updated.&lt;/p&gt;
+&lt;p&gt;This post described how you can deploy your personal blog to GitHub Pages hosted site. We used Jekyll site generator since that is the technology that GitHub Pages uses internally. We saw how easy and quick it was to get a basic site up and running. Creating a post was equally straight-forward. Finally, we applied a custom domain to our site.&lt;/p&gt;</content><author><name>naveenjujaray</name></author><category term="jekyll" /><category term="update" /><summary type="html">I recently decided to start a blog. I had used Wordpress in the past, so I knew I could get my blog up and running quickly using Wordpress. I was also slightly familiar with Jekyll. Doing a google search and reading a few blog posts educated me on benefits of Jekyll and static sites in general. I explored Jekyll a little more and loved it immediately.</summary></entry><entry><title type="html">Welcome to Jekyll!</title><link href="http://localhost:4000/welocmetojekyll" rel="alternate" type="text/html" title="Welcome to Jekyll!" /><published>2020-06-23T12:59:03+05:30</published><updated>2020-06-23T12:59:03+05:30</updated><id>http://localhost:4000/welcome-to-jekyll</id><content type="html" xml:base="http://localhost:4000/welocmetojekyll">&lt;p&gt;You’ll find this post in your &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;_posts&lt;/code&gt; directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;jekyll serve&lt;/code&gt;, which launches a web server and auto-regenerates your site when a file is updated.&lt;/p&gt;
 
 &lt;p&gt;Jekyll requires blog post files to be named according to the following format:&lt;/p&gt;
 
