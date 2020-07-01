@@ -18,16 +18,13 @@
           <div class="collapse navbar-collapse" id="navbarCollapse">
               <div class="navbar-nav">
                 
-                  <a href="{{ "/"  }}" class="nav-item nav-link active">Home</a>
+                <a href="{{ "/"  }}" class="nav-item nav-link active">Home</a>
                   
                   <a class="nav-item nav-link" style="color: white;" href="{{ my_page.url | relative_url }}">{{ my_page.title | escape }}</a>
                   
                   {%- endif -%}
                 {%- endfor -%}
-                <a class="nav-item nav-link" href="https://njdev.js.org/" style="text-decoration: none; color:white;">Dev</a>
-                <a class="nav-item nav-link" href="https://dev.to/naveenjujaray" style="text-decoration: none; color:white;">About</a>
-               
-                  
+                <a class="nav-item nav-link" href="https://njdev.js.org/" style="text-decoration: none; color:white;">Dev</a>            
               </div>
               
           </div>
