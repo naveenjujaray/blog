@@ -27,14 +27,18 @@ layout: default
     {% if paginator.total_pages > 1 %}
     <div class="pager">
         {% if paginator.previous_page %}
+        
         <p class="previous">
-            <a style="text-decoration: none; color: black;" href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}">&larr; Newer Posts</a>
+          <a style="text-decoration: none; color: black;" href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}">&larr; Newer Posts</a>
         </p>
+      
         {% endif %}
         {% if paginator.next_page %}
+        
         <p class="next">
             <a style="text-decoration: none; color: black;" href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}">Older Posts &rarr;</a>
         </p>
+      
         {% endif %}
       </div>
     {% endif %}
