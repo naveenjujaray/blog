@@ -37,12 +37,13 @@ linkedin_username:  naveenjujaray
 google_analytics: UA-167230559-1
 
 
+paginate: 3
 # Build settings
 env: production
 theme: minima
 plugins:
   - jekyll-feed
-
+  - jekyll-paginate
 # Exclude from processing.
 # The following items will not be processed, by default.
 # Any item listed under the `exclude:` key here will be automatically added to
