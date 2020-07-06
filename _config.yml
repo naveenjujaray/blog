@@ -47,8 +47,6 @@ pagination:
   limit: 5000000000000
   sort_field: 'date'
   sort_reverse: true # The number of links after the current page
-  extension: html
-  indexpage: 'index'
 
 
 autopages:
