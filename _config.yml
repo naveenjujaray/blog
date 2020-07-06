@@ -41,9 +41,9 @@ gems:
 pagination: 
   enabled: true
   per_page: 10
-  permalink: '/page/:num/'
+  permalink: '/:num'
   title: 'NJ Blog'
-  limit: 0
+  limit: 5000000000000
   sort_field: 'date'
   sort_reverse: true # The number of links after the current page
 
