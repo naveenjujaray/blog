@@ -5,6 +5,7 @@ date:   2020-07-01 19:41:03 +0530
 categories: jekyll update
 comments: true
 permalink: "/flutterinstall"
+published: true
 ---
 Select the operating system on which you are installing Flutter:<br>
 [windows] <i class="fab fa-windows"></i>    [MacOS] <i class="fab fa-apple"></i>    [Linux] <i class="fab fa-linux"></i>
