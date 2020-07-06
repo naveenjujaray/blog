@@ -17,7 +17,6 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-permalink: pretty
 author: naveenjujaray
 title: NJ Blog
 email: 
@@ -45,7 +44,6 @@ pagination:
   per_page: 10
   permalink: '/page/:num/'
   title: 'NJ Blog'
-  limit: 0
   sort_field: 'date'
   sort_reverse: true # The number of links after the current page
 
