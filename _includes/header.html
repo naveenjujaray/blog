@@ -1,35 +1,31 @@
 <header >
 
-    <div class="navbarwrapper">
-            <nav class="navbar navbar-expand-md navbar-dark navbar-custom">
-                    {%- assign default_paths = site.pages | map: "path" -%}
-                    {%- assign page_paths = site.header_pages | default: default_paths -%}
-                    <a class="navbar-brand"href="{{ "/"  }}">{{ site.title | escape }}</a>
+  <div class="navbarwrapper">
+          <nav class="navbar navbar-expand-md navbar-dark navbar-custom">
+                  {%- assign default_paths = site.pages | map: "path" -%}
+                  {%- assign page_paths = site.header_pages | default: default_paths -%}
+                  <a class="navbar-brand"href="{{ "/"  }}">{{ site.title | escape }}</a>
 
-                    {%- if page_paths -%}
-                    
-          <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
-              <span class="navbar-toggler-icon"></span>
-          </button>
-          {%- for path in page_paths -%}
-                  {%- assign my_page = site.pages | where: "path", path | first -%}
-                  {%- if my_page.title -%}
-      
-          <div class="collapse navbar-collapse" id="navbarCollapse">
-              <div class="navbar-nav">
+                 
+                  
+        <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        
+    
+        <div class="collapse navbar-collapse" id="navbarCollapse">
+            <div class="navbar-nav">
+              
+              <a href="{{ "/"  }}" class="nav-item nav-link active">Home</a>
                 
-                <a href="{{ "/"  }}" class="nav-item nav-link active">Home</a>
-                  
-                  <a class="nav-item nav-link" style="color: white;" href="{{ my_page.url | relative_url }}">{{ my_page.title | escape }}</a>
-                  
-                  {%- endif -%}
-                {%- endfor -%}
-                <a class="nav-item nav-link" href="https://njdev.js.org/" style="text-decoration: none; color:white;">Dev</a>            
-              </div>
-          </div>
-      </nav>
-  
-      {%- endif -%}
-    </div>
-  </header>
-  
+                <a class="nav-item nav-link" style="color: white;" href="/about/">About</a>
+                
+               
+              <a class="nav-item nav-link" href="https://njdev.js.org/" style="text-decoration: none; color:white;">Dev</a>            
+            </div>
+        </div>
+    </nav>
+
+    
+  </div>
+</header>

@@ -12,22 +12,32 @@ layout: default
   {%- if site.posts.size > 0 -%}
     <h2 class="post-list-heading">{{ page.list_title | default: "Latests Posts" }}</h2>
     <ul class="post-list">
-      {%- for post in site.posts -%}
+      {% for post in paginator.posts %}
       <li>
-        {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
-        <span class="post-meta">{{ post.date | date: date_format }}</span>
-        <h3>
-          <a style="text-decoration: none;" class="post-link" href="{{ post.url | relative_url }}">
-            {{ post.title | escape }}
-          </a>
-        </h3>
-        {%- if site.show_excerpts -%}
-          {{ post.excerpt }}
-        {%- endif -%}
+        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
+
+        <h2>
+          <a class="post-link" href="{{ post.url | relative_url }}">{{ post.title | escape }}</a>
+        </h2>
       </li>
-      {%- endfor -%}
+    {% endfor %}
     </ul>
 
+
+    {% if paginator.total_pages > 1 %}
+    <div class="pager">
+        {% if paginator.previous_page %}
+        <p class="previous">
+            <a style="text-decoration: none; color: black;" href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}">&larr; Newer Posts</a>
+        </p>
+        {% endif %}
+        {% if paginator.next_page %}
+        <p class="next">
+            <a style="text-decoration: none; color: black;" href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}">Older Posts &rarr;</a>
+        </p>
+        {% endif %}
+      </div>
+    {% endif %}
   {%- endif -%}
   {% include search-lunr.html %}
 
