@@ -13,7 +13,7 @@ gem 'jquery-rails'
 gem 'font-awesome-less'
 gem 'font-awesome-sass'
 gem "nokogiri", ">= 1.10.9"
-gem 'kramdown', '~> 2.2', '>= 2.2.1'
+
 
 # This is the default theme for new Jekyll sites. You may change this to anything you like.
 gem "minima", "~> 2.5"

@@ -162,7 +162,6 @@ DEPENDENCIES
   jekyll-feed (~> 0.12)
   jekyll-paginate-v2 (~> 3.0)
   jquery-rails
-  kramdown (~> 2.2, >= 2.2.1)
   minima (~> 2.5)
   nokogiri (>= 1.10.9)
   tzinfo (~> 1.2)
