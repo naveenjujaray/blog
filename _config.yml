@@ -36,28 +36,15 @@ linkedin_username:  naveenjujaray
 google_analytics: UA-167230559-1
 
 
-gems:
-  - jekyll-paginate-v2
-pagination: 
-  enabled: true
-  per_page: 3
-  permalink: '/:num'
-  title: 'NJ Blog'
-  limit: 5000000000000
-  sort_field: 'date'
-  sort_reverse: true # The number of links after the current page
-  extension: html
-  indexpage: 'index'
+paginate: 2
 
-
-autopages:
-  enabled: false
 # Build settings
 env: production
 theme: minima
 plugins:
   - jekyll-feed
-  - jekyll-paginate-v2
+  - jekyll-paginate
+
 
 # Exclude from processing.
 # The following items will not be processed, by default.
