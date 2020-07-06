@@ -36,7 +36,7 @@ linkedin_username:  naveenjujaray
 google_analytics: UA-167230559-1
 
 
-paginate: 3
+paginate: 10
 paginate_path: "/page:num"
 
 # Build settings
