@@ -1,3 +1,0 @@
-I"<p>After I started a blog, as described in <a href="https://njblog.onrender.com/jekyll/update/2020/06/29/Build-A-Blog-Using-Jekyll.html">this</a> post, I felt it would be cool to convert the author name shown on top of each post to a link to the <code class="language-plaintext highlighter-rouge">about</code> page. This was a minor change, but it required me to customize <code class="language-plaintext highlighter-rouge">minima</code> theme’s <code class="language-plaintext highlighter-rouge">post</code> layout.</p>
-
-:ET
