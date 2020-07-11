@@ -1,674 +1,6 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.1.1">Jekyll</generator><link href="https://njblog.js.org/feed.xml" rel="self" type="application/atom+xml" /><link href="https://njblog.js.org/" rel="alternate" type="text/html" /><updated>2020-07-07T08:32:03+05:30</updated><id>https://njblog.js.org/feed.xml</id><title type="html">NJ Blog</title><subtitle>Naveen Jujaray</subtitle><author><name>Naveen Jujaray</name></author><entry><title type="html">Current tools against state’s Internet-blocking for censorship</title><link href="https://njblog.js.org/censorship-2020" rel="alternate" type="text/html" title="Current tools against state’s Internet-blocking for censorship" /><published>2020-07-05T19:41:03+05:30</published><updated>2020-07-05T19:41:03+05:30</updated><id>https://njblog.js.org/censorship2020</id><content type="html" xml:base="https://njblog.js.org/censorship-2020">&lt;p&gt;There is a resurgence of draconian State &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;blocking/slowdowns of Internet&lt;/code&gt; in Turkey, Egypt, Iraq and elsewhere, with Iraq at the time of writing passing the 104th hour of blackout due to ongoing protests &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;against government&lt;/code&gt; corruption, Egypt having over &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;500&lt;/code&gt; news/rights/etc websites known &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;blocked&lt;/code&gt; and Turkey e.g. habitually ordering hundreds of State-takedowns monthly with &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;major knowledge&lt;/code&gt; and &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;culture treasures&lt;/code&gt; of &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;humankind&lt;/code&gt; such as &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Wikipedia&lt;/code&gt; being completely &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;banned&lt;/code&gt; for almost &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;900 days&lt;/code&gt; now.&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.5">Jekyll</generator><link href="http://localhost:4000/mundana-theme-jekyll/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/mundana-theme-jekyll/" rel="alternate" type="text/html" /><updated>2020-07-11T23:03:18+05:30</updated><id>http://localhost:4000/mundana-theme-jekyll/feed.xml</id><title type="html">Mundana</title><subtitle>Mundana is a free Jekyll theme for awesome people like you, Medium like.</subtitle><entry><title type="html">Welcome to Jekyll!</title><link href="http://localhost:4000/mundana-theme-jekyll/welcome-to-jekyll/" rel="alternate" type="text/html" title="Welcome to Jekyll!" /><published>2019-02-04T00:00:00+05:30</published><updated>2019-02-04T00:00:00+05:30</updated><id>http://localhost:4000/mundana-theme-jekyll/welcome-to-jekyll</id><content type="html" xml:base="http://localhost:4000/mundana-theme-jekyll/welcome-to-jekyll/">&lt;p&gt;You’ll find this post in your &lt;code class=&quot;highlighter-rouge&quot;&gt;_posts&lt;/code&gt; directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run &lt;code class=&quot;highlighter-rouge&quot;&gt;jekyll serve&lt;/code&gt;, which launches a web server and auto-regenerates your site when a file is updated.&lt;/p&gt;
 
-&lt;h2 id=&quot;these-free-of-cost-options-have-been-verified-with-people-in-current-state-censorshipblocking-as-working-recently&quot;&gt;These free of cost options have been verified with people IN current State censorship/blocking as working recently:&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;https://protonvpn.com&quot;&gt;ProtonVPN&lt;/a&gt; has a free of cost mode that should be more than enough for any average user and is motivated by anti-censorship. Works on &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Linux/Windows/Android/Routers/MacOS/iPhone/iPad.&lt;/code&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://riseup.net/en/vpn&quot;&gt;RiseupVPN&lt;/a&gt;, the newish &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Bitmask-based VPN&lt;/code&gt; which was previously named Riseup Black.&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://calyx.net&quot;&gt;Calyx VPN&lt;/a&gt; is similar to RiseupVPN, with same technologies but &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;different addresses&lt;/code&gt;, so may be useful if Riseup has already been blocked.&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.torproject.org/download/&quot;&gt;Tor Browser&lt;/a&gt; Also other &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Tor-based&lt;/code&gt; solutions like &lt;a href=&quot;https://tails.boum.org/&quot;&gt;Tails&lt;/a&gt; and &lt;a href=&quot;https://www.whonix.org&quot;&gt;Whonix&lt;/a&gt; of course, but Tor Browser is a good cross-platform start. Tor is however a &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;bit slow&lt;/code&gt; and triggers so many CAPTCHAs that use may even become practically impossible.&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://warp.plus/1erv&quot;&gt;WARP&lt;/a&gt; the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;new VPN&lt;/code&gt; from &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;CloudFlare&lt;/code&gt;. May be difficult for dictatorships to block, as CloudFlare is (unfortunately) a core component of extremely many major &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;commercial/government&lt;/code&gt; web-based services nowadays.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;for-local-messaging-whenif-internet-service-providers-isps-shut-down-networking-completely&quot;&gt;For local messaging when/if Internet Service Providers (ISPs) shut down networking completely:&lt;/h2&gt;
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;https://briarproject.org/&quot;&gt;Briar&lt;/a&gt; has been shown to work.&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.opengarden.com/firechat/&quot;&gt;FireChat&lt;/a&gt; claims to fill a similar function, but I have not had it verified as working there, now.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;instant-messaging-tools-with-high-level-of-general-trust-but-which-require-centralized-infrastructure-to-work&quot;&gt;Instant-messaging tools with high level of general trust, but which require centralized infrastructure to work:&lt;/h2&gt;
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;https://signal.org/&quot;&gt;Signal&lt;/a&gt; Works on most computers and phones, but uses mobile phone numbers as user identifiers, which are &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;easily traceable&lt;/code&gt; by any State and relies on &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;centralized servers&lt;/code&gt; for message delivery. &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Open source&lt;/code&gt;.&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://wire.com/&quot;&gt;Wire&lt;/a&gt; Like above, based on same protocol, but uses e-mail addresses as user identifiers and therefore is much more &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;difficult&lt;/code&gt; to trace, as &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;temporary/dedicated e-mail&lt;/code&gt; accounts can be used. Open source.&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://wickr.com/&quot;&gt;Wickr&lt;/a&gt; Similar to above. Very &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;limited&lt;/code&gt; open source.&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://silence.im/&quot;&gt;Silence&lt;/a&gt; Completely &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;SMS-based encryption&lt;/code&gt;, as Signal was, developed from Signal’s old source code. Useful when there is no mobile data-traffic, but only SMS. Open source.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;other-internet-blockingslowdown-circumvention-tools-that-i-havent-verified-to-be-working-right-now-but-may-be-good-to-keep-in-mind-if-the-previous-stop-working-not-an-endorsement-make-sure-to-check-anonymization-logging-state-collaboration-etc-as-needed-before-use&quot;&gt;Other Internet-blocking/slowdown circumvention tools that I haven’t verified to be working right now, but may be good to keep in mind if the previous stop working (Not an endorsement. Make sure to check anonymization, logging, State-collaboration, etc as needed before use):&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;https://asl19.org/ar/outline/&quot;&gt;Mada19 Outline&lt;/a&gt; in &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Arabic&lt;/code&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.vpnbook.com/&quot;&gt;VPNBook&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;The “&lt;a href=&quot;https://cryptostorm.is/cryptofree&quot;&gt;cryptofree&lt;/a&gt;” or “&lt;a href=&quot;https://cryptostorm.is/wireguard&quot;&gt;cryptofree WireGuard&lt;/a&gt;” by the generally well regarded cryptostorm.&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://getlantern.org/&quot;&gt;Lantern&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.psiphon3.com/&quot;&gt;Psiphon&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://hola.org/&quot;&gt;Hola&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;As the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;State&lt;/code&gt; combines the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;blockings/slowdowns&lt;/code&gt; with arbitrary &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;physical searches of people&lt;/code&gt; in the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;streets&lt;/code&gt; and in &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;homes&lt;/code&gt;, wherein finding one of the above mentioned tools leads to arrest, it is probably a good idea to hide their presence.
-&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;For Android,&lt;/code&gt; the two first methods &lt;a href=&quot;https://www.youtube.com/watch?v=TqXxldVqUMg&quot;&gt;here for example&lt;/a&gt; may work well.&lt;/p&gt;
-
-&lt;p&gt;Documents, videos, software installers, etc can be hidden in &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;encrypted&lt;/code&gt; container-files and then placing those files in some obscure place that would not likely be inspected during a regular search, such as in a different program’s data-directories and similar.
-&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Encrypted&lt;/code&gt; container-files can be created and opened using &lt;a href=&quot;https://www.veracrypt.fr/en/Home.html&quot;&gt;VeraCrypt&lt;/a&gt; (almost all desktop/laptop computers) or &lt;a href=&quot;http://www.sovworks.com/&quot;&gt;EDS&lt;/a&gt; (Android).&lt;/p&gt;
-
-&lt;p&gt;Using well known functions like &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;“Samsung Secure Folder”&lt;/code&gt; or similar from other major manufacturers is probably NOT a good idea, as they are well known enough to have had passwords demanded during arbitrary searches.&lt;/p&gt;
-
-&lt;p&gt;As a probably last resort, there is an analog modem number still up in Sweden, which I have not verified myself due to lack of hardware, but a modem answers and using it did work last I heard.
-&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Sweden modem phone number: +46708671911 (username “toto”, password “toto”)&lt;/code&gt;&lt;/p&gt;
-
-&lt;p&gt;Two more analog modem phone numbers that I have not verified at all if they still work are:
-&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;The Netherlands modem phone number: +31205350535 (username “xs4all”, password “xs4all”)&lt;/code&gt;
-&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;France modem phone number: +33172890150 (username “toto”, password “toto”)&lt;/code&gt;&lt;/p&gt;
-
-&lt;p&gt;Last, to state the obvious:
-Absolutely &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;do NOT rely on&lt;/code&gt; &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Facebook&lt;/code&gt; (which is also e.g. &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;WhatsApp&lt;/code&gt; and &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Instagram&lt;/code&gt;) for dictatorship-banned communications, as they have cooperated with dictatorships’ &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;“lawful court orders”&lt;/code&gt; in the past leading to capture, torture and/or executions, at least in Syria therefore presumably also elsewhere and furthermore publicly admitted to being co-responsible for genocide and enabling imprisonment of people for being homosexual through silent automated &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;“interests”&lt;/code&gt; categorization being used as court evidence.
-Better platforms to consider are for example &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Riseup’s&lt;/code&gt; &lt;a href=&quot;https://we.riseup.net/&quot;&gt;Crabgrass&lt;/a&gt;, &lt;a href=&quot;https://joinmastodon.org/&quot;&gt;Mastodon&lt;/a&gt; and &lt;a href=&quot;https://joinpeertube.org/&quot;&gt;PeerTube&lt;/a&gt;.&lt;/p&gt;</content><author><name>Naveen Jujaray</name></author><category term="censorship" /><summary type="html">There is a resurgence of draconian State blocking/slowdowns of Internet in Turkey, Egypt, Iraq and elsewhere, with Iraq at the time of writing passing the 104th hour of blackout due to ongoing protests against government corruption, Egypt having over 500 news/rights/etc websites known blocked and Turkey e.g. habitually ordering hundreds of State-takedowns monthly with major knowledge and culture treasures of humankind such as Wikipedia being completely banned for almost 900 days now.</summary></entry><entry><title type="html">How to install Flutter</title><link href="https://njblog.js.org/flutterinstall" rel="alternate" type="text/html" title="How to install Flutter" /><published>2020-07-01T19:41:03+05:30</published><updated>2020-07-01T19:41:03+05:30</updated><id>https://njblog.js.org/flutter-install</id><content type="html" xml:base="https://njblog.js.org/flutterinstall">&lt;p&gt;Select the operating system on which you are installing Flutter:&lt;br /&gt;
-&lt;a href=&quot;https://flutter.dev/docs/get-started/install/windows&quot;&gt;windows&lt;/a&gt; &lt;i class=&quot;fab fa-windows&quot;&gt;&lt;/i&gt;    &lt;a href=&quot;https://flutter.dev/docs/get-started/install/macos&quot;&gt;MacOS&lt;/a&gt; &lt;i class=&quot;fab fa-apple&quot;&gt;&lt;/i&gt;    &lt;a href=&quot;https://flutter.dev/docs/get-started/install/linux&quot;&gt;Linux&lt;/a&gt; &lt;i class=&quot;fab fa-linux&quot;&gt;&lt;/i&gt;&lt;/p&gt;
-
-&lt;h2 id=&quot;for-windows&quot;&gt;For Windows&lt;/h2&gt;
-&lt;h3 id=&quot;system-requirements&quot;&gt;System requirements&lt;/h3&gt;
-&lt;p&gt;To install and run Flutter, your development environment must meet these minimum requirements:&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;&lt;strong&gt;Operating Systems:&lt;/strong&gt; Windows 7 SP1 or later (64-bit)&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;Disk Space:&lt;/strong&gt; 400 MB (does not include disk space for IDE/tools).&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;Tools:&lt;/strong&gt; Flutter depends on these tools being available in your environment.
-    &lt;ul&gt;
-      &lt;li&gt;&lt;a href=&quot;https://docs.microsoft.com/en-us/powershell/scripting/install/installing-windows-powershell&quot;&gt;Windows PowerShell 5.0&lt;/a&gt; or newer (this is pre-installed with Windows 10)&lt;/li&gt;
-      &lt;li&gt;
-        &lt;p&gt;&lt;a href=&quot;https://git-scm.com/download/win&quot;&gt;Git for Windows&lt;/a&gt; 2.x, with the &lt;strong&gt;Use Git from the Windows Command Prompt&lt;/strong&gt; option.&lt;/p&gt;
-
-        &lt;p&gt;If Git for Windows is already installed, make sure you can run &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;git&lt;/code&gt; commands from the command prompt or PowerShell.&lt;/p&gt;
-      &lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&quot;get-the-flutter-sdk&quot;&gt;Get the Flutter SDK&lt;/h3&gt;
-&lt;ul&gt;
-  &lt;li&gt;Download the following installation bundle to get the latest stable release of the Flutter SDK:
- For &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;other release channels&lt;/code&gt;, and &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;older builds&lt;/code&gt;, see the &lt;a href=&quot;https://flutter.dev/docs/development/tools/sdk/archive&quot;&gt;SDK archive&lt;/a&gt; page.&lt;/li&gt;
-  &lt;li&gt;Extract the zip file and place the contained flutter in the desired installation location for the Flutter SDK (for example, &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;C:\src\flutter;&lt;/code&gt; do not install Flutter in a directory like &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;C:\Program Files\&lt;/code&gt; that requires elevated privileges).&lt;/li&gt;
-  &lt;li&gt;If you don’t want to install a fixed version of the installation bundle, you can &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;skip&lt;/code&gt; steps 1 and 2. Instead, get the source code from the &lt;a href=&quot;https://github.com/flutter/flutter&quot;&gt;Flutter repo&lt;/a&gt; on GitHub, and change branches or tags as needed. For example:&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;n&quot;&gt;git&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;clone&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;https&lt;/span&gt;&lt;span class=&quot;ss&quot;&gt;:/&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;github&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;com&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;flutter&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;flutter&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;git&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;b&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;stable&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
-
-&lt;p&gt;You are now ready to run Flutter commands in the Flutter Console.&lt;/p&gt;
-&lt;h3 id=&quot;update-your-path&quot;&gt;Update your path&lt;/h3&gt;
-&lt;p&gt;If you wish to run Flutter commands in the regular Windows console, take these steps to add Flutter to the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;PATH&lt;/code&gt; environment variable:&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;From the Start search bar, enter ‘env’ and select &lt;strong&gt;Edit environment variables for your account&lt;/strong&gt;.&lt;/li&gt;
-  &lt;li&gt;Under &lt;strong&gt;User variables&lt;/strong&gt; check if there is an entry called &lt;strong&gt;Path&lt;/strong&gt;:
-    &lt;ul&gt;
-      &lt;li&gt;If the entry exists, append the full path to &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;flutter\bin&lt;/code&gt; using ; as a separator from existing values.&lt;/li&gt;
-      &lt;li&gt;If the entry doesn’t exist, create a new user variable named &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Path&lt;/code&gt; with the full path to &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;flutter\bin&lt;/code&gt; as its value.
-&lt;br /&gt;&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;You have to close and reopen any existing console windows for these changes to take effect.&lt;/p&gt;
-
-&lt;h3 id=&quot;run-flutter-doctor&quot;&gt;Run flutter doctor&lt;/h3&gt;
-&lt;p&gt;From a console window that has the Flutter directory in the path (see above), run the following command to see if there are any platform dependencies you need to complete the setup:&lt;/p&gt;
-
-&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;no&quot;&gt;C&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:\&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;src&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;\&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;flutter&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;gt;&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;flutter&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;doctor&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
-
-&lt;p&gt;This command checks your environment and displays a report of the status of your Flutter installation. Check the output carefully for other software you might need to install or further tasks to perform (shown in X mark).&lt;/p&gt;
-
-&lt;p&gt;For example:&lt;/p&gt;
-
-&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;Android&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;toolchain&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;-&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;develop&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;for&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;Android&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;devices&lt;/span&gt;
-    &lt;span class=&quot;err&quot;&gt;•&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;Android&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;SDK&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;at&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;D&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:\&lt;/span&gt;&lt;span class=&quot;no&quot;&gt;Android&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;\&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;sdk&lt;/span&gt;
-    &lt;span class=&quot;err&quot;&gt;✗&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;Android&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;SDK&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;is&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;missing&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;command&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;line&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;tools&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;download&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;from&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;https&lt;/span&gt;&lt;span class=&quot;ss&quot;&gt;:/&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;goo&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;gl&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;no&quot;&gt;XxQghQ&lt;/span&gt;
-    &lt;span class=&quot;err&quot;&gt;•&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;Try&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;re&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;installing&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;or&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;updating&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;your&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;Android&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;SDK&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
-      &lt;span class=&quot;n&quot;&gt;visit&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;https&lt;/span&gt;&lt;span class=&quot;ss&quot;&gt;:/&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;flutter&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;dev&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;setup&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;c1&quot;&gt;#android-setup for detailed instructions.&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
-
-&lt;h2 id=&quot;for-macos&quot;&gt;For MacOS&lt;/h2&gt;
-&lt;p&gt;To install and run Flutter, your development environment must meet these minimum requirements:&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;strong&gt;Operating Systems:&lt;/strong&gt; macOS (64-bit)&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;Disk Space:&lt;/strong&gt; 2.8 GB (does not include disk space for IDE/tools).&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;Tools:&lt;/strong&gt; Flutter depends on these command-line tools being available in your environment.
-    &lt;ul&gt;
-      &lt;li&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;bash&lt;/code&gt;&lt;/li&gt;
-      &lt;li&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;curl&lt;/code&gt;&lt;/li&gt;
-      &lt;li&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;git&lt;/code&gt; 2.x&lt;/li&gt;
-      &lt;li&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;mkdir&lt;/code&gt;&lt;/li&gt;
-      &lt;li&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;rm&lt;/code&gt;&lt;/li&gt;
-      &lt;li&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;unzip&lt;/code&gt;&lt;/li&gt;
-      &lt;li&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;which&lt;/code&gt;&lt;/li&gt;
-      &lt;li&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;zip&lt;/code&gt;&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&quot;get-the-flutter-sdk-1&quot;&gt;Get the Flutter SDK&lt;/h3&gt;
-&lt;ul&gt;
-  &lt;li&gt;Download the following installation bundle to get the latest stable release of the Flutter SDK:
-For other release channels, and older builds, see the &lt;a href=&quot;https://flutter.dev/docs/development/tools/sdk/archive&quot;&gt;SDK archive&lt;/a&gt; page.&lt;/li&gt;
-  &lt;li&gt;Extract the file in the desired location, for example:&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt; &lt;span class=&quot;err&quot;&gt;$&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;cd&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;~&lt;/span&gt;&lt;span class=&quot;sr&quot;&gt;/development
- $ unzip ~/&lt;/span&gt;&lt;span class=&quot;no&quot;&gt;Downloads&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;flutter_macos_1&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;mf&quot;&gt;17.4&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;stable&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;zip&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;If you don’t want to install a fixed version of the installation bundle, you can skip steps 1 and 2. Instead, get the source code from the &lt;a href=&quot;https://github.com/flutter/flutter&quot;&gt;Flutter repo&lt;/a&gt; on GitHub with the following command:&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;err&quot;&gt;$&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;git&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;clone&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;https&lt;/span&gt;&lt;span class=&quot;ss&quot;&gt;:/&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;github&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;com&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;flutter&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;flutter&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;git&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
-
-&lt;p&gt;You can also change branches or tags as needed. For example, to get just the stable version:&lt;/p&gt;
-
-&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;err&quot;&gt;$&lt;/span&gt;  &lt;span class=&quot;n&quot;&gt;git&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;clone&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;https&lt;/span&gt;&lt;span class=&quot;ss&quot;&gt;:/&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;github&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;com&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;flutter&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;flutter&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;git&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;b&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;stable&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;--&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;depth&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
-
-&lt;p&gt;Add the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;flutter tool&lt;/code&gt; to your path:&lt;/p&gt;
-
-&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;err&quot;&gt;$&lt;/span&gt;  &lt;span class=&quot;n&quot;&gt;export&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;PATH&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;$PATH:`pwd`/flutter/bin&quot;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
-
-&lt;p&gt;This command sets your &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;PATH&lt;/code&gt; variable for the current terminal window only. To permanently add Flutter to your path, see &lt;a href=&quot;https://flutter.dev/docs/get-started/install/macos#update-your-path&quot;&gt;Update your path&lt;/a&gt;.&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;Optionally, pre-download development binaries:&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;The flutter tool downloads platform-specific development binaries as needed. For scenarios where pre-downloading these artifacts is preferable (for example, in hermetic build environments, or with intermittent network availability), iOS and Android binaries can be downloaded ahead of time by running:&lt;/p&gt;
-
-&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;err&quot;&gt;$&lt;/span&gt;  &lt;span class=&quot;n&quot;&gt;flutter&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;precache&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
-
-&lt;p&gt;For additional download options, see &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;flutter help precache&lt;/code&gt;.&lt;/p&gt;
-
-&lt;p&gt;You are now ready to run Flutter commands!&lt;/p&gt;
-
-&lt;h3 id=&quot;run-flutter-doctor-1&quot;&gt;Run flutter doctor&lt;/h3&gt;
-
-&lt;p&gt;Run the following command to see if there are any dependencies you need to install to complete the setup (for verbose output, add the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;-v&lt;/code&gt; flag):&lt;/p&gt;
-
-&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;err&quot;&gt;$&lt;/span&gt;  &lt;span class=&quot;n&quot;&gt;flutter&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;doctor&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
-
-&lt;p&gt;This command checks your environment and displays a report to the terminal window. The Dart SDK is bundled with Flutter; it is not necessary to install Dart separately. Check the output carefully for other software you might need to install or further tasks to perform (shown in X mark).&lt;/p&gt;
-
-&lt;p&gt;For example:&lt;/p&gt;
-
-&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;Android&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;toolchain&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;-&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;develop&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;for&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;Android&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;devices&lt;/span&gt;
-    &lt;span class=&quot;err&quot;&gt;•&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;Android&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;SDK&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;at&lt;/span&gt; &lt;span class=&quot;sr&quot;&gt;/Users/o&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;biwan&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;no&quot;&gt;Library&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;no&quot;&gt;Android&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;sdk&lt;/span&gt;
-    &lt;span class=&quot;err&quot;&gt;✗&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;Android&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;SDK&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;is&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;missing&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;command&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;line&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;tools&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;download&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;from&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;https&lt;/span&gt;&lt;span class=&quot;ss&quot;&gt;:/&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;goo&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;gl&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;no&quot;&gt;XxQghQ&lt;/span&gt;
-    &lt;span class=&quot;err&quot;&gt;•&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;Try&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;re&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;installing&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;or&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;updating&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;your&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;Android&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;SDK&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
-      &lt;span class=&quot;n&quot;&gt;visit&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;https&lt;/span&gt;&lt;span class=&quot;ss&quot;&gt;:/&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;flutter&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;dev&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;setup&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;c1&quot;&gt;#android-setup for detailed instructions.&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
-
-&lt;p&gt;The following sections describe how to perform these tasks and finish the setup process.&lt;/p&gt;
-
-&lt;p&gt;Once you have installed any missing dependencies, run the flutter doctor command again to verify that you’ve set everything up correctly.&lt;/p&gt;
-
-&lt;h3 id=&quot;update-your-path-1&quot;&gt;Update your path&lt;/h3&gt;
-&lt;p&gt;You can update your PATH variable for the current session at the command line, as shown in &lt;a href=&quot;https://flutter.dev/docs/get-started/install/macos#get-sdk&quot;&gt;Get the Flutter SDK&lt;/a&gt;. You’ll probably want to update this variable permanently, so you can run &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;flutter&lt;/code&gt; commands in any terminal session.&lt;/p&gt;
-
-&lt;p&gt;The steps for modifying this variable permanently for all terminal sessions are machine-specific. Typically you add a line to a file that is executed whenever you open a new window. For example:&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;Determine the directory where you placed the Flutter SDK. You need this in Step 3.&lt;/li&gt;
-  &lt;li&gt;Open (or create) the rc file for your shell. Typing &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;echo $SHELL&lt;/code&gt; in your Terminal tells you which shell you’re using. If you’re using  Bash, edit &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;$HOME/.bash_profile&lt;/code&gt; or &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;$HOME/.bashrc.&lt;/code&gt; If you’re using Z shell, edit &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;$HOME/.zshrc&lt;/code&gt;. If you’re using a different shell, the    file path and filename will be different on your machine.&lt;/li&gt;
-  &lt;li&gt;Add the following line and change &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;PATH_TO_FLUTTER_GIT_DIRECTORY&lt;/code&gt; to be the path where you cloned Flutter’s git repo:&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;err&quot;&gt;$&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;export&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;PATH&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;$PATH:[PATH_TO_FLUTTER_GIT_DIRECTORY]/flutter/bin&quot;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Run source $HOME/.&lt;rc file=&quot;&quot;&gt; to refresh the current window, or open a new terminal window to automatically source the file.&lt;/rc&gt;&lt;/li&gt;
-  &lt;li&gt;Verify that the flutter/bin directory is now in your PATH by running:&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;err&quot;&gt;$&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;echo&lt;/span&gt; &lt;span class=&quot;vg&quot;&gt;$PATH&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
-
-&lt;p&gt;Verify that the flutter command is available by running:&lt;/p&gt;
-
-&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;err&quot;&gt;$&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;which&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;flutter&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
-
-&lt;h1 id=&quot;for-linux&quot;&gt;For LINUX&lt;/h1&gt;
-&lt;p&gt;###System requirements
-To install and run Flutter, your development environment must meet these minimum requirements:&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;strong&gt;Operating Systems:&lt;/strong&gt; Linux (64-bit)&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;Disk Space:&lt;/strong&gt; 600 MB (does not include disk space for IDE/tools).&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;Tools:&lt;/strong&gt; Flutter depends on these command-line tools being available in your environment.
-    &lt;ul&gt;
-      &lt;li&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;bash&lt;/code&gt;&lt;/li&gt;
-      &lt;li&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;curl&lt;/code&gt;&lt;/li&gt;
-      &lt;li&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;file&lt;/code&gt;&lt;/li&gt;
-      &lt;li&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;git&lt;/code&gt; 2.x&lt;/li&gt;
-      &lt;li&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;mkdir&lt;/code&gt;&lt;/li&gt;
-      &lt;li&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;rm&lt;/code&gt;&lt;/li&gt;
-      &lt;li&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;unzip&lt;/code&gt;&lt;/li&gt;
-      &lt;li&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;which&lt;/code&gt;&lt;/li&gt;
-      &lt;li&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;xz-utils&lt;/code&gt;&lt;/li&gt;
-      &lt;li&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;zip&lt;/code&gt;&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;Shared libraries:&lt;/strong&gt; Flutter &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;test&lt;/code&gt; command depends on this library being available in your environment.
-    &lt;ul&gt;
-      &lt;li&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;libGLU.so.1&lt;/code&gt; - provided by mesa packages such as &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;libglu1-mesa&lt;/code&gt; on Ubuntu/Debian
-        &lt;h3 id=&quot;get-the-flutter-sdk-2&quot;&gt;Get the Flutter SDK&lt;/h3&gt;
-      &lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;Download the following installation bundle to get the latest stable release of the Flutter SDK:
-For other release channels, and older builds, see the &lt;a href=&quot;https://flutter.dev/docs/development/tools/sdk/archive&quot;&gt;SDK archive&lt;/a&gt; page.&lt;/li&gt;
-  &lt;li&gt;Extract the file in the desired location, for example:&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;err&quot;&gt;$&lt;/span&gt;  &lt;span class=&quot;n&quot;&gt;cd&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;~&lt;/span&gt;&lt;span class=&quot;sr&quot;&gt;/development
-$  tar xf ~/&lt;/span&gt;&lt;span class=&quot;no&quot;&gt;Downloads&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;flutter_linux_1&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;mf&quot;&gt;17.4&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;stable&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;tar&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;xz&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
-
-&lt;p&gt;If you don’t want to install a fixed version of the installation bundle, you can skip steps 1 and 2. Instead, get the source code from the &lt;a href=&quot;https://github.com/flutter/flutter&quot;&gt;Flutter repo&lt;/a&gt; on GitHub with the following command:&lt;/p&gt;
-
-&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;err&quot;&gt;$&lt;/span&gt;  &lt;span class=&quot;n&quot;&gt;git&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;clone&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;https&lt;/span&gt;&lt;span class=&quot;ss&quot;&gt;:/&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;github&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;com&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;flutter&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;flutter&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;git&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
-
-&lt;p&gt;You can also change branches or tags as needed. For example, to get just the stable version:&lt;/p&gt;
-
-&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;err&quot;&gt;$&lt;/span&gt;  &lt;span class=&quot;n&quot;&gt;git&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;clone&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;https&lt;/span&gt;&lt;span class=&quot;ss&quot;&gt;:/&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;github&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;com&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;flutter&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;flutter&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;git&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;b&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;stable&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;--&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;depth&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Add the flutter tool to your path:&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;err&quot;&gt;$&lt;/span&gt;  &lt;span class=&quot;n&quot;&gt;export&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;PATH&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;$PATH:`pwd`/flutter/bin&quot;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
-
-&lt;p&gt;This command sets your PATH variable for the current terminal window only. To permanently add Flutter to your path, see &lt;a href=&quot;https://flutter.dev/docs/get-started/install/macos#update-your-path&quot;&gt;Update your path&lt;/a&gt;.&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;Optionally, pre-download development binaries:&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;The &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;flutter&lt;/code&gt; tool downloads platform-specific development binaries as needed. For scenarios where pre-downloading these artifacts is preferable (for example, in hermetic build environments, or with intermittent network availability), iOS and Android binaries can be downloaded ahead of time by running:&lt;/p&gt;
-
-&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;err&quot;&gt;$&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;flutter&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;precache&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
-
-&lt;p&gt;For additional download options, see &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;flutter help precache.&lt;/code&gt;&lt;/p&gt;
-
-&lt;p&gt;You are now ready to run Flutter commands!&lt;/p&gt;
-&lt;h3 id=&quot;run-flutter-doctor-2&quot;&gt;Run flutter doctor&lt;/h3&gt;
-
-&lt;p&gt;Run the following command to see if there are any dependencies you need to install to complete the setup (for verbose output, add the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;-v&lt;/code&gt; flag):&lt;/p&gt;
-
-&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;err&quot;&gt;$&lt;/span&gt;  &lt;span class=&quot;n&quot;&gt;flutter&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;doctor&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
-
-&lt;p&gt;This command checks your environment and displays a report to the terminal window. The Dart SDK is bundled with Flutter; it is not necessary to install Dart separately. Check the output carefully for other software you might need to install or further tasks to perform (shown in X mark).&lt;/p&gt;
-
-&lt;p&gt;For example:&lt;/p&gt;
-
-&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;Android&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;toolchain&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;-&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;develop&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;for&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;Android&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;devices&lt;/span&gt;
-    &lt;span class=&quot;err&quot;&gt;•&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;Android&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;SDK&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;at&lt;/span&gt; &lt;span class=&quot;sr&quot;&gt;/Users/o&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;biwan&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;no&quot;&gt;Library&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;no&quot;&gt;Android&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;sdk&lt;/span&gt;
-    &lt;span class=&quot;err&quot;&gt;✗&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;Android&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;SDK&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;is&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;missing&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;command&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;line&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;tools&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;download&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;from&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;https&lt;/span&gt;&lt;span class=&quot;ss&quot;&gt;:/&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;goo&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;gl&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;no&quot;&gt;XxQghQ&lt;/span&gt;
-    &lt;span class=&quot;err&quot;&gt;•&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;Try&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;re&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;installing&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;or&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;updating&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;your&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;Android&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;SDK&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
-      &lt;span class=&quot;n&quot;&gt;visit&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;https&lt;/span&gt;&lt;span class=&quot;ss&quot;&gt;:/&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;flutter&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;dev&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;setup&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;c1&quot;&gt;#android-setup for detailed instructions.&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
-
-&lt;p&gt;The following sections describe how to perform these tasks and finish the setup process.&lt;/p&gt;
-
-&lt;p&gt;Once you have installed any missing dependencies, run the flutter doctor command again to verify that you’ve set everything up correctly.&lt;/p&gt;
-&lt;h3 id=&quot;update-your-path-2&quot;&gt;Update your path&lt;/h3&gt;
-&lt;p&gt;You can update your PATH variable for the current session at the command line, as shown in &lt;a href=&quot;https://flutter.dev/docs/get-started/install/macos#get-sdk&quot;&gt;Get the Flutter SDK&lt;/a&gt;. You’ll probably want to update this variable permanently, so you can run &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;flutter&lt;/code&gt; commands in any terminal session.&lt;/p&gt;
-
-&lt;p&gt;The steps for modifying this variable permanently for all terminal sessions are machine-specific. Typically you add a line to a file that is executed whenever you open a new window. For example:&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Determine the directory where you placed the Flutter SDK. You need this in Step 3.&lt;/li&gt;
-  &lt;li&gt;Open (or create) the rc file for your shell. For example, Linux uses the Bash shell by default, so edit &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;$HOME/.bashrc&lt;/code&gt;. If you are using a different shell, the file path and filename will be different on your machine.&lt;/li&gt;
-  &lt;li&gt;Add the following line and change &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;PATH_TO_FLUTTER_GIT_DIRECTORY&lt;/code&gt; to be the path where you cloned Flutter’s git repo:&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;err&quot;&gt;$&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;export&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;PATH&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;$PATH:[PATH_TO_FLUTTER_GIT_DIRECTORY]/flutter/bin&quot;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Run source &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;$HOME/.&amp;lt;rc file&amp;gt;&lt;/code&gt; to refresh the current window, or open a new terminal window to automatically source the file.&lt;/li&gt;
-  &lt;li&gt;Verify that the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;flutter/bin&lt;/code&gt; directory is now in your PATH by running:&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;err&quot;&gt;$&lt;/span&gt;  &lt;span class=&quot;n&quot;&gt;echo&lt;/span&gt; &lt;span class=&quot;vg&quot;&gt;$PATH&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
-
-&lt;p&gt;Verify that the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;flutter&lt;/code&gt; command is available by running:&lt;/p&gt;
-
-&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;err&quot;&gt;$&lt;/span&gt;  &lt;span class=&quot;n&quot;&gt;which&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;flutter&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;</content><author><name>Naveen Jujaray</name></author><category term="jekyll" /><category term="update" /><summary type="html">Select the operating system on which you are installing Flutter: windows MacOS Linux</summary></entry><entry><title type="html">Jekyll Minima Theme - A Few Settings</title><link href="https://njblog.js.org/minimathemesettings" rel="alternate" type="text/html" title="Jekyll Minima Theme - A Few Settings" /><published>2020-06-30T16:00:03+05:30</published><updated>2020-06-30T16:00:03+05:30</updated><id>https://njblog.js.org/jekyll-minima-theme-a-few-settings</id><content type="html" xml:base="https://njblog.js.org/minimathemesettings">&lt;p&gt;This post is a follow-up of my earlier post about building a jekyll site.&lt;/p&gt;
-
-&lt;p&gt;In this post, I will describe a few things that I modified on my site. For example, the footer show site title twice, I add a &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;_config.yml&lt;/code&gt; setting to show blog author name instead of one of the site titles.&lt;/p&gt;
-
-&lt;h2&gt;Add site description&lt;/h2&gt;
-&lt;p&gt;The blog site that you deployed earlier (as described in the post referenced above) should look pretty good, but we can make a few quick improvements to make it look even better.&lt;/p&gt;
-
-&lt;p&gt;Add a variable &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;description&lt;/code&gt; to your &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;_config.yml&lt;/code&gt; and set its value to a short description of your site.&lt;/p&gt;
-
-&lt;p&gt;&lt;b&gt;_config.yml&lt;/b&gt;&lt;/p&gt;
-
-&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;ss&quot;&gt;description: &lt;/span&gt;&lt;span class=&quot;no&quot;&gt;This&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;blog&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;includes&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;posts&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;related&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;to&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;topic&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;A&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;topic&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;B&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;and&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;topic&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;C&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
-
-&lt;p&gt;Try in browser. The description now displays in footer.&lt;/p&gt;
-
-&lt;h2&gt;Modify title above list of posts&lt;/h2&gt;
-&lt;p&gt;On the Home/Index page, the list of posts are preceded by a title “Posts”. You can change it to a different title. Suppose, you want the title to be “Latest Posts”. This is easily achieved by adding a variable to &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;index.html&lt;/code&gt;’s front matter:&lt;/p&gt;
-
-&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;o&quot;&gt;---&lt;/span&gt;
-&lt;span class=&quot;ss&quot;&gt;layout: &lt;/span&gt;&lt;span class=&quot;n&quot;&gt;home&lt;/span&gt;
-&lt;span class=&quot;ss&quot;&gt;list_title: &lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;Latest Posts&quot;&lt;/span&gt;
-&lt;span class=&quot;o&quot;&gt;---&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
-
-&lt;p&gt;Try in browser. The Home page displays “Latest Posts” as the title above list of posts.&lt;/p&gt;
-
-&lt;h2&gt;Add github, twitter and rss links to footer&lt;/h2&gt;
-&lt;p&gt;Github, Twitter and RSS links can be added to footer by simply setting variables in &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;_config.yml&lt;/code&gt;.&lt;/p&gt;
-
-&lt;p&gt;The link to RSS feed is already displayed at the end of list of posts on the Home page. But adding a variable in &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;_config.yml&lt;/code&gt; and setting it to just &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;rss&lt;/code&gt; also adds a link in the footer.&lt;/p&gt;
-
-&lt;p&gt;&lt;b&gt;_config.yml&lt;/b&gt;&lt;/p&gt;
-
-&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;ss&quot;&gt;github_username: &lt;/span&gt;&lt;span class=&quot;n&quot;&gt;your_github_username&lt;/span&gt;
-&lt;span class=&quot;ss&quot;&gt;twitter_username: &lt;/span&gt;&lt;span class=&quot;n&quot;&gt;your_twitter_username&lt;/span&gt;
-&lt;span class=&quot;ss&quot;&gt;rss: &lt;/span&gt;&lt;span class=&quot;n&quot;&gt;rss&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
-
-&lt;p&gt;Try in browser. Github, Twitter and RSS links are displayed nicely stacked in the footer.&lt;/p&gt;
-
-&lt;h2&gt;Modify footer to display blog author name&lt;/h2&gt;
-&lt;p&gt;Now the setting that I mentioned at the beginning of this post - displaying blog author name in the footer, instead of displaying site title twice.&lt;/p&gt;
-
-&lt;p&gt;The Minima theme displays the site title a second time, because it looks for site &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;author&lt;/code&gt; variable and if the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;author&lt;/code&gt; variable is not present it uses &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;title&lt;/code&gt; variable as default value.&lt;/p&gt;
-
-&lt;p&gt;So, to make this changes, you can simply add &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;author&lt;/code&gt; variable to &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;_config.yml&lt;/code&gt;.&lt;/p&gt;
-
-&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;ss&quot;&gt;author: &lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;Blog Author&quot;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
-
-&lt;p&gt;Try in browser. Footer should now display blog author name instead of site title be displayed a second time.&lt;/p&gt;
-
-&lt;h2&gt;Google Analytics&lt;/h2&gt;
-&lt;p&gt;You can add Google analytics to your site by adding the following setting to &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;_config.yml&lt;/code&gt;:&lt;/p&gt;
-
-&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;ss&quot;&gt;google_analytics: &lt;/span&gt;&lt;span class=&quot;no&quot;&gt;UA&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;no&quot;&gt;XXXXXXXX&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;no&quot;&gt;X&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;</content><author><name>Naveen Jujaray</name></author><category term="jekyll" /><category term="update" /><summary type="html">This post is a follow-up of my earlier post about building a jekyll site.</summary></entry><entry><title type="html">Customizing A Jekyll Theme Layout</title><link href="https://njblog.js.org/customizejekyll" rel="alternate" type="text/html" title="Customizing A Jekyll Theme Layout" /><published>2020-06-30T06:00:03+05:30</published><updated>2020-06-30T06:00:03+05:30</updated><id>https://njblog.js.org/Customizing-A-Jekyll-Theme</id><content type="html" xml:base="https://njblog.js.org/customizejekyll">&lt;p&gt;After I started a blog, as described in &lt;a href=&quot;https://njblog.onrender.com/jekyll/update/2020/06/29/Build-A-Blog-Using-Jekyll.html&quot;&gt;this&lt;/a&gt; post, I felt it would be cool to convert the author name shown on top of each post to a link to the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;about&lt;/code&gt; page. This was a minor change, but it required me to customize &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;minima&lt;/code&gt; theme’s &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;post&lt;/code&gt; layout.&lt;/p&gt;
-
-&lt;p&gt;I describe the steps that I used to customize &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;minima’&lt;/code&gt;s &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;post.html&lt;/code&gt; layout in this post.&lt;/p&gt;
-&lt;h2&gt;Customizing theme files&lt;/h2&gt;
-
-&lt;p&gt;You can modify a jekyll theme’s functionality by copying a specific file from theme gem and then modifying it. Jekyll uses local files of the same name to override the theme behavior. In addition, the local folder name has to be identical to the folder name in gem where you copied the file from.&lt;/p&gt;
-
-&lt;h2&gt;Create a folder in your site root directory&lt;/h2&gt;
-&lt;p&gt;Since you are modifying the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;post&lt;/code&gt; layout, you need create a copy of the file in your local site. You need the following steps:&lt;/p&gt;
-
-&lt;p&gt;In the root directory of the site, create a &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;_layouts&lt;/code&gt; directory:&lt;/p&gt;
-
-&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;err&quot;&gt;$&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;mkdir&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;_layouts&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
-
-&lt;h2&gt;Locate minima gem’s post.html on your computer&lt;/h2&gt;
-&lt;p&gt;You need to determine where Ruby gems are stored on your computer.&lt;/p&gt;
-
-&lt;p&gt;You can figure out Ruby gem folder location by running the command &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;gem environment&lt;/code&gt; and looking for the value of &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;INSTALLATION DIRECTORY&lt;/code&gt; field. The command output should look something like:&lt;/p&gt;
-
-&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;err&quot;&gt;$&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;gem&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;environment&lt;/span&gt;
-
-&lt;span class=&quot;no&quot;&gt;RubyGems&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;Environment&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;
-  &lt;span class=&quot;o&quot;&gt;...&lt;/span&gt;
-
-  &lt;span class=&quot;o&quot;&gt;-&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;INSTALLATION&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;DIRECTORY&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;sr&quot;&gt;/path/&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;to&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;your&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;ruby&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;installation&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;lib&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;ruby&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;gems&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;mf&quot;&gt;2.3&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;
-
-  &lt;span class=&quot;o&quot;&gt;...&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
-
-&lt;p&gt;The &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;minima&lt;/code&gt; gem files are located within this folder:&lt;/p&gt;
-
-&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;err&quot;&gt;$&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;ls&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;l&lt;/span&gt; &lt;span class=&quot;sr&quot;&gt;/path/&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;to&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;your&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;ruby&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;installation&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;lib&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;ruby&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;gems&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;mf&quot;&gt;2.3&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;gems&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;minima&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;mf&quot;&gt;2.5&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
-
-&lt;p&gt;The file you want to copy and modify is located within the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;_layouts&lt;/code&gt; folder:&lt;/p&gt;
-
-&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;err&quot;&gt;$&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;ls&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;l&lt;/span&gt; &lt;span class=&quot;sr&quot;&gt;/path/&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;to&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;your&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;ruby&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;installation&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;lib&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;ruby&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;gems&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;mf&quot;&gt;2.3&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;gems&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;minima&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;mf&quot;&gt;2.5&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;_layouts&lt;/span&gt;
-&lt;span class=&quot;n&quot;&gt;default&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;html&lt;/span&gt;
-&lt;span class=&quot;n&quot;&gt;home&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;html&lt;/span&gt;
-&lt;span class=&quot;n&quot;&gt;page&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;html&lt;/span&gt;
-&lt;span class=&quot;o&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;b&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;gt;&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;post&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;html&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;sr&quot;&gt;/b&amp;gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
-
-&lt;p&gt;An alternative way to figure out the location of gem files is by using the command &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;bundle show minima&lt;/code&gt;.&lt;/p&gt;
-
-&lt;p&gt;#Copy the gem post.html to your site
-Copy &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;_layouts/post.html&lt;/code&gt; from minima ruby gem folder into the local &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;_layouts&lt;/code&gt; directory just created. Go to your site’s root directory and then run the following commands:&lt;/p&gt;
-
-&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;err&quot;&gt;$&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;cd&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;_layouts&lt;/span&gt;
-&lt;span class=&quot;err&quot;&gt;$&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;cp&lt;/span&gt; &lt;span class=&quot;sr&quot;&gt;/path/&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;to&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;your&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;ruby&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;installation&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;lib&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;ruby&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;gems&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;mf&quot;&gt;2.3&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;gems&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;minima&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;mf&quot;&gt;2.5&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;_layouts&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;post&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;html&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
-
-&lt;h2&gt;Make author name a link&lt;/h2&gt;
-&lt;p&gt;Open &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;post.html&lt;/code&gt; in an editor and locate the line that you want to modify. The html that you want to modify is shown below:&lt;/p&gt;
-
-&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;o&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;span&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;itemprop&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;author&quot;&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;itemscope&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;itemtype&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;http://schema.org/Person&quot;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;span&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;class&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;p-author h-card&quot;&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;itemprop&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;name&quot;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;gt;&lt;/span&gt;&lt;span class=&quot;no&quot;&gt;Naveen&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;Jujaray&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;sr&quot;&gt;/span&amp;gt;&amp;lt;/s&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;pan&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
-
-&lt;p&gt;Add an anchor element around `` as follows:&lt;/p&gt;
-
-&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;o&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;span&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;itemprop&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;author&quot;&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;itemscope&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;itemtype&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;http://schema.org/Person&quot;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;span&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;class&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;p-author h-card&quot;&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;itemprop&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;name&quot;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;a&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;href&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;/about.html&quot;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;gt;&lt;/span&gt;&lt;span class=&quot;no&quot;&gt;Naveen&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;Jujaray&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;sr&quot;&gt;/a&amp;gt;&amp;lt;/s&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;pan&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;sr&quot;&gt;/span&amp;gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
-
-&lt;p&gt;Try in browser. In the post, the author name should now be a link. Clicking on the author name should take you to the about page.&lt;/p&gt;</content><author><name>Naveen Jujaray</name></author><category term="jekyll" /><category term="update" /><summary type="html">After I started a blog, as described in this post, I felt it would be cool to convert the author name shown on top of each post to a link to the about page. This was a minor change, but it required me to customize minima theme’s post layout.</summary></entry><entry><title type="html">Build A Blog Using Jekyll And Deploy To Github Pages And Set Custom Domain</title><link href="https://njblog.js.org/buildblogusingjekyll" rel="alternate" type="text/html" title="Build A Blog Using Jekyll And Deploy To Github Pages And Set Custom Domain" /><published>2020-06-29T10:00:03+05:30</published><updated>2020-06-29T10:00:03+05:30</updated><id>https://njblog.js.org/Build-A-Blog-Using-Jekyll</id><content type="html" xml:base="https://njblog.js.org/buildblogusingjekyll">&lt;p&gt;I recently decided to start a blog. I had used Wordpress in the past, so I knew I could get my blog up and running quickly using Wordpress. I was also slightly familiar with Jekyll. Doing a google search and reading a few blog posts educated me on benefits of Jekyll and static sites in general. I explored Jekyll a little more and loved it immediately.&lt;/p&gt;
-
-&lt;p&gt;The first thing that appealed to me about Jekyll was how programmer-friendly it was. Creating a site using Jekyll felt very similar to a developer’s day-to-day tasks. Another thing that appealed to me was Jekyll’s integration with GitHub Pages. Finally, free hosting provided by GitHub Pages (along with the ability to set custom domains) tipped my decision towards using Jekyll.&lt;/p&gt;
-
-&lt;p&gt;I have written this post to serve as a stand-alone tutorial, while also trying to keep it short. I briefly describe new terms and concepts as I introduce them, but do not go into much detail. Jekyll’s documentation is excellent and working through &lt;a href=&quot;&amp;quot;https://jekyllrb.com/docs/&amp;quot;&quot;&gt;Quickstart&lt;/a&gt; and &lt;a href=&quot;&amp;quot;https://jekyllrb.com/docs/step-by-step/01-setup/&amp;quot;&quot;&gt;Step-by-Step Tutorial&lt;/a&gt; should provide you good background on Jekyll.&lt;/p&gt;
-
-&lt;p&gt;Let’s get started&lt;/p&gt;
-&lt;h2&gt;Install Ruby Development Environment&lt;/h2&gt;
-
-&lt;p&gt;You need Ruby development environment setup on your computer. Jekyll documentation provides the requirements list here. In addition, you also need bundler. You can install bundler by using the command gem install bundler.&lt;/p&gt;
-
-&lt;h2&gt;Install Jekyll&lt;/h2&gt;
-
-&lt;p&gt;Jekyll is a ruby gem. Install it by running the following command in a terminal:&lt;/p&gt;
-
-&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;err&quot;&gt;$&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;gem&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;install&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;jekyll&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
-
-&lt;h2&gt;Create a new directory for your site&lt;/h2&gt;
-
-&lt;p&gt;On your computer, create a directory to hold your site:&lt;/p&gt;
-
-&lt;h2&gt;Create index.html in the new directory&lt;/h2&gt;
-
-&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;err&quot;&gt;$&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;cd&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;my&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;site&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
-
-&lt;p&gt;Create &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;index.html&lt;/code&gt; with some content, such as:&lt;/p&gt;
-
-&lt;p&gt;&lt;b&gt;index.html&lt;/b&gt;&lt;/p&gt;
-
-&lt;h2&gt;Serve the jekyll blog&lt;/h2&gt;
-
-&lt;p&gt;In a terminal, run the following command&lt;/p&gt;
-
-&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;err&quot;&gt;$&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;jekyll&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;serve&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
-
-&lt;p&gt;This command generates the site files and runs a local web server at &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;http://localhost:4000.&lt;/code&gt;&lt;/p&gt;
-
-&lt;h2&gt;Install theme gem&lt;/h2&gt;
-
-&lt;p&gt;You can use a theme to improve your site’s presentation. There is a wide selection of themes to choose from. You can get started with &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;minima&lt;/code&gt; theme which is provided by Jekyll. You can install &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;minima&lt;/code&gt; gem using the following command:&lt;/p&gt;
-
-&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;err&quot;&gt;$&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;gem&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;install&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;minima&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
-
-&lt;h2&gt;Create Gemfile&lt;/h2&gt;
-
-&lt;p&gt;Create a file &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Gemfile&lt;/code&gt; in the root directory. &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Gemfile&lt;/code&gt; is used to specify which gems your Jekyll site uses.&lt;/p&gt;
-
-&lt;p&gt;&lt;b&gt;Gemfile&lt;/b&gt;&lt;/p&gt;
-
-&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;n&quot;&gt;source&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;'https://rubygems.org'&lt;/span&gt;
-&lt;span class=&quot;n&quot;&gt;gem&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;'minima'&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
-
-&lt;h2&gt;Create Jekyll config file and add theme&lt;/h2&gt;
-
-&lt;p&gt;You also need to set the theme in Jekyll’s configuration file. Jekyll reads configuration from a file named &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;_config.yml&lt;/code&gt; in your site’s root directory. Create &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;_config.yml&lt;/code&gt; with the following contents:&lt;/p&gt;
-
-&lt;p&gt;&lt;b&gt;_config.yml&lt;/b&gt;&lt;/p&gt;
-
-&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;ss&quot;&gt;theme: &lt;/span&gt;&lt;span class=&quot;n&quot;&gt;minima&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
-
-&lt;p&gt;After making any changes to &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;_config.yml&lt;/code&gt;, you need to restart &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;jekyll serve&lt;/code&gt; for Jekyll to pickup configuration changes. Even after restarting &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;jekyll&lt;/code&gt; serve, you will notice no difference in your site’s rendering. You will fix this next.&lt;/p&gt;
-
-&lt;h2&gt;Update index.html to use a layout&lt;/h2&gt;
-
-&lt;p&gt;In the previous section, you saw that the text of your &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;index page&lt;/code&gt; rendered without any styling from the theme. This is happening because Jekyll is treating your index.html as a regular html file. You can tell Jekyll to use the theme’s &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;home&lt;/code&gt; layout by adding the following to the top of your &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;index.html&lt;/code&gt;:&lt;/p&gt;
-
-&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;o&quot;&gt;---&lt;/span&gt;
-&lt;span class=&quot;ss&quot;&gt;layout: &lt;/span&gt;&lt;span class=&quot;n&quot;&gt;home&lt;/span&gt;
-&lt;span class=&quot;o&quot;&gt;---&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
-
-&lt;p&gt;This is called the front matter. Jekyll does additional processing on any file containing a front matter.&lt;/p&gt;
-
-&lt;p&gt;Minima theme provides a &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;home&lt;/code&gt; layout which is most suitable for a site’s index page. Among other things &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;home&lt;/code&gt; layout adds a list of recent posts to the home page.&lt;/p&gt;
-
-&lt;p&gt;Try in browser. The index page of the site now renders in theme.&lt;/p&gt;
-&lt;h2&gt;Add site title to config&lt;/h2&gt;
-
-&lt;p&gt;With the site rendered in theme, it looks really good. Like most sites, you want your site to have a title too. The &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;minima&lt;/code&gt; theme uses &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;title&lt;/code&gt; variable’s value (if available) as title of your site. You can set &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;title&lt;/code&gt; variable by adding the line &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;title: MyAwesomeBlog&lt;/code&gt; to &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;_config.yml.&lt;/code&gt; Your &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;_config.yml&lt;/code&gt; should look like this now:&lt;/p&gt;
-
-&lt;p&gt;&lt;b&gt;&lt;/b&gt;&lt;/p&gt;
-
-&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;ss&quot;&gt;theme: &lt;/span&gt;&lt;span class=&quot;n&quot;&gt;minima&lt;/span&gt;
-&lt;span class=&quot;ss&quot;&gt;title: &lt;/span&gt;&lt;span class=&quot;no&quot;&gt;MyAwesomeBlog&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
-
-&lt;p&gt;Restart &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;jekyll serve&lt;/code&gt; and refresh browser. You will notice that the value for title that you provided in &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;_config.yml&lt;/code&gt; now becomes the title of your site.&lt;/p&gt;
-
-&lt;h2&gt;Create about page&lt;/h2&gt;
-
-&lt;p&gt;Create an About page by creating a &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;about.md&lt;/code&gt; file in the site’s root directory.&lt;/p&gt;
-
-&lt;p&gt;&lt;b&gt;about.md&lt;/b&gt;&lt;/p&gt;
-
-&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;o&quot;&gt;---&lt;/span&gt;
-&lt;span class=&quot;ss&quot;&gt;layout: &lt;/span&gt;&lt;span class=&quot;n&quot;&gt;page&lt;/span&gt;
-&lt;span class=&quot;ss&quot;&gt;title: &lt;/span&gt;&lt;span class=&quot;no&quot;&gt;About&lt;/span&gt;
-&lt;span class=&quot;o&quot;&gt;---&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
-
-&lt;h1 id=&quot;about-me&quot;&gt;About me&lt;/h1&gt;
-&lt;p&gt;This page will contain information about me.&lt;/p&gt;
-
-&lt;p&gt;This file uses the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;page&lt;/code&gt; layout provided by the theme.&lt;/p&gt;
-
-&lt;p&gt;Try in browser. About link shows up in top bar. Jekyll automatically adds any html or markdown files that are in your root directory to navigation bar, using value of the variable &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;title&lt;/code&gt; from the page’s front matter as link text.&lt;/p&gt;
-
-&lt;h2&gt;Create projects page&lt;/h2&gt;
-
-&lt;p&gt;Add another page to your site. Create &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;projects.md&lt;/code&gt; in the site’s root directory.&lt;/p&gt;
-
-&lt;p&gt;&lt;b&gt;projects.md&lt;/b&gt;&lt;/p&gt;
-
-&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;o&quot;&gt;---&lt;/span&gt;
-&lt;span class=&quot;ss&quot;&gt;layout: &lt;/span&gt;&lt;span class=&quot;n&quot;&gt;page&lt;/span&gt;
-&lt;span class=&quot;ss&quot;&gt;title: &lt;/span&gt;&lt;span class=&quot;no&quot;&gt;Projects&lt;/span&gt;
-&lt;span class=&quot;o&quot;&gt;---&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
-
-&lt;h1 id=&quot;projects&quot;&gt;Projects&lt;/h1&gt;
-&lt;p&gt;Projects will be listed here.&lt;/p&gt;
-
-&lt;p&gt;Try in browser. The navigation bar now shows Projects link too. Clicking on projects takes you to projects page.&lt;/p&gt;
-
-&lt;h2&gt;Ordering navigation items&lt;/h2&gt;
-
-&lt;p&gt;With &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;about&lt;/code&gt; and project pages added, the site is in good shape now. Suppose you want modify the order of items in the navigation bar with About appearing to the right of &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Projects&lt;/code&gt;.&lt;/p&gt;
-
-&lt;p&gt;All top-level pages are added to navigation bar in alphabetical order. Reordering navigation items is easily done by using &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;header_pages&lt;/code&gt; configuration setting. Add &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;header_pages&lt;/code&gt; to configuration and set its value to a list of pages in the order you wish them to appear.&lt;/p&gt;
-
-&lt;p&gt;&lt;b&gt;_config.yml&lt;/b&gt;&lt;/p&gt;
-
-&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;ss&quot;&gt;theme: &lt;/span&gt;&lt;span class=&quot;n&quot;&gt;minima&lt;/span&gt;
-&lt;span class=&quot;ss&quot;&gt;title: &lt;/span&gt;&lt;span class=&quot;no&quot;&gt;MyAwesomeBlog&lt;/span&gt;
-&lt;span class=&quot;ss&quot;&gt;header_pages:
-  &lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;projects&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;md&lt;/span&gt;
-  &lt;span class=&quot;o&quot;&gt;-&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;about&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;md&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
-
-&lt;p&gt;Try in browser. The &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;About&lt;/code&gt; and &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Project&lt;/code&gt; items now appear in your preferred order.&lt;/p&gt;
-
-&lt;h2&gt;Add a blog post&lt;/h2&gt;
-
-&lt;p&gt;Creating a &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;blog&lt;/code&gt; post is as simple as creating a directory and a file within that directory.&lt;/p&gt;
-
-&lt;p&gt;Create a folder called &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;_posts&lt;/code&gt; in the root directory of your site. Create a markdown (or html) file with year, month and day prefixed to the filename.&lt;/p&gt;
-
-&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;err&quot;&gt;$&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;mkdir&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;_posts&lt;/span&gt;
-&lt;span class=&quot;err&quot;&gt;$&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;cd&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;_posts&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
-
-&lt;p&gt;Create a markdown file with year, month and day prefixed to the filename:&lt;/p&gt;
-
-&lt;p&gt;&lt;b&gt;2018-09-12-my-first-post.md&lt;/b&gt;&lt;/p&gt;
-
-&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;o&quot;&gt;---&lt;/span&gt;
-&lt;span class=&quot;ss&quot;&gt;layout: &lt;/span&gt;&lt;span class=&quot;n&quot;&gt;post&lt;/span&gt;
-&lt;span class=&quot;o&quot;&gt;---&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
-
-&lt;p&gt;This is the contents of this blog &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;post&lt;/code&gt;.
-Notice that this file contains Jekyll front matter and sets the layout to post, which is another layout provided by &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;minima&lt;/code&gt; theme.&lt;/p&gt;
-
-&lt;p&gt;Try in browser. The site lists the post you just added. Clicking on the post title takes you to the post. Notice that the hyphen separated text portion of the file name becomes the title of the post. Also notice that a link to RSS feed is added.&lt;/p&gt;
-
-&lt;h2&gt;Adding author name to post&lt;/h2&gt;
-
-&lt;p&gt;In the blog post, you will notice that there is no author name being displayed. Jekyll minima theme supports &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;author&lt;/code&gt; name setting. It just needs &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;author&lt;/code&gt; variable to have a value. You can set author variable in the front matter of your post. Since it is likely that all posts on your site are written just by you, it is simpler to set &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;author&lt;/code&gt; once in &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;_config.yml&lt;/code&gt;.&lt;/p&gt;
-
-&lt;p&gt;Add the following to &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;_config.yml&lt;/code&gt;:&lt;/p&gt;
-
-&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;  &lt;span class=&quot;o&quot;&gt;-&lt;/span&gt; &lt;span class=&quot;ss&quot;&gt;scope:
-      path: &lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;&quot;&lt;/span&gt;
-    &lt;span class=&quot;ss&quot;&gt;values:
-      author: &lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;Blog Author&quot;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
-
-&lt;p&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;defaults&lt;/code&gt; is special Jekyll setting that allows you to set front matter defaults. &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;path&lt;/code&gt; under &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;scope&lt;/code&gt; specifies which files this rule applies to. A blank path means the rule applies to all files in the site.&lt;/p&gt;
-
-&lt;p&gt;Restart &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;jekyll serve&lt;/code&gt; and refresh browser page. The post now displays author name.&lt;/p&gt;
-
-&lt;h2&gt;Deploying to GitHub Pages&lt;/h2&gt;
-
-&lt;p&gt;This section describes how to host your site on GitHub Pages. GitHub allows you to host one user-level site on github pages. The github pages site for your github account should be created in a repository with the name username.github.io, where username is your GitHub username.&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;create a repository on GitHub with the name username.github.io.&lt;/li&gt;
-  &lt;li&gt;add the github-pages gem to Gemfile. This is a gem provided by GitHub to manage Jekyll and its dependencies. Read this for more details.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;b&gt;Gemfile&lt;/b&gt;&lt;/p&gt;
-
-&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;n&quot;&gt;source&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;'https://rubygems.org'&lt;/span&gt;
-&lt;span class=&quot;n&quot;&gt;gem&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;'minima'&lt;/span&gt;
-&lt;span class=&quot;n&quot;&gt;gem&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;github-pages&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;ss&quot;&gt;group: :jekyll_plugins&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;commit and push to your repository.&lt;/li&gt;
-  &lt;li&gt;after a couple of minutes you can point your browser to http://username.github.io and your should see your site.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2&gt;Using a custom domain&lt;/h2&gt;
-
-&lt;p&gt;You can set a custom domain for your site you just deployed as follows:&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;purchase a domain name using service of your preference.&lt;/li&gt;
-  &lt;li&gt;in the root directory of your blog site, create a file &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;CNAME&lt;/code&gt;.&lt;/li&gt;
-  &lt;li&gt;add the domain name as file’s contents.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;b&gt;CNAME&lt;/b&gt;&lt;/p&gt;
-
-&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;n&quot;&gt;myawesomedomain&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;com&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;commit and push the changes to your gitub repository.&lt;/li&gt;
-  &lt;li&gt;to connect the domain name to your site, you need to update &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;ALIAS&lt;/code&gt;, &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;A&lt;/code&gt; or &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;ANAME&lt;/code&gt; records with your domain register.&lt;/li&gt;
-  &lt;li&gt;for example, GoDaddy uses &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;A&lt;/code&gt; records. If you registered your domain using GoDaddy, you can use IP addresses listed in this article to set &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;A&lt;/code&gt; records.&lt;/li&gt;
-  &lt;li&gt;set the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;www&lt;/code&gt; subdomain to redirect to &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;myawesomedomain.com&lt;/code&gt; by adding a &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;CNAME&lt;/code&gt; record with your domain register. This is not to be confused with the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;CNAME&lt;/code&gt; file that you created earlier.&lt;/li&gt;
-  &lt;li&gt;if GoDaddy is your domain register, no action needs to be taken. GoDaddy automatically sets the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;CNAME&lt;/code&gt; record.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2&gt;Add Disqus commenting&lt;/h2&gt;
-
-&lt;p&gt;Comments are essential component of any site. minima supports Disqus commenting system. Comments can be enabled for your posts by setting a configuration parameter. There are steps to add comments to your site:&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;sign-up for Disqus Basic account.&lt;/li&gt;
-  &lt;li&gt;on Disqus, add your site as organization (you will use &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;myawesomedomain.com&lt;/code&gt;).&lt;/li&gt;
-  &lt;li&gt;in your site’s &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;_config.yml&lt;/code&gt;, enable Disqus commenting by adding the following:&lt;/li&gt;
-  &lt;li&gt;&lt;b&gt;
-_config.yml&lt;/b&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;ss&quot;&gt;disqus:
-  shortname: &lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;site&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;shortname&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;from&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;disqus&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;gt;&lt;/span&gt;
-  &lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
-
-&lt;p&gt;commit and push changes to your github repository.
-After github pages regenerates the site in a few minutes, navigate to &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;myawesomedomain.com&lt;/code&gt; in your browser. You should see Disqus comments displayed at bottom on your post page. Note that Disqus comments are not displayed when running the site locally using &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;jekyll serve&lt;/code&gt;.&lt;/p&gt;
-
-&lt;h2&gt;Conclusion&lt;/h2&gt;
-
-&lt;p&gt;This post described how you can deploy your personal blog to GitHub Pages hosted site. We used Jekyll site generator since that is the technology that GitHub Pages uses internally. We saw how easy and quick it was to get a basic site up and running. Creating a post was equally straight-forward. Finally, we applied a custom domain to our site.&lt;/p&gt;</content><author><name>Naveen Jujaray</name></author><category term="jekyll" /><category term="update" /><summary type="html">I recently decided to start a blog. I had used Wordpress in the past, so I knew I could get my blog up and running quickly using Wordpress. I was also slightly familiar with Jekyll. Doing a google search and reading a few blog posts educated me on benefits of Jekyll and static sites in general. I explored Jekyll a little more and loved it immediately.</summary></entry><entry><title type="html">Welcome to Jekyll!</title><link href="https://njblog.js.org/welocmetojekyll" rel="alternate" type="text/html" title="Welcome to Jekyll!" /><published>2020-06-23T12:59:03+05:30</published><updated>2020-06-23T12:59:03+05:30</updated><id>https://njblog.js.org/welcome-to-jekyll</id><content type="html" xml:base="https://njblog.js.org/welocmetojekyll">&lt;p&gt;You’ll find this post in your &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;_posts&lt;/code&gt; directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;jekyll serve&lt;/code&gt;, which launches a web server and auto-regenerates your site when a file is updated.&lt;/p&gt;
-
-&lt;p&gt;Jekyll requires blog post files to be named according to the following format:&lt;/p&gt;
-
-&lt;p&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;YEAR-MONTH-DAY-title.MARKUP&lt;/code&gt;&lt;/p&gt;
-
-&lt;p&gt;Where &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;YEAR&lt;/code&gt; is a four-digit number, &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;MONTH&lt;/code&gt; and &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;DAY&lt;/code&gt; are both two-digit numbers, and &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;MARKUP&lt;/code&gt; is the file extension representing the format used in the file. After that, include the necessary front matter. Take a look at the source for this post to get an idea about how it works.&lt;/p&gt;
+&lt;p&gt;To add new posts, simply add a file in the &lt;code class=&quot;highlighter-rouge&quot;&gt;_posts&lt;/code&gt; directory that follows the convention &lt;code class=&quot;highlighter-rouge&quot;&gt;YYYY-MM-DD-name-of-post.ext&lt;/code&gt; and includes the necessary front matter. Take a look at the source for this post to get an idea about how it works.&lt;/p&gt;
 
 &lt;p&gt;Jekyll also offers powerful support for code snippets:&lt;/p&gt;
 
@@ -678,4 +10,154 @@ After github pages regenerates the site in a few minutes, navigate to &lt;code c
 &lt;span class=&quot;n&quot;&gt;print_hi&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;'Tom'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
 &lt;span class=&quot;c1&quot;&gt;#=&amp;gt; prints 'Hi, Tom' to STDOUT.&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
 
-&lt;p&gt;Check out the &lt;a href=&quot;https://jekyllrb.com/docs/home&quot;&gt;Jekyll docs&lt;/a&gt; for more info on how to get the most out of Jekyll. File all bugs/feature requests at &lt;a href=&quot;https://github.com/jekyll/jekyll&quot;&gt;Jekyll’s GitHub repo&lt;/a&gt;. If you have questions, you can ask them on &lt;a href=&quot;https://talk.jekyllrb.com/&quot;&gt;Jekyll Talk&lt;/a&gt;.&lt;/p&gt;</content><author><name>Naveen Jujaray</name></author><category term="jekyll" /><category term="update" /><summary type="html">You’ll find this post in your _posts directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run jekyll serve, which launches a web server and auto-regenerates your site when a file is updated.</summary></entry></feed>
+&lt;p&gt;Check out the &lt;a href=&quot;https://jekyllrb.com/docs/home&quot;&gt;Jekyll docs&lt;/a&gt; for more info on how to get the most out of Jekyll. File all bugs/feature requests at &lt;a href=&quot;https://github.com/jekyll/jekyll&quot;&gt;Jekyll’s GitHub repo&lt;/a&gt;. If you have questions, you can ask them on &lt;a href=&quot;https://talk.jekyllrb.com/&quot;&gt;Jekyll Talk&lt;/a&gt;.&lt;/p&gt;</content><author><name>sal</name></author><summary type="html">You’ll find this post in your _posts directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run jekyll serve, which launches a web server and auto-regenerates your site when a file is updated.</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/mundana-theme-jekyll/assets/images/demo1.jpg" /></entry><entry><title type="html">Powerful things you can do with the Markdown editor</title><link href="http://localhost:4000/mundana-theme-jekyll/powerful-things-markdown-editor/" rel="alternate" type="text/html" title="Powerful things you can do with the Markdown editor" /><published>2019-02-03T00:00:00+05:30</published><updated>2019-02-03T00:00:00+05:30</updated><id>http://localhost:4000/mundana-theme-jekyll/powerful-things-markdown-editor</id><content type="html" xml:base="http://localhost:4000/mundana-theme-jekyll/powerful-things-markdown-editor/">&lt;p&gt;There are lots of powerful things you can do with the Markdown editor. If you’ve gotten pretty comfortable with writing in Markdown, then you may enjoy some more advanced tips about the types of things you can do with Markdown!&lt;/p&gt;
+
+&lt;p&gt;As with the last post about the editor, you’ll want to be actually editing this post as you read it so that you can see all the Markdown code we’re using.&lt;/p&gt;
+
+&lt;h2 id=&quot;special-formatting&quot;&gt;Special formatting&lt;/h2&gt;
+
+&lt;p&gt;As well as bold and italics, you can also use some other special formatting in Markdown when the need arises, for example:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;del&gt;strike through&lt;/del&gt;&lt;/li&gt;
+  &lt;li&gt;==highlight==&lt;/li&gt;
+  &lt;li&gt;*escaped characters*&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;writing-code-blocks&quot;&gt;Writing code blocks&lt;/h2&gt;
+
+&lt;p&gt;There are two types of code elements which can be inserted in Markdown, the first is inline, and the other is block. Inline code is formatted by wrapping any word or words in back-ticks, &lt;code class=&quot;highlighter-rouge&quot;&gt;like this&lt;/code&gt;. Larger snippets of code can be displayed across multiple lines using triple back ticks:&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;.my-link {
+    text-decoration: underline;
+}
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;If you want to get really fancy, you can even add syntax highlighting using Rouge.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/mundana-theme-jekyll/assets/images/8.jpg&quot; alt=&quot;walking&quot; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;reference-lists&quot;&gt;Reference lists&lt;/h2&gt;
+
+&lt;p&gt;The quick brown jumped over the lazy.&lt;/p&gt;
+
+&lt;p&gt;Another way to insert links in markdown is using reference lists. You might want to use this style of linking to cite reference material in a Wikipedia-style. All of the links are listed at the end of the document, so you can maintain full separation between content and its source or reference.&lt;/p&gt;
+
+&lt;h2 id=&quot;full-html&quot;&gt;Full HTML&lt;/h2&gt;
+
+&lt;p&gt;Perhaps the best part of Markdown is that you’re never limited to just Markdown. You can write HTML directly in the Markdown editor and it will just work as HTML usually does. No limits! Here’s a standard YouTube embed code as an example:&lt;/p&gt;
+
+&lt;p&gt;&lt;iframe style=&quot;width:100%;&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/Cniqsc9QfDo?rel=0&amp;amp;showinfo=0&quot; frameborder=&quot;0&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;&lt;/p&gt;</content><author><name>jane</name></author><category term="summer" /><summary type="html">There are lots of powerful things you can do with the Markdown editor. If you’ve gotten pretty comfortable with writing in Markdown, then you may enjoy some more advanced tips about the types of things you can do with Markdown!</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://images.unsplash.com/photo-1528784351875-d797d86873a1?ixlib=rb-1.2.1&amp;auto=format&amp;fit=crop&amp;w=750&amp;q=80" /></entry><entry><title type="html">The first mass-produced book to deviate from a rectilinear format</title><link href="http://localhost:4000/mundana-theme-jekyll/first-mass-produced/" rel="alternate" type="text/html" title="The first mass-produced book to deviate from a rectilinear format" /><published>2019-02-02T00:00:00+05:30</published><updated>2019-02-02T00:00:00+05:30</updated><id>http://localhost:4000/mundana-theme-jekyll/first-mass-produced</id><content type="html" xml:base="http://localhost:4000/mundana-theme-jekyll/first-mass-produced/">&lt;p&gt;The first mass-produced book to deviate from a rectilinear format, at least in the United States, is thought to be this 1863 edition of Red Riding Hood, cut into the shape of the protagonist herself with the troublesome wolf curled at her feet. Produced by the Boston-based publisher Louis Prang, this is the first in their “Doll Series”, a set of five “die-cut” books, known also as shape books — the other titles being Robinson Crusoe, Goody Two-Shoes (also written by Red Riding Hood author Lydia Very), Cinderella, and King Winter.&lt;/p&gt;
+
+&lt;p&gt;An 1868 Prang catalogue would later claim that such “books in the shape of a regular paper Doll… originated with us”.&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;It would seem the claim could also extend to die cut books in general, as we can’t find anything sooner, but do let us know in the comments if you have further light to shed on this! Such books are, of course, still popular in children’s publishing today, though the die cutting is not now limited to mere outlines, as evidenced in a beautiful 2014 version of the same Little Red Riding Hood story.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;The die cut has also been employed in the non-juvenile sphere as well, a recent example being Jonathan Safran Foer’s ambitious Tree of Codes.&lt;/p&gt;
+
+&lt;p&gt;As for this particular rendition of Charles Perrault’s classic tale, the text and design is by Lydia Very (1823-1901), sister of Transcendentalist poet Jones Very. The gruesome ending of the original - which sees Little Red Riding Hood being gobbled up as well as her grandmother - is avoided here, the gore giving way to the less bloody aims of the morality tale, and the lesson that one should not disobey one’s mother.&lt;/p&gt;
+
+&lt;p&gt;To deviate from a rectilinear format, at least in the United States, is thought to be this 1863 edition of Red Riding Hood, cut into the shape of the protagonist herself with the troublesome wolf curled at her feet. Produced by the Boston-based publisher Louis Prang, this is the first in their “Doll Series”, a set of five “die-cut” books, known also as shape books — the other titles being Robinson Crusoe, Goody Two-Shoes (also written by Red Riding Hood author Lydia Very), Cinderella, and King Winter.&lt;/p&gt;
+
+&lt;p&gt;An 1868 Prang catalogue would later claim that such “books in the shape of a regular paper Doll… originated with us”.&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;The claim could also extend to die cut books in general, as we can’t find anything sooner, but do let us know in the comments if you have further light to shed on this! Such books are, of course, still popular in children’s publishing today, though the die cutting is not now limited to mere outlines, as evidenced in a beautiful 2014 version of the same Little Red Riding Hood story.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;The die cut has also been employed in the non-juvenile sphere as well, a recent example being Jonathan Safran Foer’s ambitious Tree of Codes.&lt;/p&gt;
+
+&lt;p&gt;As for this particular rendition of Charles Perrault’s classic tale, the text and design is by Lydia Very (1823-1901), sister of Transcendentalist poet Jones Very. The gruesome ending of the original - which sees Little Red Riding Hood being gobbled up as well as her grandmother - is avoided here, the gore giving way to the less bloody aims of the morality tale, and the lesson that one should not disobey one’s mother.&lt;/p&gt;</content><author><name>sal</name></author><category term="featured" /><summary type="html">The first mass-produced book to deviate from a rectilinear format, at least in the United States, is thought to be this 1863 edition of Red Riding Hood, cut into the shape of the protagonist herself with the troublesome wolf curled at her feet. Produced by the Boston-based publisher Louis Prang, this is the first in their “Doll Series”, a set of five “die-cut” books, known also as shape books — the other titles being Robinson Crusoe, Goody Two-Shoes (also written by Red Riding Hood author Lydia Very), Cinderella, and King Winter.</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/mundana-theme-jekyll/assets/images/17.jpg" /></entry><entry><title type="html">Education must also train one for quick, resolute and effective thinking.</title><link href="http://localhost:4000/mundana-theme-jekyll/education/" rel="alternate" type="text/html" title="Education must also train one for quick, resolute and effective thinking." /><published>2019-02-01T00:00:00+05:30</published><updated>2019-02-01T00:00:00+05:30</updated><id>http://localhost:4000/mundana-theme-jekyll/education</id><content type="html" xml:base="http://localhost:4000/mundana-theme-jekyll/education/">&lt;p&gt;There are lots of powerful things you can do with the Markdown editor&lt;/p&gt;
+
+&lt;p&gt;If you’ve gotten pretty comfortable with writing in Markdown, then you may enjoy some more advanced tips about the types of things you can do with Markdown!&lt;/p&gt;
+
+&lt;p&gt;As with the last post about the editor, you’ll want to be actually editing this post as you read it so that you can see all the Markdown code we’re using.&lt;/p&gt;
+
+&lt;h2 id=&quot;special-formatting&quot;&gt;Special formatting&lt;/h2&gt;
+
+&lt;p&gt;As well as bold and italics, you can also use some other special formatting in Markdown when the need arises, for example:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;del&gt;strike through&lt;/del&gt;&lt;/li&gt;
+  &lt;li&gt;==highlight==&lt;/li&gt;
+  &lt;li&gt;*escaped characters*&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;writing-code-blocks&quot;&gt;Writing code blocks&lt;/h2&gt;
+
+&lt;p&gt;There are two types of code elements which can be inserted in Markdown, the first is inline, and the other is block. Inline code is formatted by wrapping any word or words in back-ticks, &lt;code class=&quot;highlighter-rouge&quot;&gt;like this&lt;/code&gt;. Larger snippets of code can be displayed across multiple lines using triple back ticks:&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;.my-link {
+    text-decoration: underline;
+}
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;If you want to get really fancy, you can even add syntax highlighting using Rouge.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/mundana-theme-jekyll/assets/images/8.jpg&quot; alt=&quot;walking&quot; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;reference-lists&quot;&gt;Reference lists&lt;/h2&gt;
+
+&lt;p&gt;The quick brown jumped over the lazy.&lt;/p&gt;
+
+&lt;p&gt;Another way to insert links in markdown is using reference lists. You might want to use this style of linking to cite reference material in a Wikipedia-style. All of the links are listed at the end of the document, so you can maintain full separation between content and its source or reference.&lt;/p&gt;
+
+&lt;h2 id=&quot;full-html&quot;&gt;Full HTML&lt;/h2&gt;
+
+&lt;p&gt;Perhaps the best part of Markdown is that you’re never limited to just Markdown. You can write HTML directly in the Markdown editor and it will just work as HTML usually does. No limits! Here’s a standard YouTube embed code as an example:&lt;/p&gt;
+
+&lt;p&gt;&lt;iframe style=&quot;width:100%;&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/Cniqsc9QfDo?rel=0&amp;amp;showinfo=0&quot; frameborder=&quot;0&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;&lt;/p&gt;</content><author><name>sal</name></author><summary type="html">There are lots of powerful things you can do with the Markdown editor</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/mundana-theme-jekyll/assets/images/3.jpg" /></entry><entry><title type="html">Accumulated experience of social living</title><link href="http://localhost:4000/mundana-theme-jekyll/acumulated-experience/" rel="alternate" type="text/html" title="Accumulated experience of social living" /><published>2019-01-30T00:00:00+05:30</published><updated>2019-01-30T00:00:00+05:30</updated><id>http://localhost:4000/mundana-theme-jekyll/acumulated-experience</id><content type="html" xml:base="http://localhost:4000/mundana-theme-jekyll/acumulated-experience/">&lt;p&gt;The die cut has also been employed in the non-juvenile sphere as well, a recent example being Jonathan Safran Foer’s ambitious Tree of Codes.&lt;/p&gt;
+
+&lt;p&gt;As for this particular rendition of Charles Perrault’s classic tale, the text and design is by Lydia Very (1823-1901), sister of Transcendentalist poet Jones Very. The gruesome ending of the original - which sees Little Red Riding Hood being gobbled up as well as her grandmother - is avoided here, the gore giving way to the less bloody aims of the morality tale, and the lesson that one should not disobey one’s mother.&lt;/p&gt;
+
+&lt;p&gt;The first mass-produced book to deviate from a rectilinear format, at least in the United States, is thought to be this 1863 edition of Red Riding Hood, cut into the shape of the protagonist herself with the troublesome wolf curled at her feet. Produced by the Boston-based publisher Louis Prang, this is the first in their “Doll Series”, a set of five “die-cut” books, known also as shape books — the other titles being Robinson Crusoe, Goody Two-Shoes (also written by Red Riding Hood author Lydia Very), Cinderella, and King Winter.&lt;/p&gt;
+
+&lt;p&gt;An 1868 Prang catalogue would later claim that such “books in the shape of a regular paper Doll… originated with us”.&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;It would seem the claim could also extend to die cut books in general, as we can’t find anything sooner, but do let us know in the comments if you have further light to shed on this! Such books are, of course, still popular in children’s publishing today, though the die cutting is not now limited to mere outlines, as evidenced in a beautiful 2014 version of the same Little Red Riding Hood story.&lt;/p&gt;
+&lt;/blockquote&gt;</content><author><name>sal</name></author><summary type="html">The die cut has also been employed in the non-juvenile sphere as well, a recent example being Jonathan Safran Foer’s ambitious Tree of Codes.</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/mundana-theme-jekyll/assets/images/15.jpg" /></entry><entry><title type="html">About Bundler</title><link href="http://localhost:4000/mundana-theme-jekyll/about-bundler/" rel="alternate" type="text/html" title="About Bundler" /><published>2019-01-29T00:00:00+05:30</published><updated>2019-01-29T00:00:00+05:30</updated><id>http://localhost:4000/mundana-theme-jekyll/about-bundler</id><content type="html" xml:base="http://localhost:4000/mundana-theme-jekyll/about-bundler/">&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;gem install bundler&lt;/code&gt; installs the bundler gem through RubyGems. You only need to install it once - not every time you create a new Jekyll project. Here are some additional details:&lt;/p&gt;
+
+&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;bundler&lt;/code&gt; is a gem that manages other Ruby gems. It makes sure your gems and gem versions are compatible, and that you have all necessary dependencies each gem requires.&lt;/p&gt;
+
+&lt;p&gt;The &lt;code class=&quot;highlighter-rouge&quot;&gt;Gemfile&lt;/code&gt; and &lt;code class=&quot;highlighter-rouge&quot;&gt;Gemfile.lock&lt;/code&gt; files inform &lt;code class=&quot;highlighter-rouge&quot;&gt;Bundler&lt;/code&gt; about the gem requirements in your site. If your site doesn’t have these Gemfiles, you can omit &lt;code class=&quot;highlighter-rouge&quot;&gt;bundle exec&lt;/code&gt; and just &lt;code class=&quot;highlighter-rouge&quot;&gt;run jekyll serve&lt;/code&gt;.&lt;/p&gt;
+
+&lt;p&gt;When you run &lt;code class=&quot;highlighter-rouge&quot;&gt;bundle exec jekyll serve&lt;/code&gt;, &lt;code class=&quot;highlighter-rouge&quot;&gt;Bundler&lt;/code&gt; uses the gems and versions as specified in &lt;code class=&quot;highlighter-rouge&quot;&gt;Gemfile.lock&lt;/code&gt; to ensure your Jekyll site builds with no compatibility or dependency conflicts.&lt;/p&gt;
+
+&lt;p&gt;For more information about how to use &lt;code class=&quot;highlighter-rouge&quot;&gt;Bundler&lt;/code&gt; in your Jekyll project, this tutorial should provide answers to the most common questions and explain how to get up and running quickly.&lt;/p&gt;</content><author><name>sal</name></author><summary type="html">gem install bundler installs the bundler gem through RubyGems. You only need to install it once - not every time you create a new Jekyll project. Here are some additional details:</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/mundana-theme-jekyll/assets/images/2.jpg" /></entry><entry><title type="html">We all wait for summer</title><link href="http://localhost:4000/mundana-theme-jekyll/we-all-wait-for-summer/" rel="alternate" type="text/html" title="We all wait for summer" /><published>2019-01-28T00:00:00+05:30</published><updated>2019-01-28T00:00:00+05:30</updated><id>http://localhost:4000/mundana-theme-jekyll/we-all-wait-for-summer</id><content type="html" xml:base="http://localhost:4000/mundana-theme-jekyll/we-all-wait-for-summer/">&lt;p&gt;This is changed. As I engage in the so-called “bull sessions” around and about the school, I too often find that most college men have a misconception of the purpose of education. Most of the “brethren” think that &lt;a href=&quot;#&quot;&gt;education should equip&lt;/a&gt; them with the proper instruments of exploitation so that they can forever trample over the masses. Still others think that education should furnish them with noble ends rather than means to an end.&lt;/p&gt;
+
+&lt;p&gt;It seems to me that education has a two-fold function to perform in the life of man and in society: the one is utility and the other is culture. Education must enable a man to become more efficient, to achieve with increasing facility the ligitimate goals of his life.&lt;/p&gt;</content><author><name>jane</name></author><category term="featured" /><summary type="html">This is changed. As I engage in the so-called “bull sessions” around and about the school, I too often find that most college men have a misconception of the purpose of education. Most of the “brethren” think that education should equip them with the proper instruments of exploitation so that they can forever trample over the masses. Still others think that education should furnish them with noble ends rather than means to an end.</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/mundana-theme-jekyll/assets/images/1.jpg" /></entry><entry><title type="html">Tree of Codes</title><link href="http://localhost:4000/mundana-theme-jekyll/tree-of-codes/" rel="alternate" type="text/html" title="Tree of Codes" /><published>2019-01-27T00:00:00+05:30</published><updated>2019-01-27T00:00:00+05:30</updated><id>http://localhost:4000/mundana-theme-jekyll/tree-of-codes</id><content type="html" xml:base="http://localhost:4000/mundana-theme-jekyll/tree-of-codes/">&lt;p&gt;The first mass-produced book to deviate from a rectilinear format, at least in the United States, is thought to be this 1863 edition of Red Riding Hood, cut into the shape of the protagonist herself with the troublesome wolf curled at her feet. Produced by the Boston-based publisher Louis Prang, this is the first in their “Doll Series”, a set of five “die-cut” books, known also as shape books — the other titles being Robinson Crusoe, Goody Two-Shoes (also written by Red Riding Hood author Lydia Very), Cinderella, and King Winter.&lt;/p&gt;
+
+&lt;p&gt;As for this particular rendition of Charles Perrault’s classic tale, the text and design is by Lydia Very (1823-1901), sister of Transcendentalist poet Jones Very. The gruesome ending of the original — which sees Little Red Riding Hood being gobbled up as well as her grandmother — is avoided here, the gore giving way to the less bloody aims of the morality tale, and the lesson that one should not disobey one’s mother.&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;It would seem the claim could also extend to die cut books in general, as we can’t find anything sooner, but do let us know in the comments if you have further light to shed on this! Such books are, of course, still popular in children’s publishing today, though the die cutting is not now limited to mere outlines, as evidenced in a beautiful 2014 version of the same Little Red Riding Hood story.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;An 1868 Prang catalogue would later claim that such “books in the shape of a regular paper Doll… originated with us”.&lt;/p&gt;
+
+&lt;p&gt;The die cut has also been employed in the non-juvenile sphere as well, a recent example being Jonathan Safran Foer’s ambitious Tree of Codes.&lt;/p&gt;</content><author><name>sal</name></author><summary type="html">The first mass-produced book to deviate from a rectilinear format, at least in the United States, is thought to be this 1863 edition of Red Riding Hood, cut into the shape of the protagonist herself with the troublesome wolf curled at her feet. Produced by the Boston-based publisher Louis Prang, this is the first in their “Doll Series”, a set of five “die-cut” books, known also as shape books — the other titles being Robinson Crusoe, Goody Two-Shoes (also written by Red Riding Hood author Lydia Very), Cinderella, and King Winter.</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/mundana-theme-jekyll/assets/images/2.jpg" /></entry><entry><title type="html">Red Riding Hood</title><link href="http://localhost:4000/mundana-theme-jekyll/red-riding/" rel="alternate" type="text/html" title="Red Riding Hood" /><published>2019-01-26T00:00:00+05:30</published><updated>2019-01-26T00:00:00+05:30</updated><id>http://localhost:4000/mundana-theme-jekyll/red-riding</id><content type="html" xml:base="http://localhost:4000/mundana-theme-jekyll/red-riding/">&lt;p&gt;The first mass-produced book to deviate from a rectilinear format, at least in the United States, is thought to be this 1863 edition of Red Riding Hood, cut into the shape of the protagonist herself with the troublesome wolf curled at her feet. Produced by the Boston-based publisher Louis Prang, this is the first in their “Doll Series”, a set of five “die-cut” books, known also as shape books — the other titles being Robinson Crusoe, Goody Two-Shoes (also written by Red Riding Hood author Lydia Very), Cinderella, and King Winter.&lt;/p&gt;
+
+&lt;p&gt;An 1868 Prang catalogue would later claim that such “books in the shape of a regular paper Doll… originated with us”.&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;It would seem the claim could also extend to die cut books in general, as we can’t find anything sooner, but do let us know in the comments if you have further light to shed on this! Such books are, of course, still popular in children’s publishing today, though the die cutting is not now limited to mere outlines, as evidenced in a beautiful 2014 version of the same Little Red Riding Hood story.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;The die cut has also been employed in the non-juvenile sphere as well, a recent example being Jonathan Safran Foer’s ambitious Tree of Codes.&lt;/p&gt;
+
+&lt;p&gt;As for this particular rendition of Charles Perrault’s classic tale, the text and design is by Lydia Very (1823-1901), sister of Transcendentalist poet Jones Very. The gruesome ending of the original — which sees Little Red Riding Hood being gobbled up as well as her grandmother — is avoided here, the gore giving way to the less bloody aims of the morality tale, and the lesson that one should not disobey one’s mother.&lt;/p&gt;</content><author><name>sal</name></author><summary type="html">The first mass-produced book to deviate from a rectilinear format, at least in the United States, is thought to be this 1863 edition of Red Riding Hood, cut into the shape of the protagonist herself with the troublesome wolf curled at her feet. Produced by the Boston-based publisher Louis Prang, this is the first in their “Doll Series”, a set of five “die-cut” books, known also as shape books — the other titles being Robinson Crusoe, Goody Two-Shoes (also written by Red Riding Hood author Lydia Very), Cinderella, and King Winter.</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/mundana-theme-jekyll/assets/images/3.jpg" /></entry><entry><title type="html">Press and education</title><link href="http://localhost:4000/mundana-theme-jekyll/press-and-education/" rel="alternate" type="text/html" title="Press and education" /><published>2019-01-25T00:00:00+05:30</published><updated>2019-01-25T00:00:00+05:30</updated><id>http://localhost:4000/mundana-theme-jekyll/press-and-education</id><content type="html" xml:base="http://localhost:4000/mundana-theme-jekyll/press-and-education/">&lt;p&gt;Even the press, the classroom, the platform, and the pulpit in many instances do not give us objective and unbiased truths. To save man from the morass of propaganda, in my opinion, is one of the chief aims of education. Education must enable one to sift and weigh evidence, to discern the true from the false, the real from the unreal, and the facts from the fiction.&lt;/p&gt;
+
+&lt;p&gt;Education must also train one for quick, &lt;strong&gt;resolute and effective thinking&lt;/strong&gt;. To think incisively and to think for one’s self is very difficult.&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;We are prone to let our mental life become invaded by legions of half truths, prejudices, and propaganda. At this point, I often wonder whether or not education is fulfilling its purpose. A great majority of the so-called educated people do not think logically and scientifically.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;The function of education, therefore, is to teach one to think intensively and to think critically. But education which stops with efficiency may prove the greatest menace to society. The most dangerous criminal may be the man gifted with reason, but with no morals.&lt;/p&gt;
+
+&lt;p&gt;The late Eugene Talmadge, in my opinion, possessed one of the better minds of Georgia, or even America. Moreover, he wore the Phi Beta Kappa key. By all measuring rods, Mr. Talmadge could think critically and intensively; yet he contends that I am an inferior being. Are those the types of men we call educated?&lt;/p&gt;
+
+&lt;p&gt;We must remember that intelligence is not enough. Intelligence plus character–that is the goal of true education. The complete education gives one not only power of concentration, but worthy objectives upon which to concentrate. The broad education will, therefore, transmit to one not only the accumulated knowledge of the race but also the accumulated experience of social living.&lt;/p&gt;</content><author><name>sal</name></author><summary type="html">Even the press, the classroom, the platform, and the pulpit in many instances do not give us objective and unbiased truths. To save man from the morass of propaganda, in my opinion, is one of the chief aims of education. Education must enable one to sift and weigh evidence, to discern the true from the false, the real from the unreal, and the facts from the fiction.</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/mundana-theme-jekyll/assets/images/7.jpg" /></entry></feed>

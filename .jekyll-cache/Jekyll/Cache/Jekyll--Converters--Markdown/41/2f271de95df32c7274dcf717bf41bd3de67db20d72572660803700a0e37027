@@ -1,0 +1,54 @@
+I"@<p>This post is a follow-up of my earlier post about building a jekyll site.</p>
+
+<p>In this post, I will describe a few things that I modified on my site. For example, the footer show site title twice, I add a <code class="language-plaintext highlighter-rouge">_config.yml</code> setting to show blog author name instead of one of the site titles.</p>
+
+<h2>Add site description</h2>
+<p>The blog site that you deployed earlier (as described in the post referenced above) should look pretty good, but we can make a few quick improvements to make it look even better.</p>
+
+<p>Add a variable <code class="language-plaintext highlighter-rouge">description</code> to your <code class="language-plaintext highlighter-rouge">_config.yml</code> and set its value to a short description of your site.</p>
+
+<p><b>_config.yml</b></p>
+
+<figure class="highlight"><pre><code class="language-ruby" data-lang="ruby"><span class="ss">description: </span><span class="no">This</span> <span class="n">blog</span> <span class="n">includes</span> <span class="n">posts</span> <span class="n">related</span> <span class="n">to</span> <span class="n">topic</span> <span class="no">A</span><span class="p">,</span> <span class="n">topic</span> <span class="no">B</span> <span class="n">and</span> <span class="n">topic</span> <span class="no">C</span><span class="o">.</span></code></pre></figure>
+
+<p>Try in browser. The description now displays in footer.</p>
+
+<h2>Modify title above list of posts</h2>
+<p>On the Home/Index page, the list of posts are preceded by a title “Posts”. You can change it to a different title. Suppose, you want the title to be “Latest Posts”. This is easily achieved by adding a variable to <code class="language-plaintext highlighter-rouge">index.html</code>’s front matter:</p>
+
+<figure class="highlight"><pre><code class="language-ruby" data-lang="ruby"><span class="o">---</span>
+<span class="ss">layout: </span><span class="n">home</span>
+<span class="ss">list_title: </span><span class="s2">"Latest Posts"</span>
+<span class="o">---</span></code></pre></figure>
+
+<p>Try in browser. The Home page displays “Latest Posts” as the title above list of posts.</p>
+
+<h2>Add github, twitter and rss links to footer</h2>
+<p>Github, Twitter and RSS links can be added to footer by simply setting variables in <code class="language-plaintext highlighter-rouge">_config.yml</code>.</p>
+
+<p>The link to RSS feed is already displayed at the end of list of posts on the Home page. But adding a variable in <code class="language-plaintext highlighter-rouge">_config.yml</code> and setting it to just <code class="language-plaintext highlighter-rouge">rss</code> also adds a link in the footer.</p>
+
+<p><b>_config.yml</b></p>
+
+<figure class="highlight"><pre><code class="language-ruby" data-lang="ruby"><span class="ss">github_username: </span><span class="n">your_github_username</span>
+<span class="ss">twitter_username: </span><span class="n">your_twitter_username</span>
+<span class="ss">rss: </span><span class="n">rss</span></code></pre></figure>
+
+<p>Try in browser. Github, Twitter and RSS links are displayed nicely stacked in the footer.</p>
+
+<h2>Modify footer to display blog author name</h2>
+<p>Now the setting that I mentioned at the beginning of this post - displaying blog author name in the footer, instead of displaying site title twice.</p>
+
+<p>The Minima theme displays the site title a second time, because it looks for site <code class="language-plaintext highlighter-rouge">author</code> variable and if the <code class="language-plaintext highlighter-rouge">author</code> variable is not present it uses <code class="language-plaintext highlighter-rouge">title</code> variable as default value.</p>
+
+<p>So, to make this changes, you can simply add <code class="language-plaintext highlighter-rouge">author</code> variable to <code class="language-plaintext highlighter-rouge">_config.yml</code>.</p>
+
+<figure class="highlight"><pre><code class="language-ruby" data-lang="ruby"><span class="ss">author: </span><span class="s2">"Blog Author"</span></code></pre></figure>
+
+<p>Try in browser. Footer should now display blog author name instead of site title be displayed a second time.</p>
+
+<h2>Google Analytics</h2>
+<p>You can add Google analytics to your site by adding the following setting to <code class="language-plaintext highlighter-rouge">_config.yml</code>:</p>
+
+<figure class="highlight"><pre><code class="language-ruby" data-lang="ruby"><span class="ss">google_analytics: </span><span class="no">UA</span><span class="o">-</span><span class="no">XXXXXXXX</span><span class="o">-</span><span class="no">X</span></code></pre></figure>
+:ET
