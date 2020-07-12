@@ -3,7 +3,7 @@ layout: post
 title:  "Dynamically Generated Github Stats For Your Profile ReadMe"
 date:   2020-07-12 16:00:00 +0530
 categories: [ Jekyll, tutorial ]
-image: assets/images/4.jpg
+image: https://camo.githubusercontent.com/2300191d93dcc42ab2faa77ab6beebc0fb1a1c5e/687474703a2f2f692e696d6775722e636f6d2f513754515948782e706e67
 tags: [featured]
 comments: true
 permalink: "/dynamic_stats_for_github"
