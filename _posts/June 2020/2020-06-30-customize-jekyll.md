@@ -2,7 +2,7 @@
 layout: post
 title:  "Customizing A Jekyll Theme Layout"
 date:   2020-06-30 06:00:03 +0530
-categories: [ Jekyll, tutorial ]
+categories: [ Jekyll ]
 image: https://www.gotafflair.com/wp-content/uploads/2019/09/Customize-Your-Website.jpg
 tags: [featured]
 comments: true

@@ -2,8 +2,9 @@
 layout: post
 title:  "Build A Blog Using Jekyll And Deploy To Github Pages And Set Custom Domain"
 date:   2020-06-29 10:00:03 +0530
-categories: [ Jekyll, tutorial ]
+categories: [ Jekyll ]
 image: https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQnVSoVtxiTxFVpd3FadZvxRuOynsRQZO-VXw&usqp=CAU
+tags: [sticky]
 
 comments: true
 permalink: "/buildblogusingjekyll"

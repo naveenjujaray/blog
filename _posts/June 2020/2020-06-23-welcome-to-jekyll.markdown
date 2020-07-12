@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Welcome to My Blog!"
-categories: [ Jekyll, tutorial ]
+categories: [ Jekyll ]
 image: https://jekyllrb.com/img/logo-2x.png
 date:   2020-06-23 12:59:03 +0530
 comments: true

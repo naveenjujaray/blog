@@ -2,7 +2,7 @@
 layout: post
 title:  "How To Create A GitHub Profile README"
 date:   2020-07-12 17:00:00 +0530
-categories: [ Jekyll, tutorial ]
+categories: [ Github ]
 image: assets/images/6.jpg
 comments: true
 permalink: "/readme_github_profile"

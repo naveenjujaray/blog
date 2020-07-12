@@ -2,11 +2,12 @@
 layout: post
 title:  "Current tools against state's Internet-blocking for censorship"
 date:   2020-07-05 19:41:03 +0530
-categories: [ Jekyll, tutorial ]
+categories: [ VPN ]
 image: assets/images/3.jfif
 comments: true
 permalink: "/censorship-2020"
 published: true
+tags: [ featured ]
 ---
 There is a resurgence of draconian State `blocking/slowdowns of Internet` in Turkey, Egypt, Iraq and elsewhere, with Iraq at the time of writing passing the 104th hour of blackout due to ongoing protests `against government` corruption, Egypt having over `500` news/rights/etc websites known `blocked` and Turkey e.g. habitually ordering hundreds of State-takedowns monthly with `major knowledge` and `culture treasures` of `humankind` such as `Wikipedia` being completely `banned` for almost `900 days` now.
 

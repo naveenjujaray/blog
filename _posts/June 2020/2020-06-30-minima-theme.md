@@ -2,7 +2,7 @@
 layout: post
 title:  "Jekyll Minima Theme - A Few Settings"
 date:   2020-06-30 16:00:03 +0530
-categories: [ Jekyll, tutorial ]
+categories: [ Jekyll ]
 image: assets/images/1.jpg
 comments: true
 permalink: "/minimathemesettings"
