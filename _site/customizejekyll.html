@@ -8,19 +8,24 @@
     <title>Naveen Jujaray</title>
 
     <!-- Begin Jekyll SEO tag v2.5.0 -->
-<title>About | Naveen Jujaray</title>
+<title>Customizing A Jekyll Theme Layout | Naveen Jujaray</title>
 <meta name="generator" content="Jekyll v3.8.5" />
-<meta property="og:title" content="About" />
+<meta property="og:title" content="Customizing A Jekyll Theme Layout" />
+<meta name="author" content="Naveen Jujaray" />
 <meta property="og:locale" content="en_US" />
-<meta name="description" content="Blog" />
-<meta property="og:description" content="Blog" />
-<link rel="canonical" href="http://localhost:4000/about" />
-<meta property="og:url" content="http://localhost:4000/about" />
+<meta name="description" content="After I started a blog, as described in this post, I felt it would be cool to convert the author name shown on top of each post to a link to the about page. This was a minor change, but it required me to customize minima theme’s post layout." />
+<meta property="og:description" content="After I started a blog, as described in this post, I felt it would be cool to convert the author name shown on top of each post to a link to the about page. This was a minor change, but it required me to customize minima theme’s post layout." />
+<link rel="canonical" href="http://localhost:4000/customizejekyll" />
+<meta property="og:url" content="http://localhost:4000/customizejekyll" />
 <meta property="og:site_name" content="Naveen Jujaray" />
-<meta name="twitter:card" content="summary" />
+<meta property="og:image" content="https://www.gotafflair.com/wp-content/uploads/2019/09/Customize-Your-Website.jpg" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2020-06-30T06:00:03+05:30" />
+<meta name="twitter:card" content="summary_large_image" />
 <meta name="twitter:site" content="@" />
+<meta name="twitter:creator" content="@Naveen Jujaray" />
 <script type="application/ld+json">
-{"publisher":{"@type":"Organization","logo":{"@type":"ImageObject","url":"http://localhost:4000/assets/images/logo.png"}},"headline":"About","description":"Blog","url":"http://localhost:4000/about","@type":"WebPage","@context":"http://schema.org"}</script>
+{"publisher":{"@type":"Organization","logo":{"@type":"ImageObject","url":"http://localhost:4000/assets/images/logo.png"},"name":"Naveen Jujaray"},"author":{"@type":"Person","name":"Naveen Jujaray"},"headline":"Customizing A Jekyll Theme Layout","dateModified":"2020-06-30T06:00:03+05:30","datePublished":"2020-06-30T06:00:03+05:30","description":"After I started a blog, as described in this post, I felt it would be cool to convert the author name shown on top of each post to a link to the about page. This was a minor change, but it required me to customize minima theme’s post layout.","url":"http://localhost:4000/customizejekyll","image":"https://www.gotafflair.com/wp-content/uploads/2019/09/Customize-Your-Website.jpg","@type":"BlogPosting","mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost:4000/customizejekyll"},"@context":"http://schema.org"}</script>
 <!-- End Jekyll SEO tag -->
 
 
@@ -136,12 +141,12 @@ var documents = [{
     "id": 9,
     "url": "http://localhost:4000/flutterinstall",
     "title": "How to install Flutter",
-    "body": "2020/07/01 - Select the operating system on which you are installing Flutter:windows   MacOS   Linux For Windows: System requirements: To install and run Flutter, your development environment must meet these minimum requirements:  Operating Systems: Windows 7 SP1 or later (64-bit) Disk Space: 400 MB (does not include disk space for IDE/tools).  Tools: Flutter depends on these tools being available in your environment.      Windows PowerShell 5. 0 or newer (this is pre-installed with Windows 10)       Git for Windows 2. x, with the Use Git from the Windows Command Prompt option.     If Git for Windows is already installed, make sure you can run git commands from the command prompt or PowerShell.       Get the Flutter SDK:  Download the following installation bundle to get the latest stable release of the Flutter SDK: For other release channels, and older builds, see the SDK archive page.  Extract the zip file and place the contained flutter in the desired installation location for the Flutter SDK (for example, C:\src\flutter; do not install Flutter in a directory like C:\Program Files\ that requires elevated privileges).  If you don’t want to install a fixed version of the installation bundle, you can skip steps 1 and 2. Instead, get the source code from the Flutter repo on GitHub, and change branches or tags as needed. For example:git clone https://github. com/flutter/flutter. git -b stableYou are now ready to run Flutter commands in the Flutter Console. Update your path: If you wish to run Flutter commands in the regular Windows console, take these steps to add Flutter to the PATH environment variable:  From the Start search bar, enter ‘env’ and select Edit environment variables for your account.  Under User variables check if there is an entry called Path:     If the entry exists, append the full path to flutter\bin using ; as a separator from existing values.    If the entry doesn’t exist, create a new user variable named Path with the full path to flutter\bin as its value.    You have to close and reopen any existing console windows for these changes to take effect. Run flutter doctor: From a console window that has the Flutter directory in the path (see above), run the following command to see if there are any platform dependencies you need to complete the setup: C:\src\flutter&gt;flutter doctorThis command checks your environment and displays a report of the status of your Flutter installation. Check the output carefully for other software you might need to install or further tasks to perform (shown in X mark). For example: [-] Android toolchain - develop for Android devices  • Android SDK at D:\Android\sdk  ✗ Android SDK is missing command line tools; download from https://goo. gl/XxQghQ  • Try re-installing or updating your Android SDK,   visit https://flutter. dev/setup/#android-setup for detailed instructions. For MacOS: To install and run Flutter, your development environment must meet these minimum requirements:  Operating Systems: macOS (64-bit) Disk Space: 2. 8 GB (does not include disk space for IDE/tools).  Tools: Flutter depends on these command-line tools being available in your environment.      bash   curl   git 2. x   mkdir   rm   unzip   which   zip   Get the Flutter SDK:  Download the following installation bundle to get the latest stable release of the Flutter SDK:For other release channels, and older builds, see the SDK archive page.  Extract the file in the desired location, for example: $ cd ~/development $ unzip ~/Downloads/flutter_macos_1. 17. 4-stable. zip If you don’t want to install a fixed version of the installation bundle, you can skip steps 1 and 2. Instead, get the source code from the Flutter repo on GitHub with the following command:$ git clone https://github. com/flutter/flutter. gitYou can also change branches or tags as needed. For example, to get just the stable version: $ git clone https://github. com/flutter/flutter. git -b stable --depth 1Add the flutter tool to your path: $ export PATH= $PATH:`pwd`/flutter/bin This command sets your PATH variable for the current terminal window only. To permanently add Flutter to your path, see Update your path.  Optionally, pre-download development binaries:The flutter tool downloads platform-specific development binaries as needed. For scenarios where pre-downloading these artifacts is preferable (for example, in hermetic build environments, or with intermittent network availability), iOS and Android binaries can be downloaded ahead of time by running: $ flutter precacheFor additional download options, see flutter help precache. You are now ready to run Flutter commands! Run flutter doctor: Run the following command to see if there are any dependencies you need to install to complete the setup (for verbose output, add the -v flag): $ flutter doctorThis command checks your environment and displays a report to the terminal window. The Dart SDK is bundled with Flutter; it is not necessary to install Dart separately. Check the output carefully for other software you might need to install or further tasks to perform (shown in X mark). For example: [-] Android toolchain - develop for Android devices  • Android SDK at /Users/obiwan/Library/Android/sdk  ✗ Android SDK is missing command line tools; download from https://goo. gl/XxQghQ  • Try re-installing or updating your Android SDK,   visit https://flutter. dev/setup/#android-setup for detailed instructions. The following sections describe how to perform these tasks and finish the setup process. Once you have installed any missing dependencies, run the flutter doctor command again to verify that you’ve set everything up correctly. Update your path: You can update your PATH variable for the current session at the command line, as shown in Get the Flutter SDK. You’ll probably want to update this variable permanently, so you can run flutter commands in any terminal session. The steps for modifying this variable permanently for all terminal sessions are machine-specific. Typically you add a line to a file that is executed whenever you open a new window. For example:  Determine the directory where you placed the Flutter SDK. You need this in Step 3.  Open (or create) the rc file for your shell. Typing echo $SHELL in your Terminal tells you which shell you’re using. If you’re using Bash, edit $HOME/. bash_profile or $HOME/. bashrc. If you’re using Z shell, edit $HOME/. zshrc. If you’re using a different shell, the  file path and filename will be different on your machine.  Add the following line and change PATH_TO_FLUTTER_GIT_DIRECTORY to be the path where you cloned Flutter’s git repo:$ export PATH= $PATH:[PATH_TO_FLUTTER_GIT_DIRECTORY]/flutter/bin  Run source $HOME/. to refresh the current window, or open a new terminal window to automatically source the file.  Verify that the flutter/bin directory is now in your PATH by running:$ echo $PATHVerify that the flutter command is available by running: $ which flutterFor LINUX###System requirementsTo install and run Flutter, your development environment must meet these minimum requirements:  Operating Systems: Linux (64-bit) Disk Space: 600 MB (does not include disk space for IDE/tools).  Tools: Flutter depends on these command-line tools being available in your environment.      bash   curl   file   git 2. x   mkdir   rm   unzip   which   xz-utils   zip    Shared libraries: Flutter test command depends on this library being available in your environment.      libGLU. so. 1 - provided by mesa packages such as libglu1-mesa on Ubuntu/Debian    Get the Flutter SDK:        Download the following installation bundle to get the latest stable release of the Flutter SDK:For other release channels, and older builds, see the SDK archive page.  Extract the file in the desired location, for example:$ cd ~/development$ tar xf ~/Downloads/flutter_linux_1. 17. 4-stable. tar. xzIf you don’t want to install a fixed version of the installation bundle, you can skip steps 1 and 2. Instead, get the source code from the Flutter repo on GitHub with the following command: $ git clone https://github. com/flutter/flutter. gitYou can also change branches or tags as needed. For example, to get just the stable version: $ git clone https://github. com/flutter/flutter. git -b stable --depth 1 Add the flutter tool to your path:$ export PATH= $PATH:`pwd`/flutter/bin This command sets your PATH variable for the current terminal window only. To permanently add Flutter to your path, see Update your path.  Optionally, pre-download development binaries:The flutter tool downloads platform-specific development binaries as needed. For scenarios where pre-downloading these artifacts is preferable (for example, in hermetic build environments, or with intermittent network availability), iOS and Android binaries can be downloaded ahead of time by running: $ flutter precacheFor additional download options, see flutter help precache. You are now ready to run Flutter commands! Run flutter doctor: Run the following command to see if there are any dependencies you need to install to complete the setup (for verbose output, add the -v flag): $ flutter doctorThis command checks your environment and displays a report to the terminal window. The Dart SDK is bundled with Flutter; it is not necessary to install Dart separately. Check the output carefully for other software you might need to install or further tasks to perform (shown in X mark). For example: [-] Android toolchain - develop for Android devices  • Android SDK at /Users/obiwan/Library/Android/sdk  ✗ Android SDK is missing command line tools; download from https://goo. gl/XxQghQ  • Try re-installing or updating your Android SDK,   visit https://flutter. dev/setup/#android-setup for detailed instructions. The following sections describe how to perform these tasks and finish the setup process. Once you have installed any missing dependencies, run the flutter doctor command again to verify that you’ve set everything up correctly. Update your path: You can update your PATH variable for the current session at the command line, as shown in Get the Flutter SDK. You’ll probably want to update this variable permanently, so you can run flutter commands in any terminal session. The steps for modifying this variable permanently for all terminal sessions are machine-specific. Typically you add a line to a file that is executed whenever you open a new window. For example:  Determine the directory where you placed the Flutter SDK. You need this in Step 3.  Open (or create) the rc file for your shell. For example, Linux uses the Bash shell by default, so edit $HOME/. bashrc. If you are using a different shell, the file path and filename will be different on your machine.  Add the following line and change PATH_TO_FLUTTER_GIT_DIRECTORY to be the path where you cloned Flutter’s git repo:$ export PATH= $PATH:[PATH_TO_FLUTTER_GIT_DIRECTORY]/flutter/bin  Run source $HOME/. &lt;rc file&gt; to refresh the current window, or open a new terminal window to automatically source the file.  Verify that the flutter/bin directory is now in your PATH by running:$ echo $PATHVerify that the flutter command is available by running: $ which flutter"
+    "body": "2020/07/01 - Select the operating system on which you are installing Flutter:windows   MacOS   Linux For Windows: System requirements: To install and run Flutter, your development environment must meet these minimum requirements:  Operating Systems: Windows 7 SP1 or later (64-bit) Disk Space: 400 MB (does not include disk space for IDE/tools).  Tools: Flutter depends on these tools being available in your environment.      Windows PowerShell 5. 0 or newer (this is pre-installed with Windows 10)       Git for Windows 2. x, with the Use Git from the Windows Command Prompt option.     If Git for Windows is already installed, make sure you can run git commands from the command prompt or PowerShell.       Get the Flutter SDK:  Download the following installation bundle to get the latest stable release of the Flutter SDK: For other release channels, and older builds, see the SDK archive page.  Extract the zip file and place the contained flutter in the desired installation location for the Flutter SDK (for example, C:\src\flutter; do not install Flutter in a directory like C:\Program Files\ that requires elevated privileges).  If you don’t want to install a fixed version of the installation bundle, you can skip steps 1 and 2. Instead, get the source code from the Flutter repo on GitHub, and change branches or tags as needed. For example:{% highlight ruby %}git clone https://github. com/flutter/flutter. git -b stable{% endhighlight %}You are now ready to run Flutter commands in the Flutter Console.   Update your path:   If you wish to run Flutter commands in the regular Windows console, take these steps to add Flutter to the PATH environment variable:   From the Start search bar, enter ‘env’ and select Edit environment variables for your account.  Under User variables check if there is an entry called Path:     If the entry exists, append the full path to flutter\bin using ; as a separator from existing values.    If the entry doesn’t exist, create a new user variable named Path with the full path to flutter\bin as its value.    You have to close and reopen any existing console windows for these changes to take effect. Run flutter doctor: From a console window that has the Flutter directory in the path (see above), run the following command to see if there are any platform dependencies you need to complete the setup:{% highlight ruby %}C:\src\flutter&gt;flutter doctor{% endhighlight %}This command checks your environment and displays a report of the status of your Flutter installation. Check the output carefully for other software you might need to install or further tasks to perform (shown in X mark). For example: {% highlight ruby %}[-] Android toolchain - develop for Android devices  • Android SDK at D:\Android\sdk  ✗ Android SDK is missing command line tools; download from https://goo. gl/XxQghQ  • Try re-installing or updating your Android SDK,   visit https://flutter. dev/setup/#android-setup for detailed instructions. {% endhighlight %} For MacOS: To install and run Flutter, your development environment must meet these minimum requirements:  Operating Systems: macOS (64-bit) Disk Space: 2. 8 GB (does not include disk space for IDE/tools).  Tools: Flutter depends on these command-line tools being available in your environment.      bash   curl   git 2. x   mkdir   rm   unzip   which   zip   Get the Flutter SDK:  Download the following installation bundle to get the latest stable release of the Flutter SDK:For other release channels, and older builds, see the SDK archive page.  Extract the file in the desired location, for example:{% highlight ruby %} $ cd ~/development $ unzip ~/Downloads/flutter_macos_1. 17. 4-stable. zip{% endhighlight %} If you don’t want to install a fixed version of the installation bundle, you can skip steps 1 and 2. Instead, get the source code from the Flutter repo on GitHub with the following command:{% highlight ruby %}$ git clone https://github. com/flutter/flutter. git{% endhighlight %}You can also change branches or tags as needed. For example, to get just the stable version:{% highlight ruby %}$ git clone https://github. com/flutter/flutter. git -b stable –depth 1{% endhighlight %}Add the flutter tool to your path:{% highlight ruby %}$ export PATH=”$PATH:pwd/flutter/bin”{% endhighlight %}This command sets your PATH variable for the current terminal window only. To permanently add Flutter to your path, see Update your path.  Optionally, pre-download development binaries:The flutter tool downloads platform-specific development binaries as needed. For scenarios where pre-downloading these artifacts is preferable (for example, in hermetic build environments, or with intermittent network availability), iOS and Android binaries can be downloaded ahead of time by running:{% highlight ruby %}$ flutter precache{% endhighlight %}For additional download options, see flutter help precache. You are now ready to run Flutter commands! Run flutter doctor: Run the following command to see if there are any dependencies you need to install to complete the setup (for verbose output, add the -v flag):{% highlight ruby %}$ flutter doctor{% endhighlight %} This command checks your environment and displays a report to the terminal window. The Dart SDK is bundled with Flutter; it is not necessary to install Dart separately. Check the output carefully for other software you might need to install or further tasks to perform (shown in X mark). For example: {% highlight ruby %}[-] Android toolchain - develop for Android devices  • Android SDK at /Users/obiwan/Library/Android/sdk  ✗ Android SDK is missing command line tools; download from https://goo. gl/XxQghQ  • Try re-installing or updating your Android SDK,   visit https://flutter. dev/setup/#android-setup for detailed instructions. {% endhighlight %}The following sections describe how to perform these tasks and finish the setup process. Once you have installed any missing dependencies, run the flutter doctor command again to verify that you’ve set everything up correctly. Update your path: You can update your PATH variable for the current session at the command line, as shown in Get the Flutter SDK. You’ll probably want to update this variable permanently, so you can run flutter commands in any terminal session. The steps for modifying this variable permanently for all terminal sessions are machine-specific. Typically you add a line to a file that is executed whenever you open a new window. For example:  Determine the directory where you placed the Flutter SDK. You need this in Step 3.  Open (or create) the rc file for your shell. Typing echo $SHELL in your Terminal tells you which shell you’re using. If you’re using Bash, edit $HOME/. bash_profile or $HOME/. bashrc. If you’re using Z shell, edit $HOME/. zshrc. If you’re using a different shell, the  file path and filename will be different on your machine.  Add the following line and change PATH_TO_FLUTTER_GIT_DIRECTORY to be the path where you cloned Flutter’s git repo:{% highlight ruby %}$ export PATH=”$PATH:[PATH_TO_FLUTTER_GIT_DIRECTORY]/flutter/bin”{% endhighlight %} Run source $HOME/. to refresh the current window, or open a new terminal window to automatically source the file.  Verify that the flutter/bin directory is now in your PATH by running:{% highlight ruby %}$ echo $PATH{% endhighlight %}Verify that the flutter command is available by running:{% highlight ruby %}$ which flutter{% endhighlight %}For LINUX###System requirementsTo install and run Flutter, your development environment must meet these minimum requirements:  Operating Systems: Linux (64-bit) Disk Space: 600 MB (does not include disk space for IDE/tools).  Tools: Flutter depends on these command-line tools being available in your environment.      bash   curl   file   git 2. x   mkdir   rm   unzip   which   xz-utils   zip    Shared libraries: Flutter test command depends on this library being available in your environment.      libGLU. so. 1 - provided by mesa packages such as libglu1-mesa on Ubuntu/Debian    Get the Flutter SDK:        Download the following installation bundle to get the latest stable release of the Flutter SDK:For other release channels, and older builds, see the SDK archive page.  Extract the file in the desired location, for example:{% highlight ruby %}$ cd ~/development$ tar xf ~/Downloads/flutter_linux_1. 17. 4-stable. tar. xz{% endhighlight %}If you don’t want to install a fixed version of the installation bundle, you can skip steps 1 and 2. Instead, get the source code from the Flutter repo on GitHub with the following command:{% highlight ruby %}$ git clone https://github. com/flutter/flutter. git{% endhighlight %}You can also change branches or tags as needed. For example, to get just the stable version:{% highlight ruby %}$ git clone https://github. com/flutter/flutter. git -b stable –depth 1{% endhighlight %} Add the flutter tool to your path:{% highlight ruby %}$ export PATH=”$PATH:pwd/flutter/bin”{% endhighlight %}This command sets your PATH variable for the current terminal window only. To permanently add Flutter to your path, see Update your path.  Optionally, pre-download development binaries:The flutter tool downloads platform-specific development binaries as needed. For scenarios where pre-downloading these artifacts is preferable (for example, in hermetic build environments, or with intermittent network availability), iOS and Android binaries can be downloaded ahead of time by running:{% highlight ruby %}$ flutter precache{% endhighlight %}For additional download options, see flutter help precache. You are now ready to run Flutter commands! Run flutter doctor: Run the following command to see if there are any dependencies you need to install to complete the setup (for verbose output, add the -v flag):{% highlight ruby %}$ flutter doctor{% endhighlight %} This command checks your environment and displays a report to the terminal window. The Dart SDK is bundled with Flutter; it is not necessary to install Dart separately. Check the output carefully for other software you might need to install or further tasks to perform (shown in X mark). For example: {% highlight ruby %}[-] Android toolchain - develop for Android devices  • Android SDK at /Users/obiwan/Library/Android/sdk  ✗ Android SDK is missing command line tools; download from https://goo. gl/XxQghQ  • Try re-installing or updating your Android SDK,   visit https://flutter. dev/setup/#android-setup for detailed instructions. {% endhighlight %}The following sections describe how to perform these tasks and finish the setup process. Once you have installed any missing dependencies, run the flutter doctor command again to verify that you’ve set everything up correctly. Update your path: You can update your PATH variable for the current session at the command line, as shown in Get the Flutter SDK. You’ll probably want to update this variable permanently, so you can run flutter commands in any terminal session. The steps for modifying this variable permanently for all terminal sessions are machine-specific. Typically you add a line to a file that is executed whenever you open a new window. For example:  Determine the directory where you placed the Flutter SDK. You need this in Step 3.  Open (or create) the rc file for your shell. For example, Linux uses the Bash shell by default, so edit $HOME/. bashrc. If you are using a different shell, the file path and filename will be different on your machine.  Add the following line and change PATH_TO_FLUTTER_GIT_DIRECTORY to be the path where you cloned Flutter’s git repo:{% highlight ruby %}$ export PATH=”$PATH:[PATH_TO_FLUTTER_GIT_DIRECTORY]/flutter/bin”{% endhighlight %} Run source $HOME/. &lt;rc file&gt; to refresh the current window, or open a new terminal window to automatically source the file.  Verify that the flutter/bin directory is now in your PATH by running:{% highlight ruby %}$ echo $PATH{% endhighlight %}Verify that the flutter command is available by running:{% highlight ruby %}$ which flutter{% endhighlight %}"
     }, {
     "id": 10,
     "url": "http://localhost:4000/minimathemesettings",
     "title": "Jekyll Minima Theme - A Few Settings",
-    "body": "2020/06/30 - This post is a follow-up of my earlier post about building a jekyll site. In this post, I will describe a few things that I modified on my site. For example, the footer show site title twice, I add a _config. yml setting to show blog author name instead of one of the site titles. Add site description: The blog site that you deployed earlier (as described in the post referenced above) should look pretty good, but we can make a few quick improvements to make it look even better. Add a variable description to your _config. yml and set its value to a short description of your site. _config. yml description: This blog includes posts related to topic A, topic B and topic C. Try in browser. The description now displays in footer. Modify title above list of posts: On the Home/Index page, the list of posts are preceded by a title “Posts”. You can change it to a different title. Suppose, you want the title to be “Latest Posts”. This is easily achieved by adding a variable to index. html’s front matter: ---layout: homelist_title:  Latest Posts ---Try in browser. The Home page displays “Latest Posts” as the title above list of posts. Add github, twitter and rss links to footer: Github, Twitter and RSS links can be added to footer by simply setting variables in _config. yml. The link to RSS feed is already displayed at the end of list of posts on the Home page. But adding a variable in _config. yml and setting it to just rss also adds a link in the footer. _config. yml github_username: your_github_usernametwitter_username: your_twitter_usernamerss: rssTry in browser. Github, Twitter and RSS links are displayed nicely stacked in the footer. Modify footer to display blog author name: Now the setting that I mentioned at the beginning of this post - displaying blog author name in the footer, instead of displaying site title twice. The Minima theme displays the site title a second time, because it looks for site author variable and if the author variable is not present it uses title variable as default value. So, to make this changes, you can simply add author variable to _config. yml. author:  Blog Author Try in browser. Footer should now display blog author name instead of site title be displayed a second time. Google Analytics: You can add Google analytics to your site by adding the following setting to _config. yml: google_analytics: UA-XXXXXXXX-X"
+    "body": "2020/06/30 - This post is a follow-up of my earlier post about building a jekyll site. In this post, I will describe a few things that I modified on my site. For example, the footer show site title twice, I add a _config. yml setting to show blog author name instead of one of the site titles. Add site description: The blog site that you deployed earlier (as described in the post referenced above) should look pretty good, but we can make a few quick improvements to make it look even better. Add a variable description to your _config. yml and set its value to a short description of your site. _config. yml{% highlight ruby %}description: This blog includes posts related to topic A, topic B and topic C. {% endhighlight %}Try in browser. The description now displays in footer. Modify title above list of posts: On the Home/Index page, the list of posts are preceded by a title “Posts”. You can change it to a different title. Suppose, you want the title to be “Latest Posts”. This is easily achieved by adding a variable to index. html’s front matter:{% highlight ruby %}—layout: homelist_title: “Latest Posts”—{% endhighlight %}Try in browser. The Home page displays “Latest Posts” as the title above list of posts. Add github, twitter and rss links to footer: Github, Twitter and RSS links can be added to footer by simply setting variables in _config. yml. The link to RSS feed is already displayed at the end of list of posts on the Home page. But adding a variable in _config. yml and setting it to just rss also adds a link in the footer. _config. yml{% highlight ruby %}github_username: your_github_usernametwitter_username: your_twitter_usernamerss: rss{% endhighlight %}Try in browser. Github, Twitter and RSS links are displayed nicely stacked in the footer. Modify footer to display blog author name: Now the setting that I mentioned at the beginning of this post - displaying blog author name in the footer, instead of displaying site title twice. The Minima theme displays the site title a second time, because it looks for site author variable and if the author variable is not present it uses title variable as default value. So, to make this changes, you can simply add author variable to _config. yml. {% highlight ruby %}author: “Blog Author”{% endhighlight %}Try in browser. Footer should now display blog author name instead of site title be displayed a second time. Google Analytics: You can add Google analytics to your site by adding the following setting to _config. yml:{% highlight ruby %}google_analytics: UA-XXXXXXXX-X{% endhighlight %} "
     }, {
     "id": 11,
     "url": "http://localhost:4000/customizejekyll",
@@ -284,15 +289,198 @@ function lunr_search(term) {
 
     <!-- Content -->
     <main role="main" class="site-content">
-        <div class="container">
-<h3 class="font-weight-bold spanborder"><span>About</span></h3>
-<div class="page-content">
-<p>This site is under construction.</p>
-
-<!-- Comments -->
-
+        
+<div class="container">
+<div class="jumbotron jumbotron-fluid mb-3 pl-0 pt-0 pb-0 bg-white position-relative">
+		<div class="h-100 tofront">
+			<div class="row  justify-content-between ">
+				<div class=" col-md-6  pr-0 pr-md-4 pt-4 pb-4 align-self-center">
+					<p class="text-uppercase font-weight-bold">
+                        <span class="catlist">
+						
+                          <a class="sscroll text-danger" href="/categories.html#jekyll">jekyll</a><span class="sep">, </span>
+                        
+                          <a class="sscroll text-danger" href="/categories.html#tutorial">tutorial</a><span class="sep">, </span>
+                        
+                        </span>
+					</p>
+					<h1 class="display-4 mb-4 article-headline">Customizing A Jekyll Theme Layout</h1>
+					<div class="d-flex align-items-center">
+                       
+						<small class="ml-3"><span class="p-author h-card" itemprop="name">Naveen Jujaray</span>
+							&nbsp; &nbsp;
+							<span><a target="_blank" href="https://dev.to/naveenjujaray" class="btn btn-outline-success btn-sm btn-round ml-1">Follow</a></span>
+                            <span class="text-muted d-block mt-1">Jun 30, 2020 · <span class="reading-time">
+  
+  
+    3 mins read
+  
+</span>
+    </span>
+						</small>
+					</div>
+				</div>
+                
+				<div class="col-md-6 pr-0 align-self-center">
+					<img class="rounded" src="https://www.gotafflair.com/wp-content/uploads/2019/09/Customize-Your-Website.jpg" alt="Customizing A Jekyll Theme Layout">
+				</div>
+                
+			</div>
+		</div>
+	</div>
 </div>
+
+
+
+
+
+<div class="container-lg pt-4 pb-4">
+	<div class="row justify-content-center">
+        
+        
+        <!-- Share -->
+		<div class="col-lg-2 pr-4 mb-4 col-md-12">
+			<div class="sticky-top sticky-top-offset text-center">
+				<div class="text-muted">
+					Share this
+				</div>
+				<div class="share d-inline-block">
+					<!-- AddToAny BEGIN -->
+					<div class="a2a_kit a2a_kit_size_32 a2a_default_style">
+						<a class="a2a_dd" href="https://www.addtoany.com/share"></a>
+						<a class="a2a_button_facebook"></a>
+						<a class="a2a_button_twitter"></a>
+					</div>
+					<script async src="https://static.addtoany.com/menu/page.js"></script>
+					<!-- AddToAny END -->
+				</div>
+			</div>
+		</div>
+        
+        
+		<div class="col-md-12 col-lg-8">
+            
+            <!-- Article -->
+			<article class="article-post">                
+			<p>After I started a blog, as described in <a href="https://njblog.onrender.com/jekyll/update/2020/06/29/Build-A-Blog-Using-Jekyll.html">this</a> post, I felt it would be cool to convert the author name shown on top of each post to a link to the <code class="highlighter-rouge">about</code> page. This was a minor change, but it required me to customize <code class="highlighter-rouge">minima</code> theme’s <code class="highlighter-rouge">post</code> layout.</p>
+
+<p>I describe the steps that I used to customize <code class="highlighter-rouge">minima’</code>s <code class="highlighter-rouge">post.html</code> layout in this post.</p>
+<h2>Customizing theme files</h2>
+
+<p>You can modify a jekyll theme’s functionality by copying a specific file from theme gem and then modifying it. Jekyll uses local files of the same name to override the theme behavior. In addition, the local folder name has to be identical to the folder name in gem where you copied the file from.</p>
+
+<h2>Create a folder in your site root directory</h2>
+<p>Since you are modifying the <code class="highlighter-rouge">post</code> layout, you need create a copy of the file in your local site. You need the following steps:</p>
+
+<p>In the root directory of the site, create a <code class="highlighter-rouge">_layouts</code> directory:</p>
+
+<figure class="highlight"><pre><code class="language-ruby" data-lang="ruby"><span class="err">$</span> <span class="n">mkdir</span> <span class="n">_layouts</span></code></pre></figure>
+
+<h2>Locate minima gem’s post.html on your computer</h2>
+<p>You need to determine where Ruby gems are stored on your computer.</p>
+
+<p>You can figure out Ruby gem folder location by running the command <code class="highlighter-rouge">gem environment</code> and looking for the value of <code class="highlighter-rouge">INSTALLATION DIRECTORY</code> field. The command output should look something like:</p>
+
+<figure class="highlight"><pre><code class="language-ruby" data-lang="ruby"><span class="err">$</span> <span class="n">gem</span> <span class="n">environment</span>
+
+<span class="no">RubyGems</span> <span class="no">Environment</span><span class="p">:</span>
+  <span class="o">...</span>
+
+  <span class="o">-</span> <span class="no">INSTALLATION</span> <span class="no">DIRECTORY</span><span class="p">:</span> <span class="sr">/path/</span><span class="n">to</span><span class="o">/</span><span class="n">your</span><span class="o">/</span><span class="n">ruby</span><span class="o">/</span><span class="n">installation</span><span class="o">/</span><span class="n">lib</span><span class="o">/</span><span class="n">ruby</span><span class="o">/</span><span class="n">gems</span><span class="o">/</span><span class="mf">2.3</span><span class="o">.</span><span class="mi">0</span>
+
+  <span class="o">...</span></code></pre></figure>
+
+<p>The <code class="highlighter-rouge">minima</code> gem files are located within this folder:</p>
+
+<figure class="highlight"><pre><code class="language-ruby" data-lang="ruby"><span class="err">$</span> <span class="n">ls</span> <span class="o">-</span><span class="n">l</span> <span class="sr">/path/</span><span class="n">to</span><span class="o">/</span><span class="n">your</span><span class="o">/</span><span class="n">ruby</span><span class="o">/</span><span class="n">installation</span><span class="o">/</span><span class="n">lib</span><span class="o">/</span><span class="n">ruby</span><span class="o">/</span><span class="n">gems</span><span class="o">/</span><span class="mf">2.3</span><span class="o">.</span><span class="mi">0</span><span class="o">/</span><span class="n">gems</span><span class="o">/</span><span class="n">minima</span><span class="o">-</span><span class="mf">2.5</span><span class="o">.</span><span class="mi">0</span></code></pre></figure>
+
+<p>The file you want to copy and modify is located within the <code class="highlighter-rouge">_layouts</code> folder:</p>
+
+<figure class="highlight"><pre><code class="language-ruby" data-lang="ruby"><span class="err">$</span> <span class="n">ls</span> <span class="o">-</span><span class="n">l</span> <span class="sr">/path/</span><span class="n">to</span><span class="o">/</span><span class="n">your</span><span class="o">/</span><span class="n">ruby</span><span class="o">/</span><span class="n">installation</span><span class="o">/</span><span class="n">lib</span><span class="o">/</span><span class="n">ruby</span><span class="o">/</span><span class="n">gems</span><span class="o">/</span><span class="mf">2.3</span><span class="o">.</span><span class="mi">0</span><span class="o">/</span><span class="n">gems</span><span class="o">/</span><span class="n">minima</span><span class="o">-</span><span class="mf">2.5</span><span class="o">.</span><span class="mi">0</span><span class="o">/</span><span class="n">_layouts</span>
+<span class="n">default</span><span class="p">.</span><span class="nf">html</span>
+<span class="n">home</span><span class="p">.</span><span class="nf">html</span>
+<span class="n">page</span><span class="p">.</span><span class="nf">html</span>
+<span class="o">&lt;</span><span class="n">b</span><span class="o">&gt;</span><span class="n">post</span><span class="p">.</span><span class="nf">html</span><span class="o">&lt;</span><span class="sr">/b&gt;</span></code></pre></figure>
+
+<p>An alternative way to figure out the location of gem files is by using the command <code class="highlighter-rouge">bundle show minima</code>.</p>
+
+<p>#Copy the gem post.html to your site
+Copy <code class="highlighter-rouge">_layouts/post.html</code> from minima ruby gem folder into the local <code class="highlighter-rouge">_layouts</code> directory just created. Go to your site’s root directory and then run the following commands:</p>
+
+<figure class="highlight"><pre><code class="language-ruby" data-lang="ruby"><span class="err">$</span> <span class="n">cd</span> <span class="n">_layouts</span>
+<span class="err">$</span> <span class="n">cp</span> <span class="sr">/path/</span><span class="n">to</span><span class="o">/</span><span class="n">your</span><span class="o">/</span><span class="n">ruby</span><span class="o">/</span><span class="n">installation</span><span class="o">/</span><span class="n">lib</span><span class="o">/</span><span class="n">ruby</span><span class="o">/</span><span class="n">gems</span><span class="o">/</span><span class="mf">2.3</span><span class="o">.</span><span class="mi">0</span><span class="o">/</span><span class="n">gems</span><span class="o">/</span><span class="n">minima</span><span class="o">-</span><span class="mf">2.5</span><span class="o">.</span><span class="mi">0</span><span class="o">/</span><span class="n">_layouts</span><span class="o">/</span><span class="n">post</span><span class="p">.</span><span class="nf">html</span> <span class="o">.</span></code></pre></figure>
+
+<h2>Make author name a link</h2>
+<p>Open <code class="highlighter-rouge">post.html</code> in an editor and locate the line that you want to modify. The html that you want to modify is shown below:</p>
+
+<figure class="highlight"><pre><code class="language-ruby" data-lang="ruby"><span class="o">&lt;</span><span class="n">span</span> <span class="n">itemprop</span><span class="o">=</span><span class="s2">"author"</span> <span class="n">itemscope</span> <span class="n">itemtype</span><span class="o">=</span><span class="s2">"http://schema.org/Person"</span><span class="o">&gt;&lt;</span><span class="n">span</span> <span class="k">class</span><span class="o">=</span><span class="s2">"p-author h-card"</span> <span class="n">itemprop</span><span class="o">=</span><span class="s2">"name"</span><span class="o">&gt;</span><span class="no">Naveen</span> <span class="no">Jujaray</span><span class="o">&lt;</span><span class="sr">/span&gt;&lt;/s</span><span class="n">pan</span><span class="o">&gt;</span></code></pre></figure>
+
+<p>Add an anchor element around <code class="highlighter-rouge">Naveen Jujaray</code> as follows:</p>
+
+<figure class="highlight"><pre><code class="language-ruby" data-lang="ruby"><span class="o">&lt;</span><span class="n">span</span> <span class="n">itemprop</span><span class="o">=</span><span class="s2">"author"</span> <span class="n">itemscope</span> <span class="n">itemtype</span><span class="o">=</span><span class="s2">"http://schema.org/Person"</span><span class="o">&gt;&lt;</span><span class="n">span</span> <span class="k">class</span><span class="o">=</span><span class="s2">"p-author h-card"</span> <span class="n">itemprop</span><span class="o">=</span><span class="s2">"name"</span><span class="o">&gt;&lt;</span><span class="n">a</span> <span class="n">href</span><span class="o">=</span><span class="s2">"/about.html"</span><span class="o">&gt;</span><span class="no">Naveen</span> <span class="no">Jujaray</span><span class="o">&lt;</span><span class="sr">/a&gt;&lt;/s</span><span class="n">pan</span><span class="o">&gt;&lt;</span><span class="sr">/span&gt;</span></code></pre></figure>
+
+<p>Try in browser. In the post, the author name should now be a link. Clicking on the author name should take you to the about page.</p>
+
+                
+			</article>
+			
+			<!-- Tags -->
+			<div class="mb-4">
+				<span class="taglist">
+				
+				  <a class="sscroll btn btn-light btn-sm font-weight-bold" href="/tags.html#featured">featured</a>
+				
+				</span>
+			</div>
+        
+            
+            <!-- Comments -->
+            
+                <!--  Don't edit anything here. Set your disqus id in _config.yml -->
+
+<div id="comments" class="mt-5">
+    <div id="disqus_thread">
+    </div>
+    <script type="text/javascript">
+        var disqus_shortname = 'njblog'; 
+        var disqus_developer = 0;
+        (function() {
+            var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+            dsq.src = window.location.protocol + '//' + disqus_shortname + '.disqus.com/embed.js';
+            (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+        })();
+    </script>
+    <noscript>
+    Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a>
+    </noscript>
 </div>
+            
+            
+		</div>
+        
+        
+	</div>
+</div>
+
+
+<!-- Aletbar Prev/Next -->
+<div class="alertbar">
+    <div class="container">
+        <div class="row prevnextlinks small font-weight-bold">
+          
+            <div class="col-md-6 rightborder pl-0">
+                <a class="text-dark" href="/buildblogusingjekyll"> <img height="30px" class="mr-1" src="/https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQnVSoVtxiTxFVpd3FadZvxRuOynsRQZO-VXw&usqp=CAU">  Build A Blog Using Jekyll And Deploy To Github Pages And Set Custom Domain</a>
+            </div>
+          
+          
+            <div class="col-md-6 text-right pr-0">
+                <a class="text-dark" href="/minimathemesettings"> Jekyll Minima Theme - A Few Settings  <img height="30px" class="ml-1" src="/assets/images/1.jpg"> </a>
+            </div>
+          
+        </div>
+    </div>
+</div>
+
     </main>
 
 
