@@ -1,7 +1,7 @@
 # Site
 name: 'Naveen Jujaray'
 description: 'Blog'
-logo: 'assets/images/iconk.png'
+logo: 'assets/images/iconk.png' 
 favicon: 'assets/images/iconk.png'
 baseurl: ''
 url: 'https://njblog.js.org'
@@ -23,8 +23,6 @@ plugins:
 authors:
     Sal:
       name:           Naveen Jujaray
-      site:           https://keerthisree.onrender.com
-      avatar:         /assets/images/avatar1.jpg
       bio:            "Hi, I am Naveen Jujaray, Owner of this blog..."
       email:          jujaraynaveen@gmail.com
       twitter:        https://twitter.com/naveenjujaray
