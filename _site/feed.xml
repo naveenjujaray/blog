@@ -1,4 +1,79 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.5">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2020-07-13T09:05:42+05:30</updated><id>http://localhost:4000/feed.xml</id><title type="html">Naveen Jujaray</title><subtitle>Blog</subtitle><entry><title type="html">How To Create A GitHub Profile README</title><link href="http://localhost:4000/readme_github_profile" rel="alternate" type="text/html" title="How To Create A GitHub Profile README" /><published>2020-07-12T17:00:00+05:30</published><updated>2020-07-12T17:00:00+05:30</updated><id>http://localhost:4000/github-profile-readme</id><content type="html" xml:base="http://localhost:4000/readme_github_profile">&lt;p&gt;GitHub recently released a feature that allows users to create a profile-level README to display prominently on their GitHub profile. This article walksthrough how to access this new feature.&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.5">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2020-07-13T13:50:52+05:30</updated><id>http://localhost:4000/feed.xml</id><title type="html">Naveen Jujaray</title><subtitle>Blog</subtitle><entry><title type="html">Deploy a website using Firebase Hosting</title><link href="http://localhost:4000/firebase_hosting" rel="alternate" type="text/html" title="Deploy a website using Firebase Hosting" /><published>2020-07-13T10:00:00+05:30</published><updated>2020-07-13T10:00:00+05:30</updated><id>http://localhost:4000/firebase-hosting</id><content type="html" xml:base="http://localhost:4000/firebase_hosting">&lt;p&gt;There’s a lot of options cheap or even free in the market to deploy our projects. One of these and my favorite is the Firebase Hosting, a service of Google.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Firebase&lt;/strong&gt; is a set of services of Google that provides you a &lt;strong&gt;BaaS&lt;/strong&gt; (Back-end as a service), which means you don’t have to worry about the boring part of deploy a back-end to your project. One of these services is the Firebase Hosting that you can deploy your website or web app made in HTML, Javascript, and CSS.&lt;/p&gt;
+
+&lt;p&gt;I’ll show you how to deploy a simple website in the Firebase Hosting at zero cost.&lt;/p&gt;
+
+&lt;h2 id=&quot;create-a-project&quot;&gt;Create a project&lt;/h2&gt;
+
+&lt;p&gt;We need to click in “Go to console” in the top right corner.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/firebase/2.jpg&quot; alt=&quot;no2&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;So the Firebase console. Now, we gonna create a project by clicking in “Adicionar projeto” (I didn’t find how to change the language on the firebase console)&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/firebase/3.jpg&quot; alt=&quot;no3&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Now, we chosen the name of the project and keep on! In the mine, I’ve chosen the name “Firebase Lab”&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/firebase/4.jpg&quot; alt=&quot;no4&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Here you can disable google analytics for now:&lt;/p&gt;
+
+&lt;h3 id=&quot;the-project-finally-created&quot;&gt;The project finally created:&lt;/h3&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/firebase/5.jpg&quot; alt=&quot;no5&quot; /&gt;&lt;/p&gt;
+
+&lt;h1 id=&quot;deploy-website&quot;&gt;Deploy website&lt;/h1&gt;
+&lt;p&gt;We gonna create a folder and a simple html:&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;err&quot;&gt;$&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;mkdir&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;firebase&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;lab&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;website&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;h3 id=&quot;look-at-our-simple-html-in-the-folder&quot;&gt;Look at our simple html in the folder:&lt;/h3&gt;
+
+&lt;p&gt;&lt;strong&gt;blog/index.html&lt;/strong&gt;&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;o&quot;&gt;&amp;lt;!&lt;/span&gt;&lt;span class=&quot;no&quot;&gt;DOCTYPE&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;html&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;gt;&lt;/span&gt;
+&lt;span class=&quot;o&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;html&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;lang&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;en&quot;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;gt;&lt;/span&gt;
+  &lt;span class=&quot;o&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;head&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;gt;&lt;/span&gt;
+    &lt;span class=&quot;o&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;meta&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;charset&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;UTF-8&quot;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;gt;&lt;/span&gt;
+    &lt;span class=&quot;o&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;meta&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;viewport&quot;&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;content&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;width=device-width, initial-scale=1.0&quot;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;gt;&lt;/span&gt;
+    &lt;span class=&quot;o&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;title&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;gt;&lt;/span&gt;&lt;span class=&quot;no&quot;&gt;Blog&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;sr&quot;&gt;/title&amp;gt;
+  &amp;lt;/&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;head&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;gt;&lt;/span&gt;
+  &lt;span class=&quot;o&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;body&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;gt;&lt;/span&gt;
+    &lt;span class=&quot;o&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;h1&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;gt;&lt;/span&gt;&lt;span class=&quot;no&quot;&gt;Text&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;here&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;sr&quot;&gt;/h1&amp;gt;
+  &amp;lt;/&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;body&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;gt;&lt;/span&gt;
+&lt;span class=&quot;o&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;sr&quot;&gt;/html&amp;gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;h3 id=&quot;now-we-need-to-install-the-cli-of-the-firebase-with-the-command-below&quot;&gt;Now, we need to install the CLI of the firebase with the command below:&lt;/h3&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;err&quot;&gt;$&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;npm&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;install&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;g&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;firebase&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;tools&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;h3 id=&quot;now-we-need-login&quot;&gt;Now, we need login:&lt;/h3&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;err&quot;&gt;$&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;firebase&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;login&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;p&gt;After that, execute this command in the website directory and choose the right project:&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;err&quot;&gt;$&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;firebase&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;init&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;First, you select the option “Hosting: Configure and deploy Firebase Hosting sites” with the space bar and press Enter.&lt;/li&gt;
+  &lt;li&gt;Second, choose the option “Use an existing project” by press Enter.&lt;/li&gt;
+  &lt;li&gt;Third, choose the project that you created.&lt;/li&gt;
+  &lt;li&gt;Fourth, enter the folder of your index.html. The default is “public”, but in my case, is “./”.&lt;/li&gt;
+  &lt;li&gt;Last, we need to say if your website is a single-page app.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;All ready! Now, the last command in the directory is to deploy:&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;err&quot;&gt;$&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;firebase&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;deploy&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;p&gt;&lt;em&gt;Our website is online!!&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;You can see details of the deploy in the option “Hosting” at the left menu:
+&lt;img src=&quot;/assets/images/firebase/6.png&quot; alt=&quot;no6&quot; /&gt;
+Give me feedback! :) Thanks!&lt;/p&gt;</content><author><name>Naveen Jujaray</name></author><summary type="html">There’s a lot of options cheap or even free in the market to deploy our projects. One of these and my favorite is the Firebase Hosting, a service of Google.</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/assets/images/firebase/1.jpg" /></entry><entry><title type="html">How To Create A GitHub Profile README</title><link href="http://localhost:4000/readme_github_profile" rel="alternate" type="text/html" title="How To Create A GitHub Profile README" /><published>2020-07-12T17:00:00+05:30</published><updated>2020-07-12T17:00:00+05:30</updated><id>http://localhost:4000/github-profile-readme</id><content type="html" xml:base="http://localhost:4000/readme_github_profile">&lt;p&gt;GitHub recently released a feature that allows users to create a profile-level README to display prominently on their GitHub profile. This article walksthrough how to access this new feature.&lt;/p&gt;
 
 &lt;h1 id=&quot;why-readmes&quot;&gt;Why READMEs?&lt;/h1&gt;
 &lt;p&gt;The GitHub profile-level README feature allows more content than the profile bio, supports markdown which means you can play around with the content more visually (Did someone say GIFs!?) and the README is significantally more visible as it is placed above pinned repositories and takes up as much space above the fold of the webpage as you like.&lt;/p&gt;
