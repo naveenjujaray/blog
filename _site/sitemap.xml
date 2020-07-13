@@ -41,6 +41,10 @@
 <lastmod>2020-07-13T18:41:03+05:30</lastmod>
 </url>
 <url>
+<loc>http://localhost:4000/hosting-sites-top-5</loc>
+<lastmod>2020-07-14T00:00:00+05:30</lastmod>
+</url>
+<url>
 <loc>http://localhost:4000/about</loc>
 </url>
 <url>
@@ -54,5 +58,8 @@
 </url>
 <url>
 <loc>http://localhost:4000/tags.html</loc>
+</url>
+<url>
+<loc>http://localhost:4000/page2/</loc>
 </url>
 </urlset>
