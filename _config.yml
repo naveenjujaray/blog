@@ -4,11 +4,11 @@ description: 'Blog'
 logo: 'assets/images/iconk.png' 
 favicon: 'assets/images/iconk.png'
 baseurl: ''
-url: 'https://njblog.js.org'
+url: 'https://naveenjujaray.js.org'
 disqus: njblog
 email: 'jujaraynaveen@gmail.com'
 mailchimp-list: ''
-twitter: kikijujaray
+twitter: naveenjujaray
 
 include: ["_pages"]
 permalink: /:title/
