@@ -2,7 +2,7 @@
 layout: post
 title:  "How to install Flutter"
 date:   2020-07-01 19:41:03 +0530
-categories: [ Jekyll ]
+categories: [ Flutter ]
 image: assets/images/2.png
 comments: true
 permalink: "/flutterinstall"
