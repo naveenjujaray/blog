@@ -2,6 +2,7 @@
 layout: post
 title:  "Create your own blog easily with Gatsby"
 categories: [ Web Development, Hosting ]
+date:   2020-07-14 12:23:00 +0530
 image: assets/images/firebase/8.png
 comments: true
 permalink: "/gatsby-intro"
