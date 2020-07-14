@@ -18,24 +18,24 @@
     <title>Naveen Jujaray</title>
 
     <!-- Begin Jekyll SEO tag v2.5.0 -->
-<title>Dynamically Generated Github Stats For Your Profile ReadMe | Naveen Jujaray</title>
+<title>Create your own blog easily with Gatsby | Naveen Jujaray</title>
 <meta name="generator" content="Jekyll v3.8.5" />
-<meta property="og:title" content="Dynamically Generated Github Stats For Your Profile ReadMe" />
+<meta property="og:title" content="Create your own blog easily with Gatsby" />
 <meta name="author" content="Naveen Jujaray" />
 <meta property="og:locale" content="en_US" />
-<meta name="description" content="Github Readme Stats" />
-<meta property="og:description" content="Github Readme Stats" />
-<link rel="canonical" href="http://localhost:4000/dynamic_stats_for_github" />
-<meta property="og:url" content="http://localhost:4000/dynamic_stats_for_github" />
+<meta name="description" content="Gatsby is a Static site generator. (There are so many kinds of generator like Jekyll(Ruby), Hexo(Node.js), Hugo(Go), etc.) Gatsby support PWA(Progressive Web App), Hot reloading, SSR(Server Side Rendering)." />
+<meta property="og:description" content="Gatsby is a Static site generator. (There are so many kinds of generator like Jekyll(Ruby), Hexo(Node.js), Hugo(Go), etc.) Gatsby support PWA(Progressive Web App), Hot reloading, SSR(Server Side Rendering)." />
+<link rel="canonical" href="http://localhost:4000/gatsby-intro" />
+<meta property="og:url" content="http://localhost:4000/gatsby-intro" />
 <meta property="og:site_name" content="Naveen Jujaray" />
-<meta property="og:image" content="https://camo.githubusercontent.com/2300191d93dcc42ab2faa77ab6beebc0fb1a1c5e/687474703a2f2f692e696d6775722e636f6d2f513754515948782e706e67" />
+<meta property="og:image" content="http://localhost:4000/assets/images/firebase/8.png" />
 <meta property="og:type" content="article" />
-<meta property="article:published_time" content="2020-07-12T16:00:00+05:30" />
+<meta property="article:published_time" content="2020-07-14T01:00:00+05:30" />
 <meta name="twitter:card" content="summary_large_image" />
 <meta name="twitter:site" content="@" />
 <meta name="twitter:creator" content="@Naveen Jujaray" />
 <script type="application/ld+json">
-{"publisher":{"@type":"Organization","logo":{"@type":"ImageObject","url":"http://localhost:4000/assets/images/iconk.png"},"name":"Naveen Jujaray"},"headline":"Dynamically Generated Github Stats For Your Profile ReadMe","dateModified":"2020-07-12T16:00:00+05:30","datePublished":"2020-07-12T16:00:00+05:30","author":{"@type":"Person","name":"Naveen Jujaray"},"mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost:4000/dynamic_stats_for_github"},"description":"Github Readme Stats","url":"http://localhost:4000/dynamic_stats_for_github","@type":"BlogPosting","image":"https://camo.githubusercontent.com/2300191d93dcc42ab2faa77ab6beebc0fb1a1c5e/687474703a2f2f692e696d6775722e636f6d2f513754515948782e706e67","@context":"http://schema.org"}</script>
+{"publisher":{"@type":"Organization","logo":{"@type":"ImageObject","url":"http://localhost:4000/assets/images/iconk.png"},"name":"Naveen Jujaray"},"headline":"Create your own blog easily with Gatsby","dateModified":"2020-07-14T01:00:00+05:30","datePublished":"2020-07-14T01:00:00+05:30","author":{"@type":"Person","name":"Naveen Jujaray"},"mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost:4000/gatsby-intro"},"description":"Gatsby is a Static site generator. (There are so many kinds of generator like Jekyll(Ruby), Hexo(Node.js), Hugo(Go), etc.) Gatsby support PWA(Progressive Web App), Hot reloading, SSR(Server Side Rendering).","url":"http://localhost:4000/gatsby-intro","@type":"BlogPosting","image":"http://localhost:4000/assets/images/firebase/8.png","@context":"http://schema.org"}</script>
 <!-- End Jekyll SEO tag -->
 
 
@@ -155,12 +155,12 @@ var documents = [{
     "id": 8,
     "url": "http://localhost:4000/gatsby-intro",
     "title": "Create your own blog easily with Gatsby",
-    "body": "2020/07/14 - Gatsby is a Static site generator. (There are so many kinds of generator like Jekyll(Ruby), Hexo(Node. js), Hugo(Go), etc. ) Gatsby support PWA(Progressive Web App), Hot reloading, SSR(Server Side Rendering). You can see more detailed in this link. Install Gatsby CLI and Gatsby Starter: {% highlight ruby %}$ npm i -g gatsby-cli$ gatsby new «BLOG_NAME» https://github. com/wonism/gatsby-advanced-blog$ cd «BLOG_NAME»$ npm run dev{% endhighlight %} Basic structure of project: The project has the following structure. {% highlight ruby %}src/├── components│  ├── … # Many of shared sections│  └── layout. jsx # general layout for page├── constants├── containers # to connect states to react component├── html. jsx # page template for page├── pages # pages of your web site│  ├── 404. jsx│  └── index. js├── postComponents # react application that will be added in page│  └── …├── resources # asset files│  └── images├── store # to use redux│  ├── …│  └── index. js├── templates # template for creating page with file system│  └── …└── utils # utilities  └── …{% endhighlight %} Create a post: {% highlight ruby %}$ mkdir src/pages/«DIRECTORY_NAME»$ touch src/pages/«DIRECTORY_NAME»/index. md{% endhighlight %}These markdown files are referred by the gatsby-source-filesystem and converted to HTML files by gatsby-transformer-remark. These are called at build time. You can check this createPages in gatsby-node. js. Caution: There is a . sample. md file in «PROJECT_ROOT»/src/pages. If you delete this file, you can not get category, image, etc. in frontmatter of GraphQL query. The . sample. md file serves as the dummy data and creates custom frontmatter fields. The basic components of a markdown file: {% highlight ruby %}—path: “/hello-world/”category: “Sample”tags: [“tag”, “should”, “be”, “array”]title: “Hello, World!”date: “2018-08-15T00:00:00. 000Z”summary: “You can create your own blog with Gatsby!”— Content of this page{% endhighlight %}  path is a required attribute to create a page. It must be unique.  category allows you to create category pages and access to pages like /categories/&lt;&lt;CATEGORY_NAME&gt;&gt;/&lt;&lt;PAGE_NUMBER&gt;&gt;.  tags allows you to create tag pages and access to pages like /tags/&lt;&lt;TAG_NAME&gt;&gt;/&lt;&lt;PAGE_NUMBER&gt;&gt;.  As you can see the name oof property. title is the title of the page, and summary is a summary of the page.  date is the date the post was created, and posts are sorted based on it. (You can more detailed information about the formatting in gray-matter. ) Those will be called by query in src/templates/Post. jsx. and you can run the query directly on http://localhost:8000/___graphql Add image into post: {% highlight ruby %}images: [”(«src/resources/»)PATH_TO/IMAGE”]{% endhighlight %}Use an absolute path including http:// or https://. or use a relative path relative to src/resources. (On line 145 ofcomponents/Post/index. jsx, the image is imported via IF CONDITION ? «image» : ‘«src/resources/${image}»‘) Add react application into post: {% highlight ruby %}—path: “/inject-app/”category: “Sample”tags: [“tag”, “must”, “be”, “array”]title: “Injecting React application”date: “2018-08-15T00:00:00. 000Z”summary: “You can inject react application into post”components: [{ rootId: ‘sample-component’, # &lt;div id= sample-component &gt;&lt;/div&gt; must be in contents fileName: ‘sample’, # this will render src/postComponents/sample/index. jsx}]—  … …{% endhighlight %}  Put an object in the array. Object has to include the path to the file of the react application that is to be added and the ID of the tag to be rendered. :  Then, in the middle of the article, add the tag with this ID where you want to insert the react application. Add tweet into post: {% highlight ruby %}—path: “/inject-tweet/”category: “Sample”tags: [“tag”, “must”, “be”, “array”]title: “Injecting Tweet”date: “2018-08-15T00:00:00. 000Z”summary: “You can inject tweet into post”tweets: [{ rootId: ‘sample-tweet’, # &lt;div id= sample-tweet &gt;&lt;/div&gt; must be in contents userId: ‘twitter’, # twitter user id tweetId: ‘977557540199456775’, # tweet id}]—  … …{% endhighlight %}Put an object in the array. Object has to include the tweet’s ID and the author or the tweet and the ID of the tag to be rendered. You can use it as you added the react application. Add codes into post: If you write the three back quote before and after the codes that you want to highlight, It will be highlighted by gatsby-remark-prismjs. Add portfolios: {% highlight ruby %}$ mkdir src/resources/«DIRECTORY_NAME»$ touch src/resources/«DIRECTORY_NAME»/index. md{% endhighlight %}{% highlight ruby %}—type: “portfolio”title: “Gatsby Advanced Blog”date: “2018-08-15T00:00:00. 000Z”path: “/portfolios/portfolio-1/”images: [ “test-1/1. png”, “test-1/2. png”,]— Gatsby Advanced BlogWhat I did:  Develop Gatsby Advanced BlogLibraries / Tools:  ReactJS Redux Redux saga …Go to Web Site → {% endhighlight %}  path is a required attribute to create a page. It must be unique.  type is a value that allows you to specify the format of the page, in this case it should be portfolio.  title is the title of the portfolio.  images are the images you want to attach to the portfolio and have the same value as the post’s. Images are rendered in the order they were added to the array.  Portfolios are sorted based on the data. Give a bigger value to the portfolio to show first. Portfolios will be shown one the portfolio page. and if there are more than 4, they will be shown on the home page. (You can see it in src/components/Home and modify how it is rendered. ) Add resume: {% highlight ruby %}—type: “resume”title: “Resume”date: “2000-01-01T00:00:00. 000Z”path: “/resume/”— Experience:  Engineer at OOO ∙ 2000. 01 ~ Present     Develop something   Maintain something   Education:  B. S. in Computer Science Engineering at OOO              01 ~ 2000. 01          Projects:  Gatsby Advanced Blog (https://github. com/wonism/gatsby-advanced-blog) ∙ 2000. 01 ~ Present     Integrate Redux         Use Redux, Redux Saga, Reselect…          Skills:  JavaScript     ES2015+   ReactJS   Lodash    CSS     SASS   Less{% endhighlight %}    path is a required attribute to create a page. It must be unique.  type is a value that allows you to specify the format of the page, in this case it should be portfolio.   Other features:   On the right side of the GNB, you can search posts by title, summary, tag, category, etc. of the post.  When you add codes in markdown, a button will be created automatically. If user clicks the button, user can copy the codes.   Deployment:   You can build the application with npm run build. Then you can distribute it where you want. You can see this article on this link.  "
+    "body": "2020/07/14 - Gatsby is a Static site generator. (There are so many kinds of generator like Jekyll(Ruby), Hexo(Node. js), Hugo(Go), etc. ) Gatsby support PWA(Progressive Web App), Hot reloading, SSR(Server Side Rendering). You can see more detailed in this link. Install Gatsby CLI and Gatsby Starter: $ npm i -g gatsby-cli$ gatsby new &lt;&lt;BLOG_NAME&gt;&gt; https://github. com/wonism/gatsby-advanced-blog$ cd &lt;&lt;BLOG_NAME&gt;&gt;$ npm run devBasic structure of project: The project has the following structure. src/├── components│  ├── . . . # Many of shared sections│  └── layout. jsx # general layout for page├── constants├── containers # to connect states to react component├── html. jsx # page template for page├── pages # pages of your web site│  ├── 404. jsx│  └── index. js├── postComponents # react application that will be added in page│  └── . . . ├── resources # asset files│  └── images├── store # to use redux│  ├── . . . │  └── index. js├── templates # template for creating page with file system│  └── . . . └── utils # utilities  └── . . . Create a post: $ mkdir src/pages/&lt;&lt;DIRECTORY_NAME&gt;&gt;$ touch src/pages/&lt;&lt;DIRECTORY_NAME&gt;&gt;/index. mdThese markdown files are referred by the gatsby-source-filesystem and converted to HTML files by gatsby-transformer-remark. These are called at build time. You can check this createPages in gatsby-node. js. Caution: There is a . sample. md file in «PROJECT_ROOT»/src/pages. If you delete this file, you can not get category, image, etc. in frontmatter of GraphQL query. The . sample. md file serves as the dummy data and creates custom frontmatter fields. The basic components of a markdown file: ---path:  /hello-world/ category:  Sample tags: [ tag ,  should ,  be ,  array ]title:  Hello, World! date:  2018-08-15T00:00:00. 000Z summary:  You can create your own blog with Gatsby! ---Content of this page path is a required attribute to create a page. It must be unique.  category allows you to create category pages and access to pages like /categories/&lt;&lt;CATEGORY_NAME&gt;&gt;/&lt;&lt;PAGE_NUMBER&gt;&gt;.  tags allows you to create tag pages and access to pages like /tags/&lt;&lt;TAG_NAME&gt;&gt;/&lt;&lt;PAGE_NUMBER&gt;&gt;.  As you can see the name oof property. title is the title of the page, and summary is a summary of the page.  date is the date the post was created, and posts are sorted based on it. (You can more detailed information about the formatting in gray-matter. ) Those will be called by query in src/templates/Post. jsx. and you can run the query directly on http://localhost:8000/___graphql Add image into post: images: [ (&lt;&lt;src/resources/&gt;&gt;)PATH_TO/IMAGE ]Use an absolute path including http:// or https://. or use a relative path relative to src/resources. (On line 145 ofcomponents/Post/index. jsx, the image is imported via IF CONDITION ? «image» : ‘«src/resources/${image}»‘) Add react application into post: ---path:  /inject-app/ category:  Sample tags: [ tag ,  must ,  be ,  array ]title:  Injecting React application date:  2018-08-15T00:00:00. 000Z summary:  You can inject react application into post components: [{ rootId: 'sample-component', # &lt;div id= sample-component &gt;&lt;/div&gt; must be in contents fileName: 'sample', # this will render src/postComponents/sample/index. jsx}]---1. . . . &lt;div id= sample-component &gt;&lt;/div&gt;2. . . . Put an object in the array. Object has to include the path to the file of the react application that is to be added and the ID of the tag to be rendered. : Then, in the middle of the article, add the tag with this ID where you want to insert the react application. Add tweet into post: ---path:  /inject-tweet/ category:  Sample tags: [ tag ,  must ,  be ,  array ]title:  Injecting Tweet date:  2018-08-15T00:00:00. 000Z summary:  You can inject tweet into post tweets: [{ rootId: 'sample-tweet', # &lt;div id= sample-tweet &gt;&lt;/div&gt; must be in contents userId: 'twitter', # twitter user id tweetId: '977557540199456775', # tweet id}]---1. . . . &lt;div id= sample-tweet &gt;&lt;/div&gt;2. . . . Put an object in the array. Object has to include the tweet’s ID and the author or the tweet and the ID of the tag to be rendered. You can use it as you added the react application. Add codes into post: If you write the three back quote before and after the codes that you want to highlight, It will be highlighted by gatsby-remark-prismjs. Add portfolios: $ mkdir src/resources/&lt;&lt;DIRECTORY_NAME&gt;&gt;$ touch src/resources/&lt;&lt;DIRECTORY_NAME&gt;&gt;/index. md---type:  portfolio title:  Gatsby Advanced Blog date:  2018-08-15T00:00:00. 000Z path:  /portfolios/portfolio-1/ images: [  test-1/1. png ,  test-1/2. png ,]---# Gatsby Advanced Blog## What I did- Develop Gatsby Advanced Blog## Libraries / Tools- ReactJS- Redux- Redux saga- . . . [Go to Web Site →](https://github. com/wonism/gatsby-advanced-blog) path is a required attribute to create a page. It must be unique.  type is a value that allows you to specify the format of the page, in this case it should be portfolio.  title is the title of the portfolio.  images are the images you want to attach to the portfolio and have the same value as the post’s. Images are rendered in the order they were added to the array.  Portfolios are sorted based on the data. Give a bigger value to the portfolio to show first. Portfolios will be shown one the portfolio page. and if there are more than 4, they will be shown on the home page. (You can see it in src/components/Home and modify how it is rendered. ) Add resume: ---type:  resume title:  Resume date:  2000-01-01T00:00:00. 000Z path:  /resume/ ---## Experience- Engineer at OOO ∙ 2000. 01 ~ Present - Develop something - Maintain something## Education- B. S. in Computer Science Engineering at OOO - 2000. 01 ~ 2000. 01## Projects- Gatsby Advanced Blog (https://github. com/wonism/gatsby-advanced-blog) ∙ 2000. 01 ~ Present - Integrate Redux  - Use Redux, Redux Saga, Reselect. . . ## Skills- JavaScript - ES2015+ - ReactJS - Lodash- CSS - SASS - Less path is a required attribute to create a page. It must be unique.  type is a value that allows you to specify the format of the page, in this case it should be portfolio.   Other features:   On the right side of the GNB, you can search posts by title, summary, tag, category, etc. of the post.  When you add codes in markdown, a button will be created automatically. If user clicks the button, user can copy the codes.   Deployment:   You can build the application with npm run build. Then you can distribute it where you want. You can see this article on this link.  "
     }, {
     "id": 9,
     "url": "http://localhost:4000/hosting-sites-top-5",
     "title": "Free HOSTING sites with Instructions",
-    "body": "2020/07/14 - Getting your website deployed is probably the first thing you want to do and with these 5 sites, you can do it in just minutes.  Firebase hosting Netlify Render Surge VercelFirebaseWith Firebase hosting, you can deploy web apps - both static and dynamic content by a single command. Step 1. Install the Firebase CLI{% highlight ruby %}npm install -g firebase-tools{% endhighlight %}Step 2. Sign into Firebase{% highlight ruby %}firebase login{% endhighlight %}Step 3. Navigate into your project{% highlight ruby %}firebase init{% endhighlight %}Step 4. Prepare your site{% highlight ruby %}npm run build{% endhighlight %}Step 5. Deploy{% highlight ruby %}firebase deploy{% endhighlight %} NetlifyNetlify supports GitHub, GitLab and Bitbucket, it will redeploy the site just by pushing the code without manually rebuild. Step 1. Login to Netlify and select New site from git Step 2. Choose your repository and configure settings with options:  Branch to deploy, default master Build Command, default npm run build Publish directory, default public, but it is usually public, dist, build,…Step 3. Select Deploy site RenderWith Render, you can host static sites, backend APIs, databases, cron jobs, and all your other apps in one place. Step 1. Login to Render and create a new Web Service and give access to your repository Step 2. Enter your settings  Environment: Static Site Build Command: e. g npm run build Publish Directory: e. g public, dist, build,…Step 3. Select Create Web Service SurgeSurge is a cloud platform to publish static webfor Front-End Developers. Step 1. Install the surge CLI{% highlight ruby %}npm install -g surge{% endhighlight %}Step 2. Build your site{% highlight ruby %}npm run build{% endhighlight %}Step 3. Deploy your site providing your Publish Directory{% highlight ruby %}surge public/{% endhighlight %} VercelVercel is a cloud platform for websites and serverless APIs, free and easy to use Step 1. Install the Vercel CLI{% highlight ruby %}npm i -g vercel{% endhighlight %}Step 2. Deploy{% highlight ruby %}vercel{% endhighlight %} Conclusion: Deploy and hosting is fast and easy. "
+    "body": "2020/07/14 - Getting your website deployed is probably the first thing you want to do and with these 5 sites, you can do it in just minutes.  Firebase hosting Netlify Render Surge VercelFirebaseWith Firebase hosting, you can deploy web apps - both static and dynamic content by a single command. Step 1. Install the Firebase CLI npm install -g firebase-toolsStep 2. Sign into Firebase firebase loginStep 3. Navigate into your project firebase initStep 4. Prepare your site npm run buildStep 5. Deploy firebase deployNetlifyNetlify supports GitHub, GitLab and Bitbucket, it will redeploy the site just by pushing the code without manually rebuild. Step 1. Login to Netlify and select New site from git Step 2. Choose your repository and configure settings with options:  Branch to deploy, default master Build Command, default npm run build Publish directory, default public, but it is usually public, dist, build,…Step 3. Select Deploy site RenderWith Render, you can host static sites, backend APIs, databases, cron jobs, and all your other apps in one place. Step 1. Login to Render and create a new Web Service and give access to your repository Step 2. Enter your settings  Environment: Static Site Build Command: e. g npm run build Publish Directory: e. g public, dist, build,…Step 3. Select Create Web Service SurgeSurge is a cloud platform to publish static webfor Front-End Developers. Step 1. Install the surge CLI npm install -g surgeStep 2. Build your site npm run buildStep 3. Deploy your site providing your Publish Directory surge public/VercelVercel is a cloud platform for websites and serverless APIs, free and easy to use Step 1. Install the Vercel CLI npm i -g vercelStep 2. Deploy vercelConclusion: Deploy and hosting is fast and easy. "
     }, {
     "id": 10,
     "url": "http://localhost:4000/projects-challenges",
@@ -170,7 +170,7 @@ var documents = [{
     "id": 11,
     "url": "http://localhost:4000/firebase_hosting",
     "title": "Deploy a website using Firebase Hosting",
-    "body": "2020/07/13 - There’s a lot of options cheap or even free in the market to deploy our projects. One of these and my favorite is the Firebase Hosting, a service of Google. Firebase is a set of services of Google that provides you a BaaS (Back-end as a service), which means you don’t have to worry about the boring part of deploy a back-end to your project. One of these services is the Firebase Hosting that you can deploy your website or web app made in HTML, Javascript, and CSS. I’ll show you how to deploy a simple website in the Firebase Hosting at zero cost. Create a project: We need to click in “Go to console” in the top right corner.  So the Firebase console. Now, we gonna create a project by clicking in “Adicionar projeto” (I didn’t find how to change the language on the firebase console) Now, we chosen the name of the project and keep on! In the mine, I’ve chosen the name “Firebase Lab” Here you can disable google analytics for now: The project finally created:: Deploy websiteWe gonna create a folder and a simple html:{% highlight ruby %}$ mkdir firebase-lab-website{% endhighlight %} Look at our simple html in the folder:: blog/index. html{% highlight ruby %}&lt;!DOCTYPE html&gt;        Blog    Text here {% endhighlight %} Now, we need to install the CLI of the firebase with the command below:: {% highlight ruby %}$ npm install -g firebase-tools{% endhighlight %} Now, we need login:: {% highlight ruby %}$ firebase login{% endhighlight %}After that, execute this command in the website directory and choose the right project:{% highlight ruby %}$ firebase init{% endhighlight %}  First, you select the option “Hosting: Configure and deploy Firebase Hosting sites” with the space bar and press Enter.  Second, choose the option “Use an existing project” by press Enter.  Third, choose the project that you created.  Fourth, enter the folder of your index. html. The default is “public”, but in my case, is “. /”.  Last, we need to say if your website is a single-page app. All ready! Now, the last command in the directory is to deploy:{% highlight ruby %}$ firebase deploy{% endhighlight %} Our website is online!! You can see details of the deploy in the option “Hosting” at the left menu:Give me feedback! :) Thanks! "
+    "body": "2020/07/13 - There’s a lot of options cheap or even free in the market to deploy our projects. One of these and my favorite is the Firebase Hosting, a service of Google. Firebase is a set of services of Google that provides you a BaaS (Back-end as a service), which means you don’t have to worry about the boring part of deploy a back-end to your project. One of these services is the Firebase Hosting that you can deploy your website or web app made in HTML, Javascript, and CSS. I’ll show you how to deploy a simple website in the Firebase Hosting at zero cost. Create a project: We need to click in “Go to console” in the top right corner.  So the Firebase console. Now, we gonna create a project by clicking in “Adicionar projeto” (I didn’t find how to change the language on the firebase console) Now, we chosen the name of the project and keep on! In the mine, I’ve chosen the name “Firebase Lab” Here you can disable google analytics for now: The project finally created:: Deploy websiteWe gonna create a folder and a simple html: $ mkdir firebase-lab-websiteLook at our simple html in the folder:: blog/index. html &lt;!DOCTYPE html&gt;&lt;html lang= en &gt; &lt;head&gt;  &lt;meta charset= UTF-8 &gt;  &lt;meta name= viewport  content= width=device-width, initial-scale=1. 0 &gt;  &lt;title&gt;Blog&lt;/title&gt; &lt;/head&gt; &lt;body&gt;  &lt;h1&gt;Text here&lt;/h1&gt; &lt;/body&gt;&lt;/html&gt;Now, we need to install the CLI of the firebase with the command below:: $ npm install -g firebase-toolsNow, we need login:: $ firebase loginAfter that, execute this command in the website directory and choose the right project: $ firebase init First, you select the option “Hosting: Configure and deploy Firebase Hosting sites” with the space bar and press Enter.  Second, choose the option “Use an existing project” by press Enter.  Third, choose the project that you created.  Fourth, enter the folder of your index. html. The default is “public”, but in my case, is “. /”.  Last, we need to say if your website is a single-page app. All ready! Now, the last command in the directory is to deploy: $ firebase deployOur website is online!! You can see details of the deploy in the option “Hosting” at the left menu:Give me feedback! :) Thanks! "
     }, {
     "id": 12,
     "url": "http://localhost:4000/readme_github_profile",
@@ -287,20 +287,22 @@ function lunr_search(term) {
 					<p class="text-uppercase font-weight-bold">
                         <span class="catlist">
 						
-                          <a class="sscroll text-danger" href="/categories.html#github">github</a><span class="sep">, </span>
+                          <a class="sscroll text-danger" href="/categories.html#web development">web development</a><span class="sep">, </span>
+                        
+                          <a class="sscroll text-danger" href="/categories.html#hosting">hosting</a><span class="sep">, </span>
                         
                         </span>
 					</p>
-					<h1 class="display-4 mb-4 article-headline">Dynamically Generated Github Stats For Your Profile ReadMe</h1>
+					<h1 class="display-4 mb-4 article-headline">Create your own blog easily with Gatsby</h1>
 					<div class="d-flex align-items-center">
                        
 						<small class="ml-3"><span class="p-author h-card" itemprop="name">Naveen Jujaray</span>
 							&nbsp; &nbsp;
 							<span><a target="_blank" href="https://dev.to/naveenjujaray" class="btn btn-outline-success btn-sm btn-round ml-1">Follow</a></span>
-                            <span class="text-muted d-block mt-1">Jul 12, 2020 · <span class="reading-time">
+                            <span class="text-muted d-block mt-1">Jul 14, 2020 · <span class="reading-time">
   
   
-    1 min read
+    8 mins read
   
 </span>
     </span>
@@ -309,7 +311,7 @@ function lunr_search(term) {
 				</div>
                 
 				<div class="col-md-6 pr-0 align-self-center">
-					<img class="rounded" src="https://camo.githubusercontent.com/2300191d93dcc42ab2faa77ab6beebc0fb1a1c5e/687474703a2f2f692e696d6775722e636f6d2f513754515948782e706e67" alt="Dynamically Generated Github Stats For Your Profile ReadMe">
+					<img class="rounded" src="/assets/images/firebase/8.png" alt="Create your own blog easily with Gatsby">
 				</div>
                 
 			</div>
@@ -354,36 +356,225 @@ function lunr_search(term) {
             
             <!-- Article -->
 			<article class="article-post">                
-			<h2 id="github-readme-stats">Github Readme Stats</h2>
+			<p><a href="https://www.gatsbyjs.org/">Gatsby</a> is a Static site generator. (There are so many kinds of generator like Jekyll(Ruby), Hexo(Node.js), Hugo(Go), etc.) Gatsby support PWA(Progressive Web App), Hot reloading, SSR(Server Side Rendering).</p>
 
-<p><img src="https://github-readme-stats.vercel.app/api?username=naveenjujaray" alt="Naveen's github stats" /></p>
+<p>You can see more detailed in <a href="https://www.gatsbyjs.org/features/">this link</a>.</p>
+<h2 id="install-gatsby-cli-and-gatsby-starter">Install Gatsby CLI and Gatsby Starter</h2>
 
-<p>Github readme stats allows you to simply add a markdown image link and it will show you realtime stats for your github account.</p>
+<figure class="highlight"><pre><code class="language-ruby" data-lang="ruby"><span class="err">$</span> <span class="n">npm</span> <span class="n">i</span> <span class="o">-</span><span class="n">g</span> <span class="n">gatsby</span><span class="o">-</span><span class="n">cli</span>
+<span class="err">$</span> <span class="n">gatsby</span> <span class="n">new</span> <span class="o">&lt;&lt;</span><span class="no">BLOG_NAME</span><span class="o">&gt;&gt;</span> <span class="n">https</span><span class="ss">:/</span><span class="o">/</span><span class="n">github</span><span class="p">.</span><span class="nf">com</span><span class="o">/</span><span class="n">wonism</span><span class="o">/</span><span class="n">gatsby</span><span class="o">-</span><span class="n">advanced</span><span class="o">-</span><span class="n">blog</span><span class="sh">
+$ cd &lt;&lt;BLOG_NAME&gt;&gt;
+$ npm run dev</span></code></pre></figure>
 
-<figure class="highlight"><pre><code class="language-ruby" data-lang="ruby"><span class="o">!</span><span class="p">[</span><span class="no">Naveen</span><span class="err">'</span><span class="n">s</span> <span class="n">github</span> <span class="n">stats</span><span class="p">](</span><span class="n">https</span><span class="ss">:/</span><span class="o">/</span><span class="n">github</span><span class="o">-</span><span class="n">readme</span><span class="o">-</span><span class="n">stats</span><span class="p">.</span><span class="nf">vercel</span><span class="p">.</span><span class="nf">app</span><span class="o">/</span><span class="n">api?username</span><span class="o">=</span><span class="n">naveenjujaray</span><span class="p">)</span></code></pre></figure>
+<h2 id="basic-structure-of-project">Basic structure of project</h2>
+<p>The project has the following structure.</p>
 
-<p>And the cool thing is since it’s just an image you can embed it anywhere even on Dev.to posts!</p>
+<figure class="highlight"><pre><code class="language-ruby" data-lang="ruby"><span class="n">src</span><span class="o">/</span>
+<span class="err">├──</span> <span class="n">components</span>
+<span class="err">│</span>   <span class="err">├──</span> <span class="o">...</span> <span class="c1"># Many of shared sections</span>
+<span class="err">│</span>   <span class="err">└──</span> <span class="n">layout</span><span class="p">.</span><span class="nf">jsx</span> <span class="c1"># general layout for page</span>
+<span class="err">├──</span> <span class="nb">constants</span>
+<span class="err">├──</span> <span class="n">containers</span> <span class="c1"># to connect states to react component</span>
+<span class="err">├──</span> <span class="n">html</span><span class="p">.</span><span class="nf">jsx</span> <span class="c1"># page template for page</span>
+<span class="err">├──</span> <span class="n">pages</span> <span class="c1"># pages of your web site</span>
+<span class="err">│</span>   <span class="err">├──</span> <span class="mi">404</span><span class="p">.</span><span class="nf">jsx</span>
+<span class="err">│</span>   <span class="err">└──</span> <span class="n">index</span><span class="p">.</span><span class="nf">js</span>
+<span class="err">├──</span> <span class="n">postComponents</span> <span class="c1"># react application that will be added in page</span>
+<span class="err">│</span>   <span class="err">└──</span> <span class="o">...</span>
+<span class="err">├──</span> <span class="n">resources</span> <span class="c1"># asset files</span>
+<span class="err">│</span>   <span class="err">└──</span> <span class="n">images</span>
+<span class="err">├──</span> <span class="n">store</span> <span class="c1"># to use redux</span>
+<span class="err">│</span>   <span class="err">├──</span> <span class="o">...</span>
+<span class="err">│</span>   <span class="err">└──</span> <span class="n">index</span><span class="p">.</span><span class="nf">js</span>
+<span class="err">├──</span> <span class="n">templates</span> <span class="c1"># template for creating page with file system</span>
+<span class="err">│</span>   <span class="err">└──</span> <span class="o">...</span>
+<span class="err">└──</span> <span class="n">utils</span> <span class="c1"># utilities</span>
+    <span class="err">└──</span> <span class="o">...</span></code></pre></figure>
 
-<h2 id="live-demo">Live Demo:</h2>
+<h2 id="create-a-post">Create a post</h2>
 
-<p><img src="assets/images/4.jpg" alt="githubstats" /></p>
+<figure class="highlight"><pre><code class="language-ruby" data-lang="ruby"><span class="err">$</span> <span class="n">mkdir</span> <span class="n">src</span><span class="o">/</span><span class="n">pages</span><span class="o">/&lt;&lt;</span><span class="no">DIRECTORY_NAME</span><span class="o">&gt;&gt;</span><span class="sh">
+$ touch src/pages/&lt;&lt;DIRECTORY_NAME&gt;&gt;/index.md</span></code></pre></figure>
 
-<p>Pretty neat isn’t it? Try it out right now on your profile readme too! :D</p>
+<p>These markdown files are referred by the gatsby-source-filesystem and converted to HTML files by gatsby-transformer-remark.</p>
 
-<p>After seeing that people liked the <code class="highlighter-rouge">Github Stats Card</code> idea i created <code class="highlighter-rouge">Github Extra Pins</code>.</p>
+<p>These are called at build time. You can check this createPages in gatsby-node.js.</p>
 
-<h1 id="github-extra-pins">Github Extra Pins</h1>
-<p>Github extra pins allows you to pin more than 6 repositories in your profile by using github readme profile.</p>
+<h2 id="caution">Caution</h2>
+<p>There is a .sample.md file in «PROJECT_ROOT»/src/pages.
+If you delete this file, you can not get category, image, etc. in frontmatter of GraphQL query.</p>
 
-<p><strong>Yey! you are no longer limited to 6 pinned repos</strong></p>
+<p>The .sample.md file serves as the dummy data and creates custom frontmatter fields.</p>
 
-<figure class="highlight"><pre><code class="language-ruby" data-lang="ruby"><span class="p">[</span><span class="o">!</span><span class="p">[</span><span class="no">Walls</span><span class="p">](</span><span class="n">https</span><span class="ss">:/</span><span class="o">/</span><span class="n">github</span><span class="o">-</span><span class="n">readme</span><span class="o">-</span><span class="n">stats</span><span class="p">.</span><span class="nf">vercel</span><span class="p">.</span><span class="nf">app</span><span class="o">/</span><span class="n">api</span><span class="o">/</span><span class="n">pin</span><span class="o">/</span><span class="p">?</span><span class="n">username</span><span class="o">=</span><span class="n">naveenjujaray</span><span class="o">&amp;</span><span class="n">repo</span><span class="o">=</span><span class="n">walls</span><span class="p">)](</span><span class="n">https</span><span class="p">:</span><span class="sr">//</span><span class="n">github</span><span class="p">.</span><span class="nf">com</span><span class="o">/</span><span class="n">naveenjujaray</span><span class="o">/</span><span class="n">walls</span><span class="p">)</span></code></pre></figure>
+<h2 id="the-basic-components-of-a-markdown-file">The basic components of a markdown file</h2>
 
-<h2 id="live-demo-1">Live demo:</h2>
+<figure class="highlight"><pre><code class="language-ruby" data-lang="ruby"><span class="o">---</span>
+<span class="ss">path: </span><span class="s2">"/hello-world/"</span>
+<span class="ss">category: </span><span class="s2">"Sample"</span>
+<span class="ss">tags: </span><span class="p">[</span><span class="s2">"tag"</span><span class="p">,</span> <span class="s2">"should"</span><span class="p">,</span> <span class="s2">"be"</span><span class="p">,</span> <span class="s2">"array"</span><span class="p">]</span>
+<span class="ss">title: </span><span class="s2">"Hello, World!"</span>
+<span class="ss">date: </span><span class="s2">"2018-08-15T00:00:00.000Z"</span>
+<span class="ss">summary: </span><span class="s2">"You can create your own blog with Gatsby!"</span>
+<span class="o">---</span>
 
-<p><a href="https://github.com/naveenjujaray/walls"><img src="https://github-readme-stats.vercel.app/api/pin/?username=naveenjujaray&amp;repo=walls" alt="Walls" /></a></p>
+<span class="no">Content</span> <span class="n">of</span> <span class="n">this</span> <span class="n">page</span></code></pre></figure>
 
-<p>Check out the <a href="https://github.com/anuraghazra/github-readme-stats#github-extra-pins">docs to learn more</a></p>
+<ul>
+  <li>path is a <strong>required</strong> attribute to create a page. It must be unique.</li>
+  <li>category allows you to create category pages and access to pages like <code class="highlighter-rouge">/categories/&lt;&lt;CATEGORY_NAME&gt;&gt;/&lt;&lt;PAGE_NUMBER&gt;&gt;</code>.</li>
+  <li>tags allows you to create tag pages and access to pages like <code class="highlighter-rouge">/tags/&lt;&lt;TAG_NAME&gt;&gt;/&lt;&lt;PAGE_NUMBER&gt;&gt;</code>.</li>
+  <li>As you can see the name oof property. <code class="highlighter-rouge">title</code> is the title of the page, and <code class="highlighter-rouge">summary</code> is a summary of the page.</li>
+  <li>date is the date the post was created, and posts are sorted based on it.</li>
+</ul>
+
+<p>(You can more detailed information about the formatting in <a href="https://github.com/jonschlinkert/gray-matter">gray-matter</a>.)</p>
+
+<p>Those will be called by query in <em>src/templates/Post.jsx.</em> and you can run the query directly on <code class="highlighter-rouge">http://localhost:8000/___graphql</code></p>
+
+<h2 id="add-image-into-post">Add image into post</h2>
+
+<figure class="highlight"><pre><code class="language-ruby" data-lang="ruby"><span class="ss">images: </span><span class="p">[</span><span class="s2">"(&lt;&lt;src/resources/&gt;&gt;)PATH_TO/IMAGE"</span><span class="p">]</span></code></pre></figure>
+
+<p>Use an absolute path including <em>http://</em> or <em>https://</em>. or use a relative path relative to src/resources.
+(<strong>On line 145 ofcomponents/Post/index.jsx</strong>, the image is imported via <strong>IF CONDITION ? «image» : ‘«src/resources/${image}»‘</strong>)</p>
+<h2 id="add-react-application-into-post">Add react application into post</h2>
+
+<figure class="highlight"><pre><code class="language-ruby" data-lang="ruby"><span class="o">---</span>
+<span class="ss">path: </span><span class="s2">"/inject-app/"</span>
+<span class="ss">category: </span><span class="s2">"Sample"</span>
+<span class="ss">tags: </span><span class="p">[</span><span class="s2">"tag"</span><span class="p">,</span> <span class="s2">"must"</span><span class="p">,</span> <span class="s2">"be"</span><span class="p">,</span> <span class="s2">"array"</span><span class="p">]</span>
+<span class="ss">title: </span><span class="s2">"Injecting React application"</span>
+<span class="ss">date: </span><span class="s2">"2018-08-15T00:00:00.000Z"</span>
+<span class="ss">summary: </span><span class="s2">"You can inject react application into post"</span>
+<span class="ss">components: </span><span class="p">[{</span>
+  <span class="ss">rootId: </span><span class="s1">'sample-component'</span><span class="p">,</span> <span class="c1"># &lt;div id="sample-component"&gt;&lt;/div&gt; must be in contents</span>
+  <span class="ss">fileName: </span><span class="s1">'sample'</span><span class="p">,</span> <span class="c1"># this will render src/postComponents/sample/index.jsx</span>
+<span class="p">}]</span>
+<span class="o">---</span>
+
+<span class="mi">1</span><span class="p">.</span> <span class="nf">.</span><span class="o">..</span>
+
+<span class="o">&lt;</span><span class="n">div</span> <span class="nb">id</span><span class="o">=</span><span class="s2">"sample-component"</span><span class="o">&gt;&lt;</span><span class="sr">/div&gt;
+
+2. ...</span></code></pre></figure>
+
+<h2 id="put-an-object-in-the-array-object-has-to-include-the-path-to-the-file-of-the-react-application-that-is-to-be-added-and-the-id-of-the-tag-to-be-rendered">Put an object in the array. Object has to include the path to the file of the react application that is to be added and the ID of the tag to be rendered.</h2>
+
+<p>Then, in the middle of the article, add the tag with this ID where you want to insert the react application.</p>
+
+<h2 id="add-tweet-into-post">Add tweet into post</h2>
+
+<figure class="highlight"><pre><code class="language-ruby" data-lang="ruby"><span class="o">---</span>
+<span class="ss">path: </span><span class="s2">"/inject-tweet/"</span>
+<span class="ss">category: </span><span class="s2">"Sample"</span>
+<span class="ss">tags: </span><span class="p">[</span><span class="s2">"tag"</span><span class="p">,</span> <span class="s2">"must"</span><span class="p">,</span> <span class="s2">"be"</span><span class="p">,</span> <span class="s2">"array"</span><span class="p">]</span>
+<span class="ss">title: </span><span class="s2">"Injecting Tweet"</span>
+<span class="ss">date: </span><span class="s2">"2018-08-15T00:00:00.000Z"</span>
+<span class="ss">summary: </span><span class="s2">"You can inject tweet into post"</span>
+<span class="ss">tweets: </span><span class="p">[{</span>
+  <span class="ss">rootId: </span><span class="s1">'sample-tweet'</span><span class="p">,</span> <span class="c1"># &lt;div id="sample-tweet"&gt;&lt;/div&gt; must be in contents</span>
+  <span class="ss">userId: </span><span class="s1">'twitter'</span><span class="p">,</span> <span class="c1"># twitter user id</span>
+  <span class="ss">tweetId: </span><span class="s1">'977557540199456775'</span><span class="p">,</span> <span class="c1"># tweet id</span>
+<span class="p">}]</span>
+<span class="o">---</span>
+
+<span class="mi">1</span><span class="p">.</span> <span class="nf">.</span><span class="o">..</span>
+
+<span class="o">&lt;</span><span class="n">div</span> <span class="nb">id</span><span class="o">=</span><span class="s2">"sample-tweet"</span><span class="o">&gt;&lt;</span><span class="sr">/div&gt;
+
+2. ...</span></code></pre></figure>
+
+<p>Put an object in the array. Object has to include the tweet’s ID and the author or the tweet and the ID of the tag to be rendered.</p>
+
+<p>You can use it as you added the react application.</p>
+
+<h3 id="add-codes-into-post">Add codes into post</h3>
+<p>If you write the three back quote before and after the codes that you want to highlight, It will be highlighted by <code class="highlighter-rouge">gatsby-remark-prismjs</code>.</p>
+
+<h2 id="add-portfolios">Add portfolios</h2>
+
+<figure class="highlight"><pre><code class="language-ruby" data-lang="ruby"><span class="err">$</span> <span class="n">mkdir</span> <span class="n">src</span><span class="o">/</span><span class="n">resources</span><span class="o">/&lt;&lt;</span><span class="no">DIRECTORY_NAME</span><span class="o">&gt;&gt;</span><span class="sh">
+$ touch src/resources/&lt;&lt;DIRECTORY_NAME&gt;&gt;/index.md</span></code></pre></figure>
+
+<figure class="highlight"><pre><code class="language-ruby" data-lang="ruby"><span class="o">---</span>
+<span class="ss">type: </span><span class="s2">"portfolio"</span>
+<span class="ss">title: </span><span class="s2">"Gatsby Advanced Blog"</span>
+<span class="ss">date: </span><span class="s2">"2018-08-15T00:00:00.000Z"</span>
+<span class="ss">path: </span><span class="s2">"/portfolios/portfolio-1/"</span>
+<span class="ss">images: </span><span class="p">[</span>
+  <span class="s2">"test-1/1.png"</span><span class="p">,</span>
+  <span class="s2">"test-1/2.png"</span><span class="p">,</span>
+<span class="p">]</span>
+<span class="o">---</span>
+
+<span class="c1"># Gatsby Advanced Blog</span>
+
+<span class="c1">## What I did</span>
+<span class="o">-</span> <span class="no">Develop</span> <span class="no">Gatsby</span> <span class="no">Advanced</span> <span class="no">Blog</span>
+
+<span class="c1">## Libraries / Tools</span>
+<span class="o">-</span> <span class="no">ReactJS</span>
+<span class="o">-</span> <span class="no">Redux</span>
+<span class="o">-</span> <span class="no">Redux</span> <span class="n">saga</span>
+<span class="o">-</span> <span class="o">...</span>
+
+<span class="p">[</span><span class="no">Go</span> <span class="n">to</span> <span class="no">Web</span> <span class="no">Site</span> <span class="err">→</span><span class="p">](</span><span class="n">https</span><span class="ss">:/</span><span class="o">/</span><span class="n">github</span><span class="p">.</span><span class="nf">com</span><span class="o">/</span><span class="n">wonism</span><span class="o">/</span><span class="n">gatsby</span><span class="o">-</span><span class="n">advanced</span><span class="o">-</span><span class="n">blog</span><span class="p">)</span></code></pre></figure>
+
+<ul>
+  <li>path is a <strong>required</strong> attribute to create a page. It must be unique.</li>
+  <li>type is a value that allows you to specify the format of the page, in this case it should be <code class="highlighter-rouge">portfolio</code>.</li>
+  <li><code class="highlighter-rouge">title</code> is the title of the portfolio.</li>
+  <li><code class="highlighter-rouge">images</code> are the images you want to attach to the portfolio and have the same value as the post’s. Images are rendered in the order they were added to the array.</li>
+  <li>Portfolios are sorted based on the data. Give a bigger value to the portfolio to show first.</li>
+</ul>
+
+<p>Portfolios will be shown one the portfolio page. and if there are more than 4, they will be shown on the home page.</p>
+
+<p>(You can see it in <strong>src/components/Home</strong> and modify how it is rendered.)</p>
+<h2 id="add-resume">Add resume</h2>
+
+<figure class="highlight"><pre><code class="language-ruby" data-lang="ruby"><span class="o">---</span>
+<span class="ss">type: </span><span class="s2">"resume"</span>
+<span class="ss">title: </span><span class="s2">"Resume"</span>
+<span class="ss">date: </span><span class="s2">"2000-01-01T00:00:00.000Z"</span>
+<span class="ss">path: </span><span class="s2">"/resume/"</span>
+<span class="o">---</span>
+
+<span class="c1">## Experience</span>
+<span class="o">-</span> <span class="no">Engineer</span> <span class="n">at</span> <span class="no">OOO</span> <span class="err">∙</span> <span class="mi">2000</span><span class="o">.</span> <span class="mo">01</span> <span class="o">~</span> <span class="no">Present</span>
+  <span class="o">-</span> <span class="no">Develop</span> <span class="n">something</span>
+  <span class="o">-</span> <span class="no">Maintain</span> <span class="n">something</span>
+
+<span class="c1">## Education</span>
+<span class="o">-</span> <span class="no">B</span><span class="o">.</span><span class="no">S</span><span class="p">.</span> <span class="nf">in</span> <span class="no">Computer</span> <span class="no">Science</span> <span class="no">Engineering</span> <span class="n">at</span> <span class="no">OOO</span>
+  <span class="o">-</span> <span class="mi">2000</span><span class="o">.</span> <span class="mo">01</span> <span class="o">~</span> <span class="mi">2000</span><span class="o">.</span> <span class="mo">01</span>
+
+<span class="c1">## Projects</span>
+<span class="o">-</span> <span class="no">Gatsby</span> <span class="no">Advanced</span> <span class="no">Blog</span> <span class="p">(</span><span class="n">https</span><span class="ss">:/</span><span class="o">/</span><span class="n">github</span><span class="p">.</span><span class="nf">com</span><span class="o">/</span><span class="n">wonism</span><span class="o">/</span><span class="n">gatsby</span><span class="o">-</span><span class="n">advanced</span><span class="o">-</span><span class="n">blog</span><span class="p">)</span> <span class="err">∙</span> <span class="mi">2000</span><span class="o">.</span> <span class="mo">01</span> <span class="o">~</span> <span class="no">Present</span>
+  <span class="o">-</span> <span class="no">Integrate</span> <span class="no">Redux</span>
+    <span class="o">-</span> <span class="no">Use</span> <span class="no">Redux</span><span class="p">,</span> <span class="no">Redux</span> <span class="no">Saga</span><span class="p">,</span> <span class="no">Reselect</span><span class="o">...</span>
+
+<span class="c1">## Skills</span>
+<span class="o">-</span> <span class="no">JavaScript</span>
+  <span class="o">-</span> <span class="no">ES2015</span><span class="o">+</span>
+  <span class="o">-</span> <span class="no">ReactJS</span>
+  <span class="o">-</span> <span class="no">Lodash</span>
+<span class="o">-</span> <span class="no">CSS</span>
+  <span class="o">-</span> <span class="no">SASS</span>
+  <span class="o">-</span> <span class="no">Less</span></code></pre></figure>
+
+<ul>
+  <li>path is a <strong>required</strong> attribute to create a page. It must be unique.</li>
+  <li>type is a value that allows you to specify the format of the page, in this case it should be <code class="highlighter-rouge">portfolio</code>.
+    <h2 id="other-features">Other features</h2>
+  </li>
+  <li>On the right side of the GNB, you can search posts by title, summary, tag, category, etc. of the post.</li>
+  <li>When you add codes in markdown, a button will be created automatically. If user clicks the button, user can copy the codes.
+    <h2 id="deployment">Deployment</h2>
+    <p>You can build the application with npm run build.
+Then you can distribute it where you want. You can see this article on this <a href="https://naveenjujaray.js.org/hosting-sites-top-5">link</a>.</p>
+  </li>
+</ul>
 
                 
 			</article>
@@ -391,8 +582,6 @@ function lunr_search(term) {
 			<!-- Tags -->
 			<div class="mb-4">
 				<span class="taglist">
-				
-				  <a class="sscroll btn btn-light btn-sm font-weight-bold" href="/tags.html#featured">featured</a>
 				
 				</span>
 			</div>
@@ -433,13 +622,9 @@ function lunr_search(term) {
         <div class="row prevnextlinks small font-weight-bold">
           
             <div class="col-md-6 rightborder pl-0">
-                <a class="text-dark" href="/censorship-2020"> <img height="30px" class="mr-1" src="/assets/images/3.jfif">  Current tools against state's Internet-blocking for censorship</a>
+                <a class="text-dark" href="/hosting-sites-top-5"> <img height="30px" class="mr-1" src="/assets/images/firebase/7.png">  Free HOSTING sites with Instructions</a>
             </div>
           
-          
-            <div class="col-md-6 text-right pr-0">
-                <a class="text-dark" href="/readme_github_profile"> How To Create A GitHub Profile README  <img height="30px" class="ml-1" src="/assets/images/6.jpg"> </a>
-            </div>
           
         </div>
     </div>

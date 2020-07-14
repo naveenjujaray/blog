@@ -1,4 +1,222 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.5">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2020-07-14T00:40:50+05:30</updated><id>http://localhost:4000/feed.xml</id><title type="html">Naveen Jujaray</title><subtitle>Blog</subtitle><entry><title type="html">Free HOSTING sites with Instructions</title><link href="http://localhost:4000/hosting-sites-top-5" rel="alternate" type="text/html" title="Free HOSTING sites with Instructions" /><published>2020-07-14T00:00:00+05:30</published><updated>2020-07-14T00:00:00+05:30</updated><id>http://localhost:4000/hosting</id><content type="html" xml:base="http://localhost:4000/hosting-sites-top-5">&lt;p&gt;Getting your website deployed is probably the first thing you want to do and with these 5 sites, you can do it in just minutes.&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.5">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2020-07-14T12:18:30+05:30</updated><id>http://localhost:4000/feed.xml</id><title type="html">Naveen Jujaray</title><subtitle>Blog</subtitle><entry><title type="html">Create your own blog easily with Gatsby</title><link href="http://localhost:4000/gatsby-intro" rel="alternate" type="text/html" title="Create your own blog easily with Gatsby" /><published>2020-07-14T01:00:00+05:30</published><updated>2020-07-14T01:00:00+05:30</updated><id>http://localhost:4000/gatsby-intro</id><content type="html" xml:base="http://localhost:4000/gatsby-intro">&lt;p&gt;&lt;a href=&quot;https://www.gatsbyjs.org/&quot;&gt;Gatsby&lt;/a&gt; is a Static site generator. (There are so many kinds of generator like Jekyll(Ruby), Hexo(Node.js), Hugo(Go), etc.) Gatsby support PWA(Progressive Web App), Hot reloading, SSR(Server Side Rendering).&lt;/p&gt;
+
+&lt;p&gt;You can see more detailed in &lt;a href=&quot;https://www.gatsbyjs.org/features/&quot;&gt;this link&lt;/a&gt;.&lt;/p&gt;
+&lt;h2 id=&quot;install-gatsby-cli-and-gatsby-starter&quot;&gt;Install Gatsby CLI and Gatsby Starter&lt;/h2&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;err&quot;&gt;$&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;npm&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;i&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;g&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;gatsby&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;cli&lt;/span&gt;
+&lt;span class=&quot;err&quot;&gt;$&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;gatsby&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;new&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;lt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;no&quot;&gt;BLOG_NAME&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;gt;&amp;gt;&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;https&lt;/span&gt;&lt;span class=&quot;ss&quot;&gt;:/&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;github&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;com&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;wonism&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;gatsby&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;advanced&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;blog&lt;/span&gt;&lt;span class=&quot;sh&quot;&gt;
+$ cd &amp;lt;&amp;lt;BLOG_NAME&amp;gt;&amp;gt;
+$ npm run dev&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;h2 id=&quot;basic-structure-of-project&quot;&gt;Basic structure of project&lt;/h2&gt;
+&lt;p&gt;The project has the following structure.&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;n&quot;&gt;src&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;
+&lt;span class=&quot;err&quot;&gt;├──&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;components&lt;/span&gt;
+&lt;span class=&quot;err&quot;&gt;│&lt;/span&gt;   &lt;span class=&quot;err&quot;&gt;├──&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;...&lt;/span&gt; &lt;span class=&quot;c1&quot;&gt;# Many of shared sections&lt;/span&gt;
+&lt;span class=&quot;err&quot;&gt;│&lt;/span&gt;   &lt;span class=&quot;err&quot;&gt;└──&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;layout&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;jsx&lt;/span&gt; &lt;span class=&quot;c1&quot;&gt;# general layout for page&lt;/span&gt;
+&lt;span class=&quot;err&quot;&gt;├──&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;constants&lt;/span&gt;
+&lt;span class=&quot;err&quot;&gt;├──&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;containers&lt;/span&gt; &lt;span class=&quot;c1&quot;&gt;# to connect states to react component&lt;/span&gt;
+&lt;span class=&quot;err&quot;&gt;├──&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;html&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;jsx&lt;/span&gt; &lt;span class=&quot;c1&quot;&gt;# page template for page&lt;/span&gt;
+&lt;span class=&quot;err&quot;&gt;├──&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;pages&lt;/span&gt; &lt;span class=&quot;c1&quot;&gt;# pages of your web site&lt;/span&gt;
+&lt;span class=&quot;err&quot;&gt;│&lt;/span&gt;   &lt;span class=&quot;err&quot;&gt;├──&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;404&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;jsx&lt;/span&gt;
+&lt;span class=&quot;err&quot;&gt;│&lt;/span&gt;   &lt;span class=&quot;err&quot;&gt;└──&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;index&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;js&lt;/span&gt;
+&lt;span class=&quot;err&quot;&gt;├──&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;postComponents&lt;/span&gt; &lt;span class=&quot;c1&quot;&gt;# react application that will be added in page&lt;/span&gt;
+&lt;span class=&quot;err&quot;&gt;│&lt;/span&gt;   &lt;span class=&quot;err&quot;&gt;└──&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;...&lt;/span&gt;
+&lt;span class=&quot;err&quot;&gt;├──&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;resources&lt;/span&gt; &lt;span class=&quot;c1&quot;&gt;# asset files&lt;/span&gt;
+&lt;span class=&quot;err&quot;&gt;│&lt;/span&gt;   &lt;span class=&quot;err&quot;&gt;└──&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;images&lt;/span&gt;
+&lt;span class=&quot;err&quot;&gt;├──&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;store&lt;/span&gt; &lt;span class=&quot;c1&quot;&gt;# to use redux&lt;/span&gt;
+&lt;span class=&quot;err&quot;&gt;│&lt;/span&gt;   &lt;span class=&quot;err&quot;&gt;├──&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;...&lt;/span&gt;
+&lt;span class=&quot;err&quot;&gt;│&lt;/span&gt;   &lt;span class=&quot;err&quot;&gt;└──&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;index&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;js&lt;/span&gt;
+&lt;span class=&quot;err&quot;&gt;├──&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;templates&lt;/span&gt; &lt;span class=&quot;c1&quot;&gt;# template for creating page with file system&lt;/span&gt;
+&lt;span class=&quot;err&quot;&gt;│&lt;/span&gt;   &lt;span class=&quot;err&quot;&gt;└──&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;...&lt;/span&gt;
+&lt;span class=&quot;err&quot;&gt;└──&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;utils&lt;/span&gt; &lt;span class=&quot;c1&quot;&gt;# utilities&lt;/span&gt;
+    &lt;span class=&quot;err&quot;&gt;└──&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;...&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;h2 id=&quot;create-a-post&quot;&gt;Create a post&lt;/h2&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;err&quot;&gt;$&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;mkdir&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;src&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;pages&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;/&amp;lt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;no&quot;&gt;DIRECTORY_NAME&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;gt;&amp;gt;&lt;/span&gt;&lt;span class=&quot;sh&quot;&gt;
+$ touch src/pages/&amp;lt;&amp;lt;DIRECTORY_NAME&amp;gt;&amp;gt;/index.md&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;p&gt;These markdown files are referred by the gatsby-source-filesystem and converted to HTML files by gatsby-transformer-remark.&lt;/p&gt;
+
+&lt;p&gt;These are called at build time. You can check this createPages in gatsby-node.js.&lt;/p&gt;
+
+&lt;h2 id=&quot;caution&quot;&gt;Caution&lt;/h2&gt;
+&lt;p&gt;There is a .sample.md file in «PROJECT_ROOT»/src/pages.
+If you delete this file, you can not get category, image, etc. in frontmatter of GraphQL query.&lt;/p&gt;
+
+&lt;p&gt;The .sample.md file serves as the dummy data and creates custom frontmatter fields.&lt;/p&gt;
+
+&lt;h2 id=&quot;the-basic-components-of-a-markdown-file&quot;&gt;The basic components of a markdown file&lt;/h2&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;o&quot;&gt;---&lt;/span&gt;
+&lt;span class=&quot;ss&quot;&gt;path: &lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;/hello-world/&quot;&lt;/span&gt;
+&lt;span class=&quot;ss&quot;&gt;category: &lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;Sample&quot;&lt;/span&gt;
+&lt;span class=&quot;ss&quot;&gt;tags: &lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;tag&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;should&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;be&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;array&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt;
+&lt;span class=&quot;ss&quot;&gt;title: &lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;Hello, World!&quot;&lt;/span&gt;
+&lt;span class=&quot;ss&quot;&gt;date: &lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;2018-08-15T00:00:00.000Z&quot;&lt;/span&gt;
+&lt;span class=&quot;ss&quot;&gt;summary: &lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;You can create your own blog with Gatsby!&quot;&lt;/span&gt;
+&lt;span class=&quot;o&quot;&gt;---&lt;/span&gt;
+
+&lt;span class=&quot;no&quot;&gt;Content&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;of&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;this&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;page&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;path is a &lt;strong&gt;required&lt;/strong&gt; attribute to create a page. It must be unique.&lt;/li&gt;
+  &lt;li&gt;category allows you to create category pages and access to pages like &lt;code class=&quot;highlighter-rouge&quot;&gt;/categories/&amp;lt;&amp;lt;CATEGORY_NAME&amp;gt;&amp;gt;/&amp;lt;&amp;lt;PAGE_NUMBER&amp;gt;&amp;gt;&lt;/code&gt;.&lt;/li&gt;
+  &lt;li&gt;tags allows you to create tag pages and access to pages like &lt;code class=&quot;highlighter-rouge&quot;&gt;/tags/&amp;lt;&amp;lt;TAG_NAME&amp;gt;&amp;gt;/&amp;lt;&amp;lt;PAGE_NUMBER&amp;gt;&amp;gt;&lt;/code&gt;.&lt;/li&gt;
+  &lt;li&gt;As you can see the name oof property. &lt;code class=&quot;highlighter-rouge&quot;&gt;title&lt;/code&gt; is the title of the page, and &lt;code class=&quot;highlighter-rouge&quot;&gt;summary&lt;/code&gt; is a summary of the page.&lt;/li&gt;
+  &lt;li&gt;date is the date the post was created, and posts are sorted based on it.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;(You can more detailed information about the formatting in &lt;a href=&quot;https://github.com/jonschlinkert/gray-matter&quot;&gt;gray-matter&lt;/a&gt;.)&lt;/p&gt;
+
+&lt;p&gt;Those will be called by query in &lt;em&gt;src/templates/Post.jsx.&lt;/em&gt; and you can run the query directly on &lt;code class=&quot;highlighter-rouge&quot;&gt;http://localhost:8000/___graphql&lt;/code&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;add-image-into-post&quot;&gt;Add image into post&lt;/h2&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;ss&quot;&gt;images: &lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;(&amp;lt;&amp;lt;src/resources/&amp;gt;&amp;gt;)PATH_TO/IMAGE&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;p&gt;Use an absolute path including &lt;em&gt;http://&lt;/em&gt; or &lt;em&gt;https://&lt;/em&gt;. or use a relative path relative to src/resources.
+(&lt;strong&gt;On line 145 ofcomponents/Post/index.jsx&lt;/strong&gt;, the image is imported via &lt;strong&gt;IF CONDITION ? «image» : ‘«src/resources/${image}»‘&lt;/strong&gt;)&lt;/p&gt;
+&lt;h2 id=&quot;add-react-application-into-post&quot;&gt;Add react application into post&lt;/h2&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;o&quot;&gt;---&lt;/span&gt;
+&lt;span class=&quot;ss&quot;&gt;path: &lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;/inject-app/&quot;&lt;/span&gt;
+&lt;span class=&quot;ss&quot;&gt;category: &lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;Sample&quot;&lt;/span&gt;
+&lt;span class=&quot;ss&quot;&gt;tags: &lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;tag&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;must&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;be&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;array&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt;
+&lt;span class=&quot;ss&quot;&gt;title: &lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;Injecting React application&quot;&lt;/span&gt;
+&lt;span class=&quot;ss&quot;&gt;date: &lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;2018-08-15T00:00:00.000Z&quot;&lt;/span&gt;
+&lt;span class=&quot;ss&quot;&gt;summary: &lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;You can inject react application into post&quot;&lt;/span&gt;
+&lt;span class=&quot;ss&quot;&gt;components: &lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[{&lt;/span&gt;
+  &lt;span class=&quot;ss&quot;&gt;rootId: &lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;'sample-component'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;c1&quot;&gt;# &amp;lt;div id=&quot;sample-component&quot;&amp;gt;&amp;lt;/div&amp;gt; must be in contents&lt;/span&gt;
+  &lt;span class=&quot;ss&quot;&gt;fileName: &lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;'sample'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;c1&quot;&gt;# this will render src/postComponents/sample/index.jsx&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;}]&lt;/span&gt;
+&lt;span class=&quot;o&quot;&gt;---&lt;/span&gt;
+
+&lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;..&lt;/span&gt;
+
+&lt;span class=&quot;o&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;div&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;id&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;sample-component&quot;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;sr&quot;&gt;/div&amp;gt;
+
+2. ...&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;h2 id=&quot;put-an-object-in-the-array-object-has-to-include-the-path-to-the-file-of-the-react-application-that-is-to-be-added-and-the-id-of-the-tag-to-be-rendered&quot;&gt;Put an object in the array. Object has to include the path to the file of the react application that is to be added and the ID of the tag to be rendered.&lt;/h2&gt;
+
+&lt;p&gt;Then, in the middle of the article, add the tag with this ID where you want to insert the react application.&lt;/p&gt;
+
+&lt;h2 id=&quot;add-tweet-into-post&quot;&gt;Add tweet into post&lt;/h2&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;o&quot;&gt;---&lt;/span&gt;
+&lt;span class=&quot;ss&quot;&gt;path: &lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;/inject-tweet/&quot;&lt;/span&gt;
+&lt;span class=&quot;ss&quot;&gt;category: &lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;Sample&quot;&lt;/span&gt;
+&lt;span class=&quot;ss&quot;&gt;tags: &lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;tag&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;must&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;be&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;array&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt;
+&lt;span class=&quot;ss&quot;&gt;title: &lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;Injecting Tweet&quot;&lt;/span&gt;
+&lt;span class=&quot;ss&quot;&gt;date: &lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;2018-08-15T00:00:00.000Z&quot;&lt;/span&gt;
+&lt;span class=&quot;ss&quot;&gt;summary: &lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;You can inject tweet into post&quot;&lt;/span&gt;
+&lt;span class=&quot;ss&quot;&gt;tweets: &lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[{&lt;/span&gt;
+  &lt;span class=&quot;ss&quot;&gt;rootId: &lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;'sample-tweet'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;c1&quot;&gt;# &amp;lt;div id=&quot;sample-tweet&quot;&amp;gt;&amp;lt;/div&amp;gt; must be in contents&lt;/span&gt;
+  &lt;span class=&quot;ss&quot;&gt;userId: &lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;'twitter'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;c1&quot;&gt;# twitter user id&lt;/span&gt;
+  &lt;span class=&quot;ss&quot;&gt;tweetId: &lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;'977557540199456775'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;c1&quot;&gt;# tweet id&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;}]&lt;/span&gt;
+&lt;span class=&quot;o&quot;&gt;---&lt;/span&gt;
+
+&lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;..&lt;/span&gt;
+
+&lt;span class=&quot;o&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;div&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;id&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;sample-tweet&quot;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;sr&quot;&gt;/div&amp;gt;
+
+2. ...&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;p&gt;Put an object in the array. Object has to include the tweet’s ID and the author or the tweet and the ID of the tag to be rendered.&lt;/p&gt;
+
+&lt;p&gt;You can use it as you added the react application.&lt;/p&gt;
+
+&lt;h3 id=&quot;add-codes-into-post&quot;&gt;Add codes into post&lt;/h3&gt;
+&lt;p&gt;If you write the three back quote before and after the codes that you want to highlight, It will be highlighted by &lt;code class=&quot;highlighter-rouge&quot;&gt;gatsby-remark-prismjs&lt;/code&gt;.&lt;/p&gt;
+
+&lt;h2 id=&quot;add-portfolios&quot;&gt;Add portfolios&lt;/h2&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;err&quot;&gt;$&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;mkdir&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;src&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;resources&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;/&amp;lt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;no&quot;&gt;DIRECTORY_NAME&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;gt;&amp;gt;&lt;/span&gt;&lt;span class=&quot;sh&quot;&gt;
+$ touch src/resources/&amp;lt;&amp;lt;DIRECTORY_NAME&amp;gt;&amp;gt;/index.md&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;o&quot;&gt;---&lt;/span&gt;
+&lt;span class=&quot;ss&quot;&gt;type: &lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;portfolio&quot;&lt;/span&gt;
+&lt;span class=&quot;ss&quot;&gt;title: &lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;Gatsby Advanced Blog&quot;&lt;/span&gt;
+&lt;span class=&quot;ss&quot;&gt;date: &lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;2018-08-15T00:00:00.000Z&quot;&lt;/span&gt;
+&lt;span class=&quot;ss&quot;&gt;path: &lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;/portfolios/portfolio-1/&quot;&lt;/span&gt;
+&lt;span class=&quot;ss&quot;&gt;images: &lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;
+  &lt;span class=&quot;s2&quot;&gt;&quot;test-1/1.png&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
+  &lt;span class=&quot;s2&quot;&gt;&quot;test-1/2.png&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt;
+&lt;span class=&quot;o&quot;&gt;---&lt;/span&gt;
+
+&lt;span class=&quot;c1&quot;&gt;# Gatsby Advanced Blog&lt;/span&gt;
+
+&lt;span class=&quot;c1&quot;&gt;## What I did&lt;/span&gt;
+&lt;span class=&quot;o&quot;&gt;-&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;Develop&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;Gatsby&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;Advanced&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;Blog&lt;/span&gt;
+
+&lt;span class=&quot;c1&quot;&gt;## Libraries / Tools&lt;/span&gt;
+&lt;span class=&quot;o&quot;&gt;-&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;ReactJS&lt;/span&gt;
+&lt;span class=&quot;o&quot;&gt;-&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;Redux&lt;/span&gt;
+&lt;span class=&quot;o&quot;&gt;-&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;Redux&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;saga&lt;/span&gt;
+&lt;span class=&quot;o&quot;&gt;-&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;...&lt;/span&gt;
+
+&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;no&quot;&gt;Go&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;to&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;Web&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;Site&lt;/span&gt; &lt;span class=&quot;err&quot;&gt;→&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;](&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;https&lt;/span&gt;&lt;span class=&quot;ss&quot;&gt;:/&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;github&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;com&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;wonism&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;gatsby&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;advanced&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;blog&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;path is a &lt;strong&gt;required&lt;/strong&gt; attribute to create a page. It must be unique.&lt;/li&gt;
+  &lt;li&gt;type is a value that allows you to specify the format of the page, in this case it should be &lt;code class=&quot;highlighter-rouge&quot;&gt;portfolio&lt;/code&gt;.&lt;/li&gt;
+  &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;title&lt;/code&gt; is the title of the portfolio.&lt;/li&gt;
+  &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;images&lt;/code&gt; are the images you want to attach to the portfolio and have the same value as the post’s. Images are rendered in the order they were added to the array.&lt;/li&gt;
+  &lt;li&gt;Portfolios are sorted based on the data. Give a bigger value to the portfolio to show first.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Portfolios will be shown one the portfolio page. and if there are more than 4, they will be shown on the home page.&lt;/p&gt;
+
+&lt;p&gt;(You can see it in &lt;strong&gt;src/components/Home&lt;/strong&gt; and modify how it is rendered.)&lt;/p&gt;
+&lt;h2 id=&quot;add-resume&quot;&gt;Add resume&lt;/h2&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;o&quot;&gt;---&lt;/span&gt;
+&lt;span class=&quot;ss&quot;&gt;type: &lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;resume&quot;&lt;/span&gt;
+&lt;span class=&quot;ss&quot;&gt;title: &lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;Resume&quot;&lt;/span&gt;
+&lt;span class=&quot;ss&quot;&gt;date: &lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;2000-01-01T00:00:00.000Z&quot;&lt;/span&gt;
+&lt;span class=&quot;ss&quot;&gt;path: &lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;/resume/&quot;&lt;/span&gt;
+&lt;span class=&quot;o&quot;&gt;---&lt;/span&gt;
+
+&lt;span class=&quot;c1&quot;&gt;## Experience&lt;/span&gt;
+&lt;span class=&quot;o&quot;&gt;-&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;Engineer&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;at&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;OOO&lt;/span&gt; &lt;span class=&quot;err&quot;&gt;∙&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;2000&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt; &lt;span class=&quot;mo&quot;&gt;01&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;~&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;Present&lt;/span&gt;
+  &lt;span class=&quot;o&quot;&gt;-&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;Develop&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;something&lt;/span&gt;
+  &lt;span class=&quot;o&quot;&gt;-&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;Maintain&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;something&lt;/span&gt;
+
+&lt;span class=&quot;c1&quot;&gt;## Education&lt;/span&gt;
+&lt;span class=&quot;o&quot;&gt;-&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;B&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;no&quot;&gt;S&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;in&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;Computer&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;Science&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;Engineering&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;at&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;OOO&lt;/span&gt;
+  &lt;span class=&quot;o&quot;&gt;-&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;2000&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt; &lt;span class=&quot;mo&quot;&gt;01&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;~&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;2000&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt; &lt;span class=&quot;mo&quot;&gt;01&lt;/span&gt;
+
+&lt;span class=&quot;c1&quot;&gt;## Projects&lt;/span&gt;
+&lt;span class=&quot;o&quot;&gt;-&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;Gatsby&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;Advanced&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;Blog&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;https&lt;/span&gt;&lt;span class=&quot;ss&quot;&gt;:/&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;github&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;com&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;wonism&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;gatsby&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;advanced&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;blog&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;err&quot;&gt;∙&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;2000&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt; &lt;span class=&quot;mo&quot;&gt;01&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;~&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;Present&lt;/span&gt;
+  &lt;span class=&quot;o&quot;&gt;-&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;Integrate&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;Redux&lt;/span&gt;
+    &lt;span class=&quot;o&quot;&gt;-&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;Use&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;Redux&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;Redux&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;Saga&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;Reselect&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;...&lt;/span&gt;
+
+&lt;span class=&quot;c1&quot;&gt;## Skills&lt;/span&gt;
+&lt;span class=&quot;o&quot;&gt;-&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;JavaScript&lt;/span&gt;
+  &lt;span class=&quot;o&quot;&gt;-&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;ES2015&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;+&lt;/span&gt;
+  &lt;span class=&quot;o&quot;&gt;-&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;ReactJS&lt;/span&gt;
+  &lt;span class=&quot;o&quot;&gt;-&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;Lodash&lt;/span&gt;
+&lt;span class=&quot;o&quot;&gt;-&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;CSS&lt;/span&gt;
+  &lt;span class=&quot;o&quot;&gt;-&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;SASS&lt;/span&gt;
+  &lt;span class=&quot;o&quot;&gt;-&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;Less&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;path is a &lt;strong&gt;required&lt;/strong&gt; attribute to create a page. It must be unique.&lt;/li&gt;
+  &lt;li&gt;type is a value that allows you to specify the format of the page, in this case it should be &lt;code class=&quot;highlighter-rouge&quot;&gt;portfolio&lt;/code&gt;.
+    &lt;h2 id=&quot;other-features&quot;&gt;Other features&lt;/h2&gt;
+  &lt;/li&gt;
+  &lt;li&gt;On the right side of the GNB, you can search posts by title, summary, tag, category, etc. of the post.&lt;/li&gt;
+  &lt;li&gt;When you add codes in markdown, a button will be created automatically. If user clicks the button, user can copy the codes.
+    &lt;h2 id=&quot;deployment&quot;&gt;Deployment&lt;/h2&gt;
+    &lt;p&gt;You can build the application with npm run build.
+Then you can distribute it where you want. You can see this article on this &lt;a href=&quot;https://naveenjujaray.js.org/hosting-sites-top-5&quot;&gt;link&lt;/a&gt;.&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;</content><author><name>Naveen Jujaray</name></author><summary type="html">Gatsby is a Static site generator. (There are so many kinds of generator like Jekyll(Ruby), Hexo(Node.js), Hugo(Go), etc.) Gatsby support PWA(Progressive Web App), Hot reloading, SSR(Server Side Rendering).</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/assets/images/firebase/8.png" /></entry><entry><title type="html">Free HOSTING sites with Instructions</title><link href="http://localhost:4000/hosting-sites-top-5" rel="alternate" type="text/html" title="Free HOSTING sites with Instructions" /><published>2020-07-14T00:00:00+05:30</published><updated>2020-07-14T00:00:00+05:30</updated><id>http://localhost:4000/hosting</id><content type="html" xml:base="http://localhost:4000/hosting-sites-top-5">&lt;p&gt;Getting your website deployed is probably the first thing you want to do and with these 5 sites, you can do it in just minutes.&lt;/p&gt;
 
 &lt;ul&gt;
   &lt;li&gt;&lt;a href=&quot;https://firebase.google.com/docs/hosting&quot;&gt;Firebase hosting&lt;/a&gt;&lt;/li&gt;
@@ -692,240 +910,4 @@ Copy &lt;code class=&quot;highlighter-rouge&quot;&gt;_layouts/post.html&lt;/code
 
 &lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;o&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;span&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;itemprop&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;author&quot;&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;itemscope&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;itemtype&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;http://schema.org/Person&quot;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;span&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;class&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;p-author h-card&quot;&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;itemprop&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;name&quot;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;a&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;href&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;/about.html&quot;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;gt;&lt;/span&gt;&lt;span class=&quot;no&quot;&gt;Naveen&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;Jujaray&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;sr&quot;&gt;/a&amp;gt;&amp;lt;/s&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;pan&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;sr&quot;&gt;/span&amp;gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
 
-&lt;p&gt;Try in browser. In the post, the author name should now be a link. Clicking on the author name should take you to the about page.&lt;/p&gt;</content><author><name>Naveen Jujaray</name></author><summary type="html">After I started a blog, as described in this post, I felt it would be cool to convert the author name shown on top of each post to a link to the about page. This was a minor change, but it required me to customize minima theme’s post layout.</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://www.gotafflair.com/wp-content/uploads/2019/09/Customize-Your-Website.jpg" /></entry><entry><title type="html">Build A Blog Using Jekyll And Deploy To Github Pages And Set Custom Domain</title><link href="http://localhost:4000/buildblogusingjekyll" rel="alternate" type="text/html" title="Build A Blog Using Jekyll And Deploy To Github Pages And Set Custom Domain" /><published>2020-06-29T10:00:03+05:30</published><updated>2020-06-29T10:00:03+05:30</updated><id>http://localhost:4000/Build-a-blog-jekyll</id><content type="html" xml:base="http://localhost:4000/buildblogusingjekyll">&lt;p&gt;I recently decided to start a blog. I had used Wordpress in the past, so I knew I could get my blog up and running quickly using Wordpress. I was also slightly familiar with Jekyll. Doing a google search and reading a few blog posts educated me on benefits of Jekyll and static sites in general. I explored Jekyll a little more and loved it immediately.&lt;/p&gt;
-
-&lt;p&gt;The first thing that appealed to me about Jekyll was how programmer-friendly it was. Creating a site using Jekyll felt very similar to a developer’s day-to-day tasks. Another thing that appealed to me was Jekyll’s integration with GitHub Pages. Finally, free hosting provided by GitHub Pages (along with the ability to set custom domains) tipped my decision towards using Jekyll.&lt;/p&gt;
-
-&lt;p&gt;I have written this post to serve as a stand-alone tutorial, while also trying to keep it short. I briefly describe new terms and concepts as I introduce them, but do not go into much detail. Jekyll’s documentation is excellent and working through &lt;a href=&quot;&amp;quot;https://jekyllrb.com/docs/&amp;quot;&quot;&gt;Quickstart&lt;/a&gt; and &lt;a href=&quot;&amp;quot;https://jekyllrb.com/docs/step-by-step/01-setup/&amp;quot;&quot;&gt;Step-by-Step Tutorial&lt;/a&gt; should provide you good background on Jekyll.&lt;/p&gt;
-
-&lt;p&gt;Let’s get started&lt;/p&gt;
-&lt;h2&gt;Install Ruby Development Environment&lt;/h2&gt;
-
-&lt;p&gt;You need Ruby development environment setup on your computer. Jekyll documentation provides the requirements list here. In addition, you also need bundler. You can install bundler by using the command gem install bundler.&lt;/p&gt;
-
-&lt;h2&gt;Install Jekyll&lt;/h2&gt;
-
-&lt;p&gt;Jekyll is a ruby gem. Install it by running the following command in a terminal:&lt;/p&gt;
-
-&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;err&quot;&gt;$&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;gem&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;install&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;jekyll&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
-
-&lt;h2&gt;Create a new directory for your site&lt;/h2&gt;
-
-&lt;p&gt;On your computer, create a directory to hold your site:&lt;/p&gt;
-
-&lt;h2&gt;Create index.html in the new directory&lt;/h2&gt;
-
-&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;err&quot;&gt;$&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;cd&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;my&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;site&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
-
-&lt;p&gt;Create &lt;code class=&quot;highlighter-rouge&quot;&gt;index.html&lt;/code&gt; with some content, such as:&lt;/p&gt;
-
-&lt;p&gt;&lt;b&gt;index.html&lt;/b&gt;&lt;/p&gt;
-
-&lt;h2&gt;Serve the jekyll blog&lt;/h2&gt;
-
-&lt;p&gt;In a terminal, run the following command&lt;/p&gt;
-
-&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;err&quot;&gt;$&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;jekyll&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;serve&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
-
-&lt;p&gt;This command generates the site files and runs a local web server at &lt;code class=&quot;highlighter-rouge&quot;&gt;http://localhost:4000.&lt;/code&gt;&lt;/p&gt;
-
-&lt;h2&gt;Install theme gem&lt;/h2&gt;
-
-&lt;p&gt;You can use a theme to improve your site’s presentation. There is a wide selection of themes to choose from. You can get started with &lt;code class=&quot;highlighter-rouge&quot;&gt;minima&lt;/code&gt; theme which is provided by Jekyll. You can install &lt;code class=&quot;highlighter-rouge&quot;&gt;minima&lt;/code&gt; gem using the following command:&lt;/p&gt;
-
-&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;err&quot;&gt;$&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;gem&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;install&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;minima&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
-
-&lt;h2&gt;Create Gemfile&lt;/h2&gt;
-
-&lt;p&gt;Create a file &lt;code class=&quot;highlighter-rouge&quot;&gt;Gemfile&lt;/code&gt; in the root directory. &lt;code class=&quot;highlighter-rouge&quot;&gt;Gemfile&lt;/code&gt; is used to specify which gems your Jekyll site uses.&lt;/p&gt;
-
-&lt;p&gt;&lt;b&gt;Gemfile&lt;/b&gt;&lt;/p&gt;
-
-&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;n&quot;&gt;source&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;'https://rubygems.org'&lt;/span&gt;
-&lt;span class=&quot;n&quot;&gt;gem&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;'minima'&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
-
-&lt;h2&gt;Create Jekyll config file and add theme&lt;/h2&gt;
-
-&lt;p&gt;You also need to set the theme in Jekyll’s configuration file. Jekyll reads configuration from a file named &lt;code class=&quot;highlighter-rouge&quot;&gt;_config.yml&lt;/code&gt; in your site’s root directory. Create &lt;code class=&quot;highlighter-rouge&quot;&gt;_config.yml&lt;/code&gt; with the following contents:&lt;/p&gt;
-
-&lt;p&gt;&lt;b&gt;_config.yml&lt;/b&gt;&lt;/p&gt;
-
-&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;ss&quot;&gt;theme: &lt;/span&gt;&lt;span class=&quot;n&quot;&gt;minima&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
-
-&lt;p&gt;After making any changes to &lt;code class=&quot;highlighter-rouge&quot;&gt;_config.yml&lt;/code&gt;, you need to restart &lt;code class=&quot;highlighter-rouge&quot;&gt;jekyll serve&lt;/code&gt; for Jekyll to pickup configuration changes. Even after restarting &lt;code class=&quot;highlighter-rouge&quot;&gt;jekyll&lt;/code&gt; serve, you will notice no difference in your site’s rendering. You will fix this next.&lt;/p&gt;
-
-&lt;h2&gt;Update index.html to use a layout&lt;/h2&gt;
-
-&lt;p&gt;In the previous section, you saw that the text of your &lt;code class=&quot;highlighter-rouge&quot;&gt;index page&lt;/code&gt; rendered without any styling from the theme. This is happening because Jekyll is treating your index.html as a regular html file. You can tell Jekyll to use the theme’s &lt;code class=&quot;highlighter-rouge&quot;&gt;home&lt;/code&gt; layout by adding the following to the top of your &lt;code class=&quot;highlighter-rouge&quot;&gt;index.html&lt;/code&gt;:&lt;/p&gt;
-
-&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;o&quot;&gt;---&lt;/span&gt;
-&lt;span class=&quot;ss&quot;&gt;layout: &lt;/span&gt;&lt;span class=&quot;n&quot;&gt;home&lt;/span&gt;
-&lt;span class=&quot;o&quot;&gt;---&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
-
-&lt;p&gt;This is called the front matter. Jekyll does additional processing on any file containing a front matter.&lt;/p&gt;
-
-&lt;p&gt;Minima theme provides a &lt;code class=&quot;highlighter-rouge&quot;&gt;home&lt;/code&gt; layout which is most suitable for a site’s index page. Among other things &lt;code class=&quot;highlighter-rouge&quot;&gt;home&lt;/code&gt; layout adds a list of recent posts to the home page.&lt;/p&gt;
-
-&lt;p&gt;Try in browser. The index page of the site now renders in theme.&lt;/p&gt;
-&lt;h2&gt;Add site title to config&lt;/h2&gt;
-
-&lt;p&gt;With the site rendered in theme, it looks really good. Like most sites, you want your site to have a title too. The &lt;code class=&quot;highlighter-rouge&quot;&gt;minima&lt;/code&gt; theme uses &lt;code class=&quot;highlighter-rouge&quot;&gt;title&lt;/code&gt; variable’s value (if available) as title of your site. You can set &lt;code class=&quot;highlighter-rouge&quot;&gt;title&lt;/code&gt; variable by adding the line &lt;code class=&quot;highlighter-rouge&quot;&gt;title: MyAwesomeBlog&lt;/code&gt; to &lt;code class=&quot;highlighter-rouge&quot;&gt;_config.yml.&lt;/code&gt; Your &lt;code class=&quot;highlighter-rouge&quot;&gt;_config.yml&lt;/code&gt; should look like this now:&lt;/p&gt;
-
-&lt;p&gt;&lt;b&gt;&lt;/b&gt;&lt;/p&gt;
-
-&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;ss&quot;&gt;theme: &lt;/span&gt;&lt;span class=&quot;n&quot;&gt;minima&lt;/span&gt;
-&lt;span class=&quot;ss&quot;&gt;title: &lt;/span&gt;&lt;span class=&quot;no&quot;&gt;MyAwesomeBlog&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
-
-&lt;p&gt;Restart &lt;code class=&quot;highlighter-rouge&quot;&gt;jekyll serve&lt;/code&gt; and refresh browser. You will notice that the value for title that you provided in &lt;code class=&quot;highlighter-rouge&quot;&gt;_config.yml&lt;/code&gt; now becomes the title of your site.&lt;/p&gt;
-
-&lt;h2&gt;Create about page&lt;/h2&gt;
-
-&lt;p&gt;Create an About page by creating a &lt;code class=&quot;highlighter-rouge&quot;&gt;about.md&lt;/code&gt; file in the site’s root directory.&lt;/p&gt;
-
-&lt;p&gt;&lt;b&gt;about.md&lt;/b&gt;&lt;/p&gt;
-
-&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;o&quot;&gt;---&lt;/span&gt;
-&lt;span class=&quot;ss&quot;&gt;layout: &lt;/span&gt;&lt;span class=&quot;n&quot;&gt;page&lt;/span&gt;
-&lt;span class=&quot;ss&quot;&gt;title: &lt;/span&gt;&lt;span class=&quot;no&quot;&gt;About&lt;/span&gt;
-&lt;span class=&quot;o&quot;&gt;---&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
-
-&lt;h1 id=&quot;about-me&quot;&gt;About me&lt;/h1&gt;
-&lt;p&gt;This page will contain information about me.&lt;/p&gt;
-
-&lt;p&gt;This file uses the &lt;code class=&quot;highlighter-rouge&quot;&gt;page&lt;/code&gt; layout provided by the theme.&lt;/p&gt;
-
-&lt;p&gt;Try in browser. About link shows up in top bar. Jekyll automatically adds any html or markdown files that are in your root directory to navigation bar, using value of the variable &lt;code class=&quot;highlighter-rouge&quot;&gt;title&lt;/code&gt; from the page’s front matter as link text.&lt;/p&gt;
-
-&lt;h2&gt;Create projects page&lt;/h2&gt;
-
-&lt;p&gt;Add another page to your site. Create &lt;code class=&quot;highlighter-rouge&quot;&gt;projects.md&lt;/code&gt; in the site’s root directory.&lt;/p&gt;
-
-&lt;p&gt;&lt;b&gt;projects.md&lt;/b&gt;&lt;/p&gt;
-
-&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;o&quot;&gt;---&lt;/span&gt;
-&lt;span class=&quot;ss&quot;&gt;layout: &lt;/span&gt;&lt;span class=&quot;n&quot;&gt;page&lt;/span&gt;
-&lt;span class=&quot;ss&quot;&gt;title: &lt;/span&gt;&lt;span class=&quot;no&quot;&gt;Projects&lt;/span&gt;
-&lt;span class=&quot;o&quot;&gt;---&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
-
-&lt;h1 id=&quot;projects&quot;&gt;Projects&lt;/h1&gt;
-&lt;p&gt;Projects will be listed here.&lt;/p&gt;
-
-&lt;p&gt;Try in browser. The navigation bar now shows Projects link too. Clicking on projects takes you to projects page.&lt;/p&gt;
-
-&lt;h2&gt;Ordering navigation items&lt;/h2&gt;
-
-&lt;p&gt;With &lt;code class=&quot;highlighter-rouge&quot;&gt;about&lt;/code&gt; and project pages added, the site is in good shape now. Suppose you want modify the order of items in the navigation bar with About appearing to the right of &lt;code class=&quot;highlighter-rouge&quot;&gt;Projects&lt;/code&gt;.&lt;/p&gt;
-
-&lt;p&gt;All top-level pages are added to navigation bar in alphabetical order. Reordering navigation items is easily done by using &lt;code class=&quot;highlighter-rouge&quot;&gt;header_pages&lt;/code&gt; configuration setting. Add &lt;code class=&quot;highlighter-rouge&quot;&gt;header_pages&lt;/code&gt; to configuration and set its value to a list of pages in the order you wish them to appear.&lt;/p&gt;
-
-&lt;p&gt;&lt;b&gt;_config.yml&lt;/b&gt;&lt;/p&gt;
-
-&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;ss&quot;&gt;theme: &lt;/span&gt;&lt;span class=&quot;n&quot;&gt;minima&lt;/span&gt;
-&lt;span class=&quot;ss&quot;&gt;title: &lt;/span&gt;&lt;span class=&quot;no&quot;&gt;MyAwesomeBlog&lt;/span&gt;
-&lt;span class=&quot;ss&quot;&gt;header_pages:
-  &lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;projects&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;md&lt;/span&gt;
-  &lt;span class=&quot;o&quot;&gt;-&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;about&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;md&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
-
-&lt;p&gt;Try in browser. The &lt;code class=&quot;highlighter-rouge&quot;&gt;About&lt;/code&gt; and &lt;code class=&quot;highlighter-rouge&quot;&gt;Project&lt;/code&gt; items now appear in your preferred order.&lt;/p&gt;
-
-&lt;h2&gt;Add a blog post&lt;/h2&gt;
-
-&lt;p&gt;Creating a &lt;code class=&quot;highlighter-rouge&quot;&gt;blog&lt;/code&gt; post is as simple as creating a directory and a file within that directory.&lt;/p&gt;
-
-&lt;p&gt;Create a folder called &lt;code class=&quot;highlighter-rouge&quot;&gt;_posts&lt;/code&gt; in the root directory of your site. Create a markdown (or html) file with year, month and day prefixed to the filename.&lt;/p&gt;
-
-&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;err&quot;&gt;$&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;mkdir&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;_posts&lt;/span&gt;
-&lt;span class=&quot;err&quot;&gt;$&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;cd&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;_posts&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
-
-&lt;p&gt;Create a markdown file with year, month and day prefixed to the filename:&lt;/p&gt;
-
-&lt;p&gt;&lt;b&gt;2018-09-12-my-first-post.md&lt;/b&gt;&lt;/p&gt;
-
-&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;o&quot;&gt;---&lt;/span&gt;
-&lt;span class=&quot;ss&quot;&gt;layout: &lt;/span&gt;&lt;span class=&quot;n&quot;&gt;post&lt;/span&gt;
-&lt;span class=&quot;o&quot;&gt;---&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
-
-&lt;p&gt;This is the contents of this blog &lt;code class=&quot;highlighter-rouge&quot;&gt;post&lt;/code&gt;.
-Notice that this file contains Jekyll front matter and sets the layout to post, which is another layout provided by &lt;code class=&quot;highlighter-rouge&quot;&gt;minima&lt;/code&gt; theme.&lt;/p&gt;
-
-&lt;p&gt;Try in browser. The site lists the post you just added. Clicking on the post title takes you to the post. Notice that the hyphen separated text portion of the file name becomes the title of the post. Also notice that a link to RSS feed is added.&lt;/p&gt;
-
-&lt;h2&gt;Adding author name to post&lt;/h2&gt;
-
-&lt;p&gt;In the blog post, you will notice that there is no author name being displayed. Jekyll minima theme supports &lt;code class=&quot;highlighter-rouge&quot;&gt;author&lt;/code&gt; name setting. It just needs &lt;code class=&quot;highlighter-rouge&quot;&gt;author&lt;/code&gt; variable to have a value. You can set author variable in the front matter of your post. Since it is likely that all posts on your site are written just by you, it is simpler to set &lt;code class=&quot;highlighter-rouge&quot;&gt;author&lt;/code&gt; once in &lt;code class=&quot;highlighter-rouge&quot;&gt;_config.yml&lt;/code&gt;.&lt;/p&gt;
-
-&lt;p&gt;Add the following to &lt;code class=&quot;highlighter-rouge&quot;&gt;_config.yml&lt;/code&gt;:&lt;/p&gt;
-
-&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;  &lt;span class=&quot;o&quot;&gt;-&lt;/span&gt; &lt;span class=&quot;ss&quot;&gt;scope:
-      path: &lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;&quot;&lt;/span&gt;
-    &lt;span class=&quot;ss&quot;&gt;values:
-      author: &lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;Blog Author&quot;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
-
-&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;defaults&lt;/code&gt; is special Jekyll setting that allows you to set front matter defaults. &lt;code class=&quot;highlighter-rouge&quot;&gt;path&lt;/code&gt; under &lt;code class=&quot;highlighter-rouge&quot;&gt;scope&lt;/code&gt; specifies which files this rule applies to. A blank path means the rule applies to all files in the site.&lt;/p&gt;
-
-&lt;p&gt;Restart &lt;code class=&quot;highlighter-rouge&quot;&gt;jekyll serve&lt;/code&gt; and refresh browser page. The post now displays author name.&lt;/p&gt;
-
-&lt;h2&gt;Deploying to GitHub Pages&lt;/h2&gt;
-
-&lt;p&gt;This section describes how to host your site on GitHub Pages. GitHub allows you to host one user-level site on github pages. The github pages site for your github account should be created in a repository with the name username.github.io, where username is your GitHub username.&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;create a repository on GitHub with the name username.github.io.&lt;/li&gt;
-  &lt;li&gt;add the github-pages gem to Gemfile. This is a gem provided by GitHub to manage Jekyll and its dependencies. Read this for more details.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;b&gt;Gemfile&lt;/b&gt;&lt;/p&gt;
-
-&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;n&quot;&gt;source&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;'https://rubygems.org'&lt;/span&gt;
-&lt;span class=&quot;n&quot;&gt;gem&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;'minima'&lt;/span&gt;
-&lt;span class=&quot;n&quot;&gt;gem&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;github-pages&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;ss&quot;&gt;group: :jekyll_plugins&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;commit and push to your repository.&lt;/li&gt;
-  &lt;li&gt;after a couple of minutes you can point your browser to http://username.github.io and your should see your site.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2&gt;Using a custom domain&lt;/h2&gt;
-
-&lt;p&gt;You can set a custom domain for your site you just deployed as follows:&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;purchase a domain name using service of your preference.&lt;/li&gt;
-  &lt;li&gt;in the root directory of your blog site, create a file &lt;code class=&quot;highlighter-rouge&quot;&gt;CNAME&lt;/code&gt;.&lt;/li&gt;
-  &lt;li&gt;add the domain name as file’s contents.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;b&gt;CNAME&lt;/b&gt;&lt;/p&gt;
-
-&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;n&quot;&gt;myawesomedomain&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;com&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;commit and push the changes to your gitub repository.&lt;/li&gt;
-  &lt;li&gt;to connect the domain name to your site, you need to update &lt;code class=&quot;highlighter-rouge&quot;&gt;ALIAS&lt;/code&gt;, &lt;code class=&quot;highlighter-rouge&quot;&gt;A&lt;/code&gt; or &lt;code class=&quot;highlighter-rouge&quot;&gt;ANAME&lt;/code&gt; records with your domain register.&lt;/li&gt;
-  &lt;li&gt;for example, GoDaddy uses &lt;code class=&quot;highlighter-rouge&quot;&gt;A&lt;/code&gt; records. If you registered your domain using GoDaddy, you can use IP addresses listed in this article to set &lt;code class=&quot;highlighter-rouge&quot;&gt;A&lt;/code&gt; records.&lt;/li&gt;
-  &lt;li&gt;set the &lt;code class=&quot;highlighter-rouge&quot;&gt;www&lt;/code&gt; subdomain to redirect to &lt;code class=&quot;highlighter-rouge&quot;&gt;myawesomedomain.com&lt;/code&gt; by adding a &lt;code class=&quot;highlighter-rouge&quot;&gt;CNAME&lt;/code&gt; record with your domain register. This is not to be confused with the &lt;code class=&quot;highlighter-rouge&quot;&gt;CNAME&lt;/code&gt; file that you created earlier.&lt;/li&gt;
-  &lt;li&gt;if GoDaddy is your domain register, no action needs to be taken. GoDaddy automatically sets the &lt;code class=&quot;highlighter-rouge&quot;&gt;CNAME&lt;/code&gt; record.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2&gt;Add Disqus commenting&lt;/h2&gt;
-
-&lt;p&gt;Comments are essential component of any site. minima supports Disqus commenting system. Comments can be enabled for your posts by setting a configuration parameter. There are steps to add comments to your site:&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;sign-up for Disqus Basic account.&lt;/li&gt;
-  &lt;li&gt;on Disqus, add your site as organization (you will use &lt;code class=&quot;highlighter-rouge&quot;&gt;myawesomedomain.com&lt;/code&gt;).&lt;/li&gt;
-  &lt;li&gt;in your site’s &lt;code class=&quot;highlighter-rouge&quot;&gt;_config.yml&lt;/code&gt;, enable Disqus commenting by adding the following:&lt;/li&gt;
-  &lt;li&gt;&lt;b&gt;
-_config.yml&lt;/b&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;ss&quot;&gt;disqus:
-  shortname: &lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;site&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;shortname&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;from&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;disqus&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;gt;&lt;/span&gt;
-  &lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
-
-&lt;p&gt;commit and push changes to your github repository.
-After github pages regenerates the site in a few minutes, navigate to &lt;code class=&quot;highlighter-rouge&quot;&gt;myawesomedomain.com&lt;/code&gt; in your browser. You should see Disqus comments displayed at bottom on your post page. Note that Disqus comments are not displayed when running the site locally using &lt;code class=&quot;highlighter-rouge&quot;&gt;jekyll serve&lt;/code&gt;.&lt;/p&gt;
-
-&lt;h2&gt;Conclusion&lt;/h2&gt;
-
-&lt;p&gt;This post described how you can deploy your personal blog to GitHub Pages hosted site. We used Jekyll site generator since that is the technology that GitHub Pages uses internally. We saw how easy and quick it was to get a basic site up and running. Creating a post was equally straight-forward. Finally, we applied a custom domain to our site.&lt;/p&gt;</content><author><name>Naveen Jujaray</name></author><category term="sticky" /><summary type="html">I recently decided to start a blog. I had used Wordpress in the past, so I knew I could get my blog up and running quickly using Wordpress. I was also slightly familiar with Jekyll. Doing a google search and reading a few blog posts educated me on benefits of Jekyll and static sites in general. I explored Jekyll a little more and loved it immediately.</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/assets/images/7.png" /></entry></feed>
+&lt;p&gt;Try in browser. In the post, the author name should now be a link. Clicking on the author name should take you to the about page.&lt;/p&gt;</content><author><name>Naveen Jujaray</name></author><summary type="html">After I started a blog, as described in this post, I felt it would be cool to convert the author name shown on top of each post to a link to the about page. This was a minor change, but it required me to customize minima theme’s post layout.</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://www.gotafflair.com/wp-content/uploads/2019/09/Customize-Your-Website.jpg" /></entry></feed>
