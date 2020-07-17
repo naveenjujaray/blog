@@ -1,4 +1,153 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.5">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2020-07-15T17:37:38+05:30</updated><id>http://localhost:4000/feed.xml</id><title type="html">Naveen Jujaray</title><subtitle>Blog</subtitle><entry><title type="html">Why I’m using Surge and not GitHub Pages</title><link href="http://localhost:4000/why-surge" rel="alternate" type="text/html" title="Why I'm using Surge and not GitHub Pages" /><published>2020-07-15T09:00:00+05:30</published><updated>2020-07-15T09:00:00+05:30</updated><id>http://localhost:4000/why-surge</id><content type="html" xml:base="http://localhost:4000/why-surge">&lt;h2 id=&quot;whats-a-surge-exactly-&quot;&gt;what’s a “surge” exactly? 🤔&lt;/h2&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.5">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2020-07-17T15:21:55+05:30</updated><id>http://localhost:4000/feed.xml</id><title type="html">Naveen Jujaray</title><subtitle>Blog</subtitle><entry><title type="html">The Magic Of Interactive UI With React</title><link href="http://localhost:4000/reactjsintro" rel="alternate" type="text/html" title="The Magic Of Interactive UI With React" /><published>2020-07-17T06:00:00+05:30</published><updated>2020-07-17T06:00:00+05:30</updated><id>http://localhost:4000/reactjs</id><content type="html" xml:base="http://localhost:4000/reactjsintro">&lt;h2 id=&quot;what-is-react&quot;&gt;What Is React?&lt;/h2&gt;
+&lt;p&gt;Do you remember how Facebook’s UI or it’s messenger looked a few years back? During that time you had to refresh or reload the entire page for new updates or messages repeatedly. But now it’s no longer required. Today, each time there is a new update or message, a notification will pop up. Clicking on that will then automatically refresh your page and show you the latest updates. So, how exactly does this happen? Well, this is the magic of ReactJS and in this blog, I am going to discuss what is React and why you should go for it.&lt;/p&gt;
+&lt;h2 id=&quot;javascript-frameworks&quot;&gt;JavaScript Frameworks&lt;/h2&gt;
+&lt;p&gt;&lt;em&gt;Javascript&lt;/em&gt; is a dynamic programming language which is widely used for developing web applications. It is very lightweight and is supported by most of the modern browsers. Moreover, JavaScript supports both object-oriented programming and procedural programming. Thus, it is used for creating web pages with a client-side script to interact with the user and make the web pages dynamic and robust.
+JavaScript has many frameworks among which we can choose depending on our need. Below diagram shows some popular JavaScript frameworks.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/firebase/11.png&quot; alt=&quot;javascript frameworks&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Following are the major advantages provided by the JavaScript Frameworks:&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;&lt;strong&gt;Efficiency:&lt;/strong&gt; With the use of pre-built patterns and functions, the development of the applications became easy. The projects which used to take months to develop can now be developed in very less time. This increased the efficiency as well as reduced the time and effort involved.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Security:&lt;/strong&gt; As JavaScript is an open source community, its top frameworks have strong security arrangements. Frameworks are supported by these large communities in which, the members and the users can also act as testers. This increases the chances of detecting any kind of backdoor or bug present in the framework. Thus providing better security at less cost.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Cost Reduction:&lt;/strong&gt; JavaScript Frameworks are free for public use as they are open source. So, when we develop a web application using these frameworks, the overall cost of the application is much lesser.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;Because of all these advantages, JavaScript frameworks are used heavily for developing web-applications. They have already proved their potential over the past few years. Among them, the most popular ones are React and Angular. &lt;strong&gt;“Even though React is young, it is giving a neck to neck competition to Angular”&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/firebase/10.png&quot; alt=&quot;angular vs reactjs&quot; /&gt;
+So, through this blog, we’ll be learning all about ReactJS. But before understanding what is React, you need to understand why we need it in the first place.&lt;/p&gt;
+
+&lt;h2 id=&quot;why-react&quot;&gt;Why React?&lt;/h2&gt;
+&lt;p&gt;There were so many JavaScript frameworks available in the market but still React came into the picture. Let’s dive little deeper and find out the reason why ReactJS was needed.&lt;/p&gt;
+
+&lt;p&gt;Here, the data is received from various sources like initial data, real-time data and user input data which is passed to the dispatcher. The dispatcher then forwards this data to the store, from where it ultimately comes to the view. Now, the view is the part where you or a user interact with the application. So, whatever you see on the browser as a web page is the view itself.&lt;/p&gt;
+
+&lt;p&gt;But, &lt;code class=&quot;highlighter-rouge&quot;&gt;what do you think happens at the back end of the frameworks using this traditional data flow?&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;Each time new data is added or any data is updated at the back end, the browser reloads the web page and repeats the whole process again. Only after this, we can see the updated data on the view. But this traditional data flow has one major drawback, it uses the &lt;code class=&quot;highlighter-rouge&quot;&gt;DOM&lt;/code&gt; (Document Object Model). DOM is an object that is created by the browser each time a web page is loaded which can dynamically add or remove the data at the back end. But each time any modifications were done a new DOM is created for the same page. This repeated creation of DOM results in unnecessary memory wastage and a decrease in applications performance.&lt;/p&gt;
+
+&lt;p&gt;Moreover, manipulating DOM was very expensive. Therefore, there was a search for new technology which could save us from this trouble. This is where ReactJS comes to our rescue. With ReactJS, you can divide your entire application into various independent components. ReactJS applications still used the same traditional data flow, but something changed at the back end. Below diagram shows exactly what was going on at the back end.&lt;/p&gt;
+
+&lt;p&gt;Now, each time any data is added or updated from the back end, ReactJS uses a new tactic to deal with it. Instead of reloading the entire page, what React does is, it just destroys the old view. Afterward, it renders the view components with updates or new data and then places the new view in place of the old one. As a solution to the memory wastage due to DOM, React introduced &lt;code class=&quot;highlighter-rouge&quot;&gt;Virtual DOM&lt;/code&gt;. You might be curious about &lt;code class=&quot;highlighter-rouge&quot;&gt;what is this virtual DOM&lt;/code&gt; and how it solves our problem? Don’t worry, I’ll be explaining that later in this blog in detail, but for now, let’s understand what is React.&lt;/p&gt;
+
+&lt;h2 id=&quot;what-is-react-1&quot;&gt;What Is React?&lt;/h2&gt;
+&lt;p&gt;React is a component-based library which is used to develop &lt;code class=&quot;highlighter-rouge&quot;&gt;interactive UI&lt;/code&gt;’s (User Interfaces). It is currently one of the most popular JavaScript front-end libraries which has a strong foundation and a large community supporting it.&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;NOTE&lt;/code&gt;: ReactJS is only a frontend library and not the whole framework, which deals with the &lt;strong&gt;View&lt;/strong&gt; component of &lt;strong&gt;MVC&lt;/strong&gt; (Model – &lt;strong&gt;View&lt;/strong&gt; – Controller).&lt;/em&gt;&lt;/p&gt;</content><author><name>Naveen Jujaray</name></author><summary type="html">What Is React? Do you remember how Facebook’s UI or it’s messenger looked a few years back? During that time you had to refresh or reload the entire page for new updates or messages repeatedly. But now it’s no longer required. Today, each time there is a new update or message, a notification will pop up. Clicking on that will then automatically refresh your page and show you the latest updates. So, how exactly does this happen? Well, this is the magic of ReactJS and in this blog, I am going to discuss what is React and why you should go for it. JavaScript Frameworks Javascript is a dynamic programming language which is widely used for developing web applications. It is very lightweight and is supported by most of the modern browsers. Moreover, JavaScript supports both object-oriented programming and procedural programming. Thus, it is used for creating web pages with a client-side script to interact with the user and make the web pages dynamic and robust. JavaScript has many frameworks among which we can choose depending on our need. Below diagram shows some popular JavaScript frameworks.</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/assets/images/firebase/10.jpg" /></entry><entry><title type="html">What is Gatsby JS and Why Use It?</title><link href="http://localhost:4000/whats-gatsby" rel="alternate" type="text/html" title="What is Gatsby JS and Why Use It?" /><published>2020-07-16T06:00:00+05:30</published><updated>2020-07-16T06:00:00+05:30</updated><id>http://localhost:4000/whats-gatsby</id><content type="html" xml:base="http://localhost:4000/whats-gatsby">&lt;h2 id=&quot;what-is-gatsby-js&quot;&gt;What Is Gatsby JS?&lt;/h2&gt;
+&lt;p&gt;Welcome! In this article we are going to learn about Gatsby JS, what it is and why you would use it.&lt;/p&gt;
+
+&lt;p&gt;So let’s start with the question, &lt;code class=&quot;highlighter-rouge&quot;&gt;“What is Gatsby?”&lt;/code&gt;&lt;/p&gt;
+&lt;blockquote&gt;
+  &lt;p&gt;Put most simply, Gatsby is a static site generator.
+Now what does that mean?&lt;/p&gt;
+  &lt;h2 id=&quot;what-is-a-static-site-generator&quot;&gt;What is a Static Site Generator?&lt;/h2&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;The static site part of this means that what Gatsby will produce for us are static HTML files that we load up on to a server.&lt;/p&gt;
+
+&lt;p&gt;Now this works differently than how a lot of websites work where you visit a website and it has to go query a database or do some programming on the server itself in order to serve your web pages.&lt;/p&gt;
+
+&lt;p&gt;So Gatsby is going to break that convention and have all of the stuff &lt;code class=&quot;highlighter-rouge&quot;&gt;already pre-configured&lt;/code&gt; ahead of time and &lt;code class=&quot;highlighter-rouge&quot;&gt;just serve&lt;/code&gt; that up.&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;It’s important to point out that static sites do not mean not interactive or not dynamic.
+So, we can load JavaScript into the HTML files that Gatsby serves as well as make API calls do interactions and build incredibly rich and immersive sites even though they are static in their nature of just being HTML files served up &lt;code class=&quot;highlighter-rouge&quot;&gt;without&lt;/code&gt; programming &lt;code class=&quot;highlighter-rouge&quot;&gt;server-side&lt;/code&gt; languages running.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;So that’s the static side of things.&lt;/p&gt;
+&lt;blockquote&gt;
+  &lt;p&gt;Gatsby is also a generator. This means that Gatsby is actually a tool we run on our computer most commonly, although you can run Gatsby on a server, and it is going to generate content for you.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;In the common setup that we’ll practice here we run Gatsby &lt;code class=&quot;highlighter-rouge&quot;&gt;locally&lt;/code&gt; on our computer when we’re building a site and then we generate out the final finished product that Gatsby will spit out, which is a &lt;code class=&quot;highlighter-rouge&quot;&gt;Gatsby static site&lt;/code&gt;, and again this will &lt;code class=&quot;highlighter-rouge&quot;&gt;include&lt;/code&gt; &lt;code class=&quot;highlighter-rouge&quot;&gt;HTML CSS JavaScript images&lt;/code&gt; all the stuff that we need for our site to run, Gatsby will generate it for us so we want to think of Gatsby as a tool that will help us build a final product but we’re not just like in queueing and throwing Gatsby into an existing site necessarily.&lt;/p&gt;
+
+&lt;p&gt;In order to do all of this generation Gatsby is going to use Node JS. Node will be running in a development environment on your computer itself. However the final sight when you ship a Gatsby sight live because it’s static it will not need Node JS on the server itself.&lt;/p&gt;
+
+&lt;p&gt;It’s using node to help generate the files as part of its tooling system but the final result does not require node to run on the server side.&lt;/p&gt;
+&lt;h2 id=&quot;gatsby-js-uses-graphql&quot;&gt;Gatsby JS Uses GraphQL&lt;/h2&gt;
+&lt;p&gt;One of the great things about Gatsby is that it’s going to use the &lt;code class=&quot;highlighter-rouge&quot;&gt;GraphQL&lt;/code&gt; querying &lt;code class=&quot;highlighter-rouge&quot;&gt;language&lt;/code&gt; to get data from anywhere.&lt;/p&gt;
+
+&lt;p&gt;If you’re not familiar with &lt;code class=&quot;highlighter-rouge&quot;&gt;GraphQL&lt;/code&gt;, it is an evolution of how to make &lt;code class=&quot;highlighter-rouge&quot;&gt;API&lt;/code&gt; calls simpler and more efficient. And it’s a really great tool that you’re probably going to enjoy getting into if you don’t already know it.&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;The most exciting part of this is that we can get our data into a Gatsby site from anywhere!&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;We could use &lt;code class=&quot;highlighter-rouge&quot;&gt;markdown&lt;/code&gt; files, we can access databases, we could hook into common CMS’s like &lt;code class=&quot;highlighter-rouge&quot;&gt;WordPress&lt;/code&gt; and &lt;code class=&quot;highlighter-rouge&quot;&gt;other&lt;/code&gt; headless CMS, as well as even just a &lt;code class=&quot;highlighter-rouge&quot;&gt;CSV&lt;/code&gt; file.&lt;/p&gt;
+
+&lt;p&gt;Because we have node running in our development environment and we have this GraphQL language, we have a huge range of abilities of what we could do to pull data into Gatsby itself.&lt;/p&gt;
+
+&lt;p&gt;This is important to remember that Gatsby is not going to handle our data for us rather it will get that data pulled into Gatsby and generate the site from that data.&lt;/p&gt;
+
+&lt;h2 id=&quot;gatsby-uses-react-for-templates&quot;&gt;Gatsby Uses React for Templates&lt;/h2&gt;
+&lt;p&gt;Gatsby also uses &lt;code class=&quot;highlighter-rouge&quot;&gt;React&lt;/code&gt; and CSS which hopefully you’re familiar with. React is going to be used for all of the templates and CSS for the styling.&lt;/p&gt;
+
+&lt;p&gt;So, GraphQL will pull in our data, React will take care of what the template should look like and the styling is CSS. Then finally everything will be exported out into that final, super fast static Gatsby site.&lt;/p&gt;
+
+&lt;h2 id=&quot;gatsby-has-a-rich-plugin-ecosystem&quot;&gt;Gatsby Has a Rich Plugin Ecosystem&lt;/h2&gt;
+&lt;p&gt;I also want to mention that Gatsby is built with a &lt;code class=&quot;highlighter-rouge&quot;&gt;plugin architecture&lt;/code&gt; and this is a great system.&lt;/p&gt;
+
+&lt;p&gt;Because what we’re serving up is a static site how we go about interacting with JavaScript and other things can get a little complicated. So it’s really nice that we could pull this complex code out into plugins and we could rely on a huge ecosystem of other plug-in authors to do some of the heavy lifting with common things for us.&lt;/p&gt;
+
+&lt;p&gt;This plugin architecture is a huge part of Gatsby and what makes it so popular and powerful.&lt;/p&gt;
+
+&lt;h2 id=&quot;what-is-gatsby-review&quot;&gt;“What is Gatsby?” Review&lt;/h2&gt;
+&lt;p&gt;So just to briefly review, Gatsby is a static site generator that uses GraphQL to get data, React for templating and it’s got a plugin architecture.&lt;/p&gt;
+
+&lt;p&gt;So that is “What is Gatsby?”&lt;/p&gt;
+
+&lt;h2 id=&quot;why-use-gatsby&quot;&gt;Why Use Gatsby?&lt;/h2&gt;
+&lt;p&gt;Now let’s talk about “Why Use Gatsby?”&lt;/p&gt;
+
+&lt;p&gt;In one simple sentence, you use Gatsby for its speed security and improved developer experience.&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Arguably one of the biggest gains that you get with Gatsby, because it is generating a static site, is going to be the speed.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;It is going to be way faster than many of the alternatives, even compared to cached sites using WordPress and things like that because that static site is really hard to beat in terms of its speed and performance.&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Also because of the static nature and just shipping HTML files this is going to be inherently more secure.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;There &lt;code class=&quot;highlighter-rouge&quot;&gt;isn’t&lt;/code&gt; a live database to &lt;code class=&quot;highlighter-rouge&quot;&gt;hack&lt;/code&gt; or &lt;code class=&quot;highlighter-rouge&quot;&gt;access&lt;/code&gt;. There is not user data that is going to be stored on the server with the Gatsby site. So even &lt;code class=&quot;highlighter-rouge&quot;&gt;if&lt;/code&gt; somebody were to be able to &lt;code class=&quot;highlighter-rouge&quot;&gt;hack&lt;/code&gt; the server itself they’re still &lt;code class=&quot;highlighter-rouge&quot;&gt;only&lt;/code&gt; going to get access to &lt;code class=&quot;highlighter-rouge&quot;&gt;HTML&lt;/code&gt; files and will be able to do far less damage than they could if they were getting access to for example a WordPress site or had access to the user data or purchasers credit card information and all that kind of stuff.&lt;/p&gt;
+
+&lt;p&gt;So we’re gonna have huge &lt;code class=&quot;highlighter-rouge&quot;&gt;security&lt;/code&gt; gains when we work with Gatsby.&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Finally, the third major gain with Gatsby is improved developer experience.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;I’m really glad that this is something important in the &lt;code class=&quot;highlighter-rouge&quot;&gt;developer community&lt;/code&gt; today. It can be really draining and annoying for developers to work with antiquated stacks.&lt;/p&gt;
+
+&lt;p&gt;One of the nice things about working with Gatsby is that you have a &lt;code class=&quot;highlighter-rouge&quot;&gt;modern&lt;/code&gt; development environment. The tooling is simple and robust. The languages are modern and clean. Overall it’s a really great environment to be working in. That extends also into the community of other developers.&lt;/p&gt;
+
+&lt;p&gt;If you are a developer this should be super clear to you and exciting. If you’re not a developer and learning about Gatsby at a high level, remember that this is something you really need to value in your projects: the developers overall experience.&lt;/p&gt;
+
+&lt;h2 id=&quot;gatsby-js-is-open-source-with-a-paid-team&quot;&gt;Gatsby JS is Open Source with a Paid Team&lt;/h2&gt;
+&lt;p&gt;The last thing to remember about all of this is that Gatsby has a solid team open-source community and great documentation.&lt;/p&gt;
+
+&lt;p&gt;Gatsby is an open-source project which has some great wins in terms of its ability to grow and people contribute to it. Also it’s free! That’s no small thing.&lt;/p&gt;
+
+&lt;p&gt;However, unlike some open-source communities, Gatsby also has a team of professional, paid people that are there to help the open-source project grow and flourish.&lt;/p&gt;
+
+&lt;p&gt;This is a great thing if you’re considering investing in a technology that might not have the long term support you probably don’t have to worry about that with Gatsby.&lt;/p&gt;
+
+&lt;h2 id=&quot;gatsby-values-documentation&quot;&gt;Gatsby Values Documentation&lt;/h2&gt;
+&lt;p&gt;Additionally, there is great documentation and that is really helpful when working with a tool to know that you’ll be supported in the documentation. The Gatsby team seems to take that seriously and do a great job with it.&lt;/p&gt;
+
+&lt;h2 id=&quot;a-quick-review-of-gatsby-js&quot;&gt;A Quick Review of Gatsby JS&lt;/h2&gt;
+&lt;p&gt;So, all that said let’s just do a quick review here of everything that we’ve learned:&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Gatsby is a static site generator&lt;/li&gt;
+  &lt;li&gt;Under the hood it uses Node, GraphQL and React&lt;/li&gt;
+  &lt;li&gt;Its primary benefits are speed security and developer experience&lt;/li&gt;
+  &lt;li&gt;Gatsby has a stable and growing community of developers and plug-in authors&lt;/li&gt;
+&lt;/ol&gt;</content><author><name>Naveen Jujaray</name></author><summary type="html">What Is Gatsby JS? Welcome! In this article we are going to learn about Gatsby JS, what it is and why you would use it.</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/assets/images/firebase/9.png" /></entry><entry><title type="html">Why I’m using Surge and not GitHub Pages</title><link href="http://localhost:4000/why-surge" rel="alternate" type="text/html" title="Why I'm using Surge and not GitHub Pages" /><published>2020-07-15T09:00:00+05:30</published><updated>2020-07-15T09:00:00+05:30</updated><id>http://localhost:4000/why-surge</id><content type="html" xml:base="http://localhost:4000/why-surge">&lt;h2 id=&quot;whats-a-surge-exactly-&quot;&gt;what’s a “surge” exactly? 🤔&lt;/h2&gt;
 
 &lt;p&gt;GitHub Pages is so prolific at this point it likely needs no introduction. &lt;a href=&quot;https://surge.sh/&quot;&gt;Surge&lt;/a&gt;, on the other hand, is a much lower profile project. It accomplishes the same goal as GitHub Pages, allowing one to publish their static site on an accessible URL of whatever name they choose complete with an “https.” Where surge differs is in how that website gets put on the world wide web.&lt;/p&gt;
 
@@ -579,321 +728,4 @@ Give me feedback! :) Thanks!&lt;/p&gt;</content><author><name>Naveen Jujaray</na
 
 &lt;p&gt;Last, to state the obvious:
 Absolutely &lt;code class=&quot;highlighter-rouge&quot;&gt;do NOT rely on&lt;/code&gt; &lt;code class=&quot;highlighter-rouge&quot;&gt;Facebook&lt;/code&gt; (which is also e.g. &lt;code class=&quot;highlighter-rouge&quot;&gt;WhatsApp&lt;/code&gt; and &lt;code class=&quot;highlighter-rouge&quot;&gt;Instagram&lt;/code&gt;) for dictatorship-banned communications, as they have cooperated with dictatorships’ &lt;code class=&quot;highlighter-rouge&quot;&gt;“lawful court orders”&lt;/code&gt; in the past leading to capture, torture and/or executions, at least in Syria therefore presumably also elsewhere and furthermore publicly admitted to being co-responsible for genocide and enabling imprisonment of people for being homosexual through silent automated &lt;code class=&quot;highlighter-rouge&quot;&gt;“interests”&lt;/code&gt; categorization being used as court evidence.
-Better platforms to consider are for example &lt;code class=&quot;highlighter-rouge&quot;&gt;Riseup’s&lt;/code&gt; &lt;a href=&quot;https://we.riseup.net/&quot;&gt;Crabgrass&lt;/a&gt;, &lt;a href=&quot;https://joinmastodon.org/&quot;&gt;Mastodon&lt;/a&gt; and &lt;a href=&quot;https://joinpeertube.org/&quot;&gt;PeerTube&lt;/a&gt;.&lt;/p&gt;</content><author><name>Naveen Jujaray</name></author><category term="featured" /><summary type="html">There is a resurgence of draconian State blocking/slowdowns of Internet in Turkey, Egypt, Iraq and elsewhere, with Iraq at the time of writing passing the 104th hour of blackout due to ongoing protests against government corruption, Egypt having over 500 news/rights/etc websites known blocked and Turkey e.g. habitually ordering hundreds of State-takedowns monthly with major knowledge and culture treasures of humankind such as Wikipedia being completely banned for almost 900 days now.</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/assets/images/3.jfif" /></entry><entry><title type="html">How to install Flutter</title><link href="http://localhost:4000/flutterinstall" rel="alternate" type="text/html" title="How to install Flutter" /><published>2020-07-01T19:41:03+05:30</published><updated>2020-07-01T19:41:03+05:30</updated><id>http://localhost:4000/how-to-install-flutter</id><content type="html" xml:base="http://localhost:4000/flutterinstall">&lt;p&gt;Select the operating system on which you are installing Flutter:&lt;br /&gt;
-&lt;a href=&quot;https://flutter.dev/docs/get-started/install/windows&quot;&gt;windows&lt;/a&gt; &lt;i class=&quot;fab fa-windows&quot;&gt;&lt;/i&gt;    &lt;a href=&quot;https://flutter.dev/docs/get-started/install/macos&quot;&gt;MacOS&lt;/a&gt; &lt;i class=&quot;fab fa-apple&quot;&gt;&lt;/i&gt;    &lt;a href=&quot;https://flutter.dev/docs/get-started/install/linux&quot;&gt;Linux&lt;/a&gt; &lt;i class=&quot;fab fa-linux&quot;&gt;&lt;/i&gt;&lt;/p&gt;
-
-&lt;h2 id=&quot;for-windows&quot;&gt;For Windows&lt;/h2&gt;
-&lt;h3 id=&quot;system-requirements&quot;&gt;System requirements&lt;/h3&gt;
-&lt;p&gt;To install and run Flutter, your development environment must meet these minimum requirements:&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;&lt;strong&gt;Operating Systems:&lt;/strong&gt; Windows 7 SP1 or later (64-bit)&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;Disk Space:&lt;/strong&gt; 400 MB (does not include disk space for IDE/tools).&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;Tools:&lt;/strong&gt; Flutter depends on these tools being available in your environment.
-    &lt;ul&gt;
-      &lt;li&gt;&lt;a href=&quot;https://docs.microsoft.com/en-us/powershell/scripting/install/installing-windows-powershell&quot;&gt;Windows PowerShell 5.0&lt;/a&gt; or newer (this is pre-installed with Windows 10)&lt;/li&gt;
-      &lt;li&gt;
-        &lt;p&gt;&lt;a href=&quot;https://git-scm.com/download/win&quot;&gt;Git for Windows&lt;/a&gt; 2.x, with the &lt;strong&gt;Use Git from the Windows Command Prompt&lt;/strong&gt; option.&lt;/p&gt;
-
-        &lt;p&gt;If Git for Windows is already installed, make sure you can run &lt;code class=&quot;highlighter-rouge&quot;&gt;git&lt;/code&gt; commands from the command prompt or PowerShell.&lt;/p&gt;
-      &lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&quot;get-the-flutter-sdk&quot;&gt;Get the Flutter SDK&lt;/h3&gt;
-&lt;ul&gt;
-  &lt;li&gt;Download the following installation bundle to get the latest stable release of the Flutter SDK:
- For &lt;code class=&quot;highlighter-rouge&quot;&gt;other release channels&lt;/code&gt;, and &lt;code class=&quot;highlighter-rouge&quot;&gt;older builds&lt;/code&gt;, see the &lt;a href=&quot;https://flutter.dev/docs/development/tools/sdk/archive&quot;&gt;SDK archive&lt;/a&gt; page.&lt;/li&gt;
-  &lt;li&gt;Extract the zip file and place the contained flutter in the desired installation location for the Flutter SDK (for example, &lt;code class=&quot;highlighter-rouge&quot;&gt;C:\src\flutter;&lt;/code&gt; do not install Flutter in a directory like &lt;code class=&quot;highlighter-rouge&quot;&gt;C:\Program Files\&lt;/code&gt; that requires elevated privileges).&lt;/li&gt;
-  &lt;li&gt;If you don’t want to install a fixed version of the installation bundle, you can &lt;code class=&quot;highlighter-rouge&quot;&gt;skip&lt;/code&gt; steps 1 and 2. Instead, get the source code from the &lt;a href=&quot;https://github.com/flutter/flutter&quot;&gt;Flutter repo&lt;/a&gt; on GitHub, and change branches or tags as needed. For example:&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;n&quot;&gt;git&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;clone&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;https&lt;/span&gt;&lt;span class=&quot;ss&quot;&gt;:/&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;github&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;com&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;flutter&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;flutter&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;git&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;b&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;stable&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
-
-&lt;p&gt;You are now ready to run Flutter commands in the Flutter Console.&lt;/p&gt;
-&lt;h3 id=&quot;update-your-path&quot;&gt;Update your path&lt;/h3&gt;
-&lt;p&gt;If you wish to run Flutter commands in the regular Windows console, take these steps to add Flutter to the &lt;code class=&quot;highlighter-rouge&quot;&gt;PATH&lt;/code&gt; environment variable:&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;From the Start search bar, enter ‘env’ and select &lt;strong&gt;Edit environment variables for your account&lt;/strong&gt;.&lt;/li&gt;
-  &lt;li&gt;Under &lt;strong&gt;User variables&lt;/strong&gt; check if there is an entry called &lt;strong&gt;Path&lt;/strong&gt;:
-    &lt;ul&gt;
-      &lt;li&gt;If the entry exists, append the full path to &lt;code class=&quot;highlighter-rouge&quot;&gt;flutter\bin&lt;/code&gt; using ; as a separator from existing values.&lt;/li&gt;
-      &lt;li&gt;If the entry doesn’t exist, create a new user variable named &lt;code class=&quot;highlighter-rouge&quot;&gt;Path&lt;/code&gt; with the full path to &lt;code class=&quot;highlighter-rouge&quot;&gt;flutter\bin&lt;/code&gt; as its value.
-&lt;br /&gt;&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;You have to close and reopen any existing console windows for these changes to take effect.&lt;/p&gt;
-
-&lt;h3 id=&quot;run-flutter-doctor&quot;&gt;Run flutter doctor&lt;/h3&gt;
-&lt;p&gt;From a console window that has the Flutter directory in the path (see above), run the following command to see if there are any platform dependencies you need to complete the setup:&lt;/p&gt;
-
-&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;no&quot;&gt;C&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:\&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;src&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;\&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;flutter&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;gt;&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;flutter&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;doctor&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
-
-&lt;p&gt;This command checks your environment and displays a report of the status of your Flutter installation. Check the output carefully for other software you might need to install or further tasks to perform (shown in X mark).&lt;/p&gt;
-
-&lt;p&gt;For example:&lt;/p&gt;
-
-&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;Android&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;toolchain&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;-&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;develop&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;for&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;Android&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;devices&lt;/span&gt;
-    &lt;span class=&quot;err&quot;&gt;•&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;Android&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;SDK&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;at&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;D&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:\&lt;/span&gt;&lt;span class=&quot;no&quot;&gt;Android&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;\&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;sdk&lt;/span&gt;
-    &lt;span class=&quot;err&quot;&gt;✗&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;Android&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;SDK&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;is&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;missing&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;command&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;line&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;tools&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;download&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;from&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;https&lt;/span&gt;&lt;span class=&quot;ss&quot;&gt;:/&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;goo&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;gl&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;no&quot;&gt;XxQghQ&lt;/span&gt;
-    &lt;span class=&quot;err&quot;&gt;•&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;Try&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;re&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;installing&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;or&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;updating&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;your&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;Android&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;SDK&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
-      &lt;span class=&quot;n&quot;&gt;visit&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;https&lt;/span&gt;&lt;span class=&quot;ss&quot;&gt;:/&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;flutter&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;dev&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;setup&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;c1&quot;&gt;#android-setup for detailed instructions.&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
-
-&lt;h2 id=&quot;for-macos&quot;&gt;For MacOS&lt;/h2&gt;
-&lt;p&gt;To install and run Flutter, your development environment must meet these minimum requirements:&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;strong&gt;Operating Systems:&lt;/strong&gt; macOS (64-bit)&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;Disk Space:&lt;/strong&gt; 2.8 GB (does not include disk space for IDE/tools).&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;Tools:&lt;/strong&gt; Flutter depends on these command-line tools being available in your environment.
-    &lt;ul&gt;
-      &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;bash&lt;/code&gt;&lt;/li&gt;
-      &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;curl&lt;/code&gt;&lt;/li&gt;
-      &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;git&lt;/code&gt; 2.x&lt;/li&gt;
-      &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;mkdir&lt;/code&gt;&lt;/li&gt;
-      &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;rm&lt;/code&gt;&lt;/li&gt;
-      &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;unzip&lt;/code&gt;&lt;/li&gt;
-      &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;which&lt;/code&gt;&lt;/li&gt;
-      &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;zip&lt;/code&gt;&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&quot;get-the-flutter-sdk-1&quot;&gt;Get the Flutter SDK&lt;/h3&gt;
-&lt;ul&gt;
-  &lt;li&gt;Download the following installation bundle to get the latest stable release of the Flutter SDK:
-For other release channels, and older builds, see the &lt;a href=&quot;https://flutter.dev/docs/development/tools/sdk/archive&quot;&gt;SDK archive&lt;/a&gt; page.&lt;/li&gt;
-  &lt;li&gt;Extract the file in the desired location, for example:&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt; &lt;span class=&quot;err&quot;&gt;$&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;cd&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;~&lt;/span&gt;&lt;span class=&quot;sr&quot;&gt;/development
- $ unzip ~/&lt;/span&gt;&lt;span class=&quot;no&quot;&gt;Downloads&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;flutter_macos_1&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;mf&quot;&gt;17.4&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;stable&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;zip&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;If you don’t want to install a fixed version of the installation bundle, you can skip steps 1 and 2. Instead, get the source code from the &lt;a href=&quot;https://github.com/flutter/flutter&quot;&gt;Flutter repo&lt;/a&gt; on GitHub with the following command:&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;err&quot;&gt;$&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;git&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;clone&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;https&lt;/span&gt;&lt;span class=&quot;ss&quot;&gt;:/&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;github&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;com&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;flutter&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;flutter&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;git&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
-
-&lt;p&gt;You can also change branches or tags as needed. For example, to get just the stable version:&lt;/p&gt;
-
-&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;err&quot;&gt;$&lt;/span&gt;  &lt;span class=&quot;n&quot;&gt;git&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;clone&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;https&lt;/span&gt;&lt;span class=&quot;ss&quot;&gt;:/&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;github&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;com&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;flutter&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;flutter&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;git&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;b&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;stable&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;--&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;depth&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
-
-&lt;p&gt;Add the &lt;code class=&quot;highlighter-rouge&quot;&gt;flutter tool&lt;/code&gt; to your path:&lt;/p&gt;
-
-&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;err&quot;&gt;$&lt;/span&gt;  &lt;span class=&quot;n&quot;&gt;export&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;PATH&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;$PATH:`pwd`/flutter/bin&quot;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
-
-&lt;p&gt;This command sets your &lt;code class=&quot;highlighter-rouge&quot;&gt;PATH&lt;/code&gt; variable for the current terminal window only. To permanently add Flutter to your path, see &lt;a href=&quot;https://flutter.dev/docs/get-started/install/macos#update-your-path&quot;&gt;Update your path&lt;/a&gt;.&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;Optionally, pre-download development binaries:&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;The flutter tool downloads platform-specific development binaries as needed. For scenarios where pre-downloading these artifacts is preferable (for example, in hermetic build environments, or with intermittent network availability), iOS and Android binaries can be downloaded ahead of time by running:&lt;/p&gt;
-
-&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;err&quot;&gt;$&lt;/span&gt;  &lt;span class=&quot;n&quot;&gt;flutter&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;precache&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
-
-&lt;p&gt;For additional download options, see &lt;code class=&quot;highlighter-rouge&quot;&gt;flutter help precache&lt;/code&gt;.&lt;/p&gt;
-
-&lt;p&gt;You are now ready to run Flutter commands!&lt;/p&gt;
-
-&lt;h3 id=&quot;run-flutter-doctor-1&quot;&gt;Run flutter doctor&lt;/h3&gt;
-
-&lt;p&gt;Run the following command to see if there are any dependencies you need to install to complete the setup (for verbose output, add the &lt;code class=&quot;highlighter-rouge&quot;&gt;-v&lt;/code&gt; flag):&lt;/p&gt;
-
-&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;err&quot;&gt;$&lt;/span&gt;  &lt;span class=&quot;n&quot;&gt;flutter&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;doctor&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
-
-&lt;p&gt;This command checks your environment and displays a report to the terminal window. The Dart SDK is bundled with Flutter; it is not necessary to install Dart separately. Check the output carefully for other software you might need to install or further tasks to perform (shown in X mark).&lt;/p&gt;
-
-&lt;p&gt;For example:&lt;/p&gt;
-
-&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;Android&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;toolchain&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;-&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;develop&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;for&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;Android&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;devices&lt;/span&gt;
-    &lt;span class=&quot;err&quot;&gt;•&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;Android&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;SDK&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;at&lt;/span&gt; &lt;span class=&quot;sr&quot;&gt;/Users/o&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;biwan&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;no&quot;&gt;Library&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;no&quot;&gt;Android&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;sdk&lt;/span&gt;
-    &lt;span class=&quot;err&quot;&gt;✗&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;Android&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;SDK&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;is&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;missing&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;command&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;line&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;tools&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;download&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;from&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;https&lt;/span&gt;&lt;span class=&quot;ss&quot;&gt;:/&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;goo&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;gl&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;no&quot;&gt;XxQghQ&lt;/span&gt;
-    &lt;span class=&quot;err&quot;&gt;•&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;Try&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;re&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;installing&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;or&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;updating&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;your&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;Android&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;SDK&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
-      &lt;span class=&quot;n&quot;&gt;visit&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;https&lt;/span&gt;&lt;span class=&quot;ss&quot;&gt;:/&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;flutter&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;dev&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;setup&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;c1&quot;&gt;#android-setup for detailed instructions.&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
-
-&lt;p&gt;The following sections describe how to perform these tasks and finish the setup process.&lt;/p&gt;
-
-&lt;p&gt;Once you have installed any missing dependencies, run the flutter doctor command again to verify that you’ve set everything up correctly.&lt;/p&gt;
-
-&lt;h3 id=&quot;update-your-path-1&quot;&gt;Update your path&lt;/h3&gt;
-&lt;p&gt;You can update your PATH variable for the current session at the command line, as shown in &lt;a href=&quot;https://flutter.dev/docs/get-started/install/macos#get-sdk&quot;&gt;Get the Flutter SDK&lt;/a&gt;. You’ll probably want to update this variable permanently, so you can run &lt;code class=&quot;highlighter-rouge&quot;&gt;flutter&lt;/code&gt; commands in any terminal session.&lt;/p&gt;
-
-&lt;p&gt;The steps for modifying this variable permanently for all terminal sessions are machine-specific. Typically you add a line to a file that is executed whenever you open a new window. For example:&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;Determine the directory where you placed the Flutter SDK. You need this in Step 3.&lt;/li&gt;
-  &lt;li&gt;Open (or create) the rc file for your shell. Typing &lt;code class=&quot;highlighter-rouge&quot;&gt;echo $SHELL&lt;/code&gt; in your Terminal tells you which shell you’re using. If you’re using  Bash, edit &lt;code class=&quot;highlighter-rouge&quot;&gt;$HOME/.bash_profile&lt;/code&gt; or &lt;code class=&quot;highlighter-rouge&quot;&gt;$HOME/.bashrc.&lt;/code&gt; If you’re using Z shell, edit &lt;code class=&quot;highlighter-rouge&quot;&gt;$HOME/.zshrc&lt;/code&gt;. If you’re using a different shell, the    file path and filename will be different on your machine.&lt;/li&gt;
-  &lt;li&gt;Add the following line and change &lt;code class=&quot;highlighter-rouge&quot;&gt;PATH_TO_FLUTTER_GIT_DIRECTORY&lt;/code&gt; to be the path where you cloned Flutter’s git repo:&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;err&quot;&gt;$&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;export&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;PATH&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;$PATH:[PATH_TO_FLUTTER_GIT_DIRECTORY]/flutter/bin&quot;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Run source $HOME/.&lt;rc file=&quot;&quot;&gt; to refresh the current window, or open a new terminal window to automatically source the file.&lt;/rc&gt;&lt;/li&gt;
-  &lt;li&gt;Verify that the flutter/bin directory is now in your PATH by running:&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;err&quot;&gt;$&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;echo&lt;/span&gt; &lt;span class=&quot;vg&quot;&gt;$PATH&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
-
-&lt;p&gt;Verify that the flutter command is available by running:&lt;/p&gt;
-
-&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;err&quot;&gt;$&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;which&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;flutter&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
-
-&lt;h1 id=&quot;for-linux&quot;&gt;For LINUX&lt;/h1&gt;
-&lt;p&gt;###System requirements
-To install and run Flutter, your development environment must meet these minimum requirements:&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;strong&gt;Operating Systems:&lt;/strong&gt; Linux (64-bit)&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;Disk Space:&lt;/strong&gt; 600 MB (does not include disk space for IDE/tools).&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;Tools:&lt;/strong&gt; Flutter depends on these command-line tools being available in your environment.
-    &lt;ul&gt;
-      &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;bash&lt;/code&gt;&lt;/li&gt;
-      &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;curl&lt;/code&gt;&lt;/li&gt;
-      &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;file&lt;/code&gt;&lt;/li&gt;
-      &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;git&lt;/code&gt; 2.x&lt;/li&gt;
-      &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;mkdir&lt;/code&gt;&lt;/li&gt;
-      &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;rm&lt;/code&gt;&lt;/li&gt;
-      &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;unzip&lt;/code&gt;&lt;/li&gt;
-      &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;which&lt;/code&gt;&lt;/li&gt;
-      &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;xz-utils&lt;/code&gt;&lt;/li&gt;
-      &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;zip&lt;/code&gt;&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;Shared libraries:&lt;/strong&gt; Flutter &lt;code class=&quot;highlighter-rouge&quot;&gt;test&lt;/code&gt; command depends on this library being available in your environment.
-    &lt;ul&gt;
-      &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;libGLU.so.1&lt;/code&gt; - provided by mesa packages such as &lt;code class=&quot;highlighter-rouge&quot;&gt;libglu1-mesa&lt;/code&gt; on Ubuntu/Debian
-        &lt;h3 id=&quot;get-the-flutter-sdk-2&quot;&gt;Get the Flutter SDK&lt;/h3&gt;
-      &lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;Download the following installation bundle to get the latest stable release of the Flutter SDK:
-For other release channels, and older builds, see the &lt;a href=&quot;https://flutter.dev/docs/development/tools/sdk/archive&quot;&gt;SDK archive&lt;/a&gt; page.&lt;/li&gt;
-  &lt;li&gt;Extract the file in the desired location, for example:&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;err&quot;&gt;$&lt;/span&gt;  &lt;span class=&quot;n&quot;&gt;cd&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;~&lt;/span&gt;&lt;span class=&quot;sr&quot;&gt;/development
-$  tar xf ~/&lt;/span&gt;&lt;span class=&quot;no&quot;&gt;Downloads&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;flutter_linux_1&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;mf&quot;&gt;17.4&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;stable&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;tar&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;xz&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
-
-&lt;p&gt;If you don’t want to install a fixed version of the installation bundle, you can skip steps 1 and 2. Instead, get the source code from the &lt;a href=&quot;https://github.com/flutter/flutter&quot;&gt;Flutter repo&lt;/a&gt; on GitHub with the following command:&lt;/p&gt;
-
-&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;err&quot;&gt;$&lt;/span&gt;  &lt;span class=&quot;n&quot;&gt;git&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;clone&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;https&lt;/span&gt;&lt;span class=&quot;ss&quot;&gt;:/&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;github&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;com&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;flutter&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;flutter&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;git&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
-
-&lt;p&gt;You can also change branches or tags as needed. For example, to get just the stable version:&lt;/p&gt;
-
-&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;err&quot;&gt;$&lt;/span&gt;  &lt;span class=&quot;n&quot;&gt;git&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;clone&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;https&lt;/span&gt;&lt;span class=&quot;ss&quot;&gt;:/&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;github&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;com&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;flutter&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;flutter&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;git&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;b&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;stable&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;--&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;depth&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Add the flutter tool to your path:&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;err&quot;&gt;$&lt;/span&gt;  &lt;span class=&quot;n&quot;&gt;export&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;PATH&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;$PATH:`pwd`/flutter/bin&quot;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
-
-&lt;p&gt;This command sets your PATH variable for the current terminal window only. To permanently add Flutter to your path, see &lt;a href=&quot;https://flutter.dev/docs/get-started/install/macos#update-your-path&quot;&gt;Update your path&lt;/a&gt;.&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;Optionally, pre-download development binaries:&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;The &lt;code class=&quot;highlighter-rouge&quot;&gt;flutter&lt;/code&gt; tool downloads platform-specific development binaries as needed. For scenarios where pre-downloading these artifacts is preferable (for example, in hermetic build environments, or with intermittent network availability), iOS and Android binaries can be downloaded ahead of time by running:&lt;/p&gt;
-
-&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;err&quot;&gt;$&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;flutter&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;precache&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
-
-&lt;p&gt;For additional download options, see &lt;code class=&quot;highlighter-rouge&quot;&gt;flutter help precache.&lt;/code&gt;&lt;/p&gt;
-
-&lt;p&gt;You are now ready to run Flutter commands!&lt;/p&gt;
-&lt;h3 id=&quot;run-flutter-doctor-2&quot;&gt;Run flutter doctor&lt;/h3&gt;
-
-&lt;p&gt;Run the following command to see if there are any dependencies you need to install to complete the setup (for verbose output, add the &lt;code class=&quot;highlighter-rouge&quot;&gt;-v&lt;/code&gt; flag):&lt;/p&gt;
-
-&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;err&quot;&gt;$&lt;/span&gt;  &lt;span class=&quot;n&quot;&gt;flutter&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;doctor&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
-
-&lt;p&gt;This command checks your environment and displays a report to the terminal window. The Dart SDK is bundled with Flutter; it is not necessary to install Dart separately. Check the output carefully for other software you might need to install or further tasks to perform (shown in X mark).&lt;/p&gt;
-
-&lt;p&gt;For example:&lt;/p&gt;
-
-&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;Android&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;toolchain&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;-&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;develop&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;for&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;Android&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;devices&lt;/span&gt;
-    &lt;span class=&quot;err&quot;&gt;•&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;Android&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;SDK&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;at&lt;/span&gt; &lt;span class=&quot;sr&quot;&gt;/Users/o&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;biwan&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;no&quot;&gt;Library&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;no&quot;&gt;Android&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;sdk&lt;/span&gt;
-    &lt;span class=&quot;err&quot;&gt;✗&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;Android&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;SDK&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;is&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;missing&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;command&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;line&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;tools&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;download&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;from&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;https&lt;/span&gt;&lt;span class=&quot;ss&quot;&gt;:/&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;goo&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;gl&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;no&quot;&gt;XxQghQ&lt;/span&gt;
-    &lt;span class=&quot;err&quot;&gt;•&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;Try&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;re&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;installing&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;or&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;updating&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;your&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;Android&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;SDK&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
-      &lt;span class=&quot;n&quot;&gt;visit&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;https&lt;/span&gt;&lt;span class=&quot;ss&quot;&gt;:/&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;flutter&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;dev&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;setup&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;c1&quot;&gt;#android-setup for detailed instructions.&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
-
-&lt;p&gt;The following sections describe how to perform these tasks and finish the setup process.&lt;/p&gt;
-
-&lt;p&gt;Once you have installed any missing dependencies, run the flutter doctor command again to verify that you’ve set everything up correctly.&lt;/p&gt;
-&lt;h3 id=&quot;update-your-path-2&quot;&gt;Update your path&lt;/h3&gt;
-&lt;p&gt;You can update your PATH variable for the current session at the command line, as shown in &lt;a href=&quot;https://flutter.dev/docs/get-started/install/macos#get-sdk&quot;&gt;Get the Flutter SDK&lt;/a&gt;. You’ll probably want to update this variable permanently, so you can run &lt;code class=&quot;highlighter-rouge&quot;&gt;flutter&lt;/code&gt; commands in any terminal session.&lt;/p&gt;
-
-&lt;p&gt;The steps for modifying this variable permanently for all terminal sessions are machine-specific. Typically you add a line to a file that is executed whenever you open a new window. For example:&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Determine the directory where you placed the Flutter SDK. You need this in Step 3.&lt;/li&gt;
-  &lt;li&gt;Open (or create) the rc file for your shell. For example, Linux uses the Bash shell by default, so edit &lt;code class=&quot;highlighter-rouge&quot;&gt;$HOME/.bashrc&lt;/code&gt;. If you are using a different shell, the file path and filename will be different on your machine.&lt;/li&gt;
-  &lt;li&gt;Add the following line and change &lt;code class=&quot;highlighter-rouge&quot;&gt;PATH_TO_FLUTTER_GIT_DIRECTORY&lt;/code&gt; to be the path where you cloned Flutter’s git repo:&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;err&quot;&gt;$&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;export&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;PATH&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;$PATH:[PATH_TO_FLUTTER_GIT_DIRECTORY]/flutter/bin&quot;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Run source &lt;code class=&quot;highlighter-rouge&quot;&gt;$HOME/.&amp;lt;rc file&amp;gt;&lt;/code&gt; to refresh the current window, or open a new terminal window to automatically source the file.&lt;/li&gt;
-  &lt;li&gt;Verify that the &lt;code class=&quot;highlighter-rouge&quot;&gt;flutter/bin&lt;/code&gt; directory is now in your PATH by running:&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;err&quot;&gt;$&lt;/span&gt;  &lt;span class=&quot;n&quot;&gt;echo&lt;/span&gt; &lt;span class=&quot;vg&quot;&gt;$PATH&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
-
-&lt;p&gt;Verify that the &lt;code class=&quot;highlighter-rouge&quot;&gt;flutter&lt;/code&gt; command is available by running:&lt;/p&gt;
-
-&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;err&quot;&gt;$&lt;/span&gt;  &lt;span class=&quot;n&quot;&gt;which&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;flutter&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;</content><author><name>Naveen Jujaray</name></author><summary type="html">Select the operating system on which you are installing Flutter: windows MacOS Linux</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/assets/images/2.png" /></entry><entry><title type="html">Jekyll Minima Theme - A Few Settings</title><link href="http://localhost:4000/minimathemesettings" rel="alternate" type="text/html" title="Jekyll Minima Theme - A Few Settings" /><published>2020-06-30T16:00:03+05:30</published><updated>2020-06-30T16:00:03+05:30</updated><id>http://localhost:4000/minima-theme</id><content type="html" xml:base="http://localhost:4000/minimathemesettings">&lt;p&gt;This post is a follow-up of my earlier post about building a jekyll site.&lt;/p&gt;
-
-&lt;p&gt;In this post, I will describe a few things that I modified on my site. For example, the footer show site title twice, I add a &lt;code class=&quot;highlighter-rouge&quot;&gt;_config.yml&lt;/code&gt; setting to show blog author name instead of one of the site titles.&lt;/p&gt;
-
-&lt;h2&gt;Add site description&lt;/h2&gt;
-&lt;p&gt;The blog site that you deployed earlier (as described in the post referenced above) should look pretty good, but we can make a few quick improvements to make it look even better.&lt;/p&gt;
-
-&lt;p&gt;Add a variable &lt;code class=&quot;highlighter-rouge&quot;&gt;description&lt;/code&gt; to your &lt;code class=&quot;highlighter-rouge&quot;&gt;_config.yml&lt;/code&gt; and set its value to a short description of your site.&lt;/p&gt;
-
-&lt;p&gt;&lt;b&gt;_config.yml&lt;/b&gt;&lt;/p&gt;
-
-&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;ss&quot;&gt;description: &lt;/span&gt;&lt;span class=&quot;no&quot;&gt;This&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;blog&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;includes&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;posts&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;related&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;to&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;topic&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;A&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;topic&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;B&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;and&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;topic&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;C&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
-
-&lt;p&gt;Try in browser. The description now displays in footer.&lt;/p&gt;
-
-&lt;h2&gt;Modify title above list of posts&lt;/h2&gt;
-&lt;p&gt;On the Home/Index page, the list of posts are preceded by a title “Posts”. You can change it to a different title. Suppose, you want the title to be “Latest Posts”. This is easily achieved by adding a variable to &lt;code class=&quot;highlighter-rouge&quot;&gt;index.html&lt;/code&gt;’s front matter:&lt;/p&gt;
-
-&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;o&quot;&gt;---&lt;/span&gt;
-&lt;span class=&quot;ss&quot;&gt;layout: &lt;/span&gt;&lt;span class=&quot;n&quot;&gt;home&lt;/span&gt;
-&lt;span class=&quot;ss&quot;&gt;list_title: &lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;Latest Posts&quot;&lt;/span&gt;
-&lt;span class=&quot;o&quot;&gt;---&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
-
-&lt;p&gt;Try in browser. The Home page displays “Latest Posts” as the title above list of posts.&lt;/p&gt;
-
-&lt;h2&gt;Add github, twitter and rss links to footer&lt;/h2&gt;
-&lt;p&gt;Github, Twitter and RSS links can be added to footer by simply setting variables in &lt;code class=&quot;highlighter-rouge&quot;&gt;_config.yml&lt;/code&gt;.&lt;/p&gt;
-
-&lt;p&gt;The link to RSS feed is already displayed at the end of list of posts on the Home page. But adding a variable in &lt;code class=&quot;highlighter-rouge&quot;&gt;_config.yml&lt;/code&gt; and setting it to just &lt;code class=&quot;highlighter-rouge&quot;&gt;rss&lt;/code&gt; also adds a link in the footer.&lt;/p&gt;
-
-&lt;p&gt;&lt;b&gt;_config.yml&lt;/b&gt;&lt;/p&gt;
-
-&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;ss&quot;&gt;github_username: &lt;/span&gt;&lt;span class=&quot;n&quot;&gt;your_github_username&lt;/span&gt;
-&lt;span class=&quot;ss&quot;&gt;twitter_username: &lt;/span&gt;&lt;span class=&quot;n&quot;&gt;your_twitter_username&lt;/span&gt;
-&lt;span class=&quot;ss&quot;&gt;rss: &lt;/span&gt;&lt;span class=&quot;n&quot;&gt;rss&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
-
-&lt;p&gt;Try in browser. Github, Twitter and RSS links are displayed nicely stacked in the footer.&lt;/p&gt;
-
-&lt;h2&gt;Modify footer to display blog author name&lt;/h2&gt;
-&lt;p&gt;Now the setting that I mentioned at the beginning of this post - displaying blog author name in the footer, instead of displaying site title twice.&lt;/p&gt;
-
-&lt;p&gt;The Minima theme displays the site title a second time, because it looks for site &lt;code class=&quot;highlighter-rouge&quot;&gt;author&lt;/code&gt; variable and if the &lt;code class=&quot;highlighter-rouge&quot;&gt;author&lt;/code&gt; variable is not present it uses &lt;code class=&quot;highlighter-rouge&quot;&gt;title&lt;/code&gt; variable as default value.&lt;/p&gt;
-
-&lt;p&gt;So, to make this changes, you can simply add &lt;code class=&quot;highlighter-rouge&quot;&gt;author&lt;/code&gt; variable to &lt;code class=&quot;highlighter-rouge&quot;&gt;_config.yml&lt;/code&gt;.&lt;/p&gt;
-
-&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;ss&quot;&gt;author: &lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;Blog Author&quot;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
-
-&lt;p&gt;Try in browser. Footer should now display blog author name instead of site title be displayed a second time.&lt;/p&gt;
-
-&lt;h2&gt;Google Analytics&lt;/h2&gt;
-&lt;p&gt;You can add Google analytics to your site by adding the following setting to &lt;code class=&quot;highlighter-rouge&quot;&gt;_config.yml&lt;/code&gt;:&lt;/p&gt;
-
-&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;ss&quot;&gt;google_analytics: &lt;/span&gt;&lt;span class=&quot;no&quot;&gt;UA&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;no&quot;&gt;XXXXXXXX&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;no&quot;&gt;X&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;</content><author><name>Naveen Jujaray</name></author><summary type="html">This post is a follow-up of my earlier post about building a jekyll site.</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/assets/images/1.jpg" /></entry></feed>
+Better platforms to consider are for example &lt;code class=&quot;highlighter-rouge&quot;&gt;Riseup’s&lt;/code&gt; &lt;a href=&quot;https://we.riseup.net/&quot;&gt;Crabgrass&lt;/a&gt;, &lt;a href=&quot;https://joinmastodon.org/&quot;&gt;Mastodon&lt;/a&gt; and &lt;a href=&quot;https://joinpeertube.org/&quot;&gt;PeerTube&lt;/a&gt;.&lt;/p&gt;</content><author><name>Naveen Jujaray</name></author><category term="featured" /><summary type="html">There is a resurgence of draconian State blocking/slowdowns of Internet in Turkey, Egypt, Iraq and elsewhere, with Iraq at the time of writing passing the 104th hour of blackout due to ongoing protests against government corruption, Egypt having over 500 news/rights/etc websites known blocked and Turkey e.g. habitually ordering hundreds of State-takedowns monthly with major knowledge and culture treasures of humankind such as Wikipedia being completely banned for almost 900 days now.</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/assets/images/3.jfif" /></entry></feed>
