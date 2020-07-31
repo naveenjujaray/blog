@@ -1,4 +1,314 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.5">Jekyll</generator><link href="https://naveenjujaray.js.org/feed.xml" rel="self" type="application/atom+xml" /><link href="https://naveenjujaray.js.org/" rel="alternate" type="text/html" /><updated>2020-07-21T00:45:01+05:30</updated><id>https://naveenjujaray.js.org/feed.xml</id><title type="html">Naveen Jujaray</title><subtitle>Blog</subtitle><entry><title type="html">Flutter for Web</title><link href="https://naveenjujaray.js.org/flutter-web-install" rel="alternate" type="text/html" title="Flutter for Web" /><published>2020-07-20T06:00:00+05:30</published><updated>2020-07-20T06:00:00+05:30</updated><id>https://naveenjujaray.js.org/flutterwebintro</id><content type="html" xml:base="https://naveenjujaray.js.org/flutter-web-install">&lt;h2 id=&quot;what-is-flutter-web&quot;&gt;What is Flutter Web?&lt;/h2&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.5">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2020-07-31T16:56:48+05:30</updated><id>http://localhost:4000/feed.xml</id><title type="html">Naveen Jujaray</title><subtitle>Blog</subtitle><entry><title type="html">🧰 50 Developer tools to make your life a little easier</title><link href="http://localhost:4000/50-things-for-developers" rel="alternate" type="text/html" title="🧰 50 Developer tools to make your life a little easier" /><published>2020-07-31T12:00:00+05:30</published><updated>2020-07-31T12:00:00+05:30</updated><id>http://localhost:4000/developerthings</id><content type="html" xml:base="http://localhost:4000/50-things-for-developers">&lt;p&gt;Fifty (plus) applications, chrome extensions, web apps, and everything in between that will hopefully come in handy at some point in your programming life. I will keep updated as new tools are discovered. Please feel free to add to the comments anything you find.&lt;/p&gt;
+
+&lt;h2 id=&quot;1-whatruns&quot;&gt;1. Whatruns&lt;/h2&gt;
+&lt;p&gt;A free browser extension that helps you identify technologies used on any website at the click of a button.&lt;/p&gt;
+
+&lt;p&gt;Go to Site &lt;a href=&quot;https://www.whatruns.com/&quot;&gt;Whatruns&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/projectchallenges/501.png&quot; alt=&quot;501&quot; /&gt;&lt;/p&gt;
+&lt;h2 id=&quot;2-sizzy&quot;&gt;2. Sizzy&lt;/h2&gt;
+&lt;p&gt;The browser for developers. Stop wasting time and speed up your development workflow&lt;/p&gt;
+
+&lt;p&gt;Go to Site &lt;a href=&quot;https://sizzy.co/&quot;&gt;Sizzy&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/projectchallenges/502.png&quot; alt=&quot;502&quot; /&gt;&lt;/p&gt;
+&lt;h2 id=&quot;3-log-rocket&quot;&gt;3. Log Rocket&lt;/h2&gt;
+&lt;p&gt;LogRocket lets you replay what users do on your site, helping you reproduce bugs and fix issues faster&lt;/p&gt;
+
+&lt;p&gt;Go to Site &lt;a href=&quot;https://logrocket.com/&quot;&gt;Log Rocket&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/projectchallenges/503.png&quot; alt=&quot;503&quot; /&gt;&lt;/p&gt;
+&lt;h2 id=&quot;4-sentry&quot;&gt;4. Sentry&lt;/h2&gt;
+&lt;p&gt;Sentry’s application monitoring platform helps every developer
+diagnose, fix, and optimize the performance of their code.&lt;/p&gt;
+
+&lt;p&gt;Go to Site &lt;a href=&quot;https://sentry.io/&quot;&gt;Sentry&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/projectchallenges/504.jfif&quot; alt=&quot;504&quot; /&gt;&lt;/p&gt;
+&lt;h2 id=&quot;5-can-i-use&quot;&gt;5. Can I Use?&lt;/h2&gt;
+&lt;p&gt;“Can I use” provides up-to-date browser support tables for support of front-end web technologies on desktop and mobile web browsers.&lt;/p&gt;
+
+&lt;p&gt;Go to Site &lt;a href=&quot;https://caniuse.com/&quot;&gt;Can I Use&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/projectchallenges/505.jfif&quot; alt=&quot;505&quot; /&gt;&lt;/p&gt;
+&lt;h2 id=&quot;6-prettier&quot;&gt;6. Prettier&lt;/h2&gt;
+&lt;p&gt;An opinionated code formatter, Supports many languages,Integrates with most editors,Has few options.&lt;/p&gt;
+
+&lt;p&gt;Go to Site &lt;a href=&quot;https://prettier.io/&quot;&gt;Prettier&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/projectchallenges/506.jfif&quot; alt=&quot;506&quot; /&gt;&lt;/p&gt;
+&lt;h2 id=&quot;7-css-scan&quot;&gt;7. CSS Scan&lt;/h2&gt;
+&lt;p&gt;Goodbye to “Inspect Element” — Check the CSS of any element you hover over, instantly, and copy its entire rules with a single click.&lt;/p&gt;
+
+&lt;p&gt;Go to Site &lt;a href=&quot;https://getcssscan.com/&quot;&gt;CSS Scan&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/projectchallenges/507.png&quot; alt=&quot;507&quot; /&gt;&lt;/p&gt;
+&lt;h2 id=&quot;8-bundlephobia&quot;&gt;8. Bundlephobia&lt;/h2&gt;
+&lt;p&gt;Find the cost of adding a npm package to your bundle&lt;/p&gt;
+
+&lt;p&gt;Go to Site &lt;a href=&quot;https://bundlephobia.com/&quot;&gt;Bundlephobia&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/projectchallenges/508.png&quot; alt=&quot;508&quot; /&gt;&lt;/p&gt;
+&lt;h2 id=&quot;9-cypress&quot;&gt;9. Cypress&lt;/h2&gt;
+&lt;p&gt;Fast, easy and reliable testing for anything that runs in a browser.&lt;/p&gt;
+
+&lt;p&gt;Go to Site &lt;a href=&quot;https://www.cypress.io/&quot;&gt;Cypress&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/projectchallenges/509.jfif&quot; alt=&quot;509&quot; /&gt;&lt;/p&gt;
+&lt;h2 id=&quot;10-unminify&quot;&gt;10. Unminify&lt;/h2&gt;
+&lt;p&gt;Free tool to unminify (unpack, deobfuscate) JavaScript, CSS, HTML, XML and JSON code, making it readable and pretty.&lt;/p&gt;
+
+&lt;p&gt;Go to Site &lt;a href=&quot;https://unminify.com/&quot;&gt;Unminify&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/projectchallenges/510.png&quot; alt=&quot;510&quot; /&gt;&lt;/p&gt;
+&lt;h2 id=&quot;11-regex-101&quot;&gt;11. RegEx 101&lt;/h2&gt;
+&lt;p&gt;Free PCRE-based regular expression debugger with real time explanation, error detection and highlighting.&lt;/p&gt;
+
+&lt;p&gt;Go to Site &lt;a href=&quot;https://regex101.com/&quot;&gt;RegEx 101&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/projectchallenges/511.png&quot; alt=&quot;511&quot; /&gt;&lt;/p&gt;
+&lt;h2 id=&quot;12-clear-cache&quot;&gt;12. Clear Cache&lt;/h2&gt;
+&lt;p&gt;Clear your cache and browsing data with a single click of a button.&lt;/p&gt;
+
+&lt;p&gt;Go to Site &lt;a href=&quot;https://chrome.google.com/webstore/detail/clear-cache/cppjkneekbjaeellbfkmgnhonkkjfpdn?hl=en%20&quot;&gt;Clear Cache&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/projectchallenges/512.jfif&quot; alt=&quot;512&quot; /&gt;&lt;/p&gt;
+&lt;h2 id=&quot;13-window-resizer&quot;&gt;13. Window Resizer&lt;/h2&gt;
+&lt;p&gt;Resize the browser window to emulate various screen resolutions.&lt;/p&gt;
+
+&lt;p&gt;Go to Site &lt;a href=&quot;https://chrome.google.com/webstore/detail/window-resizer/kkelicaakdanhinjdeammmilcgefonfh&quot;&gt;Window Resizer&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/projectchallenges/513.jfif&quot; alt=&quot;513&quot; /&gt;&lt;/p&gt;
+&lt;h2 id=&quot;14-wappalyzer&quot;&gt;14. Wappalyzer&lt;/h2&gt;
+&lt;p&gt;Wappalyzer is a utility that uncovers the technologies used on websites. It detects content management systems, ecommerce platforms, web frameworks, server software, analytics tools and many more&lt;/p&gt;
+
+&lt;p&gt;Go to Site &lt;a href=&quot;https://chrome.google.com/webstore/detail/wappalyzer/gppongmhjkpfnbhagpmjfkannfbllamg&quot;&gt;Wappalyzer&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/projectchallenges/514.png&quot; alt=&quot;514&quot; /&gt;&lt;/p&gt;
+&lt;h2 id=&quot;15-mdn&quot;&gt;15. MDN&lt;/h2&gt;
+&lt;p&gt;The MDN Web Docs site provides information about Open Web technologies including HTML, CSS, and APIs for both Web sites and progressive web apps.&lt;/p&gt;
+
+&lt;p&gt;Go to Site &lt;a href=&quot;https://developer.mozilla.org/en-US/&quot;&gt;MDN&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/projectchallenges/515.png&quot; alt=&quot;515&quot; /&gt;&lt;/p&gt;
+&lt;h2 id=&quot;16-axe&quot;&gt;16. Axe&lt;/h2&gt;
+&lt;p&gt;The Standard in Accessibility Testing. Chosen by Microsoft, Google, development and testing teams everywhere, axe is the World’s leading digital accessibility toolkit.&lt;/p&gt;
+
+&lt;p&gt;Go to Site &lt;a href=&quot;https://www.deque.com/axe/&quot;&gt;Axe&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/projectchallenges/516.png&quot; alt=&quot;516&quot; /&gt;&lt;/p&gt;
+&lt;h2 id=&quot;17-git-graph&quot;&gt;17. Git Graph&lt;/h2&gt;
+&lt;p&gt;Git Graph extension for Visual Studio Code. View a Git Graph of your repository, and easily perform Git actions from the graph. Configurable to look the way you want!&lt;/p&gt;
+
+&lt;p&gt;Go to Site &lt;a href=&quot;https://marketplace.visualstudio.com/items?itemName=mhutchie.git-graph&quot;&gt;Git Graph&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/projectchallenges/517.jfif&quot; alt=&quot;517&quot; /&gt;&lt;/p&gt;
+&lt;h2 id=&quot;18-kontrast---wcag-contrast-checker&quot;&gt;18. Kontrast - WCAG Contrast Checker&lt;/h2&gt;
+&lt;p&gt;Quickly check and adjust contrast in realtime in your browser to meet WCAG 2.1 requirements.&lt;/p&gt;
+
+&lt;p&gt;Go to Site &lt;a href=&quot;https://chrome.google.com/webstore/detail/kontrast-wcag-contrast-ch/haphaaenepedkjngghandlmhfillnhjk&quot;&gt;Kontrast&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/projectchallenges/518.jfif&quot; alt=&quot;518&quot; /&gt;&lt;/p&gt;
+&lt;h2 id=&quot;19-octotree&quot;&gt;19. Octotree&lt;/h2&gt;
+&lt;p&gt;Browser extension that enhances GitHub code review and exploration.&lt;/p&gt;
+
+&lt;p&gt;Go to Site &lt;a href=&quot;https://chrome.google.com/webstore/detail/octotree/bkhaagjahfmjljalopjnoealnfndnagc&quot;&gt;Octotree&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/projectchallenges/519.jfif&quot; alt=&quot;519&quot; /&gt;&lt;/p&gt;
+&lt;h2 id=&quot;20-postwoman&quot;&gt;20. Postwoman&lt;/h2&gt;
+&lt;p&gt;Web alternative to Postman - Helps you create requests faster, saving precious time on development&lt;/p&gt;
+
+&lt;p&gt;Go to Site &lt;a href=&quot;https://postwoman.io/&quot;&gt;Postwoman&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/projectchallenges/520.png&quot; alt=&quot;520&quot; /&gt;&lt;/p&gt;
+&lt;h2 id=&quot;21-responsively-app&quot;&gt;21. Responsively App&lt;/h2&gt;
+&lt;p&gt;Develop responsive web apps 5x faster! A must-have DevTool for all Front-End developers that will make your job easier.&lt;/p&gt;
+
+&lt;p&gt;Go to Site &lt;a href=&quot;https://responsively.app/&quot;&gt;Responsively App&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/projectchallenges/521.jfif&quot; alt=&quot;521&quot; /&gt;&lt;/p&gt;
+&lt;h2 id=&quot;22-fullstory&quot;&gt;22. FullStory&lt;/h2&gt;
+&lt;p&gt;Deliver exceptional experiences by letting our easy-to-use, intelligent software pinpoint when, where, and how user struggle is affecting your revenue and retention&lt;/p&gt;
+
+&lt;p&gt;Go to Site &lt;a href=&quot;https://www.fullstory.com/&quot;&gt;FullStory&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/projectchallenges/522.jfif&quot; alt=&quot;522&quot; /&gt;&lt;/p&gt;
+&lt;h2 id=&quot;23-gitignoreio&quot;&gt;23. gitignore.io&lt;/h2&gt;
+&lt;p&gt;Create useful .gitignore files for your project&lt;/p&gt;
+
+&lt;p&gt;Go to Site &lt;a href=&quot;https://www.toptal.com/developers/gitignore&quot;&gt;gitignore.io&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/projectchallenges/523.png&quot; alt=&quot;523&quot; /&gt;&lt;/p&gt;
+&lt;h2 id=&quot;24-1loc&quot;&gt;24. 1Loc&lt;/h2&gt;
+&lt;p&gt;206 Favorite JavaScript Utilities in single line of code! No more!&lt;/p&gt;
+
+&lt;p&gt;Go to Site &lt;a href=&quot;https://1loc.dev/&quot;&gt;1Loc&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/projectchallenges/524.png&quot; alt=&quot;524&quot; /&gt;&lt;/p&gt;
+&lt;h2 id=&quot;25-does-it-mutate&quot;&gt;25. Does it mutate?&lt;/h2&gt;
+&lt;p&gt;Go to Site &lt;a href=&quot;https://doesitmutate.xyz/&quot;&gt;Does it mutate?&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/projectchallenges/525.png&quot; alt=&quot;525&quot; /&gt;&lt;/p&gt;
+&lt;h2 id=&quot;26-keycode&quot;&gt;26. Keycode&lt;/h2&gt;
+&lt;p&gt;Press any key to get the JavaScript event keycode&lt;/p&gt;
+
+&lt;p&gt;Go to Site &lt;a href=&quot;https://keycode.info/&quot;&gt;Keycode&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/projectchallenges/526.png&quot; alt=&quot;526&quot; /&gt;&lt;/p&gt;
+&lt;h2 id=&quot;27-worth-it-modern-js-edition&quot;&gt;27. Worth It: Modern JS edition&lt;/h2&gt;
+&lt;p&gt;This tool analyzes a page to determine how much less JavaScript is downloaded in modern browsers as a result of it using the module/nomodule pattern.&lt;/p&gt;
+
+&lt;p&gt;Go to Site &lt;a href=&quot;https://module-nomodule-calculator.glitch.me/&quot;&gt;Worth It&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/projectchallenges/527.png&quot; alt=&quot;527&quot; /&gt;&lt;/p&gt;
+&lt;h2 id=&quot;28-npmview&quot;&gt;28. npmview&lt;/h2&gt;
+&lt;p&gt;A web application to view npm package files.&lt;/p&gt;
+
+&lt;p&gt;Go to Site &lt;a href=&quot;https://npmview.now.sh/&quot;&gt;npmview&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/projectchallenges/528.png&quot; alt=&quot;528&quot; /&gt;&lt;/p&gt;
+&lt;h2 id=&quot;29-css-to-js&quot;&gt;29. CSS to JS&lt;/h2&gt;
+&lt;p&gt;Transform between CSS, JS Objects and JSX props.&lt;/p&gt;
+
+&lt;p&gt;Go to Site &lt;a href=&quot;https://css2js.dotenv.dev/&quot;&gt;CSS to JS&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/projectchallenges/529.png&quot; alt=&quot;529&quot; /&gt;&lt;/p&gt;
+&lt;h2 id=&quot;30-all-characters&quot;&gt;30. All Characters&lt;/h2&gt;
+&lt;p&gt;A simple page that shows all the different characters and their HTML code.&lt;/p&gt;
+
+&lt;p&gt;Go to Site &lt;a href=&quot;https://aymkdn.github.io/characters/&quot;&gt;All Characters&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/projectchallenges/530.jfif&quot; alt=&quot;530&quot; /&gt;&lt;/p&gt;
+&lt;h2 id=&quot;31-shape-catcher&quot;&gt;31. Shape Catcher&lt;/h2&gt;
+&lt;p&gt;This is a tool to help you find Unicode characters. Finding a specific character whose name you don’t know is cumbersome. On shapecatcher.com, all you need to know is the shape of the character!&lt;/p&gt;
+
+&lt;p&gt;Go to Site &lt;a href=&quot;https://shapecatcher.com/&quot;&gt;Shape Catcher&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/projectchallenges/531.png&quot; alt=&quot;531&quot; /&gt;&lt;/p&gt;
+&lt;h2 id=&quot;32-mocky&quot;&gt;32. Mocky&lt;/h2&gt;
+&lt;p&gt;Don’t wait for the backend to be ready, generate custom API responses with Mocky and start working on your application straightaway&lt;/p&gt;
+
+&lt;p&gt;Go to Site &lt;a href=&quot;https://designer.mocky.io/&quot;&gt;Mocky&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/projectchallenges/532.png&quot; alt=&quot;532&quot; /&gt;&lt;/p&gt;
+&lt;h2 id=&quot;33-explain-shell&quot;&gt;33. Explain Shell&lt;/h2&gt;
+&lt;p&gt;Write down a command-line to see the help text that matches each argument&lt;/p&gt;
+
+&lt;p&gt;Go to Site &lt;a href=&quot;https://explainshell.com/&quot;&gt;Explain Shell&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/projectchallenges/533.png&quot; alt=&quot;533&quot; /&gt;&lt;/p&gt;
+&lt;h2 id=&quot;34-base64-image&quot;&gt;34. Base64 Image&lt;/h2&gt;
+&lt;p&gt;Convert your images to Base64&lt;/p&gt;
+
+&lt;p&gt;Go to Site &lt;a href=&quot;https://www.base64-image.de/&quot;&gt;Base64 Image&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/projectchallenges/534.jfif&quot; alt=&quot;534&quot; /&gt;&lt;/p&gt;
+&lt;h2 id=&quot;35-open-graph-check&quot;&gt;35. Open Graph Check&lt;/h2&gt;
+&lt;p&gt;When sharing content on Facebook and other social networks, clickattractivity is really important. An optimized preview tailored to the target group leads to significant improvements in the Click Trough Rate. Opengraphcheck.com will help you do the job best. And the most awesome thing is the Open Graph Check is for free!&lt;/p&gt;
+
+&lt;p&gt;Go to Site &lt;a href=&quot;https://opengraphcheck.com/&quot;&gt;Open Graph Check&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/projectchallenges/535.png&quot; alt=&quot;535&quot; /&gt;&lt;/p&gt;
+&lt;h2 id=&quot;36-brotli-pro&quot;&gt;36. Brotli pro&lt;/h2&gt;
+&lt;p&gt;Brotli. Next Level. Compression. Ready?&lt;/p&gt;
+
+&lt;p&gt;Go to Site &lt;a href=&quot;https://www.brotli.pro/&quot;&gt;Brotli pro&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/projectchallenges/536.jfif&quot; alt=&quot;536&quot; /&gt;&lt;/p&gt;
+&lt;h2 id=&quot;37-responsive-breakpoints&quot;&gt;37. Responsive Breakpoints&lt;/h2&gt;
+&lt;p&gt;Easily generate the optimal responsive image dimensions&lt;/p&gt;
+
+&lt;p&gt;Go to Site &lt;a href=&quot;https://www.responsivebreakpoints.com/&quot;&gt;Responsive Breakpoints&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/projectchallenges/537.jfif&quot; alt=&quot;537&quot; /&gt;&lt;/p&gt;
+&lt;h2 id=&quot;38-is-my-host-fast-yet&quot;&gt;38. Is my host fast yet?&lt;/h2&gt;
+&lt;p&gt;Real-world server response (Time to First Byte) latencies, as experienced by real-world users navigating the web.&lt;/p&gt;
+
+&lt;p&gt;Go to Site &lt;a href=&quot;https://ismyhostfastyet.com/&quot;&gt;Is my host fast yet?&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/projectchallenges/538.jfif&quot; alt=&quot;538&quot; /&gt;&lt;/p&gt;
+&lt;h2 id=&quot;39-check-my-links&quot;&gt;39. Check My Links&lt;/h2&gt;
+&lt;p&gt;Check My Links is a link checker that crawls through your webpage and looks for broken links.&lt;/p&gt;
+
+&lt;p&gt;Go to Site &lt;a href=&quot;https://chrome.google.com/webstore/detail/check-my-links/ojkcdipcgfaekbeaelaapakgnjflfglf?hl=en-GB&quot;&gt;Check My Links&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/projectchallenges/539.jfif&quot; alt=&quot;539&quot; /&gt;&lt;/p&gt;
+&lt;h2 id=&quot;40-json-web-token&quot;&gt;40. JSON Web Token&lt;/h2&gt;
+&lt;p&gt;Encode or Decode JWTs&lt;/p&gt;
+
+&lt;p&gt;Go to Site &lt;a href=&quot;https://www.jsonwebtoken.io/&quot;&gt;JSON Web Token&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/projectchallenges/540.jfif&quot; alt=&quot;540&quot; /&gt;&lt;/p&gt;
+&lt;h2 id=&quot;41-git-kraken&quot;&gt;41. Git Kraken&lt;/h2&gt;
+&lt;p&gt;Legendary Git client for Windows, Mac &amp;amp; Linux. Free for open source&lt;/p&gt;
+
+&lt;p&gt;Go to Site &lt;a href=&quot;https://www.gitkraken.com/&quot;&gt;Git Kraken&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/projectchallenges/541.jfif&quot; alt=&quot;541&quot; /&gt;&lt;/p&gt;
+&lt;h2 id=&quot;42-bem-cheat-sheet&quot;&gt;42. BEM Cheat Sheet&lt;/h2&gt;
+&lt;p&gt;When it comes to finding the right class name, it can quickly drive you to despair. Even the most experienced CSS developers don’t always find the right class name right away. This tool aims to help you to not get lost in the BEM cosmos by giving you naming-suggestions for some of the most common web components.&lt;/p&gt;
+
+&lt;p&gt;Go to Site &lt;a href=&quot;https://9elements.com/bem-cheat-sheet&quot;&gt;BEM Cheat Sheet&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/projectchallenges/542.jfif&quot; alt=&quot;542&quot; /&gt;&lt;/p&gt;
+&lt;h2 id=&quot;43-can-i-email&quot;&gt;43. Can I Email&lt;/h2&gt;
+&lt;p&gt;Go to Site &lt;a href=&quot;https://www.caniemail.com/&quot;&gt;Can I Email&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/projectchallenges/543.png&quot; alt=&quot;543&quot; /&gt;&lt;/p&gt;
+&lt;h2 id=&quot;44-css-grid-generator&quot;&gt;44. CSS Grid Generator&lt;/h2&gt;
+&lt;p&gt;You can set the numbers, and units of your columns and rows, and I’ll generate a CSS grid for you! Drag within the boxes to create divs placed within the grid.&lt;/p&gt;
+
+&lt;p&gt;Go to Site &lt;a href=&quot;https://cssgrid-generator.netlify.app/&quot;&gt;Css Grid Generator&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/projectchallenges/544.jfif&quot; alt=&quot;544&quot; /&gt;&lt;/p&gt;
+&lt;h2 id=&quot;45-screen-size-map&quot;&gt;45. Screen size map&lt;/h2&gt;
+&lt;p&gt;A comparison of screen sizes in device-independent pixel&lt;/p&gt;
+
+&lt;p&gt;Go to Site &lt;a href=&quot;https://screensizemap.com/&quot;&gt;Screen size map&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/projectchallenges/545.jfif&quot; alt=&quot;545&quot; /&gt;&lt;/p&gt;
+&lt;h2 id=&quot;46-who-can-use&quot;&gt;46. Who can use?&lt;/h2&gt;
+&lt;p&gt;Who can use this color combination?&lt;/p&gt;
+
+&lt;p&gt;Go to Site &lt;a href=&quot;https://whocanuse.com/&quot;&gt;Who can use?&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/projectchallenges/546.png&quot; alt=&quot;546&quot; /&gt;&lt;/p&gt;
+&lt;h2 id=&quot;47-will-it-cors&quot;&gt;47. Will it CORS?&lt;/h2&gt;
+&lt;p&gt;Tell this magic CORS machine what you want, and it’ll tell you exactly what to do.&lt;/p&gt;
+
+&lt;p&gt;Go to Site &lt;a href=&quot;https://httptoolkit.tech/will-it-cors/&quot;&gt;CORS&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/projectchallenges/547.png&quot; alt=&quot;547&quot; /&gt;&lt;/p&gt;
+&lt;h2 id=&quot;48-extractcss&quot;&gt;48. extractCSS&lt;/h2&gt;
+&lt;p&gt;Extract CSS from HTML&lt;/p&gt;
+
+&lt;p&gt;Go to Site &lt;a href=&quot;http://extractcss.com/&quot;&gt;extractCSS&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/projectchallenges/548.png&quot; alt=&quot;548&quot; /&gt;&lt;/p&gt;
+&lt;h2 id=&quot;49-metatags&quot;&gt;49. Metatags&lt;/h2&gt;
+&lt;p&gt;With Meta Tags you can edit and experiment with your content then preview how your webpage will look on Google, Facebook, Twitter and more!&lt;/p&gt;
+
+&lt;p&gt;Go to Site &lt;a href=&quot;https://metatags.io/&quot;&gt;Metatags&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/projectchallenges/549.jfif&quot; alt=&quot;549&quot; /&gt;&lt;/p&gt;
+&lt;h2 id=&quot;50-shieldfy&quot;&gt;50. Shieldfy&lt;/h2&gt;
+&lt;p&gt;Automatically identify and fix security issues and vulnerabilities in your code before it hits to production.&lt;/p&gt;
+
+&lt;p&gt;Go to Site &lt;a href=&quot;https://shieldfy.io/&quot;&gt;Shieldfy&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/projectchallenges/550.jfif&quot; alt=&quot;550&quot; /&gt;&lt;/p&gt;
+&lt;h2 id=&quot;51-yaml-checker&quot;&gt;51. YAML Checker&lt;/h2&gt;
+&lt;p&gt;YAML Checker provides a quick and easy way to validate YAML. As you type, your YAML will be validated with beautiful syntax highlighting and error information.&lt;/p&gt;
+
+&lt;p&gt;Go to Site &lt;a href=&quot;https://yamlchecker.com/&quot;&gt;YAML Checker&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/projectchallenges/551.png&quot; alt=&quot;551&quot; /&gt;&lt;/p&gt;
+&lt;h2 id=&quot;52-polypane&quot;&gt;52. Polypane&lt;/h2&gt;
+&lt;p&gt;All the tools you need to build amazing responsive, accessible and fast websites and apps in a single standalone browser.&lt;/p&gt;
+
+&lt;p&gt;Go to Site &lt;a href=&quot;https://polypane.app/&quot;&gt;Polypane&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/projectchallenges/552.jfif&quot; alt=&quot;552&quot; /&gt;&lt;/p&gt;</content><author><name>Naveen Jujaray</name></author><category term="featured" /><summary type="html">Fifty (plus) applications, chrome extensions, web apps, and everything in between that will hopefully come in handy at some point in your programming life. I will keep updated as new tools are discovered. Please feel free to add to the comments anything you find.</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/assets/images/projectchallenges/50things.jpeg" /></entry><entry><title type="html">Flutter for Web</title><link href="http://localhost:4000/flutter-web-install" rel="alternate" type="text/html" title="Flutter for Web" /><published>2020-07-20T06:00:00+05:30</published><updated>2020-07-20T06:00:00+05:30</updated><id>http://localhost:4000/flutterwebintro</id><content type="html" xml:base="http://localhost:4000/flutter-web-install">&lt;h2 id=&quot;what-is-flutter-web&quot;&gt;What is Flutter Web?&lt;/h2&gt;
 
 &lt;p&gt;A connected &lt;code class=&quot;highlighter-rouge&quot;&gt;P&lt;/code&gt;rogressive &lt;code class=&quot;highlighter-rouge&quot;&gt;W&lt;/code&gt;eb &lt;code class=&quot;highlighter-rouge&quot;&gt;A&lt;/code&gt;pplication built with Flutter&lt;/p&gt;
 
@@ -46,7 +356,7 @@
 
 &lt;h2 id=&quot;hosting&quot;&gt;Hosting&lt;/h2&gt;
 
-&lt;p&gt;Check out this &lt;a href=&quot;https://naveenjujaray.js.org/hosting-sites-top-5&quot;&gt;page&lt;/a&gt; to know more about hosting Flutter Web.&lt;/p&gt;</content><author><name>Naveen Jujaray</name></author><category term="featured" /><summary type="html">What is Flutter Web?</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://flutter.dev/images/Dart-framework-v-browser-framework.png" /></entry><entry><title type="html">The Magic Of Interactive UI With React</title><link href="https://naveenjujaray.js.org/reactjsintro" rel="alternate" type="text/html" title="The Magic Of Interactive UI With React" /><published>2020-07-17T06:00:00+05:30</published><updated>2020-07-17T06:00:00+05:30</updated><id>https://naveenjujaray.js.org/reactjs</id><content type="html" xml:base="https://naveenjujaray.js.org/reactjsintro">&lt;h2 id=&quot;what-is-react&quot;&gt;What Is React?&lt;/h2&gt;
+&lt;p&gt;Check out this &lt;a href=&quot;https://naveenjujaray.js.org/hosting-sites-top-5&quot;&gt;page&lt;/a&gt; to know more about hosting Flutter Web.&lt;/p&gt;</content><author><name>Naveen Jujaray</name></author><category term="featured" /><summary type="html">What is Flutter Web?</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://flutter.dev/images/Dart-framework-v-browser-framework.png" /></entry><entry><title type="html">The Magic Of Interactive UI With React</title><link href="http://localhost:4000/reactjsintro" rel="alternate" type="text/html" title="The Magic Of Interactive UI With React" /><published>2020-07-17T06:00:00+05:30</published><updated>2020-07-17T06:00:00+05:30</updated><id>http://localhost:4000/reactjs</id><content type="html" xml:base="http://localhost:4000/reactjsintro">&lt;h2 id=&quot;what-is-react&quot;&gt;What Is React?&lt;/h2&gt;
 &lt;p&gt;Do you remember how Facebook’s UI or it’s messenger looked a few years back? During that time you had to refresh or reload the entire page for new updates or messages repeatedly. But now it’s no longer required. Today, each time there is a new update or message, a notification will pop up. Clicking on that will then automatically refresh your page and show you the latest updates. So, how exactly does this happen? Well, this is the magic of ReactJS and in this blog, I am going to discuss what is React and why you should go for it.&lt;/p&gt;
 &lt;h2 id=&quot;javascript-frameworks&quot;&gt;JavaScript Frameworks&lt;/h2&gt;
 &lt;p&gt;&lt;em&gt;Javascript&lt;/em&gt; is a dynamic programming language which is widely used for developing web applications. It is very lightweight and is supported by most of the modern browsers. Moreover, JavaScript supports both object-oriented programming and procedural programming. Thus, it is used for creating web pages with a client-side script to interact with the user and make the web pages dynamic and robust.
@@ -83,7 +393,7 @@ So, through this blog, we’ll be learning all about ReactJS. But before underst
 &lt;h2 id=&quot;what-is-react-1&quot;&gt;What Is React?&lt;/h2&gt;
 &lt;p&gt;React is a component-based library which is used to develop &lt;code class=&quot;highlighter-rouge&quot;&gt;interactive UI&lt;/code&gt;’s (User Interfaces). It is currently one of the most popular JavaScript front-end libraries which has a strong foundation and a large community supporting it.&lt;/p&gt;
 
-&lt;p&gt;&lt;em&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;NOTE&lt;/code&gt;: ReactJS is only a frontend library and not the whole framework, which deals with the &lt;strong&gt;View&lt;/strong&gt; component of &lt;strong&gt;MVC&lt;/strong&gt; (Model – &lt;strong&gt;View&lt;/strong&gt; – Controller).&lt;/em&gt;&lt;/p&gt;</content><author><name>Naveen Jujaray</name></author><summary type="html">What Is React? Do you remember how Facebook’s UI or it’s messenger looked a few years back? During that time you had to refresh or reload the entire page for new updates or messages repeatedly. But now it’s no longer required. Today, each time there is a new update or message, a notification will pop up. Clicking on that will then automatically refresh your page and show you the latest updates. So, how exactly does this happen? Well, this is the magic of ReactJS and in this blog, I am going to discuss what is React and why you should go for it. JavaScript Frameworks Javascript is a dynamic programming language which is widely used for developing web applications. It is very lightweight and is supported by most of the modern browsers. Moreover, JavaScript supports both object-oriented programming and procedural programming. Thus, it is used for creating web pages with a client-side script to interact with the user and make the web pages dynamic and robust. JavaScript has many frameworks among which we can choose depending on our need. Below diagram shows some popular JavaScript frameworks.</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://naveenjujaray.js.org/assets/images/firebase/10.jpg" /></entry><entry><title type="html">What is Gatsby JS and Why Use It?</title><link href="https://naveenjujaray.js.org/whats-gatsby" rel="alternate" type="text/html" title="What is Gatsby JS and Why Use It?" /><published>2020-07-16T06:00:00+05:30</published><updated>2020-07-16T06:00:00+05:30</updated><id>https://naveenjujaray.js.org/whats-gatsby</id><content type="html" xml:base="https://naveenjujaray.js.org/whats-gatsby">&lt;h2 id=&quot;what-is-gatsby-js&quot;&gt;What Is Gatsby JS?&lt;/h2&gt;
+&lt;p&gt;&lt;em&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;NOTE&lt;/code&gt;: ReactJS is only a frontend library and not the whole framework, which deals with the &lt;strong&gt;View&lt;/strong&gt; component of &lt;strong&gt;MVC&lt;/strong&gt; (Model – &lt;strong&gt;View&lt;/strong&gt; – Controller).&lt;/em&gt;&lt;/p&gt;</content><author><name>Naveen Jujaray</name></author><summary type="html">What Is React? Do you remember how Facebook’s UI or it’s messenger looked a few years back? During that time you had to refresh or reload the entire page for new updates or messages repeatedly. But now it’s no longer required. Today, each time there is a new update or message, a notification will pop up. Clicking on that will then automatically refresh your page and show you the latest updates. So, how exactly does this happen? Well, this is the magic of ReactJS and in this blog, I am going to discuss what is React and why you should go for it. JavaScript Frameworks Javascript is a dynamic programming language which is widely used for developing web applications. It is very lightweight and is supported by most of the modern browsers. Moreover, JavaScript supports both object-oriented programming and procedural programming. Thus, it is used for creating web pages with a client-side script to interact with the user and make the web pages dynamic and robust. JavaScript has many frameworks among which we can choose depending on our need. Below diagram shows some popular JavaScript frameworks.</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/assets/images/firebase/10.jpg" /></entry><entry><title type="html">What is Gatsby JS and Why Use It?</title><link href="http://localhost:4000/whats-gatsby" rel="alternate" type="text/html" title="What is Gatsby JS and Why Use It?" /><published>2020-07-16T06:00:00+05:30</published><updated>2020-07-16T06:00:00+05:30</updated><id>http://localhost:4000/whats-gatsby</id><content type="html" xml:base="http://localhost:4000/whats-gatsby">&lt;h2 id=&quot;what-is-gatsby-js&quot;&gt;What Is Gatsby JS?&lt;/h2&gt;
 &lt;p&gt;Welcome! In this article we are going to learn about Gatsby JS, what it is and why you would use it.&lt;/p&gt;
 
 &lt;p&gt;So let’s start with the question, &lt;code class=&quot;highlighter-rouge&quot;&gt;“What is Gatsby?”&lt;/code&gt;&lt;/p&gt;
@@ -195,7 +505,7 @@ So, we can load JavaScript into the HTML files that Gatsby serves as well as mak
   &lt;li&gt;Under the hood it uses Node, GraphQL and React&lt;/li&gt;
   &lt;li&gt;Its primary benefits are speed security and developer experience&lt;/li&gt;
   &lt;li&gt;Gatsby has a stable and growing community of developers and plug-in authors&lt;/li&gt;
-&lt;/ol&gt;</content><author><name>Naveen Jujaray</name></author><summary type="html">What Is Gatsby JS? Welcome! In this article we are going to learn about Gatsby JS, what it is and why you would use it.</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://naveenjujaray.js.org/assets/images/firebase/9.png" /></entry><entry><title type="html">Why I’m using Surge and not GitHub Pages</title><link href="https://naveenjujaray.js.org/why-surge" rel="alternate" type="text/html" title="Why I'm using Surge and not GitHub Pages" /><published>2020-07-15T09:00:00+05:30</published><updated>2020-07-15T09:00:00+05:30</updated><id>https://naveenjujaray.js.org/why-surge</id><content type="html" xml:base="https://naveenjujaray.js.org/why-surge">&lt;h2 id=&quot;whats-a-surge-exactly-&quot;&gt;what’s a “surge” exactly? 🤔&lt;/h2&gt;
+&lt;/ol&gt;</content><author><name>Naveen Jujaray</name></author><summary type="html">What Is Gatsby JS? Welcome! In this article we are going to learn about Gatsby JS, what it is and why you would use it.</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/assets/images/firebase/9.png" /></entry><entry><title type="html">Why I’m using Surge and not GitHub Pages</title><link href="http://localhost:4000/why-surge" rel="alternate" type="text/html" title="Why I'm using Surge and not GitHub Pages" /><published>2020-07-15T09:00:00+05:30</published><updated>2020-07-15T09:00:00+05:30</updated><id>http://localhost:4000/why-surge</id><content type="html" xml:base="http://localhost:4000/why-surge">&lt;h2 id=&quot;whats-a-surge-exactly-&quot;&gt;what’s a “surge” exactly? 🤔&lt;/h2&gt;
 
 &lt;p&gt;GitHub Pages is so prolific at this point it likely needs no introduction. &lt;a href=&quot;https://surge.sh/&quot;&gt;Surge&lt;/a&gt;, on the other hand, is a much lower profile project. It accomplishes the same goal as GitHub Pages, allowing one to publish their static site on an accessible URL of whatever name they choose complete with an “https.” Where surge differs is in how that website gets put on the world wide web.&lt;/p&gt;
 
@@ -238,7 +548,7 @@ So, we can load JavaScript into the HTML files that Gatsby serves as well as mak
 &lt;h2 id=&quot;okay-im-starting-to-see-it-what-are-the-limitations&quot;&gt;Okay I’m starting to see it. What are the limitations?&lt;/h2&gt;
 &lt;p&gt;So Surge was built to be really good at doing a very specific task. If you have anything more than a static site or client side application, there’s sadly not much you can do with this tool. Any fancy backend you have would need to be deployed separately, or you can use the aforementioned Zeit Now to deploy everything in one place. Now is a much more flexible tool that’s quickly gaining traction, but I’ve stayed loyal to Surge because of the routing niceties and lack of any necessary &lt;code class=&quot;highlighter-rouge&quot;&gt;config&lt;/code&gt; files.&lt;/p&gt;
 
-&lt;p&gt;Of course you should use whatever tool that works best in your workflow. But the next time you’re building v175 of your portfolio site, consider giving Surge a try 😊&lt;/p&gt;</content><author><name>Naveen Jujaray</name></author><summary type="html">what’s a “surge” exactly? 🤔</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://naveenjujaray.js.org/assets/images/firebase/9.jpeg" /></entry><entry><title type="html">Create your own blog easily with Gatsby</title><link href="https://naveenjujaray.js.org/gatsby-intro" rel="alternate" type="text/html" title="Create your own blog easily with Gatsby" /><published>2020-07-14T12:23:00+05:30</published><updated>2020-07-14T12:23:00+05:30</updated><id>https://naveenjujaray.js.org/gatsby-intro</id><content type="html" xml:base="https://naveenjujaray.js.org/gatsby-intro">&lt;p&gt;&lt;a href=&quot;https://www.gatsbyjs.org/&quot;&gt;Gatsby&lt;/a&gt; is a Static site generator. (There are so many kinds of generator like Jekyll(Ruby), Hexo(Node.js), Hugo(Go), etc.) Gatsby support PWA(Progressive Web App), Hot reloading, SSR(Server Side Rendering).&lt;/p&gt;
+&lt;p&gt;Of course you should use whatever tool that works best in your workflow. But the next time you’re building v175 of your portfolio site, consider giving Surge a try 😊&lt;/p&gt;</content><author><name>Naveen Jujaray</name></author><summary type="html">what’s a “surge” exactly? 🤔</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/assets/images/firebase/9.jpeg" /></entry><entry><title type="html">Create your own blog easily with Gatsby</title><link href="http://localhost:4000/gatsby-intro" rel="alternate" type="text/html" title="Create your own blog easily with Gatsby" /><published>2020-07-14T12:23:00+05:30</published><updated>2020-07-14T12:23:00+05:30</updated><id>http://localhost:4000/gatsby-intro</id><content type="html" xml:base="http://localhost:4000/gatsby-intro">&lt;p&gt;&lt;a href=&quot;https://www.gatsbyjs.org/&quot;&gt;Gatsby&lt;/a&gt; is a Static site generator. (There are so many kinds of generator like Jekyll(Ruby), Hexo(Node.js), Hugo(Go), etc.) Gatsby support PWA(Progressive Web App), Hot reloading, SSR(Server Side Rendering).&lt;/p&gt;
 
 &lt;p&gt;You can see more detailed in &lt;a href=&quot;https://www.gatsbyjs.org/features/&quot;&gt;this link&lt;/a&gt;.&lt;/p&gt;
 &lt;h2 id=&quot;install-gatsby-cli-and-gatsby-starter&quot;&gt;Install Gatsby CLI and Gatsby Starter&lt;/h2&gt;
@@ -456,7 +766,7 @@ $ touch src/resources/&amp;lt;&amp;lt;DIRECTORY_NAME&amp;gt;&amp;gt;/index.md&lt
     &lt;p&gt;You can build the application with npm run build.
 Then you can distribute it where you want. You can see this article on this &lt;a href=&quot;https://naveenjujaray.js.org/hosting-sites-top-5&quot;&gt;link&lt;/a&gt;.&lt;/p&gt;
   &lt;/li&gt;
-&lt;/ul&gt;</content><author><name>Naveen Jujaray</name></author><summary type="html">Gatsby is a Static site generator. (There are so many kinds of generator like Jekyll(Ruby), Hexo(Node.js), Hugo(Go), etc.) Gatsby support PWA(Progressive Web App), Hot reloading, SSR(Server Side Rendering).</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://naveenjujaray.js.org/assets/images/firebase/8.png" /></entry><entry><title type="html">Free HOSTING sites with Instructions</title><link href="https://naveenjujaray.js.org/hosting-sites-top-5" rel="alternate" type="text/html" title="Free HOSTING sites with Instructions" /><published>2020-07-14T00:00:00+05:30</published><updated>2020-07-14T00:00:00+05:30</updated><id>https://naveenjujaray.js.org/hosting</id><content type="html" xml:base="https://naveenjujaray.js.org/hosting-sites-top-5">&lt;p&gt;Getting your website deployed is probably the first thing you want to do and with these 5 sites, you can do it in just minutes.&lt;/p&gt;
+&lt;/ul&gt;</content><author><name>Naveen Jujaray</name></author><summary type="html">Gatsby is a Static site generator. (There are so many kinds of generator like Jekyll(Ruby), Hexo(Node.js), Hugo(Go), etc.) Gatsby support PWA(Progressive Web App), Hot reloading, SSR(Server Side Rendering).</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/assets/images/firebase/8.png" /></entry><entry><title type="html">Free HOSTING sites with Instructions</title><link href="http://localhost:4000/hosting-sites-top-5" rel="alternate" type="text/html" title="Free HOSTING sites with Instructions" /><published>2020-07-14T00:00:00+05:30</published><updated>2020-07-14T00:00:00+05:30</updated><id>http://localhost:4000/hosting</id><content type="html" xml:base="http://localhost:4000/hosting-sites-top-5">&lt;p&gt;Getting your website deployed is probably the first thing you want to do and with these 5 sites, you can do it in just minutes.&lt;/p&gt;
 
 &lt;ul&gt;
   &lt;li&gt;&lt;a href=&quot;https://firebase.google.com/docs/hosting&quot;&gt;Firebase hosting&lt;/a&gt;&lt;/li&gt;
@@ -545,7 +855,7 @@ for Front-End Developers.&lt;/p&gt;
 &lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;n&quot;&gt;vercel&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
 
 &lt;h2 id=&quot;conclusion&quot;&gt;Conclusion&lt;/h2&gt;
-&lt;p&gt;Deploy and hosting is fast and easy.&lt;/p&gt;</content><author><name>Naveen Jujaray</name></author><category term="featured" /><summary type="html">Getting your website deployed is probably the first thing you want to do and with these 5 sites, you can do it in just minutes.</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://naveenjujaray.js.org/assets/images/firebase/7.png" /></entry><entry><title type="html">Projects To Complete When Learning Web Development</title><link href="https://naveenjujaray.js.org/projects-challenges" rel="alternate" type="text/html" title="Projects To Complete When Learning Web Development" /><published>2020-07-13T18:41:03+05:30</published><updated>2020-07-13T18:41:03+05:30</updated><id>https://naveenjujaray.js.org/webdesign-challenges</id><content type="html" xml:base="https://naveenjujaray.js.org/projects-challenges">&lt;p&gt;If you’re intermediate beginner web developer, you have probably run into the wall. The basic tutorials are too easy now. But it’s hard to figure out what to code.&lt;/p&gt;
+&lt;p&gt;Deploy and hosting is fast and easy.&lt;/p&gt;</content><author><name>Naveen Jujaray</name></author><category term="featured" /><summary type="html">Getting your website deployed is probably the first thing you want to do and with these 5 sites, you can do it in just minutes.</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/assets/images/firebase/7.png" /></entry><entry><title type="html">Projects To Complete When Learning Web Development</title><link href="http://localhost:4000/projects-challenges" rel="alternate" type="text/html" title="Projects To Complete When Learning Web Development" /><published>2020-07-13T18:41:03+05:30</published><updated>2020-07-13T18:41:03+05:30</updated><id>http://localhost:4000/webdesign-challenges</id><content type="html" xml:base="http://localhost:4000/projects-challenges">&lt;p&gt;If you’re intermediate beginner web developer, you have probably run into the wall. The basic tutorials are too easy now. But it’s hard to figure out what to code.&lt;/p&gt;
 
 &lt;p&gt;You are probably looking for project ideas with quality design. Fortunately, there is &lt;a href=&quot;https://devchallenges.io&quot;&gt;devchallenges.io&lt;/a&gt;, completly &lt;strong&gt;free&lt;/strong&gt; website where each challenge is different and will test you different aspects of coding. It includes small user stories and beautiful designs.&lt;/p&gt;
 
@@ -560,7 +870,7 @@ for Front-End Developers.&lt;/p&gt;
 &lt;h2 id=&quot;unsplash-clone&quot;&gt;&lt;a href=&quot;https://devchallenges.io/challenges/rYyhwJAxMfES5jNQ9YsP&quot;&gt;Unsplash clone&lt;/a&gt;&lt;/h2&gt;
 &lt;p&gt;&lt;img src=&quot;/assets/images/projectchallenges/4.jpg&quot; alt=&quot;unsplashclone&quot; /&gt;&lt;/p&gt;
 &lt;h2 id=&quot;checkout-page&quot;&gt;&lt;a href=&quot;https://devchallenges.io/challenges/0J1NxxGhOUYVqihwegfO&quot;&gt;Checkout page&lt;/a&gt;&lt;/h2&gt;
-&lt;p&gt;&lt;img src=&quot;/assets/images/projectchallenges/5.jpg&quot; alt=&quot;checkoutpage&quot; /&gt;&lt;/p&gt;</content><author><name>Naveen Jujaray</name></author><summary type="html">If you’re intermediate beginner web developer, you have probably run into the wall. The basic tutorials are too easy now. But it’s hard to figure out what to code.</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://naveenjujaray.js.org/assets/images/projectchallenges/1.jpg" /></entry><entry><title type="html">Deploy a website using Firebase Hosting</title><link href="https://naveenjujaray.js.org/firebase_hosting" rel="alternate" type="text/html" title="Deploy a website using Firebase Hosting" /><published>2020-07-13T10:00:00+05:30</published><updated>2020-07-13T10:00:00+05:30</updated><id>https://naveenjujaray.js.org/firebase-hosting</id><content type="html" xml:base="https://naveenjujaray.js.org/firebase_hosting">&lt;p&gt;There’s a lot of options cheap or even free in the market to deploy our projects. One of these and my favorite is the Firebase Hosting, a service of Google.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/assets/images/projectchallenges/5.jpg&quot; alt=&quot;checkoutpage&quot; /&gt;&lt;/p&gt;</content><author><name>Naveen Jujaray</name></author><summary type="html">If you’re intermediate beginner web developer, you have probably run into the wall. The basic tutorials are too easy now. But it’s hard to figure out what to code.</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/assets/images/projectchallenges/1.jpg" /></entry><entry><title type="html">Deploy a website using Firebase Hosting</title><link href="http://localhost:4000/firebase_hosting" rel="alternate" type="text/html" title="Deploy a website using Firebase Hosting" /><published>2020-07-13T10:00:00+05:30</published><updated>2020-07-13T10:00:00+05:30</updated><id>http://localhost:4000/firebase-hosting</id><content type="html" xml:base="http://localhost:4000/firebase_hosting">&lt;p&gt;There’s a lot of options cheap or even free in the market to deploy our projects. One of these and my favorite is the Firebase Hosting, a service of Google.&lt;/p&gt;
 
 &lt;p&gt;&lt;strong&gt;Firebase&lt;/strong&gt; is a set of services of Google that provides you a &lt;strong&gt;BaaS&lt;/strong&gt; (Back-end as a service), which means you don’t have to worry about the boring part of deploy a back-end to your project. One of these services is the Firebase Hosting that you can deploy your website or web app made in HTML, Javascript, and CSS.&lt;/p&gt;
 
@@ -635,7 +945,7 @@ for Front-End Developers.&lt;/p&gt;
 
 &lt;p&gt;You can see details of the deploy in the option “Hosting” at the left menu:
 &lt;img src=&quot;/assets/images/firebase/6.png&quot; alt=&quot;no6&quot; /&gt;
-Give me feedback! :) Thanks!&lt;/p&gt;</content><author><name>Naveen Jujaray</name></author><summary type="html">There’s a lot of options cheap or even free in the market to deploy our projects. One of these and my favorite is the Firebase Hosting, a service of Google.</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://naveenjujaray.js.org/assets/images/firebase/1.jpg" /></entry><entry><title type="html">How To Create A GitHub Profile README</title><link href="https://naveenjujaray.js.org/readme_github_profile" rel="alternate" type="text/html" title="How To Create A GitHub Profile README" /><published>2020-07-12T17:00:00+05:30</published><updated>2020-07-12T17:00:00+05:30</updated><id>https://naveenjujaray.js.org/github-profile-readme</id><content type="html" xml:base="https://naveenjujaray.js.org/readme_github_profile">&lt;p&gt;GitHub recently released a feature that allows users to create a profile-level README to display prominently on their GitHub profile. This article walksthrough how to access this new feature.&lt;/p&gt;
+Give me feedback! :) Thanks!&lt;/p&gt;</content><author><name>Naveen Jujaray</name></author><summary type="html">There’s a lot of options cheap or even free in the market to deploy our projects. One of these and my favorite is the Firebase Hosting, a service of Google.</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/assets/images/firebase/1.jpg" /></entry><entry><title type="html">How To Create A GitHub Profile README</title><link href="http://localhost:4000/readme_github_profile" rel="alternate" type="text/html" title="How To Create A GitHub Profile README" /><published>2020-07-12T17:00:00+05:30</published><updated>2020-07-12T17:00:00+05:30</updated><id>http://localhost:4000/github-profile-readme</id><content type="html" xml:base="http://localhost:4000/readme_github_profile">&lt;p&gt;GitHub recently released a feature that allows users to create a profile-level README to display prominently on their GitHub profile. This article walksthrough how to access this new feature.&lt;/p&gt;
 
 &lt;h1 id=&quot;why-readmes&quot;&gt;Why READMEs?&lt;/h1&gt;
 &lt;p&gt;The GitHub profile-level README feature allows more content than the profile bio, supports markdown which means you can play around with the content more visually (Did someone say GIFs!?) and the README is significantally more visible as it is placed above pinned repositories and takes up as much space above the fold of the webpage as you like.&lt;/p&gt;
@@ -693,33 +1003,4 @@ Give me feedback! :) Thanks!&lt;/p&gt;</content><author><name>Naveen Jujaray</na
 
 &lt;p&gt;&lt;img src=&quot;/assets/images/funreadme/no4.jpg&quot; alt=&quot;no4&quot; /&gt;&lt;/p&gt;
 
-&lt;p&gt;I’ve been inspired by the creative &lt;code class=&quot;highlighter-rouge&quot;&gt;READMEs&lt;/code&gt; I’ve seen so far and am looking forward to seeing all kinds of profiles in the upcoming months.&lt;/p&gt;</content><author><name>Naveen Jujaray</name></author><summary type="html">GitHub recently released a feature that allows users to create a profile-level README to display prominently on their GitHub profile. This article walksthrough how to access this new feature.</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://naveenjujaray.js.org/assets/images/6.jpg" /></entry><entry><title type="html">Dynamically Generated Github Stats For Your Profile ReadMe</title><link href="https://naveenjujaray.js.org/dynamic_stats_for_github" rel="alternate" type="text/html" title="Dynamically Generated Github Stats For Your Profile ReadMe" /><published>2020-07-12T16:00:00+05:30</published><updated>2020-07-12T16:00:00+05:30</updated><id>https://naveenjujaray.js.org/github-stats</id><content type="html" xml:base="https://naveenjujaray.js.org/dynamic_stats_for_github">&lt;h2 id=&quot;github-readme-stats&quot;&gt;Github Readme Stats&lt;/h2&gt;
-
-&lt;p&gt;&lt;img src=&quot;https://github-readme-stats.vercel.app/api?username=naveenjujaray&quot; alt=&quot;Naveen's github stats&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;Github readme stats allows you to simply add a markdown image link and it will show you realtime stats for your github account.&lt;/p&gt;
-
-&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;o&quot;&gt;!&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;no&quot;&gt;Naveen&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;'&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;s&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;github&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;stats&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;](&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;https&lt;/span&gt;&lt;span class=&quot;ss&quot;&gt;:/&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;github&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;readme&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;stats&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;vercel&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;app&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;api?username&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;naveenjujaray&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
-
-&lt;p&gt;And the cool thing is since it’s just an image you can embed it anywhere even on Dev.to posts!&lt;/p&gt;
-
-&lt;h2 id=&quot;live-demo&quot;&gt;Live Demo:&lt;/h2&gt;
-
-&lt;p&gt;&lt;img src=&quot;assets/images/4.jpg&quot; alt=&quot;githubstats&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;Pretty neat isn’t it? Try it out right now on your profile readme too! :D&lt;/p&gt;
-
-&lt;p&gt;After seeing that people liked the &lt;code class=&quot;highlighter-rouge&quot;&gt;Github Stats Card&lt;/code&gt; idea i created &lt;code class=&quot;highlighter-rouge&quot;&gt;Github Extra Pins&lt;/code&gt;.&lt;/p&gt;
-
-&lt;h1 id=&quot;github-extra-pins&quot;&gt;Github Extra Pins&lt;/h1&gt;
-&lt;p&gt;Github extra pins allows you to pin more than 6 repositories in your profile by using github readme profile.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Yey! you are no longer limited to 6 pinned repos&lt;/strong&gt;&lt;/p&gt;
-
-&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;!&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;no&quot;&gt;Walls&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;](&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;https&lt;/span&gt;&lt;span class=&quot;ss&quot;&gt;:/&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;github&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;readme&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;stats&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;vercel&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;app&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;api&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;pin&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;?&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;username&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;naveenjujaray&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;amp;&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;repo&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;walls&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)](&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;https&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;sr&quot;&gt;//&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;github&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;com&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;naveenjujaray&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;walls&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
-
-&lt;h2 id=&quot;live-demo-1&quot;&gt;Live demo:&lt;/h2&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://github.com/naveenjujaray/walls&quot;&gt;&lt;img src=&quot;https://github-readme-stats.vercel.app/api/pin/?username=naveenjujaray&amp;amp;repo=walls&quot; alt=&quot;Walls&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;Check out the &lt;a href=&quot;https://github.com/anuraghazra/github-readme-stats#github-extra-pins&quot;&gt;docs to learn more&lt;/a&gt;&lt;/p&gt;</content><author><name>Naveen Jujaray</name></author><category term="featured" /><summary type="html">Github Readme Stats</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://camo.githubusercontent.com/2300191d93dcc42ab2faa77ab6beebc0fb1a1c5e/687474703a2f2f692e696d6775722e636f6d2f513754515948782e706e67" /></entry></feed>
+&lt;p&gt;I’ve been inspired by the creative &lt;code class=&quot;highlighter-rouge&quot;&gt;READMEs&lt;/code&gt; I’ve seen so far and am looking forward to seeing all kinds of profiles in the upcoming months.&lt;/p&gt;</content><author><name>Naveen Jujaray</name></author><summary type="html">GitHub recently released a feature that allows users to create a profile-level README to display prominently on their GitHub profile. This article walksthrough how to access this new feature.</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/assets/images/6.jpg" /></entry></feed>
