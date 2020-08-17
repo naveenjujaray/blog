@@ -1,4 +1,46 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.5">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2020-08-14T22:21:33+05:30</updated><id>http://localhost:4000/feed.xml</id><title type="html">Naveen Jujaray</title><subtitle>Blog</subtitle><entry><title type="html">🧰 50 Developer tools to make your life a little easier</title><link href="http://localhost:4000/50-things-for-developers" rel="alternate" type="text/html" title="🧰 50 Developer tools to make your life a little easier" /><published>2020-07-31T12:00:00+05:30</published><updated>2020-07-31T12:00:00+05:30</updated><id>http://localhost:4000/developerthings</id><content type="html" xml:base="http://localhost:4000/50-things-for-developers">&lt;p&gt;Fifty (plus) applications, chrome extensions, web apps, and everything in between that will hopefully come in handy at some point in your programming life. I will keep updated as new tools are discovered. Please feel free to add to the comments anything you find.&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.5">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2020-08-17T22:40:04+05:30</updated><id>http://localhost:4000/feed.xml</id><title type="html">Naveen Jujaray</title><subtitle>Blog</subtitle><entry><title type="html">Responsive Layout for Flutter Web 💻➡️🖥➡️📱➡️⌚️</title><link href="http://localhost:4000/flutterweb-responsivelayout" rel="alternate" type="text/html" title="Responsive Layout for Flutter Web 💻➡️🖥➡️📱➡️⌚️" /><published>2020-08-17T19:41:03+05:30</published><updated>2020-08-17T19:41:03+05:30</updated><id>http://localhost:4000/FirstOne</id><content type="html" xml:base="http://localhost:4000/flutterweb-responsivelayout">&lt;h1 id=&quot;responsive-builder&quot;&gt;Responsive Builder&lt;/h1&gt;
+
+&lt;p&gt;The responsive builder package contains widgets that allows you to create a readable responsive UI. The package is inspired by the Responsive UI Flutter series created by FilledStacks.&lt;/p&gt;
+
+&lt;p&gt;It aims to provide you with widgets that make it easy to build different UI’s along two different Axis. Orientation x ScreenType. This means you can have a separate layout for Mobile - Landscape, Mobile - Portrait, Tablet - Landscape and Tablet-Portrait.&lt;/p&gt;
+
+&lt;h3 id=&quot;installation&quot;&gt;Installation&lt;/h3&gt;
+&lt;p&gt;Add responsive_builder as dependency to your pubspec file&lt;/p&gt;
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;responsive_builder:
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;h3 id=&quot;usage&quot;&gt;Usage&lt;/h3&gt;
+&lt;p&gt;This package provides a widget called ResponsiveBuilder that provides you with a builder function that returns the current SizingInformation. The &lt;code class=&quot;highlighter-rouge&quot;&gt;SizingInformation&lt;/code&gt; includes the DeviceScreenType, screenSize and localWidgetSize. This can be used for fine grained responsive control from a view level down to per widget responsive level.&lt;/p&gt;
+
+&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;Responsive Builder &lt;/code&gt;
+The ResponsiveBuilder is used as any other builder widget.&lt;/p&gt;
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;// import the package
+import 'package:responsive_builder/responsive_builder.dart';
+
+// Use the widget
+ResponsiveBuilder(
+    builder: (context, sizingInformation) {
+      // Check the sizing information here and return your UI
+          if (sizingInformation.deviceScreenType == DeviceScreenType.desktop) {
+          return Container(color:Colors.blue);
+        }
+
+        if (sizingInformation.deviceScreenType == DeviceScreenType.tablet) {
+          return Container(color:Colors.red);
+        }
+
+        if (sizingInformation.deviceScreenType == DeviceScreenType.watch) {
+          return Container(color:Colors.yellow);
+        }
+
+        return Container(color:Colors.purple);
+      },
+    },
+  );
+}
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;p&gt;This will return different colour containers depending on which device it’s being shown on. A simple way to test this is to either run your code on Flutter web and resize the window or add the device_preview package and view on different devices.&lt;/p&gt;
+
+&lt;p&gt;for more check this &lt;a href=&quot;https://pub.dev/packages/responsive_builder&quot;&gt;out&lt;/a&gt;&lt;/p&gt;</content><author><name>Naveen Jujaray</name></author><summary type="html">Responsive Builder</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://flutter.dev/images/flutter-logo-sharing.png" /></entry><entry><title type="html">🧰 50 Developer tools to make your life a little easier</title><link href="http://localhost:4000/50-things-for-developers" rel="alternate" type="text/html" title="🧰 50 Developer tools to make your life a little easier" /><published>2020-07-31T12:00:00+05:30</published><updated>2020-07-31T12:00:00+05:30</updated><id>http://localhost:4000/developerthings</id><content type="html" xml:base="http://localhost:4000/50-things-for-developers">&lt;p&gt;Fifty (plus) applications, chrome extensions, web apps, and everything in between that will hopefully come in handy at some point in your programming life. I will keep updated as new tools are discovered. Please feel free to add to the comments anything you find.&lt;/p&gt;
 
 &lt;h2 id=&quot;1-whatruns&quot;&gt;1. Whatruns&lt;/h2&gt;
 &lt;p&gt;A free browser extension that helps you identify technologies used on any website at the click of a button.&lt;/p&gt;
@@ -945,62 +987,4 @@ for Front-End Developers.&lt;/p&gt;
 
 &lt;p&gt;You can see details of the deploy in the option “Hosting” at the left menu:
 &lt;img src=&quot;/assets/images/firebase/6.png&quot; alt=&quot;no6&quot; /&gt;
-Give me feedback! :) Thanks!&lt;/p&gt;</content><author><name>Naveen Jujaray</name></author><summary type="html">There’s a lot of options cheap or even free in the market to deploy our projects. One of these and my favorite is the Firebase Hosting, a service of Google.</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/assets/images/firebase/1.jpg" /></entry><entry><title type="html">How To Create A GitHub Profile README</title><link href="http://localhost:4000/readme_github_profile" rel="alternate" type="text/html" title="How To Create A GitHub Profile README" /><published>2020-07-12T17:00:00+05:30</published><updated>2020-07-12T17:00:00+05:30</updated><id>http://localhost:4000/github-profile-readme</id><content type="html" xml:base="http://localhost:4000/readme_github_profile">&lt;p&gt;GitHub recently released a feature that allows users to create a profile-level README to display prominently on their GitHub profile. This article walksthrough how to access this new feature.&lt;/p&gt;
-
-&lt;h1 id=&quot;why-readmes&quot;&gt;Why READMEs?&lt;/h1&gt;
-&lt;p&gt;The GitHub profile-level README feature allows more content than the profile bio, supports markdown which means you can play around with the content more visually (Did someone say GIFs!?) and the README is significantally more visible as it is placed above pinned repositories and takes up as much space above the fold of the webpage as you like.&lt;/p&gt;
-
-&lt;p&gt;A solid README is a core-component of well-documented software and often encourages collaboration by sharing helpful context with contributors. In my opinion, a profile-level README seems like a great extension of a convention a lot of GitHub users are already familiar with. If you’re looking to make project-level READMEs more awesome and helpful check out &lt;a href=&quot;https://github.com/matiassingers/awesome-readme&quot;&gt;matiassingers/awesome-readme&lt;/a&gt; for resources and examples of compelling READMEs.&lt;/p&gt;
-
-&lt;h1 id=&quot;how-do-i-create-a-profile-readme&quot;&gt;How do I create a profile README?&lt;/h1&gt;
-&lt;p&gt;The profile &lt;code class=&quot;highlighter-rouge&quot;&gt;README&lt;/code&gt; is created by creating a new repository that’s the same name as your username. For example, my GitHub username is m0nica so I created a new repository with the name naveenjujaray. Note: at the time of this writing, in order to access the profile README feature, the letter-casing must match your GitHub username.&lt;/p&gt;
-
-&lt;p&gt;If you already have a project in a repo-named username/username and are interested in setting up a profile-level README, then I recommend either &lt;a href=&quot;https://docs.github.com/en/github/administering-a-repository/renaming-a-repository&quot;&gt;re-naming that repository&lt;/a&gt; or re-purposing the existing project’s README based on what makes the most sense in your particular situation.&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;
-    &lt;p&gt;Create a new repository with the same name (including casing) as your GitHub username: https://github.com/new&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;Create a README.md file inside the new repo with content (text, GIFs, images, emojis, etc.)&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;Commit your fancy new README!&lt;/p&gt;
-
-    &lt;ul&gt;
-      &lt;li&gt;If you’re on GitHub’s web interface you can choose to commit directly to the repo’s main branch (i.e., master or main) which will make it immediately visible on your profile.&lt;/li&gt;
-      &lt;li&gt;&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;Push changes to GitHub (if you made changes locally i.e., on your computer and not github.com)&lt;/p&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;img src=&quot;/assets/images/5.jpg&quot; alt=&quot;new-repository&quot; /&gt;&lt;/p&gt;
-
-&lt;h1 id=&quot;fun-readmes&quot;&gt;Fun READMEs&lt;/h1&gt;
-&lt;p&gt;The &lt;code class=&quot;highlighter-rouge&quot;&gt;GitHub README&lt;/code&gt; profiles are written in Markdown which means you aren’t just limited to texts and links, you can include GIFs and images. Need to brush up on Markdown Syntax? &lt;a href=&quot;https://guides.github.com/pdfs/markdown-cheatsheet-online.pdf&quot;&gt;Check out this Markdown Cheatsheet&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/assets/images/funreadme/no1.jpg&quot; alt=&quot;no1&quot; /&gt;&lt;/p&gt;
-
-&lt;blockquote class=&quot;twitter-tweet&quot;&gt;&lt;p lang=&quot;en&quot; dir=&quot;ltr&quot;&gt;When you&amp;#39;re not a designer so you try code something cool for your &lt;a href=&quot;https://twitter.com/github?ref_src=twsrc%5Etfw&quot;&gt;@github&lt;/a&gt; profile intro. &lt;br /&gt;&lt;br /&gt;Code -&amp;gt; MP4 -&amp;gt; GIF&lt;a href=&quot;https://twitter.com/hashtag/Github?src=hash&amp;amp;ref_src=twsrc%5Etfw&quot;&gt;#Github&lt;/a&gt; &lt;a href=&quot;https://twitter.com/hashtag/JavaScript?src=hash&amp;amp;ref_src=twsrc%5Etfw&quot;&gt;#JavaScript&lt;/a&gt; &lt;a href=&quot;https://t.co/gQEQH3l0DG&quot;&gt;pic.twitter.com/gQEQH3l0DG&lt;/a&gt;&lt;/p&gt;&amp;mdash; Cyris ⭐️ (@sudo_overflow) &lt;a href=&quot;https://twitter.com/sudo_overflow/status/1281146411736694784?ref_src=twsrc%5Etfw&quot;&gt;July 9, 2020&lt;/a&gt;&lt;/blockquote&gt;
-&lt;script async=&quot;&quot; src=&quot;https://platform.twitter.com/widgets.js&quot; charset=&quot;utf-8&quot;&gt;&lt;/script&gt;
-
-&lt;blockquote class=&quot;twitter-tweet&quot;&gt;&lt;p lang=&quot;en&quot; dir=&quot;ltr&quot;&gt;Is this how we suppose use github&amp;#39;s readme? &lt;a href=&quot;https://t.co/XvLvCUC6iD&quot;&gt;pic.twitter.com/XvLvCUC6iD&lt;/a&gt;&lt;/p&gt;&amp;mdash; Pouya (@Saadeghi) &lt;a href=&quot;https://twitter.com/Saadeghi/status/1281111778290786310?ref_src=twsrc%5Etfw&quot;&gt;July 9, 2020&lt;/a&gt;&lt;/blockquote&gt;
-&lt;script async=&quot;&quot; src=&quot;https://platform.twitter.com/widgets.js&quot; charset=&quot;utf-8&quot;&gt;&lt;/script&gt;
-
-&lt;p&gt;If you’re really ambitious you can use &lt;a href=&quot;https://github.com/features/actions&quot;&gt;GitHub actions&lt;/a&gt; or other automation like bdougieYO or simonw to dynamically pull data into your &lt;code class=&quot;highlighter-rouge&quot;&gt;README&lt;/code&gt;:&lt;/p&gt;
-
-&lt;blockquote class=&quot;twitter-tweet&quot;&gt;&lt;p lang=&quot;en&quot; dir=&quot;ltr&quot;&gt;Check it out. I made MySpace but on &lt;a href=&quot;https://twitter.com/github?ref_src=twsrc%5Etfw&quot;&gt;@github&lt;/a&gt;.&lt;a href=&quot;https://t.co/p4DWP4DxRR&quot;&gt;https://t.co/p4DWP4DxRR&lt;/a&gt; - My list is power by a GitHub Action workflow 😏 &lt;a href=&quot;https://t.co/PN80mFCqOE&quot;&gt;pic.twitter.com/PN80mFCqOE&lt;/a&gt;&lt;/p&gt;&amp;mdash; Brian Douglas (@bdougieYO) &lt;a href=&quot;https://twitter.com/bdougieYO/status/1281699715466199040?ref_src=twsrc%5Etfw&quot;&gt;July 10, 2020&lt;/a&gt;&lt;/blockquote&gt;
-&lt;script async=&quot;&quot; src=&quot;https://platform.twitter.com/widgets.js&quot; charset=&quot;utf-8&quot;&gt;&lt;/script&gt;
-
-&lt;p&gt;&lt;img src=&quot;/assets/images/funreadme/no2.jfif&quot; alt=&quot;no2&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;I’m a huge proponent that folks should maintain a website they have complete ownership over (even if it’s a no-code website solution) but this is tempting…&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/assets/images/funreadme/no3.jfif&quot; alt=&quot;no3&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/assets/images/funreadme/no4.jpg&quot; alt=&quot;no4&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;I’ve been inspired by the creative &lt;code class=&quot;highlighter-rouge&quot;&gt;READMEs&lt;/code&gt; I’ve seen so far and am looking forward to seeing all kinds of profiles in the upcoming months.&lt;/p&gt;</content><author><name>Naveen Jujaray</name></author><summary type="html">GitHub recently released a feature that allows users to create a profile-level README to display prominently on their GitHub profile. This article walksthrough how to access this new feature.</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/assets/images/6.jpg" /></entry></feed>
+Give me feedback! :) Thanks!&lt;/p&gt;</content><author><name>Naveen Jujaray</name></author><summary type="html">There’s a lot of options cheap or even free in the market to deploy our projects. One of these and my favorite is the Firebase Hosting, a service of Google.</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/assets/images/firebase/1.jpg" /></entry></feed>
