@@ -18,24 +18,24 @@
     <title>Naveen Jujaray</title>
 
     <!-- Begin Jekyll SEO tag v2.5.0 -->
-<title>Flutter for Web | Naveen Jujaray</title>
+<title>Adaptive Theme on Flutter | Naveen Jujaray</title>
 <meta name="generator" content="Jekyll v3.8.5" />
-<meta property="og:title" content="Flutter for Web" />
+<meta property="og:title" content="Adaptive Theme on Flutter" />
 <meta name="author" content="Naveen Jujaray" />
 <meta property="og:locale" content="en_US" />
-<meta name="description" content="What is Flutter Web?" />
-<meta property="og:description" content="What is Flutter Web?" />
-<link rel="canonical" href="http://localhost:4000/flutter-web-install" />
-<meta property="og:url" content="http://localhost:4000/flutter-web-install" />
+<meta name="description" content="Adaptive Theme on Flutter" />
+<meta property="og:description" content="Adaptive Theme on Flutter" />
+<link rel="canonical" href="http://localhost:4000/flutter-adaptive-theme" />
+<meta property="og:url" content="http://localhost:4000/flutter-adaptive-theme" />
 <meta property="og:site_name" content="Naveen Jujaray" />
-<meta property="og:image" content="https://flutter.dev/images/Dart-framework-v-browser-framework.png" />
+<meta property="og:image" content="http://localhost:4000/assets/images/funreadme/adaptive_theme.png" />
 <meta property="og:type" content="article" />
-<meta property="article:published_time" content="2020-07-20T06:00:00+05:30" />
+<meta property="article:published_time" content="2020-09-01T09:41:03+05:30" />
 <meta name="twitter:card" content="summary_large_image" />
 <meta name="twitter:site" content="@" />
 <meta name="twitter:creator" content="@Naveen Jujaray" />
 <script type="application/ld+json">
-{"publisher":{"@type":"Organization","logo":{"@type":"ImageObject","url":"http://localhost:4000/assets/images/iconk.png"},"name":"Naveen Jujaray"},"headline":"Flutter for Web","dateModified":"2020-07-20T06:00:00+05:30","datePublished":"2020-07-20T06:00:00+05:30","author":{"@type":"Person","name":"Naveen Jujaray"},"mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost:4000/flutter-web-install"},"description":"What is Flutter Web?","url":"http://localhost:4000/flutter-web-install","@type":"BlogPosting","image":"https://flutter.dev/images/Dart-framework-v-browser-framework.png","@context":"http://schema.org"}</script>
+{"publisher":{"@type":"Organization","logo":{"@type":"ImageObject","url":"http://localhost:4000/assets/images/iconk.png"},"name":"Naveen Jujaray"},"headline":"Adaptive Theme on Flutter","dateModified":"2020-09-01T09:41:03+05:30","datePublished":"2020-09-01T09:41:03+05:30","author":{"@type":"Person","name":"Naveen Jujaray"},"mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost:4000/flutter-adaptive-theme"},"description":"Adaptive Theme on Flutter","url":"http://localhost:4000/flutter-adaptive-theme","@type":"BlogPosting","image":"http://localhost:4000/assets/images/funreadme/adaptive_theme.png","@context":"http://schema.org"}</script>
 <!-- End Jekyll SEO tag -->
 
 
@@ -322,17 +322,19 @@ function lunr_search(term) {
 					<p class="text-uppercase font-weight-bold">
                         <span class="catlist">
 						
-                          <a class="sscroll text-danger" href="/categories.html#web development">web development</a><span class="sep">, </span>
+                          <a class="sscroll text-danger" href="/categories.html#flutter">flutter</a><span class="sep">, </span>
+                        
+                          <a class="sscroll text-danger" href="/categories.html#dart">dart</a><span class="sep">, </span>
                         
                         </span>
 					</p>
-					<h1 class="display-4 mb-4 article-headline">Flutter for Web</h1>
+					<h1 class="display-4 mb-4 article-headline">Adaptive Theme on Flutter</h1>
 					<div class="d-flex align-items-center">
                        
 						<small class="ml-3"><span class="p-author h-card" itemprop="name">Naveen Jujaray</span>
 							&nbsp; &nbsp;
 							<span><a target="_blank" href="https://dev.to/naveenjujaray" class="btn btn-outline-success btn-sm btn-round ml-1">Follow</a></span>
-                            <span class="text-muted d-block mt-1">Jul 20, 2020 · <span class="reading-time">
+                            <span class="text-muted d-block mt-1">Sep 01, 2020 · <span class="reading-time">
   
   
     2 mins read
@@ -344,7 +346,7 @@ function lunr_search(term) {
 				</div>
                 
 				<div class="col-md-6 pr-0 align-self-center">
-					<img class="rounded" src="https://flutter.dev/images/Dart-framework-v-browser-framework.png" alt="Flutter for Web">
+					<img class="rounded" src="/assets/images/funreadme/adaptive_theme.png" alt="Adaptive Theme on Flutter">
 				</div>
                 
 			</div>
@@ -389,64 +391,90 @@ function lunr_search(term) {
             
             <!-- Article -->
 			<article class="article-post">                
-			<h2 id="what-is-flutter-web">What is Flutter Web?</h2>
+			<h1 id="adaptive-theme-on-flutter">Adaptive Theme on Flutter</h1>
 
-<p>A connected <code class="highlighter-rouge">P</code>rogressive <code class="highlighter-rouge">W</code>eb <code class="highlighter-rouge">A</code>pplication built with Flutter</p>
+<p>Easiest way to add support for light and dark theme in your flutter app. It allows to manually set light or dark theme and also lets you define themes based on the system (Works for Android only for now). It also persists the theme modes changes across app restarts.</p>
 
-<p><code class="highlighter-rouge">Web</code> support for <code class="highlighter-rouge">Flutter</code> enables existing mobile-based applications to be packaged as a <code class="highlighter-rouge">PWA</code> for reach to a broader variety of devices, or to provide a companion <code class="highlighter-rouge">web</code> experience to an existing app.</p>
+<h3 id="installation">Installation</h3>
+<p>add following dependency to your <code class="highlighter-rouge">pubspec.yaml</code></p>
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>dependencies:
+  adaptive_theme: ^1.0.0
+</code></pre></div></div>
+<h3 id="usage">Usage</h3>
+<p>You need to wrap your <code class="highlighter-rouge">MaterialApp</code> with <code class="highlighter-rouge">AdaptiveTheme</code> in order to apply themes</p>
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>import 'package:adaptive_theme/adaptive_theme.dart';
+import 'package:flutter/material.dart';
 
-<p>In addition to mobile apps, Flutter supports the generation of web content rendered using standards-based web technologies: HTML, CSS and JavaScript. With web support, you can compile existing Flutter code written in Dart into a client experience that can be embedded in the browser and deployed to any web server. You can use all the features of Flutter, and you don’t need a browser plug-in.</p>
+void main() {
+  runApp(MyApp());
+}
 
-<p><strong>Flutter Solves The Backend &amp; Frontend Problem</strong></p>
+class MyApp extends StatelessWidget {
 
-<p>Flutter’s <code class="highlighter-rouge">reactive</code> framework brushes aside the need to get references to the widgets. On the other hand, it facilitates a single language to structure backend. That’s why Flutter is the <code class="highlighter-rouge">best</code> app development <code class="highlighter-rouge">framework</code> in the <code class="highlighter-rouge">21st century</code> to be used by <code class="highlighter-rouge">Android developers</code>.</p>
+  @override
+  Widget build(BuildContext context) {
+    return AdaptiveTheme(
+      light: ThemeData(
+        brightness: Brightness.light,
+        primarySwatch: Colors.red,
+        accentColor: Colors.amber,
+      ),
+      dark: ThemeData(
+        brightness: Brightness.dark,
+        primarySwatch: Colors.red,
+        accentColor: Colors.amber,
+      ),
+      initial: AdaptiveThemeMode.light,
+      builder: (theme, darkTheme) =&gt; MaterialApp(
+        title: 'Adaptive Theme Demo',
+        theme: theme,
+        darkTheme: darkTheme,
+        home: MyHomePage(),
+      ),
+    );
+  }
+}
+</code></pre></div></div>
+<h3 id="changing-theme-mode">Changing Theme Mode</h3>
+<p>Now that you have initialized your app as mentioned above. It’s very easy and straight forward to change your theme modes: <strong>light to dark, dark to light or to system default.</strong></p>
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>// sets theme mode to dark
+AdaptiveTheme.of(context).setDark();
 
-<h2 id="how-to-activate-flutter-web-">How to activate Flutter Web ?</h2>
-<p><code class="highlighter-rouge">if you want to install flutter check this</code> <a href="https://naveenjujaray.js.org/flutterinstall">article</a>.</p>
+// sets theme mode to light
+AdaptiveTheme.of(context).setLight();
 
-<p>Run the following commands to use the latest version of the Flutter SDK from the beta channel and enable web support:</p>
+// sets theme mode to system default
+AdaptiveTheme.of(context).setSystem();
+</code></pre></div></div>
+<h3 id="ceveats">Ceveats</h3>
+<p>Non-Persist theme changes</p>
+<blockquote>
+  <p>This is only useful in scenarios where you load your themes dynamically from network in the splash screen or some initial screens of the app. Please note that AdaptiveTheme does not persist the themes, it only persists the theme modes(light/dark/system). Any changes made to the provided themes won’t be persisted and you will have to do the same changes at the time of the initialization if you want them to apply every time app is opened. e.g changing the accent color.</p>
+</blockquote>
 
-<figure class="highlight"><pre><code class="language-ruby" data-lang="ruby"> <span class="err">$</span> <span class="n">flutter</span> <span class="n">channel</span> <span class="n">beta</span>
- <span class="err">$</span> <span class="n">flutter</span> <span class="n">upgrade</span>
- <span class="err">$</span> <span class="n">flutter</span> <span class="n">config</span> <span class="o">--</span><span class="n">enable</span><span class="o">-</span><span class="n">web</span></code></pre></figure>
+<p>Using SharedPreferences</p>
 
-<p>Once web is enabled, the <code class="highlighter-rouge">flutter devices</code> command outputs a <code class="highlighter-rouge">Chrome</code> device that opens the Chrome browser with your app running, and a Web Server that provides the URL serving the app.</p>
+<blockquote>
+  <p>This package uses sharedpreferences plugin internally to persist theme mode changes. If your app uses sharedpreferences which might be the case all the time, clearing your sharedpreferences at the time of logging out or signing out might clear these preferences too. Be careful not to clear these preferences if you want it to be persisted.</p>
+  <div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>AdaptiveTheme.prefKey
+</code></pre></div>  </div>
+  <p>You can use above key to exclude it while clearing the all the preferences.</p>
+</blockquote>
 
-<figure class="highlight"><pre><code class="language-ruby" data-lang="ruby"> <span class="n">flutter</span> <span class="n">devices</span>
-<span class="mi">2</span> <span class="n">connected</span> <span class="ss">device:
+<p>Or you can call <code class="highlighter-rouge">AdaptiveTheme.persist()</code> method after clearing the preferences to make it persistable again as shown below.</p>
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>final prefs = await SharedPreferences.getInstance();
+await pref.clear();
+AdaptiveTheme.persist();
+</code></pre></div></div>
+<p>for live example of <code class="highlighter-rouge">adaptive_theme</code> : <a href="https://developerfolio.web.app">click here</a></p>
 
-</span><span class="no">Web</span> <span class="no">Server</span> <span class="err">•</span> <span class="n">web</span><span class="o">-</span><span class="n">server</span> <span class="err">•</span> <span class="n">web</span><span class="o">-</span><span class="n">javascript</span> <span class="err">•</span> <span class="no">Flutter</span> <span class="no">Tools</span>
-<span class="no">Chrome</span>     <span class="err">•</span> <span class="n">chrome</span>     <span class="err">•</span> <span class="n">web</span><span class="o">-</span><span class="n">javascript</span> <span class="err">•</span> <span class="no">Google</span> <span class="no">Chrome</span> <span class="mf">81.0</span><span class="o">.</span><span class="mf">4044.129</span></code></pre></figure>
-
-<h2 id="create-and-run">Create and run</h2>
-<p>To create a new app that includes web support (in addition to mobile support), run the following commands, substituting <code class="highlighter-rouge">myapp</code> with the name of your project:</p>
-
-<figure class="highlight"><pre><code class="language-ruby" data-lang="ruby"> <span class="err">$</span> <span class="n">flutter</span> <span class="n">create</span> <span class="n">myapp</span>
- <span class="err">$</span> <span class="n">cd</span> <span class="n">myapp</span></code></pre></figure>
-
-<p>To serve your app from <code class="highlighter-rouge">localhost</code> in Chrome, enter the following from the top of the package:</p>
-
-<figure class="highlight"><pre><code class="language-ruby" data-lang="ruby"><span class="err">$</span>  <span class="n">flutter</span> <span class="n">run</span> <span class="o">-</span><span class="n">d</span> <span class="n">chrome</span></code></pre></figure>
-
-<p>A release build uses <code class="highlighter-rouge">dart2js</code> (instead of the <code class="highlighter-rouge">development compiler</code>) to produce a single JavaScript file <code class="highlighter-rouge">main.dart.js</code>. You can create a release build using release mode (<code class="highlighter-rouge">flutter run --release</code>) or by using <code class="highlighter-rouge">flutter build web</code>. This populates a <code class="highlighter-rouge">build/web</code> directory with built files, including an assets directory, which need to be served together.</p>
-
-<h2 id="add-web-support-to-an-existing-app">Add web support to an existing app</h2>
-<p>To add web support to an existing project, run the following command in a terminal from the root project directory:</p>
-
-<figure class="highlight"><pre><code class="language-ruby" data-lang="ruby"><span class="err">$</span>  <span class="n">flutter</span> <span class="n">create</span> <span class="o">.</span></code></pre></figure>
-
-<h2 id="hosting">Hosting</h2>
-
-<p>Check out this <a href="https://naveenjujaray.js.org/hosting-sites-top-5">page</a> to know more about hosting Flutter Web.</p>
-
+<p>for more check this <a href="https://pub.dev/packages/adaptive_theme">out</a></p>
                 
 			</article>
 			
 			<!-- Tags -->
 			<div class="mb-4">
 				<span class="taglist">
-				
-				  <a class="sscroll btn btn-light btn-sm font-weight-bold" href="/tags.html#featured">featured</a>
 				
 				</span>
 			</div>
@@ -487,13 +515,9 @@ function lunr_search(term) {
         <div class="row prevnextlinks small font-weight-bold">
           
             <div class="col-md-6 rightborder pl-0">
-                <a class="text-dark" href="/reactjsintro"> <img height="30px" class="mr-1" src="/assets/images/firebase/10.jpg">  The Magic Of Interactive UI With React</a>
+                <a class="text-dark" href="/flutterweb-responsivelayout"> <img height="30px" class="mr-1" src="/https://flutter.dev/images/flutter-logo-sharing.png">  Responsive Layout for Flutter Web 💻➡️🖥➡️📱➡️⌚️</a>
             </div>
           
-          
-            <div class="col-md-6 text-right pr-0">
-                <a class="text-dark" href="/50-things-for-developers"> 🧰 50 Developer tools to make your life a little easier  <img height="30px" class="ml-1" src="/assets/images/projectchallenges/50things.jpeg"> </a>
-            </div>
           
         </div>
     </div>
