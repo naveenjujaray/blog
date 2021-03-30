@@ -18,4 +18,4 @@ group :jekyll_plugins do
     gem 'jekyll-paginate'
     gem 'jekyll-seo-tag'
 end
-gem 'kramdown', '~> 1.17'
+gem 'kramdown', '~> 2.3'
