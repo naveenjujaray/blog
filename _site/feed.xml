@@ -1,15 +1,166 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.5">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2020-09-01T11:31:17+05:30</updated><id>http://localhost:4000/feed.xml</id><title type="html">Naveen Jujaray</title><subtitle>Blog</subtitle><entry><title type="html">Adaptive Theme on Flutter</title><link href="http://localhost:4000/flutter-adaptive-theme" rel="alternate" type="text/html" title="Adaptive Theme on Flutter" /><published>2020-09-01T09:41:03+05:30</published><updated>2020-09-01T09:41:03+05:30</updated><id>http://localhost:4000/adaptivetheme</id><content type="html" xml:base="http://localhost:4000/flutter-adaptive-theme">&lt;h1 id=&quot;adaptive-theme-on-flutter&quot;&gt;Adaptive Theme on Flutter&lt;/h1&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2021-05-13T22:20:08+05:30</updated><id>http://localhost:4000/feed.xml</id><title type="html">Naveen Jujaray</title><subtitle>Blog</subtitle><entry><title type="html">Tailwind Css ????</title><link href="http://localhost:4000/tailwindcsswhat" rel="alternate" type="text/html" title="Tailwind Css ????" /><published>2021-05-13T19:41:03+05:30</published><updated>2021-05-13T19:41:03+05:30</updated><id>http://localhost:4000/TailwindcssIntro</id><content type="html" xml:base="http://localhost:4000/tailwindcsswhat">&lt;h1 id=&quot;introduction&quot;&gt;Introduction&lt;/h1&gt;
+
+&lt;p&gt;Hello there, Welcome back to this blog, today we are going to be looking at how we can get started with TailwindCSS, an open-source CSS framework.&lt;/p&gt;
+
+&lt;p&gt;CSS has been perceived to be hard to master and therefore many open-source tools have sprung up such as Bootstrap, Bulma, and the rest, all aimed at minimizing the time and effort it takes to write CSS. In this article, we would be looking at TailwindCSS another amazing CSS framework aimed at bringing that 80/20 to reality.&lt;/p&gt;
+
+&lt;h3 id=&quot;requirements&quot;&gt;Requirements&lt;/h3&gt;
+&lt;p&gt;This tutorial is aimed at beginners wanting to get started in a CSS framework and must have the knowledge of the following:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Basic CSS.&lt;/li&gt;
+  &lt;li&gt;Basic HTML.&lt;/li&gt;
+  &lt;li&gt;Basic command-line knowledge
+    &lt;h3 id=&quot;what-is-tailwindcss&quot;&gt;What is TailwindCSS?&lt;/h3&gt;
+    &lt;p&gt;TailwindCSS is a utility-first CSS framework packed with classes like &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;flex, pt-4, text-center,&lt;/code&gt; and &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;rotate-90&lt;/code&gt; that can be composed to build any design, directly in your markup.&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Utility classes help you work within the constraints of a system instead of littering your stylesheets with arbitrary values. They make it easy to be consistent with color choices, spacing, typography, shadows, and everything else that makes up a well-engineered design system.&lt;/p&gt;
+
+&lt;p&gt;Unlike Bootstrap where classes have been declared for you to use giving zero control over your CSS, making everyone who uses Bootstrap website look alike. But with TailwindCSS, you have only be provided with the utility classes and it is left to you to know what to use them for giving control over your CSS. TailwindCSS classes are easily understood by anyone even a beginner in CSS. &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Example: bg-orange-100,&lt;/code&gt; this simply means &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;background: orange;&lt;/code&gt; the 100 stands for the density you need on the color, and with TailwindCSS you are given from 100-900 for you to choose from.&lt;/p&gt;
+&lt;h3 id=&quot;why-tailwindcss&quot;&gt;Why TailwindCSS?&lt;/h3&gt;
+&lt;p&gt;This may be a question from a total beginner or an experienced CSS framework user. Well, I asked that same question myself. Tailwind gives the freedom to make customization, use utility classes and it is very low level and basic for anyone wishing to start using the CSS framework. A total beginner in CSS can pick this up and get familiar with it in an hour or 2. Some reasons why you should choose TailwindCSS:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Easy to understand CSS class name.&lt;/li&gt;
+  &lt;li&gt;Memorable class name.&lt;/li&gt;
+  &lt;li&gt;Beginner friendly.&lt;/li&gt;
+  &lt;li&gt;No rules on how you use class names.&lt;/li&gt;
+  &lt;li&gt;Totally customizable - You don’t need SASS or LESS to overwrite styles.&lt;/li&gt;
+  &lt;li&gt;Utility-first classes. With Tailwind you can build a fully functional website frontend without ever leaving your HTML.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;tailwindcss-classes-and-output&quot;&gt;TailwindCSS classes and Output&lt;/h3&gt;
+&lt;p&gt;Below is a simple example of how Tailwind utility classes work&lt;/p&gt;
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&amp;lt;div class=&quot; bg-indigo-500 text-white px-4 py-4&quot;&amp;gt;
+&amp;lt;h1&amp;gt; Hello &amp;lt;/h1&amp;gt;
+&amp;lt;/div&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;p&gt;Output:
+&lt;img src=&quot;https://cdn.hashnode.com/res/hashnode/image/upload/v1610015533413/zIy3IJogP.png?auto=compress&quot; alt=&quot;img&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Let’s deduce the above, First, we created a div giving it a Tailwind class of:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;bg-indigo-500:&lt;/code&gt; A background color of indigo with a density of 500.&lt;/li&gt;
+  &lt;li&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;text-white:&lt;/code&gt; All text in this div should be white in color.&lt;/li&gt;
+  &lt;li&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;px-4:&lt;/code&gt; Give the div padding 4 on the x-axis which is left and right.&lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;py-4:&lt;/code&gt; Give the div padding 4 on the y-axis which is top and bottom. From the output above we can tell that the classes worked!.
+Basic Utility classes and their meaning.
+We would go over some utility classes in this section and their meaning but bear in mind, this is simple and can be taken as you are writing your own CSS only that you are doing it in your HTML file. Let dive in.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;bg-red-100:&lt;/code&gt; A background of red with a density of 100, you can choose from 100-900.&lt;/li&gt;
+  &lt;li&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;mt, mb, mr, ml:&lt;/code&gt; Simply means margin-top, margin-bottom, margin-right, margin-left. You can therefore use mx and my to get the x-axis(left and right) and the y-axis(top and bottom).
+pt, pb, pr, pl: Simply means padding-top, padding-bottom, padding-right, padding-left. You can also use px and py to get the x-axis(left and right) and the y-axis(top and bottom).&lt;/li&gt;
+  &lt;li&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;text-orange-200:&lt;/code&gt; A text with the color of orange with a density of 200.&lt;/li&gt;
+  &lt;li&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;b-gradient-to-r from-pink-200 to-red-500:&lt;/code&gt; This gradient in CSS, coming from the left to right having the color pink at the left then transforming to red at the right.&lt;/li&gt;
+  &lt;li&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;text-center-&lt;/code&gt; This is the same as writing text-align: center;.&lt;/li&gt;
+  &lt;li&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;font-bold&lt;/code&gt; - The same as writing font-weight: bold;.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;With TailwindCSS classes as you can see up there, they are very and very basic. It is also similar to CSS properties names. You can always look at the documentation to get the name of any class you feel your CSS needs.&lt;/p&gt;
+
+&lt;p&gt;Another Tailwind example:&lt;/p&gt;
+
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&amp;lt;div class=&quot;bg-gradient-to-r from-yellow-400 via-red-500 to-pink-500 p-10 text-white font-bold text-lg text-center&quot;&amp;gt;
+Hello there! My name is Naveen Jujaay and we are learning TailwindCSS &amp;lt;/div&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;After this example, I think I laughed hard trying to recollect the number of lines I would have written in CSS, but I just spun this of with Tailwind, without leaving my HTML.&lt;/p&gt;
+
+&lt;h3 id=&quot;installation-guide&quot;&gt;Installation guide.&lt;/h3&gt;
+&lt;p&gt;Now that we have seen how amazing Tailwind can be, let look at how we can use it in our project by installing it in our local machine. According to the documentation, there are two ways of installing TailwindCSS.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Installation via npm&lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Using it via CDN - This comes with a lot of limitations.
+In this section, we shall be setting up our environment to be able to use Tailwind, follow along, let explore this sweet framework.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;First things first, Open up your preferred Code editor, I use Visual studio code. Make sure you are connected to the internet, as npm would need the internet to install Tailwind. Done? Good.
+Now name a folder you would love to use to practice this installation, any name at all. Now open it in your code editor.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Let create a package.json file to manage our dependencies which in this case is our Tailwind we want to install.&lt;/p&gt;
+
+&lt;p&gt;Open your terminal in your code editor with your folder opened.&lt;/p&gt;
+
+&lt;p&gt;Type:   &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;npm init -y&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;Done? Good. We are getting there.&lt;/p&gt;
+
+&lt;p&gt;We are going to learn how to structure our folders. Create a folder named “src”, and in the folder create a CSS file. This would be used to import our tailwind base, components, and utilities styles.&lt;/p&gt;
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;/* in your src/style.css  paste the tailwind directives */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;p&gt;We are getting there. And you are doing fine, am proud of you.&lt;/p&gt;
+
+&lt;p&gt;Second step, let create a folder name it anything but am calling mine “public”, in this folder create the HTML file we would write the markup in and the CSS file where we shall build our src file into.
+Your structure should like this:
+~&lt;a href=&quot;https://cdn.hashnode.com/res/hashnode/image/upload/v1610018936482/HBZjUt-gE.png?auto=compress&quot;&gt;imgh&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;We are ready to install Tailwind, our folder is set!
+Now open the terminal and type:&lt;/p&gt;
+
+&lt;p&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;npm install tailwindcss@latest autoprefixer@latest&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;Since Tailwind does not automatically add vendor prefixes to the CSS it generates, we recommend installing autoprefixer to handle this for you as we’ve shown in the snippet above.&lt;/p&gt;
+
+&lt;p&gt;Now to check if Tailwind is truly installed. Check your &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;package.json&lt;/code&gt; file and you see something like this:&lt;/p&gt;
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&quot;keywords&quot;: [],
+  &quot;author&quot;: &quot;&quot;,
+  &quot;license&quot;: &quot;ISC&quot;,
+  &quot;dependencies&quot;: {
+    &quot;autoprefixer&quot;: &quot;^10.1.0&quot;,
+    &quot;tailwindcss&quot;: &quot;^2.0.2&quot;
+  }
+}
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;p&gt;Indicating that the dependencies and their versions. Did it work? Good. You are killing it. And a file named &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;package.lock.json&lt;/code&gt; and the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;node_modules&lt;/code&gt; folder, would be present. Like this:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://cdn.hashnode.com/res/hashnode/image/upload/v1610019621121/lCgfsClhw.png?auto=compress&quot; alt=&quot;imgg&quot; /&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Last step: Now let build Tailwind and export the classes to our style sheet ready for us to use. Open your package.json locate the scripts key and let edit to this:&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&quot;scripts&quot;: {
+  &quot;build:css&quot;: &quot;tailwind build src/style.css -o public/style.css&quot;
+}
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;p&gt;From the above, we are asking tailwind to &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;&quot;build or export&quot;&lt;/code&gt; it styles &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;( base, components, utilities)&lt;/code&gt; stored in the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;src/style.css&lt;/code&gt; and export to our own style sheet in the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;public/style.css&lt;/code&gt;
+Now open your terminal and run:&lt;/p&gt;
+
+&lt;p&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;npm run build:css.&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;Now check your public/style.css to confirm. Cheers!!! We just installed TailwindCSS. Horray.&lt;/p&gt;
+
+&lt;p&gt;Don’t forget to link to public/stylesheet to your HTML file.&lt;/p&gt;
+
+&lt;p&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;&amp;lt;link rel=&quot;stylesheet&quot; href=&quot;public/stylesheet&quot;&amp;gt;&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;This installation may look foreign to you and that is okay, do it 3 more times and it would stick, in this article, I talked about consistency as a developer, doing it consistently would make it stick, and you can always go back up and read through again in case you get stuck. Congratulations on choosing Tailwind.&lt;/p&gt;
+
+&lt;h3 id=&quot;conclusion&quot;&gt;Conclusion&lt;/h3&gt;
+&lt;p&gt;Thanks for reading, in the next article we would build something with Tailwind, so follow me to be notified when it is posted.&lt;/p&gt;
+
+&lt;p&gt;Do you have any questions concerning Flutter, Javascript, Tailwind, Open-source? You can reach me on social media here. Till next time, see ya. Thank you&lt;/p&gt;
+
+&lt;p&gt;for more check this &lt;a href=&quot;https://tailwindcss.com/docs/installation&quot;&gt;out&lt;/a&gt;&lt;/p&gt;</content><author><name>Naveen Jujaray</name></author><summary type="html">Introduction</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://res.cloudinary.com/practicaldev/image/fetch/s--4murvZ3J--/c_imagga_scale,f_auto,fl_progressive,h_900,q_auto,w_1600/https://dev-to-uploads.s3.amazonaws.com/i/dctau9dyp0hnxn6f0txh.png" /></entry><entry><title type="html">Adaptive Theme on Flutter</title><link href="http://localhost:4000/flutter-adaptive-theme" rel="alternate" type="text/html" title="Adaptive Theme on Flutter" /><published>2020-09-01T09:41:03+05:30</published><updated>2020-09-01T09:41:03+05:30</updated><id>http://localhost:4000/adaptivetheme</id><content type="html" xml:base="http://localhost:4000/flutter-adaptive-theme">&lt;h1 id=&quot;adaptive-theme-on-flutter&quot;&gt;Adaptive Theme on Flutter&lt;/h1&gt;
 
 &lt;p&gt;Easiest way to add support for light and dark theme in your flutter app. It allows to manually set light or dark theme and also lets you define themes based on the system (Works for Android only for now). It also persists the theme modes changes across app restarts.&lt;/p&gt;
 
 &lt;h3 id=&quot;installation&quot;&gt;Installation&lt;/h3&gt;
-&lt;p&gt;add following dependency to your &lt;code class=&quot;highlighter-rouge&quot;&gt;pubspec.yaml&lt;/code&gt;&lt;/p&gt;
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;dependencies:
+&lt;p&gt;add following dependency to your &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;pubspec.yaml&lt;/code&gt;&lt;/p&gt;
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;dependencies:
   adaptive_theme: ^1.0.0
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 &lt;h3 id=&quot;usage&quot;&gt;Usage&lt;/h3&gt;
-&lt;p&gt;You need to wrap your &lt;code class=&quot;highlighter-rouge&quot;&gt;MaterialApp&lt;/code&gt; with &lt;code class=&quot;highlighter-rouge&quot;&gt;AdaptiveTheme&lt;/code&gt; in order to apply themes&lt;/p&gt;
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;import 'package:adaptive_theme/adaptive_theme.dart';
+&lt;p&gt;You need to wrap your &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;MaterialApp&lt;/code&gt; with &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;AdaptiveTheme&lt;/code&gt; in order to apply themes&lt;/p&gt;
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;import 'package:adaptive_theme/adaptive_theme.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -44,7 +195,7 @@ class MyApp extends StatelessWidget {
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 &lt;h3 id=&quot;changing-theme-mode&quot;&gt;Changing Theme Mode&lt;/h3&gt;
 &lt;p&gt;Now that you have initialized your app as mentioned above. It’s very easy and straight forward to change your theme modes: &lt;strong&gt;light to dark, dark to light or to system default.&lt;/strong&gt;&lt;/p&gt;
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;// sets theme mode to dark
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;// sets theme mode to dark
 AdaptiveTheme.of(context).setDark();
 
 // sets theme mode to light
@@ -63,17 +214,17 @@ AdaptiveTheme.of(context).setSystem();
 
 &lt;blockquote&gt;
   &lt;p&gt;This package uses sharedpreferences plugin internally to persist theme mode changes. If your app uses sharedpreferences which might be the case all the time, clearing your sharedpreferences at the time of logging out or signing out might clear these preferences too. Be careful not to clear these preferences if you want it to be persisted.&lt;/p&gt;
-  &lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;AdaptiveTheme.prefKey
+  &lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;AdaptiveTheme.prefKey
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;  &lt;/div&gt;
   &lt;p&gt;You can use above key to exclude it while clearing the all the preferences.&lt;/p&gt;
 &lt;/blockquote&gt;
 
-&lt;p&gt;Or you can call &lt;code class=&quot;highlighter-rouge&quot;&gt;AdaptiveTheme.persist()&lt;/code&gt; method after clearing the preferences to make it persistable again as shown below.&lt;/p&gt;
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;final prefs = await SharedPreferences.getInstance();
+&lt;p&gt;Or you can call &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;AdaptiveTheme.persist()&lt;/code&gt; method after clearing the preferences to make it persistable again as shown below.&lt;/p&gt;
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;final prefs = await SharedPreferences.getInstance();
 await pref.clear();
 AdaptiveTheme.persist();
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-&lt;p&gt;for live example of &lt;code class=&quot;highlighter-rouge&quot;&gt;adaptive_theme&lt;/code&gt; : &lt;a href=&quot;https://developerfolio.web.app&quot;&gt;click here&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;for live example of &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;adaptive_theme&lt;/code&gt; : &lt;a href=&quot;https://developerfolio.web.app&quot;&gt;click here&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;for more check this &lt;a href=&quot;https://pub.dev/packages/adaptive_theme&quot;&gt;out&lt;/a&gt;&lt;/p&gt;</content><author><name>Naveen Jujaray</name></author><summary type="html">Adaptive Theme on Flutter</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/assets/images/funreadme/adaptive_theme.png" /></entry><entry><title type="html">Responsive Layout for Flutter Web 💻➡️🖥➡️📱➡️⌚️</title><link href="http://localhost:4000/flutterweb-responsivelayout" rel="alternate" type="text/html" title="Responsive Layout for Flutter Web 💻➡️🖥➡️📱➡️⌚️" /><published>2020-08-17T19:41:03+05:30</published><updated>2020-08-17T19:41:03+05:30</updated><id>http://localhost:4000/FirstOne</id><content type="html" xml:base="http://localhost:4000/flutterweb-responsivelayout">&lt;h1 id=&quot;responsive-builder&quot;&gt;Responsive Builder&lt;/h1&gt;
 
@@ -83,14 +234,14 @@ AdaptiveTheme.persist();
 
 &lt;h3 id=&quot;installation&quot;&gt;Installation&lt;/h3&gt;
 &lt;p&gt;Add responsive_builder as dependency to your pubspec file&lt;/p&gt;
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;responsive_builder:
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;responsive_builder:
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 &lt;h3 id=&quot;usage&quot;&gt;Usage&lt;/h3&gt;
-&lt;p&gt;This package provides a widget called ResponsiveBuilder that provides you with a builder function that returns the current SizingInformation. The &lt;code class=&quot;highlighter-rouge&quot;&gt;SizingInformation&lt;/code&gt; includes the DeviceScreenType, screenSize and localWidgetSize. This can be used for fine grained responsive control from a view level down to per widget responsive level.&lt;/p&gt;
+&lt;p&gt;This package provides a widget called ResponsiveBuilder that provides you with a builder function that returns the current SizingInformation. The &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;SizingInformation&lt;/code&gt; includes the DeviceScreenType, screenSize and localWidgetSize. This can be used for fine grained responsive control from a view level down to per widget responsive level.&lt;/p&gt;
 
-&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;Responsive Builder &lt;/code&gt;
+&lt;p&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Responsive Builder &lt;/code&gt;
 The ResponsiveBuilder is used as any other builder widget.&lt;/p&gt;
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;// import the package
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;// import the package
 import 'package:responsive_builder/responsive_builder.dart';
 
 // Use the widget
@@ -429,18 +580,18 @@ diagnose, fix, and optimize the performance of their code.&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&quot;/assets/images/projectchallenges/552.jfif&quot; alt=&quot;552&quot; /&gt;&lt;/p&gt;</content><author><name>Naveen Jujaray</name></author><category term="featured" /><summary type="html">Fifty (plus) applications, chrome extensions, web apps, and everything in between that will hopefully come in handy at some point in your programming life. I will keep updated as new tools are discovered. Please feel free to add to the comments anything you find.</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/assets/images/projectchallenges/50things.jpeg" /></entry><entry><title type="html">Flutter for Web</title><link href="http://localhost:4000/flutter-web-install" rel="alternate" type="text/html" title="Flutter for Web" /><published>2020-07-20T06:00:00+05:30</published><updated>2020-07-20T06:00:00+05:30</updated><id>http://localhost:4000/flutterwebintro</id><content type="html" xml:base="http://localhost:4000/flutter-web-install">&lt;h2 id=&quot;what-is-flutter-web&quot;&gt;What is Flutter Web?&lt;/h2&gt;
 
-&lt;p&gt;A connected &lt;code class=&quot;highlighter-rouge&quot;&gt;P&lt;/code&gt;rogressive &lt;code class=&quot;highlighter-rouge&quot;&gt;W&lt;/code&gt;eb &lt;code class=&quot;highlighter-rouge&quot;&gt;A&lt;/code&gt;pplication built with Flutter&lt;/p&gt;
+&lt;p&gt;A connected &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;P&lt;/code&gt;rogressive &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;W&lt;/code&gt;eb &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;A&lt;/code&gt;pplication built with Flutter&lt;/p&gt;
 
-&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;Web&lt;/code&gt; support for &lt;code class=&quot;highlighter-rouge&quot;&gt;Flutter&lt;/code&gt; enables existing mobile-based applications to be packaged as a &lt;code class=&quot;highlighter-rouge&quot;&gt;PWA&lt;/code&gt; for reach to a broader variety of devices, or to provide a companion &lt;code class=&quot;highlighter-rouge&quot;&gt;web&lt;/code&gt; experience to an existing app.&lt;/p&gt;
+&lt;p&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Web&lt;/code&gt; support for &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Flutter&lt;/code&gt; enables existing mobile-based applications to be packaged as a &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;PWA&lt;/code&gt; for reach to a broader variety of devices, or to provide a companion &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;web&lt;/code&gt; experience to an existing app.&lt;/p&gt;
 
 &lt;p&gt;In addition to mobile apps, Flutter supports the generation of web content rendered using standards-based web technologies: HTML, CSS and JavaScript. With web support, you can compile existing Flutter code written in Dart into a client experience that can be embedded in the browser and deployed to any web server. You can use all the features of Flutter, and you don’t need a browser plug-in.&lt;/p&gt;
 
 &lt;p&gt;&lt;strong&gt;Flutter Solves The Backend &amp;amp; Frontend Problem&lt;/strong&gt;&lt;/p&gt;
 
-&lt;p&gt;Flutter’s &lt;code class=&quot;highlighter-rouge&quot;&gt;reactive&lt;/code&gt; framework brushes aside the need to get references to the widgets. On the other hand, it facilitates a single language to structure backend. That’s why Flutter is the &lt;code class=&quot;highlighter-rouge&quot;&gt;best&lt;/code&gt; app development &lt;code class=&quot;highlighter-rouge&quot;&gt;framework&lt;/code&gt; in the &lt;code class=&quot;highlighter-rouge&quot;&gt;21st century&lt;/code&gt; to be used by &lt;code class=&quot;highlighter-rouge&quot;&gt;Android developers&lt;/code&gt;.&lt;/p&gt;
+&lt;p&gt;Flutter’s &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;reactive&lt;/code&gt; framework brushes aside the need to get references to the widgets. On the other hand, it facilitates a single language to structure backend. That’s why Flutter is the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;best&lt;/code&gt; app development &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;framework&lt;/code&gt; in the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;21st century&lt;/code&gt; to be used by &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Android developers&lt;/code&gt;.&lt;/p&gt;
 
 &lt;h2 id=&quot;how-to-activate-flutter-web-&quot;&gt;How to activate Flutter Web ?&lt;/h2&gt;
-&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;if you want to install flutter check this&lt;/code&gt; &lt;a href=&quot;https://naveenjujaray.js.org/flutterinstall&quot;&gt;article&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;if you want to install flutter check this&lt;/code&gt; &lt;a href=&quot;https://naveenjujaray.js.org/flutterinstall&quot;&gt;article&lt;/a&gt;.&lt;/p&gt;
 
 &lt;p&gt;Run the following commands to use the latest version of the Flutter SDK from the beta channel and enable web support:&lt;/p&gt;
 
@@ -448,7 +599,7 @@ diagnose, fix, and optimize the performance of their code.&lt;/p&gt;
  &lt;span class=&quot;err&quot;&gt;$&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;flutter&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;upgrade&lt;/span&gt;
  &lt;span class=&quot;err&quot;&gt;$&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;flutter&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;config&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;--&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;enable&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;web&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
 
-&lt;p&gt;Once web is enabled, the &lt;code class=&quot;highlighter-rouge&quot;&gt;flutter devices&lt;/code&gt; command outputs a &lt;code class=&quot;highlighter-rouge&quot;&gt;Chrome&lt;/code&gt; device that opens the Chrome browser with your app running, and a Web Server that provides the URL serving the app.&lt;/p&gt;
+&lt;p&gt;Once web is enabled, the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;flutter devices&lt;/code&gt; command outputs a &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Chrome&lt;/code&gt; device that opens the Chrome browser with your app running, and a Web Server that provides the URL serving the app.&lt;/p&gt;
 
 &lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt; &lt;span class=&quot;n&quot;&gt;flutter&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;devices&lt;/span&gt;
 &lt;span class=&quot;mi&quot;&gt;2&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;connected&lt;/span&gt; &lt;span class=&quot;ss&quot;&gt;device:
@@ -457,16 +608,16 @@ diagnose, fix, and optimize the performance of their code.&lt;/p&gt;
 &lt;span class=&quot;no&quot;&gt;Chrome&lt;/span&gt;     &lt;span class=&quot;err&quot;&gt;•&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;chrome&lt;/span&gt;     &lt;span class=&quot;err&quot;&gt;•&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;web&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;javascript&lt;/span&gt; &lt;span class=&quot;err&quot;&gt;•&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;Google&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;Chrome&lt;/span&gt; &lt;span class=&quot;mf&quot;&gt;81.0&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;mf&quot;&gt;4044.129&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
 
 &lt;h2 id=&quot;create-and-run&quot;&gt;Create and run&lt;/h2&gt;
-&lt;p&gt;To create a new app that includes web support (in addition to mobile support), run the following commands, substituting &lt;code class=&quot;highlighter-rouge&quot;&gt;myapp&lt;/code&gt; with the name of your project:&lt;/p&gt;
+&lt;p&gt;To create a new app that includes web support (in addition to mobile support), run the following commands, substituting &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;myapp&lt;/code&gt; with the name of your project:&lt;/p&gt;
 
 &lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt; &lt;span class=&quot;err&quot;&gt;$&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;flutter&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;create&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;myapp&lt;/span&gt;
  &lt;span class=&quot;err&quot;&gt;$&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;cd&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;myapp&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
 
-&lt;p&gt;To serve your app from &lt;code class=&quot;highlighter-rouge&quot;&gt;localhost&lt;/code&gt; in Chrome, enter the following from the top of the package:&lt;/p&gt;
+&lt;p&gt;To serve your app from &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;localhost&lt;/code&gt; in Chrome, enter the following from the top of the package:&lt;/p&gt;
 
 &lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;err&quot;&gt;$&lt;/span&gt;  &lt;span class=&quot;n&quot;&gt;flutter&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;run&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;d&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;chrome&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
 
-&lt;p&gt;A release build uses &lt;code class=&quot;highlighter-rouge&quot;&gt;dart2js&lt;/code&gt; (instead of the &lt;code class=&quot;highlighter-rouge&quot;&gt;development compiler&lt;/code&gt;) to produce a single JavaScript file &lt;code class=&quot;highlighter-rouge&quot;&gt;main.dart.js&lt;/code&gt;. You can create a release build using release mode (&lt;code class=&quot;highlighter-rouge&quot;&gt;flutter run --release&lt;/code&gt;) or by using &lt;code class=&quot;highlighter-rouge&quot;&gt;flutter build web&lt;/code&gt;. This populates a &lt;code class=&quot;highlighter-rouge&quot;&gt;build/web&lt;/code&gt; directory with built files, including an assets directory, which need to be served together.&lt;/p&gt;
+&lt;p&gt;A release build uses &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;dart2js&lt;/code&gt; (instead of the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;development compiler&lt;/code&gt;) to produce a single JavaScript file &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;main.dart.js&lt;/code&gt;. You can create a release build using release mode (&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;flutter run --release&lt;/code&gt;) or by using &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;flutter build web&lt;/code&gt;. This populates a &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;build/web&lt;/code&gt; directory with built files, including an assets directory, which need to be served together.&lt;/p&gt;
 
 &lt;h2 id=&quot;add-web-support-to-an-existing-app&quot;&gt;Add web support to an existing app&lt;/h2&gt;
 &lt;p&gt;To add web support to an existing project, run the following command in a terminal from the root project directory:&lt;/p&gt;
@@ -501,21 +652,21 @@ So, through this blog, we’ll be learning all about ReactJS. But before underst
 
 &lt;p&gt;Here, the data is received from various sources like initial data, real-time data and user input data which is passed to the dispatcher. The dispatcher then forwards this data to the store, from where it ultimately comes to the view. Now, the view is the part where you or a user interact with the application. So, whatever you see on the browser as a web page is the view itself.&lt;/p&gt;
 
-&lt;p&gt;But, &lt;code class=&quot;highlighter-rouge&quot;&gt;what do you think happens at the back end of the frameworks using this traditional data flow?&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;But, &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;what do you think happens at the back end of the frameworks using this traditional data flow?&lt;/code&gt;&lt;/p&gt;
 
-&lt;p&gt;Each time new data is added or any data is updated at the back end, the browser reloads the web page and repeats the whole process again. Only after this, we can see the updated data on the view. But this traditional data flow has one major drawback, it uses the &lt;code class=&quot;highlighter-rouge&quot;&gt;DOM&lt;/code&gt; (Document Object Model). DOM is an object that is created by the browser each time a web page is loaded which can dynamically add or remove the data at the back end. But each time any modifications were done a new DOM is created for the same page. This repeated creation of DOM results in unnecessary memory wastage and a decrease in applications performance.&lt;/p&gt;
+&lt;p&gt;Each time new data is added or any data is updated at the back end, the browser reloads the web page and repeats the whole process again. Only after this, we can see the updated data on the view. But this traditional data flow has one major drawback, it uses the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;DOM&lt;/code&gt; (Document Object Model). DOM is an object that is created by the browser each time a web page is loaded which can dynamically add or remove the data at the back end. But each time any modifications were done a new DOM is created for the same page. This repeated creation of DOM results in unnecessary memory wastage and a decrease in applications performance.&lt;/p&gt;
 
 &lt;p&gt;Moreover, manipulating DOM was very expensive. Therefore, there was a search for new technology which could save us from this trouble. This is where ReactJS comes to our rescue. With ReactJS, you can divide your entire application into various independent components. ReactJS applications still used the same traditional data flow, but something changed at the back end. Below diagram shows exactly what was going on at the back end.&lt;/p&gt;
 
-&lt;p&gt;Now, each time any data is added or updated from the back end, ReactJS uses a new tactic to deal with it. Instead of reloading the entire page, what React does is, it just destroys the old view. Afterward, it renders the view components with updates or new data and then places the new view in place of the old one. As a solution to the memory wastage due to DOM, React introduced &lt;code class=&quot;highlighter-rouge&quot;&gt;Virtual DOM&lt;/code&gt;. You might be curious about &lt;code class=&quot;highlighter-rouge&quot;&gt;what is this virtual DOM&lt;/code&gt; and how it solves our problem? Don’t worry, I’ll be explaining that later in this blog in detail, but for now, let’s understand what is React.&lt;/p&gt;
+&lt;p&gt;Now, each time any data is added or updated from the back end, ReactJS uses a new tactic to deal with it. Instead of reloading the entire page, what React does is, it just destroys the old view. Afterward, it renders the view components with updates or new data and then places the new view in place of the old one. As a solution to the memory wastage due to DOM, React introduced &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Virtual DOM&lt;/code&gt;. You might be curious about &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;what is this virtual DOM&lt;/code&gt; and how it solves our problem? Don’t worry, I’ll be explaining that later in this blog in detail, but for now, let’s understand what is React.&lt;/p&gt;
 
 &lt;h2 id=&quot;what-is-react-1&quot;&gt;What Is React?&lt;/h2&gt;
-&lt;p&gt;React is a component-based library which is used to develop &lt;code class=&quot;highlighter-rouge&quot;&gt;interactive UI&lt;/code&gt;’s (User Interfaces). It is currently one of the most popular JavaScript front-end libraries which has a strong foundation and a large community supporting it.&lt;/p&gt;
+&lt;p&gt;React is a component-based library which is used to develop &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;interactive UI&lt;/code&gt;’s (User Interfaces). It is currently one of the most popular JavaScript front-end libraries which has a strong foundation and a large community supporting it.&lt;/p&gt;
 
-&lt;p&gt;&lt;em&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;NOTE&lt;/code&gt;: ReactJS is only a frontend library and not the whole framework, which deals with the &lt;strong&gt;View&lt;/strong&gt; component of &lt;strong&gt;MVC&lt;/strong&gt; (Model – &lt;strong&gt;View&lt;/strong&gt; – Controller).&lt;/em&gt;&lt;/p&gt;</content><author><name>Naveen Jujaray</name></author><summary type="html">What Is React? Do you remember how Facebook’s UI or it’s messenger looked a few years back? During that time you had to refresh or reload the entire page for new updates or messages repeatedly. But now it’s no longer required. Today, each time there is a new update or message, a notification will pop up. Clicking on that will then automatically refresh your page and show you the latest updates. So, how exactly does this happen? Well, this is the magic of ReactJS and in this blog, I am going to discuss what is React and why you should go for it. JavaScript Frameworks Javascript is a dynamic programming language which is widely used for developing web applications. It is very lightweight and is supported by most of the modern browsers. Moreover, JavaScript supports both object-oriented programming and procedural programming. Thus, it is used for creating web pages with a client-side script to interact with the user and make the web pages dynamic and robust. JavaScript has many frameworks among which we can choose depending on our need. Below diagram shows some popular JavaScript frameworks.</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/assets/images/firebase/10.jpg" /></entry><entry><title type="html">What is Gatsby JS and Why Use It?</title><link href="http://localhost:4000/whats-gatsby" rel="alternate" type="text/html" title="What is Gatsby JS and Why Use It?" /><published>2020-07-16T06:00:00+05:30</published><updated>2020-07-16T06:00:00+05:30</updated><id>http://localhost:4000/whats-gatsby</id><content type="html" xml:base="http://localhost:4000/whats-gatsby">&lt;h2 id=&quot;what-is-gatsby-js&quot;&gt;What Is Gatsby JS?&lt;/h2&gt;
+&lt;p&gt;&lt;em&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;NOTE&lt;/code&gt;: ReactJS is only a frontend library and not the whole framework, which deals with the &lt;strong&gt;View&lt;/strong&gt; component of &lt;strong&gt;MVC&lt;/strong&gt; (Model – &lt;strong&gt;View&lt;/strong&gt; – Controller).&lt;/em&gt;&lt;/p&gt;</content><author><name>Naveen Jujaray</name></author><summary type="html">What Is React? Do you remember how Facebook’s UI or it’s messenger looked a few years back? During that time you had to refresh or reload the entire page for new updates or messages repeatedly. But now it’s no longer required. Today, each time there is a new update or message, a notification will pop up. Clicking on that will then automatically refresh your page and show you the latest updates. So, how exactly does this happen? Well, this is the magic of ReactJS and in this blog, I am going to discuss what is React and why you should go for it. JavaScript Frameworks Javascript is a dynamic programming language which is widely used for developing web applications. It is very lightweight and is supported by most of the modern browsers. Moreover, JavaScript supports both object-oriented programming and procedural programming. Thus, it is used for creating web pages with a client-side script to interact with the user and make the web pages dynamic and robust. JavaScript has many frameworks among which we can choose depending on our need. Below diagram shows some popular JavaScript frameworks.</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/assets/images/firebase/10.jpg" /></entry><entry><title type="html">What is Gatsby JS and Why Use It?</title><link href="http://localhost:4000/whats-gatsby" rel="alternate" type="text/html" title="What is Gatsby JS and Why Use It?" /><published>2020-07-16T06:00:00+05:30</published><updated>2020-07-16T06:00:00+05:30</updated><id>http://localhost:4000/whats-gatsby</id><content type="html" xml:base="http://localhost:4000/whats-gatsby">&lt;h2 id=&quot;what-is-gatsby-js&quot;&gt;What Is Gatsby JS?&lt;/h2&gt;
 &lt;p&gt;Welcome! In this article we are going to learn about Gatsby JS, what it is and why you would use it.&lt;/p&gt;
 
-&lt;p&gt;So let’s start with the question, &lt;code class=&quot;highlighter-rouge&quot;&gt;“What is Gatsby?”&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;So let’s start with the question, &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;“What is Gatsby?”&lt;/code&gt;&lt;/p&gt;
 &lt;blockquote&gt;
   &lt;p&gt;Put most simply, Gatsby is a static site generator.
 Now what does that mean?&lt;/p&gt;
@@ -526,11 +677,11 @@ Now what does that mean?&lt;/p&gt;
 
 &lt;p&gt;Now this works differently than how a lot of websites work where you visit a website and it has to go query a database or do some programming on the server itself in order to serve your web pages.&lt;/p&gt;
 
-&lt;p&gt;So Gatsby is going to break that convention and have all of the stuff &lt;code class=&quot;highlighter-rouge&quot;&gt;already pre-configured&lt;/code&gt; ahead of time and &lt;code class=&quot;highlighter-rouge&quot;&gt;just serve&lt;/code&gt; that up.&lt;/p&gt;
+&lt;p&gt;So Gatsby is going to break that convention and have all of the stuff &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;already pre-configured&lt;/code&gt; ahead of time and &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;just serve&lt;/code&gt; that up.&lt;/p&gt;
 
 &lt;blockquote&gt;
   &lt;p&gt;It’s important to point out that static sites do not mean not interactive or not dynamic.
-So, we can load JavaScript into the HTML files that Gatsby serves as well as make API calls do interactions and build incredibly rich and immersive sites even though they are static in their nature of just being HTML files served up &lt;code class=&quot;highlighter-rouge&quot;&gt;without&lt;/code&gt; programming &lt;code class=&quot;highlighter-rouge&quot;&gt;server-side&lt;/code&gt; languages running.&lt;/p&gt;
+So, we can load JavaScript into the HTML files that Gatsby serves as well as make API calls do interactions and build incredibly rich and immersive sites even though they are static in their nature of just being HTML files served up &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;without&lt;/code&gt; programming &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;server-side&lt;/code&gt; languages running.&lt;/p&gt;
 &lt;/blockquote&gt;
 
 &lt;p&gt;So that’s the static side of things.&lt;/p&gt;
@@ -538,33 +689,33 @@ So, we can load JavaScript into the HTML files that Gatsby serves as well as mak
   &lt;p&gt;Gatsby is also a generator. This means that Gatsby is actually a tool we run on our computer most commonly, although you can run Gatsby on a server, and it is going to generate content for you.&lt;/p&gt;
 &lt;/blockquote&gt;
 
-&lt;p&gt;In the common setup that we’ll practice here we run Gatsby &lt;code class=&quot;highlighter-rouge&quot;&gt;locally&lt;/code&gt; on our computer when we’re building a site and then we generate out the final finished product that Gatsby will spit out, which is a &lt;code class=&quot;highlighter-rouge&quot;&gt;Gatsby static site&lt;/code&gt;, and again this will &lt;code class=&quot;highlighter-rouge&quot;&gt;include&lt;/code&gt; &lt;code class=&quot;highlighter-rouge&quot;&gt;HTML CSS JavaScript images&lt;/code&gt; all the stuff that we need for our site to run, Gatsby will generate it for us so we want to think of Gatsby as a tool that will help us build a final product but we’re not just like in queueing and throwing Gatsby into an existing site necessarily.&lt;/p&gt;
+&lt;p&gt;In the common setup that we’ll practice here we run Gatsby &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;locally&lt;/code&gt; on our computer when we’re building a site and then we generate out the final finished product that Gatsby will spit out, which is a &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Gatsby static site&lt;/code&gt;, and again this will &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;include&lt;/code&gt; &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;HTML CSS JavaScript images&lt;/code&gt; all the stuff that we need for our site to run, Gatsby will generate it for us so we want to think of Gatsby as a tool that will help us build a final product but we’re not just like in queueing and throwing Gatsby into an existing site necessarily.&lt;/p&gt;
 
 &lt;p&gt;In order to do all of this generation Gatsby is going to use Node JS. Node will be running in a development environment on your computer itself. However the final sight when you ship a Gatsby sight live because it’s static it will not need Node JS on the server itself.&lt;/p&gt;
 
 &lt;p&gt;It’s using node to help generate the files as part of its tooling system but the final result does not require node to run on the server side.&lt;/p&gt;
 &lt;h2 id=&quot;gatsby-js-uses-graphql&quot;&gt;Gatsby JS Uses GraphQL&lt;/h2&gt;
-&lt;p&gt;One of the great things about Gatsby is that it’s going to use the &lt;code class=&quot;highlighter-rouge&quot;&gt;GraphQL&lt;/code&gt; querying &lt;code class=&quot;highlighter-rouge&quot;&gt;language&lt;/code&gt; to get data from anywhere.&lt;/p&gt;
+&lt;p&gt;One of the great things about Gatsby is that it’s going to use the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;GraphQL&lt;/code&gt; querying &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;language&lt;/code&gt; to get data from anywhere.&lt;/p&gt;
 
-&lt;p&gt;If you’re not familiar with &lt;code class=&quot;highlighter-rouge&quot;&gt;GraphQL&lt;/code&gt;, it is an evolution of how to make &lt;code class=&quot;highlighter-rouge&quot;&gt;API&lt;/code&gt; calls simpler and more efficient. And it’s a really great tool that you’re probably going to enjoy getting into if you don’t already know it.&lt;/p&gt;
+&lt;p&gt;If you’re not familiar with &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;GraphQL&lt;/code&gt;, it is an evolution of how to make &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;API&lt;/code&gt; calls simpler and more efficient. And it’s a really great tool that you’re probably going to enjoy getting into if you don’t already know it.&lt;/p&gt;
 
 &lt;blockquote&gt;
   &lt;p&gt;The most exciting part of this is that we can get our data into a Gatsby site from anywhere!&lt;/p&gt;
 &lt;/blockquote&gt;
 
-&lt;p&gt;We could use &lt;code class=&quot;highlighter-rouge&quot;&gt;markdown&lt;/code&gt; files, we can access databases, we could hook into common CMS’s like &lt;code class=&quot;highlighter-rouge&quot;&gt;WordPress&lt;/code&gt; and &lt;code class=&quot;highlighter-rouge&quot;&gt;other&lt;/code&gt; headless CMS, as well as even just a &lt;code class=&quot;highlighter-rouge&quot;&gt;CSV&lt;/code&gt; file.&lt;/p&gt;
+&lt;p&gt;We could use &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;markdown&lt;/code&gt; files, we can access databases, we could hook into common CMS’s like &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;WordPress&lt;/code&gt; and &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;other&lt;/code&gt; headless CMS, as well as even just a &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;CSV&lt;/code&gt; file.&lt;/p&gt;
 
 &lt;p&gt;Because we have node running in our development environment and we have this GraphQL language, we have a huge range of abilities of what we could do to pull data into Gatsby itself.&lt;/p&gt;
 
 &lt;p&gt;This is important to remember that Gatsby is not going to handle our data for us rather it will get that data pulled into Gatsby and generate the site from that data.&lt;/p&gt;
 
 &lt;h2 id=&quot;gatsby-uses-react-for-templates&quot;&gt;Gatsby Uses React for Templates&lt;/h2&gt;
-&lt;p&gt;Gatsby also uses &lt;code class=&quot;highlighter-rouge&quot;&gt;React&lt;/code&gt; and CSS which hopefully you’re familiar with. React is going to be used for all of the templates and CSS for the styling.&lt;/p&gt;
+&lt;p&gt;Gatsby also uses &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;React&lt;/code&gt; and CSS which hopefully you’re familiar with. React is going to be used for all of the templates and CSS for the styling.&lt;/p&gt;
 
 &lt;p&gt;So, GraphQL will pull in our data, React will take care of what the template should look like and the styling is CSS. Then finally everything will be exported out into that final, super fast static Gatsby site.&lt;/p&gt;
 
 &lt;h2 id=&quot;gatsby-has-a-rich-plugin-ecosystem&quot;&gt;Gatsby Has a Rich Plugin Ecosystem&lt;/h2&gt;
-&lt;p&gt;I also want to mention that Gatsby is built with a &lt;code class=&quot;highlighter-rouge&quot;&gt;plugin architecture&lt;/code&gt; and this is a great system.&lt;/p&gt;
+&lt;p&gt;I also want to mention that Gatsby is built with a &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;plugin architecture&lt;/code&gt; and this is a great system.&lt;/p&gt;
 
 &lt;p&gt;Because what we’re serving up is a static site how we go about interacting with JavaScript and other things can get a little complicated. So it’s really nice that we could pull this complex code out into plugins and we could rely on a huge ecosystem of other plug-in authors to do some of the heavy lifting with common things for us.&lt;/p&gt;
 
@@ -590,17 +741,17 @@ So, we can load JavaScript into the HTML files that Gatsby serves as well as mak
   &lt;p&gt;Also because of the static nature and just shipping HTML files this is going to be inherently more secure.&lt;/p&gt;
 &lt;/blockquote&gt;
 
-&lt;p&gt;There &lt;code class=&quot;highlighter-rouge&quot;&gt;isn’t&lt;/code&gt; a live database to &lt;code class=&quot;highlighter-rouge&quot;&gt;hack&lt;/code&gt; or &lt;code class=&quot;highlighter-rouge&quot;&gt;access&lt;/code&gt;. There is not user data that is going to be stored on the server with the Gatsby site. So even &lt;code class=&quot;highlighter-rouge&quot;&gt;if&lt;/code&gt; somebody were to be able to &lt;code class=&quot;highlighter-rouge&quot;&gt;hack&lt;/code&gt; the server itself they’re still &lt;code class=&quot;highlighter-rouge&quot;&gt;only&lt;/code&gt; going to get access to &lt;code class=&quot;highlighter-rouge&quot;&gt;HTML&lt;/code&gt; files and will be able to do far less damage than they could if they were getting access to for example a WordPress site or had access to the user data or purchasers credit card information and all that kind of stuff.&lt;/p&gt;
+&lt;p&gt;There &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;isn’t&lt;/code&gt; a live database to &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;hack&lt;/code&gt; or &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;access&lt;/code&gt;. There is not user data that is going to be stored on the server with the Gatsby site. So even &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;if&lt;/code&gt; somebody were to be able to &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;hack&lt;/code&gt; the server itself they’re still &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;only&lt;/code&gt; going to get access to &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;HTML&lt;/code&gt; files and will be able to do far less damage than they could if they were getting access to for example a WordPress site or had access to the user data or purchasers credit card information and all that kind of stuff.&lt;/p&gt;
 
-&lt;p&gt;So we’re gonna have huge &lt;code class=&quot;highlighter-rouge&quot;&gt;security&lt;/code&gt; gains when we work with Gatsby.&lt;/p&gt;
+&lt;p&gt;So we’re gonna have huge &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;security&lt;/code&gt; gains when we work with Gatsby.&lt;/p&gt;
 
 &lt;blockquote&gt;
   &lt;p&gt;Finally, the third major gain with Gatsby is improved developer experience.&lt;/p&gt;
 &lt;/blockquote&gt;
 
-&lt;p&gt;I’m really glad that this is something important in the &lt;code class=&quot;highlighter-rouge&quot;&gt;developer community&lt;/code&gt; today. It can be really draining and annoying for developers to work with antiquated stacks.&lt;/p&gt;
+&lt;p&gt;I’m really glad that this is something important in the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;developer community&lt;/code&gt; today. It can be really draining and annoying for developers to work with antiquated stacks.&lt;/p&gt;
 
-&lt;p&gt;One of the nice things about working with Gatsby is that you have a &lt;code class=&quot;highlighter-rouge&quot;&gt;modern&lt;/code&gt; development environment. The tooling is simple and robust. The languages are modern and clean. Overall it’s a really great environment to be working in. That extends also into the community of other developers.&lt;/p&gt;
+&lt;p&gt;One of the nice things about working with Gatsby is that you have a &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;modern&lt;/code&gt; development environment. The tooling is simple and robust. The languages are modern and clean. Overall it’s a really great environment to be working in. That extends also into the community of other developers.&lt;/p&gt;
 
 &lt;p&gt;If you are a developer this should be super clear to you and exciting. If you’re not a developer and learning about Gatsby at a high level, remember that this is something you really need to value in your projects: the developers overall experience.&lt;/p&gt;
 
@@ -642,7 +793,7 @@ So, we can load JavaScript into the HTML files that Gatsby serves as well as mak
 
 &lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt; &lt;span class=&quot;ss&quot;&gt;domain: &lt;/span&gt;&lt;span class=&quot;n&quot;&gt;sitename&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;surge&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;sh&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
 
-&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;surge.sh&lt;/code&gt; is totally free. You can use your custom domain if you own it.&lt;/p&gt;
+&lt;p&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;surge.sh&lt;/code&gt; is totally free. You can use your custom domain if you own it.&lt;/p&gt;
 &lt;h2 id=&quot;looks-easy-but-where-are-my-git-hooks&quot;&gt;Looks easy, but where are my git hooks?&lt;/h2&gt;
 &lt;p&gt;The beauty of GitHub Pages is it will simply track your master branch and rebuild / publish your site whenever it gets updated. Thankfully, surge offers the option to hook into pushes and commits with a little addition to your package.json. This snippet will do the trick for redeploying on push:&lt;/p&gt;
 
@@ -663,9 +814,9 @@ So, we can load JavaScript into the HTML files that Gatsby serves as well as mak
       &lt;span class=&quot;o&quot;&gt;-&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;donate_now&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;html&lt;/span&gt;
       &lt;span class=&quot;o&quot;&gt;-&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;200&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;html&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
 
-&lt;p&gt;Notice our 200.html added at the bottom. This acts as a fallback to serve up whenever a given route is invalid. Assuming these are all the html files in our build, we know someone visiting, say, &lt;code class=&quot;highlighter-rouge&quot;&gt;sitename.surge.sh&lt;/code&gt;/sendfanmail would get a 404 since that file doesn’t exist. However, since we have a 200.html, Surge knows to just serve up this page instead since it’s a fallback. This is more flexible than the traditional 404.html to catch errors since we sometimes don’t want certain paths to result in a 404, like a dynamic username in the URL that gets handled in JavaScript but should always route to the same base page. This makes routing a bit cleaner whether you’re using a library like React router or just tapping into the browser’s history API on your own, since we don’t have to deal with redirects anymore 🎉&lt;/p&gt;
+&lt;p&gt;Notice our 200.html added at the bottom. This acts as a fallback to serve up whenever a given route is invalid. Assuming these are all the html files in our build, we know someone visiting, say, &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;sitename.surge.sh&lt;/code&gt;/sendfanmail would get a 404 since that file doesn’t exist. However, since we have a 200.html, Surge knows to just serve up this page instead since it’s a fallback. This is more flexible than the traditional 404.html to catch errors since we sometimes don’t want certain paths to result in a 404, like a dynamic username in the URL that gets handled in JavaScript but should always route to the same base page. This makes routing a bit cleaner whether you’re using a library like React router or just tapping into the browser’s history API on your own, since we don’t have to deal with redirects anymore 🎉&lt;/p&gt;
 &lt;h2 id=&quot;okay-im-starting-to-see-it-what-are-the-limitations&quot;&gt;Okay I’m starting to see it. What are the limitations?&lt;/h2&gt;
-&lt;p&gt;So Surge was built to be really good at doing a very specific task. If you have anything more than a static site or client side application, there’s sadly not much you can do with this tool. Any fancy backend you have would need to be deployed separately, or you can use the aforementioned Zeit Now to deploy everything in one place. Now is a much more flexible tool that’s quickly gaining traction, but I’ve stayed loyal to Surge because of the routing niceties and lack of any necessary &lt;code class=&quot;highlighter-rouge&quot;&gt;config&lt;/code&gt; files.&lt;/p&gt;
+&lt;p&gt;So Surge was built to be really good at doing a very specific task. If you have anything more than a static site or client side application, there’s sadly not much you can do with this tool. Any fancy backend you have would need to be deployed separately, or you can use the aforementioned Zeit Now to deploy everything in one place. Now is a much more flexible tool that’s quickly gaining traction, but I’ve stayed loyal to Surge because of the routing niceties and lack of any necessary &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;config&lt;/code&gt; files.&lt;/p&gt;
 
 &lt;p&gt;Of course you should use whatever tool that works best in your workflow. But the next time you’re building v175 of your portfolio site, consider giving Surge a try 😊&lt;/p&gt;</content><author><name>Naveen Jujaray</name></author><summary type="html">what’s a “surge” exactly? 🤔</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/assets/images/firebase/9.jpeg" /></entry><entry><title type="html">Create your own blog easily with Gatsby</title><link href="http://localhost:4000/gatsby-intro" rel="alternate" type="text/html" title="Create your own blog easily with Gatsby" /><published>2020-07-14T12:23:00+05:30</published><updated>2020-07-14T12:23:00+05:30</updated><id>http://localhost:4000/gatsby-intro</id><content type="html" xml:base="http://localhost:4000/gatsby-intro">&lt;p&gt;&lt;a href=&quot;https://www.gatsbyjs.org/&quot;&gt;Gatsby&lt;/a&gt; is a Static site generator. (There are so many kinds of generator like Jekyll(Ruby), Hexo(Node.js), Hugo(Go), etc.) Gatsby support PWA(Progressive Web App), Hot reloading, SSR(Server Side Rendering).&lt;/p&gt;
 
@@ -732,15 +883,15 @@ If you delete this file, you can not get category, image, etc. in frontmatter of
 
 &lt;ul&gt;
   &lt;li&gt;path is a &lt;strong&gt;required&lt;/strong&gt; attribute to create a page. It must be unique.&lt;/li&gt;
-  &lt;li&gt;category allows you to create category pages and access to pages like &lt;code class=&quot;highlighter-rouge&quot;&gt;/categories/&amp;lt;&amp;lt;CATEGORY_NAME&amp;gt;&amp;gt;/&amp;lt;&amp;lt;PAGE_NUMBER&amp;gt;&amp;gt;&lt;/code&gt;.&lt;/li&gt;
-  &lt;li&gt;tags allows you to create tag pages and access to pages like &lt;code class=&quot;highlighter-rouge&quot;&gt;/tags/&amp;lt;&amp;lt;TAG_NAME&amp;gt;&amp;gt;/&amp;lt;&amp;lt;PAGE_NUMBER&amp;gt;&amp;gt;&lt;/code&gt;.&lt;/li&gt;
-  &lt;li&gt;As you can see the name oof property. &lt;code class=&quot;highlighter-rouge&quot;&gt;title&lt;/code&gt; is the title of the page, and &lt;code class=&quot;highlighter-rouge&quot;&gt;summary&lt;/code&gt; is a summary of the page.&lt;/li&gt;
+  &lt;li&gt;category allows you to create category pages and access to pages like &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;/categories/&amp;lt;&amp;lt;CATEGORY_NAME&amp;gt;&amp;gt;/&amp;lt;&amp;lt;PAGE_NUMBER&amp;gt;&amp;gt;&lt;/code&gt;.&lt;/li&gt;
+  &lt;li&gt;tags allows you to create tag pages and access to pages like &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;/tags/&amp;lt;&amp;lt;TAG_NAME&amp;gt;&amp;gt;/&amp;lt;&amp;lt;PAGE_NUMBER&amp;gt;&amp;gt;&lt;/code&gt;.&lt;/li&gt;
+  &lt;li&gt;As you can see the name oof property. &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;title&lt;/code&gt; is the title of the page, and &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;summary&lt;/code&gt; is a summary of the page.&lt;/li&gt;
   &lt;li&gt;date is the date the post was created, and posts are sorted based on it.&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;p&gt;(You can more detailed information about the formatting in &lt;a href=&quot;https://github.com/jonschlinkert/gray-matter&quot;&gt;gray-matter&lt;/a&gt;.)&lt;/p&gt;
 
-&lt;p&gt;Those will be called by query in &lt;em&gt;src/templates/Post.jsx.&lt;/em&gt; and you can run the query directly on &lt;code class=&quot;highlighter-rouge&quot;&gt;http://localhost:8000/___graphql&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;Those will be called by query in &lt;em&gt;src/templates/Post.jsx.&lt;/em&gt; and you can run the query directly on &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;http://localhost:8000/___graphql&lt;/code&gt;&lt;/p&gt;
 
 &lt;h2 id=&quot;add-image-into-post&quot;&gt;Add image into post&lt;/h2&gt;
 
@@ -800,7 +951,7 @@ If you delete this file, you can not get category, image, etc. in frontmatter of
 &lt;p&gt;You can use it as you added the react application.&lt;/p&gt;
 
 &lt;h3 id=&quot;add-codes-into-post&quot;&gt;Add codes into post&lt;/h3&gt;
-&lt;p&gt;If you write the three back quote before and after the codes that you want to highlight, It will be highlighted by &lt;code class=&quot;highlighter-rouge&quot;&gt;gatsby-remark-prismjs&lt;/code&gt;.&lt;/p&gt;
+&lt;p&gt;If you write the three back quote before and after the codes that you want to highlight, It will be highlighted by &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;gatsby-remark-prismjs&lt;/code&gt;.&lt;/p&gt;
 
 &lt;h2 id=&quot;add-portfolios&quot;&gt;Add portfolios&lt;/h2&gt;
 
@@ -833,9 +984,9 @@ $ touch src/resources/&amp;lt;&amp;lt;DIRECTORY_NAME&amp;gt;&amp;gt;/index.md&lt
 
 &lt;ul&gt;
   &lt;li&gt;path is a &lt;strong&gt;required&lt;/strong&gt; attribute to create a page. It must be unique.&lt;/li&gt;
-  &lt;li&gt;type is a value that allows you to specify the format of the page, in this case it should be &lt;code class=&quot;highlighter-rouge&quot;&gt;portfolio&lt;/code&gt;.&lt;/li&gt;
-  &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;title&lt;/code&gt; is the title of the portfolio.&lt;/li&gt;
-  &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;images&lt;/code&gt; are the images you want to attach to the portfolio and have the same value as the post’s. Images are rendered in the order they were added to the array.&lt;/li&gt;
+  &lt;li&gt;type is a value that allows you to specify the format of the page, in this case it should be &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;portfolio&lt;/code&gt;.&lt;/li&gt;
+  &lt;li&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;title&lt;/code&gt; is the title of the portfolio.&lt;/li&gt;
+  &lt;li&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;images&lt;/code&gt; are the images you want to attach to the portfolio and have the same value as the post’s. Images are rendered in the order they were added to the array.&lt;/li&gt;
   &lt;li&gt;Portfolios are sorted based on the data. Give a bigger value to the portfolio to show first.&lt;/li&gt;
 &lt;/ul&gt;
 
@@ -876,7 +1027,7 @@ $ touch src/resources/&amp;lt;&amp;lt;DIRECTORY_NAME&amp;gt;&amp;gt;/index.md&lt
 
 &lt;ul&gt;
   &lt;li&gt;path is a &lt;strong&gt;required&lt;/strong&gt; attribute to create a page. It must be unique.&lt;/li&gt;
-  &lt;li&gt;type is a value that allows you to specify the format of the page, in this case it should be &lt;code class=&quot;highlighter-rouge&quot;&gt;portfolio&lt;/code&gt;.
+  &lt;li&gt;type is a value that allows you to specify the format of the page, in this case it should be &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;portfolio&lt;/code&gt;.
     &lt;h2 id=&quot;other-features&quot;&gt;Other features&lt;/h2&gt;
   &lt;/li&gt;
   &lt;li&gt;On the right side of the GNB, you can search posts by title, summary, tag, category, etc. of the post.&lt;/li&gt;
@@ -925,12 +1076,12 @@ Then you can distribute it where you want. You can see this article on this &lt;
 
 &lt;p&gt;Step 2. Choose your repository and configure settings with options:&lt;/p&gt;
 &lt;ul&gt;
-  &lt;li&gt;Branch to deploy, default &lt;code class=&quot;highlighter-rouge&quot;&gt;master&lt;/code&gt;&lt;/li&gt;
-  &lt;li&gt;Build Command, default &lt;code class=&quot;highlighter-rouge&quot;&gt;npm run build&lt;/code&gt;&lt;/li&gt;
-  &lt;li&gt;Publish directory, default &lt;code class=&quot;highlighter-rouge&quot;&gt;public&lt;/code&gt;, but it is usually &lt;code class=&quot;highlighter-rouge&quot;&gt;public&lt;/code&gt;, &lt;code class=&quot;highlighter-rouge&quot;&gt;dist&lt;/code&gt;, &lt;code class=&quot;highlighter-rouge&quot;&gt;build&lt;/code&gt;,…&lt;/li&gt;
+  &lt;li&gt;Branch to deploy, default &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;master&lt;/code&gt;&lt;/li&gt;
+  &lt;li&gt;Build Command, default &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;npm run build&lt;/code&gt;&lt;/li&gt;
+  &lt;li&gt;Publish directory, default &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;public&lt;/code&gt;, but it is usually &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;public&lt;/code&gt;, &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;dist&lt;/code&gt;, &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;build&lt;/code&gt;,…&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;Step 3. Select &lt;code class=&quot;highlighter-rouge&quot;&gt;Deploy site&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;Step 3. Select &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Deploy site&lt;/code&gt;&lt;/p&gt;
 
 &lt;h1 id=&quot;render&quot;&gt;Render&lt;/h1&gt;
 &lt;p&gt;With &lt;a href=&quot;https://render.com/&quot;&gt;Render&lt;/a&gt;, you can host static sites, backend APIs, databases, cron jobs, and all your other apps in one place.&lt;/p&gt;
@@ -974,19 +1125,4 @@ for Front-End Developers.&lt;/p&gt;
 &lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;n&quot;&gt;vercel&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
 
 &lt;h2 id=&quot;conclusion&quot;&gt;Conclusion&lt;/h2&gt;
-&lt;p&gt;Deploy and hosting is fast and easy.&lt;/p&gt;</content><author><name>Naveen Jujaray</name></author><category term="featured" /><summary type="html">Getting your website deployed is probably the first thing you want to do and with these 5 sites, you can do it in just minutes.</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/assets/images/firebase/7.png" /></entry><entry><title type="html">Projects To Complete When Learning Web Development</title><link href="http://localhost:4000/projects-challenges" rel="alternate" type="text/html" title="Projects To Complete When Learning Web Development" /><published>2020-07-13T18:41:03+05:30</published><updated>2020-07-13T18:41:03+05:30</updated><id>http://localhost:4000/webdesign-challenges</id><content type="html" xml:base="http://localhost:4000/projects-challenges">&lt;p&gt;If you’re intermediate beginner web developer, you have probably run into the wall. The basic tutorials are too easy now. But it’s hard to figure out what to code.&lt;/p&gt;
-
-&lt;p&gt;You are probably looking for project ideas with quality design. Fortunately, there is &lt;a href=&quot;https://devchallenges.io&quot;&gt;devchallenges.io&lt;/a&gt;, completly &lt;strong&gt;free&lt;/strong&gt; website where each challenge is different and will test you different aspects of coding. It includes small user stories and beautiful designs.&lt;/p&gt;
-
-&lt;p&gt;When you complete a challenge, you submit your solution, which can be shared with others. Solutions page is a good place for people to learn from each other. It is for you to share your thought and help others.&lt;/p&gt;
-
-&lt;h1 id=&quot;here-are-some-sample-projects&quot;&gt;Here are some sample projects&lt;/h1&gt;
-&lt;p&gt;You should visit &lt;a href=&quot;https://devchallenges.io&quot;&gt;devchallenges.io&lt;/a&gt; for more ideas.&lt;/p&gt;
-&lt;h2 id=&quot;job-board-app&quot;&gt;&lt;a href=&quot;https://devchallenges.io/challenges/TtUjDt19eIHxNQ4n5jps&quot;&gt;Job Board App&lt;/a&gt;&lt;/h2&gt;
-&lt;p&gt;&lt;img src=&quot;/assets/images/projectchallenges/2.jpg&quot; alt=&quot;githubjobs&quot; /&gt;&lt;/p&gt;
-&lt;h2 id=&quot;quizz-app&quot;&gt;&lt;a href=&quot;https://devchallenges.io/challenges/Bu3G2irnaXmfwQ8sZkw8&quot;&gt;Quizz App&lt;/a&gt;&lt;/h2&gt;
-&lt;p&gt;&lt;img src=&quot;/assets/images/projectchallenges/3.jpg&quot; alt=&quot;quizapp&quot; /&gt;&lt;/p&gt;
-&lt;h2 id=&quot;unsplash-clone&quot;&gt;&lt;a href=&quot;https://devchallenges.io/challenges/rYyhwJAxMfES5jNQ9YsP&quot;&gt;Unsplash clone&lt;/a&gt;&lt;/h2&gt;
-&lt;p&gt;&lt;img src=&quot;/assets/images/projectchallenges/4.jpg&quot; alt=&quot;unsplashclone&quot; /&gt;&lt;/p&gt;
-&lt;h2 id=&quot;checkout-page&quot;&gt;&lt;a href=&quot;https://devchallenges.io/challenges/0J1NxxGhOUYVqihwegfO&quot;&gt;Checkout page&lt;/a&gt;&lt;/h2&gt;
-&lt;p&gt;&lt;img src=&quot;/assets/images/projectchallenges/5.jpg&quot; alt=&quot;checkoutpage&quot; /&gt;&lt;/p&gt;</content><author><name>Naveen Jujaray</name></author><summary type="html">If you’re intermediate beginner web developer, you have probably run into the wall. The basic tutorials are too easy now. But it’s hard to figure out what to code.</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/assets/images/projectchallenges/1.jpg" /></entry></feed>
+&lt;p&gt;Deploy and hosting is fast and easy.&lt;/p&gt;</content><author><name>Naveen Jujaray</name></author><category term="featured" /><summary type="html">Getting your website deployed is probably the first thing you want to do and with these 5 sites, you can do it in just minutes.</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/assets/images/firebase/7.png" /></entry></feed>
