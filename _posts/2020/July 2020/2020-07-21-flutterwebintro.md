@@ -3,7 +3,7 @@ layout: post
 title:  "Flutter for Web"
 categories: [ Web Development ]
 date:   2020-07-20 06:00:00 +0530
-image: https://flutter.dev/images/Dart-framework-v-browser-framework.png
+image: https://miro.medium.com/max/2560/1*vgN2zojqiIYu23JPVuaSiA.jpeg
 comments: true
 permalink: "/flutter-web-install"
 published: true
