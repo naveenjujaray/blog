@@ -1,4 +1,0 @@
-This is a Brave Rewards publisher verification file.
-
-Domain: naveenjujaray.js.org
-Token: ef2de41f8c011c73b2a61eca7fad092f8ace18ba1741c38b5dae15a0ce6db5ff
