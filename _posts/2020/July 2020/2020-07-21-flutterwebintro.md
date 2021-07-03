@@ -7,7 +7,6 @@ image: https://miro.medium.com/max/2560/1*vgN2zojqiIYu23JPVuaSiA.jpeg
 comments: true
 permalink: "/flutter-web-install"
 published: true
-tags: [ featured ]
 ---
 ## What is Flutter Web?
 
